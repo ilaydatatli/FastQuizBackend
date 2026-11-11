@@ -1,0 +1,45 @@
+{
+  "category": { "slug": "fotografcilik", "name": "Fotoğrafçılık", "description": "Işık, lens, pozlama", "color": "pink", "order": 5 },
+  "questions": [
+    { "text": "Pozlama üçgeni ISO, diyafram ve neden oluşur?", "choices": [
+      { "text": "Enstantane", "correct": true }, { "text": "Beyaz dengesi" }, { "text": "Odak noktası" }, { "text": "Zum" } ] },
+    { "text": "ISO değeri neyi belirler?", "choices": [
+      { "text": "Işığa duyarlılığı", "correct": true }, { "text": "Odak uzaklığını" }, { "text": "Beyaz dengesini" }, { "text": "Lens çapını" } ] },
+    { "text": "Enstantane hızı neyi belirler?", "choices": [
+      { "text": "Pozlama süresini", "correct": true }, { "text": "Işığa duyarlılığı" }, { "text": "Renk sıcaklığını" }, { "text": "Odak uzaklığını" } ] },
+    { "text": "Diyafram açıklığı hangi harfle gösterilir?", "choices": [
+      { "text": "f", "correct": true }, { "text": "s" }, { "text": "K" }, { "text": "ISO" } ] },
+    { "text": "Hangisi en geniş diyafram açıklığıdır?", "choices": [
+      { "text": "f/1.8", "correct": true }, { "text": "f/8" }, { "text": "f/16" }, { "text": "f/22" } ] },
+    { "text": "Diyaframı genişletmek alan derinliğini nasıl etkiler?", "choices": [
+      { "text": "Azaltır", "correct": true }, { "text": "Artırır" }, { "text": "Değiştirmez" }, { "text": "İkiye katlar" } ] },
+    { "text": "Yüksek ISO'nun en bilinen yan etkisi nedir?", "choices": [
+      { "text": "Kumlanma", "correct": true }, { "text": "Renk kaybı" }, { "text": "Odak kayması" }, { "text": "Lens parlaması" } ] },
+    { "text": "Hareketi dondurmak için hangi enstantane daha uygundur?", "choices": [
+      { "text": "1/1000 sn", "correct": true }, { "text": "1/15 sn" }, { "text": "1 sn" }, { "text": "2 sn" } ] },
+    { "text": "Üçte bir kuralı fotoğrafın hangi yönüyle ilgilidir?", "choices": [
+      { "text": "Kompozisyon", "correct": true }, { "text": "Pozlama" }, { "text": "Beyaz dengesi" }, { "text": "Dosya biçimi" } ] },
+    { "text": "Gün doğumu ve batımına yakın sıcak ışıklı zamana ne denir?", "choices": [
+      { "text": "Altın saat", "correct": true }, { "text": "Mavi saat" }, { "text": "Öğle ışığı" }, { "text": "Gece modu" } ] },
+    { "text": "Hangi odak uzaklığı geniş açı sayılır?", "choices": [
+      { "text": "16 mm", "correct": true }, { "text": "85 mm" }, { "text": "200 mm" }, { "text": "400 mm" } ] },
+    { "text": "RAW dosyanın JPEG'e göre temel avantajı nedir?", "choices": [
+      { "text": "Daha fazla görüntü verisi", "correct": true }, { "text": "Daha küçük dosya" }, { "text": "Her yerde açılması" }, { "text": "Daha hızlı paylaşım" } ] },
+    { "text": "Beyaz dengesi ayarı neyi düzeltir?", "choices": [
+      { "text": "Renk sıcaklığını", "correct": true }, { "text": "Pozlamayı" }, { "text": "Netliği" }, { "text": "Kumlanmayı" } ] },
+    { "text": "Uzun pozlamada titremeyi önlemek için ne kullanılır?", "choices": [
+      { "text": "Tripod", "correct": true }, { "text": "Flaş" }, { "text": "Reflektör" }, { "text": "Lens kapağı" } ] },
+    { "text": "Makro fotoğrafçılık neyi konu alır?", "choices": [
+      { "text": "Çok yakın çekimleri", "correct": true }, { "text": "Geniş manzaraları" }, { "text": "Gece gökyüzünü" }, { "text": "Hızlı sporları" } ] },
+    { "text": "Bilinen ilk kalıcı fotoğrafı kim çekti?", "choices": [
+      { "text": "Nicéphore Niépce", "correct": true }, { "text": "George Eastman" }, { "text": "Ansel Adams" }, { "text": "Thomas Edison" } ] },
+    { "text": "Fotoğrafta \"bokeh\" neyi ifade eder?", "choices": [
+      { "text": "Arka plan bulanıklığı", "correct": true }, { "text": "Lens parlaması" }, { "text": "Aşırı pozlama" }, { "text": "Renk doygunluğu" } ] },
+    { "text": "Kameradaki histogram neyi gösterir?", "choices": [
+      { "text": "Ton dağılımını", "correct": true }, { "text": "Odak noktalarını" }, { "text": "Pil durumunu" }, { "text": "Lens modelini" } ] },
+    { "text": "Aynasız makinede DSLR'den farklı olarak ne yoktur?", "choices": [
+      { "text": "Ayna", "correct": true }, { "text": "Sensör" }, { "text": "Deklanşör tuşu" }, { "text": "Lens yuvası" } ] },
+    { "text": "Polarize filtre en çok ne işe yarar?", "choices": [
+      { "text": "Yansımaları azaltır", "correct": true }, { "text": "Görüntüyü büyütür" }, { "text": "Kumlanmayı artırır" }, { "text": "Odağı hızlandırır" } ] }
+  ]
+}

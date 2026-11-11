@@ -1,0 +1,45 @@
+{
+  "category": { "slug": "ulkeler", "name": "Ülkeler", "description": "Başkentler, diller, yerler", "color": "orange", "order": 3 },
+  "questions": [
+    { "text": "Avustralya'nın başkenti neresidir?", "choices": [
+      { "text": "Kanberra", "correct": true }, { "text": "Sidney" }, { "text": "Melbourne" }, { "text": "Perth" } ] },
+    { "text": "Kanada'nın başkenti neresidir?", "choices": [
+      { "text": "Ottava", "correct": true }, { "text": "Toronto" }, { "text": "Montreal" }, { "text": "Vancouver" } ] },
+    { "text": "İsviçre'nin başkenti neresidir?", "choices": [
+      { "text": "Bern", "correct": true }, { "text": "Zürih" }, { "text": "Cenevre" }, { "text": "Basel" } ] },
+    { "text": "Arjantin'in başkenti neresidir?", "choices": [
+      { "text": "Buenos Aires", "correct": true }, { "text": "Santiago" }, { "text": "Lima" }, { "text": "Montevideo" } ] },
+    { "text": "Kenya'nın başkenti neresidir?", "choices": [
+      { "text": "Nairobi", "correct": true }, { "text": "Mombasa" }, { "text": "Lagos" }, { "text": "Addis Ababa" } ] },
+    { "text": "Portekiz'in başkenti neresidir?", "choices": [
+      { "text": "Lizbon", "correct": true }, { "text": "Porto" }, { "text": "Madrid" }, { "text": "Sevilla" } ] },
+    { "text": "Kuzey Kore'nin başkenti neresidir?", "choices": [
+      { "text": "Pyongyang", "correct": true }, { "text": "Seul" }, { "text": "Pekin" }, { "text": "Hanoi" } ] },
+    { "text": "Kahire hangi ülkenin başkentidir?", "choices": [
+      { "text": "Mısır", "correct": true }, { "text": "Fas" }, { "text": "Tunus" }, { "text": "Ürdün" } ] },
+    { "text": "Brezilya'nın resmî dili hangisidir?", "choices": [
+      { "text": "Portekizce", "correct": true }, { "text": "İspanyolca" }, { "text": "İngilizce" }, { "text": "Fransızca" } ] },
+    { "text": "Japonya'nın para birimi nedir?", "choices": [
+      { "text": "Yen", "correct": true }, { "text": "Won" }, { "text": "Yuan" }, { "text": "Ringgit" } ] },
+    { "text": "Yüzölçümü en büyük ülke hangisidir?", "choices": [
+      { "text": "Rusya", "correct": true }, { "text": "Kanada" }, { "text": "Çin" }, { "text": "ABD" } ] },
+    { "text": "Dünyanın en küçük ülkesi hangisidir?", "choices": [
+      { "text": "Vatikan", "correct": true }, { "text": "Monako" }, { "text": "Malta" }, { "text": "San Marino" } ] },
+    { "text": "Hangisi Türkiye ile kara sınırı olmayan bir ülkedir?", "choices": [
+      { "text": "Romanya", "correct": true }, { "text": "Gürcistan" }, { "text": "İran" }, { "text": "Bulgaristan" } ] },
+    { "text": "Eyfel Kulesi hangi şehirdedir?", "choices": [
+      { "text": "Paris", "correct": true }, { "text": "Roma" }, { "text": "Londra" }, { "text": "Berlin" } ] },
+    { "text": "Bayrağında akçaağaç yaprağı olan ülke hangisidir?", "choices": [
+      { "text": "Kanada", "correct": true }, { "text": "İsveç" }, { "text": "Norveç" }, { "text": "Avusturya" } ] },
+    { "text": "Machu Picchu hangi ülkededir?", "choices": [
+      { "text": "Peru", "correct": true }, { "text": "Meksika" }, { "text": "Şili" }, { "text": "Bolivya" } ] },
+    { "text": "Tac Mahal hangi ülkededir?", "choices": [
+      { "text": "Hindistan", "correct": true }, { "text": "Pakistan" }, { "text": "İran" }, { "text": "Nepal" } ] },
+    { "text": "Hangisi bir ada ülkesidir?", "choices": [
+      { "text": "İzlanda", "correct": true }, { "text": "Avusturya" }, { "text": "Macaristan" }, { "text": "İsviçre" } ] },
+    { "text": "Hollanda'nın anayasal başkenti neresidir?", "choices": [
+      { "text": "Amsterdam", "correct": true }, { "text": "Lahey" }, { "text": "Rotterdam" }, { "text": "Utrecht" } ] },
+    { "text": "Hangi ülkenin bayrağında ortada kırmızı bir daire vardır?", "choices": [
+      { "text": "Japonya", "correct": true }, { "text": "Çin" }, { "text": "Güney Kore" }, { "text": "Vietnam" } ] }
+  ]
+}

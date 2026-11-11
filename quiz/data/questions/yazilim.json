@@ -1,0 +1,45 @@
+{
+  "category": { "slug": "yazilim", "name": "Yazılım", "description": "Kod, araçlar, kavramlar", "color": "cyan", "order": 1 },
+  "questions": [
+    { "text": "HTTP'de 404 durum kodu ne anlama gelir?", "choices": [
+      { "text": "Bulunamadı", "correct": true }, { "text": "Sunucu hatası" }, { "text": "Yetkisiz" }, { "text": "Yönlendirme" } ] },
+    { "text": "HTTP'de 500 durum kodu neyi belirtir?", "choices": [
+      { "text": "Sunucu hatası", "correct": true }, { "text": "Bulunamadı" }, { "text": "Başarılı" }, { "text": "Yasak" } ] },
+    { "text": "Python'da bir listenin uzunluğunu hangi fonksiyon verir?", "choices": [
+      { "text": "len()", "correct": true }, { "text": "size()" }, { "text": "count()" }, { "text": "length()" } ] },
+    { "text": "Git'te değişiklikleri uzak repoya hangi komut gönderir?", "choices": [
+      { "text": "git push", "correct": true }, { "text": "git pull" }, { "text": "git fetch" }, { "text": "git clone" } ] },
+    { "text": "HTML'de en büyük başlık etiketi hangisidir?", "choices": [
+      { "text": "<h1>", "correct": true }, { "text": "<h6>" }, { "text": "<head>" }, { "text": "<title>" } ] },
+    { "text": "SQL'de tablodan veri okumak için hangi komut kullanılır?", "choices": [
+      { "text": "SELECT", "correct": true }, { "text": "INSERT" }, { "text": "UPDATE" }, { "text": "DELETE" } ] },
+    { "text": "CSS ne için kullanılır?", "choices": [
+      { "text": "Sayfaya stil vermek", "correct": true }, { "text": "Veritabanı sorgulamak" }, { "text": "Sunucu kurmak" }, { "text": "Dosya sıkıştırmak" } ] },
+    { "text": "JavaScript'te yeniden atanamayan değişken nasıl tanımlanır?", "choices": [
+      { "text": "const", "correct": true }, { "text": "let" }, { "text": "var" }, { "text": "static" } ] },
+    { "text": "1 bayt kaç bittir?", "choices": [
+      { "text": "8", "correct": true }, { "text": "4" }, { "text": "16" }, { "text": "10" } ] },
+    { "text": "Hangisi bir sürüm kontrol sistemidir?", "choices": [
+      { "text": "Git", "correct": true }, { "text": "Docker" }, { "text": "Nginx" }, { "text": "Redis" } ] },
+    { "text": "JSON kısaltmasındaki \"J\" neyi ifade eder?", "choices": [
+      { "text": "JavaScript", "correct": true }, { "text": "Java" }, { "text": "Joint" }, { "text": "Jupyter" } ] },
+    { "text": "Python'da yorum satırı hangi karakterle başlar?", "choices": [
+      { "text": "#", "correct": true }, { "text": "//" }, { "text": "--" }, { "text": "/*" } ] },
+    { "text": "İkilik sistemdeki 101 sayısı onluk sistemde kaçtır?", "choices": [
+      { "text": "5", "correct": true }, { "text": "3" }, { "text": "6" }, { "text": "7" } ] },
+    { "text": "REST API'de yeni kayıt oluşturmak için genelde hangi yöntem kullanılır?", "choices": [
+      { "text": "POST", "correct": true }, { "text": "GET" }, { "text": "HEAD" }, { "text": "OPTIONS" } ] },
+    { "text": "Kuyruk (queue) veri yapısında hangi eleman önce çıkar?", "choices": [
+      { "text": "İlk giren", "correct": true }, { "text": "Son giren" }, { "text": "Rastgele biri" }, { "text": "En küçüğü" } ] },
+    { "text": "Hangisi ilişkisel bir veritabanıdır?", "choices": [
+      { "text": "PostgreSQL", "correct": true }, { "text": "MongoDB" }, { "text": "Redis" }, { "text": "Elasticsearch" } ] },
+    { "text": "\"localhost\" genelde hangi IP adresini gösterir?", "choices": [
+      { "text": "127.0.0.1", "correct": true }, { "text": "192.168.1.1" }, { "text": "8.8.8.8" }, { "text": "255.255.255.0" } ] },
+    { "text": "HTTPS'deki \"S\" harfi neyi ifade eder?", "choices": [
+      { "text": "Secure", "correct": true }, { "text": "Server" }, { "text": "Simple" }, { "text": "Static" } ] },
+    { "text": "Linux çekirdeğini ilk kim yazdı?", "choices": [
+      { "text": "Linus Torvalds", "correct": true }, { "text": "Bill Gates" }, { "text": "Guido van Rossum" }, { "text": "Steve Jobs" } ] },
+    { "text": "API kısaltmasındaki \"I\" neyi ifade eder?", "choices": [
+      { "text": "Interface", "correct": true }, { "text": "Internet" }, { "text": "Index" }, { "text": "Input" } ] }
+  ]
+}
