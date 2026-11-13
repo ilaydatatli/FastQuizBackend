@@ -34,6 +34,7 @@ if not SECRET_KEY:
         raise ImproperlyConfigured("SECRET_KEY must be set when DEBUG is False.")
 
 ALLOWED_HOSTS = env_list("ALLOWED_HOSTS", "localhost,127.0.0.1")
+# Only needed live, for the admin login form (the API itself does not use CSRF).
 CSRF_TRUSTED_ORIGINS = env_list("CSRF_TRUSTED_ORIGINS")
 
 
@@ -51,6 +52,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",  # serves admin CSS/JS in production
     "corsheaders.middleware.CorsMiddleware",  # must be before CommonMiddleware
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -107,6 +109,19 @@ USE_TZ = True
 
 
 STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
+# Hashed + compressed files need `collectstatic` (done in the Docker build).
+# Local development and tests (DEBUG=True in .env) use the plain storage.
+STORAGES = {
+    "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
+    "staticfiles": {
+        "BACKEND": (
+            "django.contrib.staticfiles.storage.StaticFilesStorage"
+            if DEBUG
+            else "whitenoise.storage.CompressedManifestStaticFilesStorage"
+        )
+    },
+}
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
@@ -117,6 +132,43 @@ CORS_ALLOW_CREDENTIALS = False  # no cookies; auth is a Bearer token
 # CORS_ALLOW_HEADERS default already includes "authorization".
 
 
+# Production security. DigitalOcean ends HTTPS at its load balancer and forwards
+# plain HTTP with X-Forwarded-Proto, so Django must trust that header.
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+USE_HTTPS = env_bool("USE_HTTPS", False)
+if USE_HTTPS:
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+    SECURE_HSTS_SECONDS = 3600  # short on purpose for a prototype
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+
+SILENCED_SYSTEM_CHECKS = [
+    # SECURE_SSL_REDIRECT stays off: DigitalOcean already redirects HTTP -> HTTPS.
+    "security.W008",
+    # No HSTS preload for a prototype on a shared *.ondigitalocean.app domain.
+    "security.W021",
+]
+
+
+# Throttle counters must be shared by all Gunicorn workers -> database cache
+# (no Redis needed). Create the table once with: python manage.py createcachetable
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "django_cache",
+    }
+}
+
+
+# Log to stdout so DigitalOcean shows it under Runtime Logs.
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {"console": {"class": "logging.StreamHandler"}},
+    "root": {"handlers": ["console"], "level": "INFO"},
+}
+
+
 # Django REST Framework
 REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
@@ -125,6 +177,8 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny"],
     "UNAUTHENTICATED_USER": None,
     "EXCEPTION_HANDLER": "quiz.exceptions.api_exception_handler",
+    # Behind one proxy (DigitalOcean): take the real client IP from X-Forwarded-For.
+    "NUM_PROXIES": 1,
     "DEFAULT_THROTTLE_RATES": {
         "quiz_start": "30/hour",
         "answer": "120/minute",

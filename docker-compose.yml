@@ -1,0 +1,39 @@
+# Only for trying the production image locally (daily development uses .venv + local PostgreSQL).
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: fast_quiz
+      POSTGRES_USER: fastquiz
+      POSTGRES_PASSWORD: fastquiz
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fastquiz -d fast_quiz"]
+      interval: 2s
+      retries: 15
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      SECRET_KEY: local-docker-only
+      DEBUG: "False"
+      ALLOWED_HOSTS: localhost,127.0.0.1
+      DATABASE_URL: postgres://fastquiz:fastquiz@db:5432/fast_quiz
+      DATABASE_SSL_REQUIRE: "False"
+      USE_HTTPS: "False"
+      CORS_ALLOWED_ORIGINS: http://localhost:5173
+    # Mimics the production PRE_DEPLOY job, then starts the server
+    command: >
+      sh -c "python manage.py migrate --noinput &&
+             python manage.py createcachetable &&
+             python manage.py load_questions &&
+             exec gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers 2 --access-logfile -"
+
+volumes:
+  pgdata:
