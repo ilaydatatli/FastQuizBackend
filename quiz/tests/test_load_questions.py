@@ -228,7 +228,15 @@ class BundledQuestionFilesTests(TestCase):
         self.assertNotIn("Uyarı", out.getvalue())
         slugs = set(Category.objects.values_list("slug", flat=True))
         self.assertEqual(
-            slugs, {"yazilim", "yapay-zeka", "ulkeler", "biyoloji", "fotografcilik"}
+            slugs, {
+                "yazilim",
+                "yapay-zeka",
+                "ulkeler",
+                "biyoloji",
+                "fotografcilik",
+                "anatomi",
+                "genel-kultur",
+            }
         )
         needed = settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"]
         for category in Category.objects.all():

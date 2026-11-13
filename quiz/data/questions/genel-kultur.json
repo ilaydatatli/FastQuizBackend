@@ -1,0 +1,45 @@
+{
+  "category": { "slug": "genel-kultur", "name": "Genel Kültür", "description": "Tarih, sanat, bilim", "color": "yellow", "order": 7 },
+  "questions": [
+    { "text": "Mona Lisa tablosunun ressamı kimdir?", "choices": [
+      { "text": "Leonardo da Vinci", "correct": true }, { "text": "Michelangelo" }, { "text": "Rafael" }, { "text": "Rembrandt" } ] },
+    { "text": "İstanbul hangi yılda fethedildi?", "choices": [
+      { "text": "1453", "correct": true }, { "text": "1071" }, { "text": "1299" }, { "text": "1517" } ] },
+    { "text": "Türkiye Cumhuriyeti hangi yıl ilan edildi?", "choices": [
+      { "text": "1923", "correct": true }, { "text": "1920" }, { "text": "1919" }, { "text": "1938" } ] },
+    { "text": "Güneş Sistemi'nin en büyük gezegeni hangisidir?", "choices": [
+      { "text": "Jüpiter", "correct": true }, { "text": "Satürn" }, { "text": "Neptün" }, { "text": "Uranüs" } ] },
+    { "text": "Suyun kimyasal formülü nedir?", "choices": [
+      { "text": "H2O", "correct": true }, { "text": "CO2" }, { "text": "O2" }, { "text": "NaCl" } ] },
+    { "text": "Romeo ve Juliet'in yazarı kimdir?", "choices": [
+      { "text": "William Shakespeare", "correct": true }, { "text": "Goethe" }, { "text": "Cervantes" }, { "text": "Dante" } ] },
+    { "text": "Işığın boşluktaki hızı yaklaşık kaçtır?", "choices": [
+      { "text": "300.000 km/sn", "correct": true }, { "text": "30.000 km/sn" }, { "text": "3.000 km/sn" }, { "text": "3.000.000 km/sn" } ] },
+    { "text": "İlk modern Olimpiyat Oyunları hangi şehirde yapıldı?", "choices": [
+      { "text": "Atina", "correct": true }, { "text": "Paris" }, { "text": "Londra" }, { "text": "Roma" } ] },
+    { "text": "Kızıl Gezegen olarak bilinen gezegen hangisidir?", "choices": [
+      { "text": "Mars", "correct": true }, { "text": "Venüs" }, { "text": "Merkür" }, { "text": "Jüpiter" } ] },
+    { "text": "Nutuk'u kim yazmıştır?", "choices": [
+      { "text": "Mustafa Kemal Atatürk", "correct": true }, { "text": "İsmet İnönü" }, { "text": "Ziya Gökalp" }, { "text": "Namık Kemal" } ] },
+    { "text": "Dünyanın en yüksek dağı hangisidir?", "choices": [
+      { "text": "Everest", "correct": true }, { "text": "K2" }, { "text": "Kilimanjaro" }, { "text": "Ağrı Dağı" } ] },
+    { "text": "Ay'a ilk ayak basan insan kimdir?", "choices": [
+      { "text": "Neil Armstrong", "correct": true }, { "text": "Buzz Aldrin" }, { "text": "Yuri Gagarin" }, { "text": "Michael Collins" } ] },
+    { "text": "İstiklal Marşı'nın şairi kimdir?", "choices": [
+      { "text": "Mehmet Akif Ersoy", "correct": true }, { "text": "Nazım Hikmet" }, { "text": "Yahya Kemal" }, { "text": "Tevfik Fikret" } ] },
+    { "text": "Periyodik tabloda \"Fe\" hangi elementtir?", "choices": [
+      { "text": "Demir", "correct": true }, { "text": "Flor" }, { "text": "Fosfor" }, { "text": "Kurşun" } ] },
+    { "text": "Bir futbol takımı sahada kaç oyuncuyla başlar?", "choices": [
+      { "text": "11", "correct": true }, { "text": "10" }, { "text": "9" }, { "text": "12" } ] },
+    { "text": "Evrensel çekim yasasını kim ortaya koydu?", "choices": [
+      { "text": "Isaac Newton", "correct": true }, { "text": "Galileo Galilei" }, { "text": "Albert Einstein" }, { "text": "Johannes Kepler" } ] },
+    { "text": "Dünyanın en büyük okyanusu hangisidir?", "choices": [
+      { "text": "Büyük Okyanus", "correct": true }, { "text": "Atlas Okyanusu" }, { "text": "Hint Okyanusu" }, { "text": "Arktik Okyanusu" } ] },
+    { "text": "Standart bir piyanoda kaç tuş bulunur?", "choices": [
+      { "text": "88", "correct": true }, { "text": "76" }, { "text": "64" }, { "text": "96" } ] },
+    { "text": "Orhun Yazıtları bugün hangi ülkededir?", "choices": [
+      { "text": "Moğolistan", "correct": true }, { "text": "Kazakistan" }, { "text": "Çin" }, { "text": "Kırgızistan" } ] },
+    { "text": "Bir yıl yaklaşık kaç haftadır?", "choices": [
+      { "text": "52", "correct": true }, { "text": "48" }, { "text": "50" }, { "text": "56" } ] }
+  ]
+}

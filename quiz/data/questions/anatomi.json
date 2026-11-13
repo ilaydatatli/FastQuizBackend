@@ -1,0 +1,45 @@
+{
+  "category": { "slug": "anatomi", "name": "Anatomi", "description": "Kemikler, kaslar, organlar", "color": "blue", "order": 6 },
+  "questions": [
+    { "text": "İnsan vücudunun en uzun kemiği hangisidir?", "choices": [
+      { "text": "Uyluk kemiği", "correct": true }, { "text": "Kaval kemiği" }, { "text": "Üst kol kemiği" }, { "text": "Köprücük kemiği" } ] },
+    { "text": "Vücudun en küçük kemikleri nerede bulunur?", "choices": [
+      { "text": "Orta kulak", "correct": true }, { "text": "Burun" }, { "text": "El bileği" }, { "text": "Ayak parmağı" } ] },
+    { "text": "İnsan kalbinde kaç odacık bulunur?", "choices": [
+      { "text": "4", "correct": true }, { "text": "2" }, { "text": "3" }, { "text": "6" } ] },
+    { "text": "Dizkapağı kemiğinin tıbbi adı nedir?", "choices": [
+      { "text": "Patella", "correct": true }, { "text": "Femur" }, { "text": "Tibia" }, { "text": "Fibula" } ] },
+    { "text": "Göğüs boşluğunu karın boşluğundan ayıran kas hangisidir?", "choices": [
+      { "text": "Diyafram", "correct": true }, { "text": "Pazı kası" }, { "text": "Trapez kası" }, { "text": "Deltoid kas" } ] },
+    { "text": "Safra hangi organda üretilir?", "choices": [
+      { "text": "Karaciğer", "correct": true }, { "text": "Safra kesesi" }, { "text": "Pankreas" }, { "text": "Dalak" } ] },
+    { "text": "İnsanda kaç çift kaburga bulunur?", "choices": [
+      { "text": "12", "correct": true }, { "text": "10" }, { "text": "14" }, { "text": "8" } ] },
+    { "text": "Boyun bölgesinde kaç omur bulunur?", "choices": [
+      { "text": "7", "correct": true }, { "text": "5" }, { "text": "9" }, { "text": "12" } ] },
+    { "text": "Gözün renkli kısmına ne ad verilir?", "choices": [
+      { "text": "İris", "correct": true }, { "text": "Retina" }, { "text": "Kornea" }, { "text": "Göz bebeği" } ] },
+    { "text": "Besinlerin en çok emildiği organ hangisidir?", "choices": [
+      { "text": "İnce bağırsak", "correct": true }, { "text": "Mide" }, { "text": "Kalın bağırsak" }, { "text": "Yemek borusu" } ] },
+    { "text": "Pazı kasının diğer adı nedir?", "choices": [
+      { "text": "Biseps", "correct": true }, { "text": "Triseps" }, { "text": "Deltoid" }, { "text": "Kuadriseps" } ] },
+    { "text": "Denge ve kas koordinasyonunu sağlayan beyin bölümü hangisidir?", "choices": [
+      { "text": "Beyincik", "correct": true }, { "text": "Hipotalamus" }, { "text": "Hipofiz" }, { "text": "Talamus" } ] },
+    { "text": "Kası kemiğe bağlayan yapıya ne ad verilir?", "choices": [
+      { "text": "Tendon", "correct": true }, { "text": "Ligament" }, { "text": "Kıkırdak" }, { "text": "Menisküs" } ] },
+    { "text": "Midede salgılanan asit hangisidir?", "choices": [
+      { "text": "Hidroklorik asit", "correct": true }, { "text": "Sülfürik asit" }, { "text": "Laktik asit" }, { "text": "Sitrik asit" } ] },
+    { "text": "Vücuttaki en büyük atardamar hangisidir?", "choices": [
+      { "text": "Aort", "correct": true }, { "text": "Şah damarı" }, { "text": "Akciğer atardamarı" }, { "text": "Uyluk atardamarı" } ] },
+    { "text": "Yirmilik dişler dahil yetişkinde kaç diş bulunur?", "choices": [
+      { "text": "32", "correct": true }, { "text": "28" }, { "text": "30" }, { "text": "36" } ] },
+    { "text": "Kalp duvarının kas tabakasına ne ad verilir?", "choices": [
+      { "text": "Miyokard", "correct": true }, { "text": "Perikard" }, { "text": "Endokard" }, { "text": "Epikard" } ] },
+    { "text": "Görme sinyallerini beyne ileten sinir hangisidir?", "choices": [
+      { "text": "Optik sinir", "correct": true }, { "text": "Vagus siniri" }, { "text": "Yüz siniri" }, { "text": "Koku siniri" } ] },
+    { "text": "Vücudun en uzun siniri hangisidir?", "choices": [
+      { "text": "Siyatik siniri", "correct": true }, { "text": "Optik sinir" }, { "text": "Radyal sinir" }, { "text": "Ulnar sinir" } ] },
+    { "text": "Ön kol hangi iki kemikten oluşur?", "choices": [
+      { "text": "Radius ve ulna", "correct": true }, { "text": "Tibia ve fibula" }, { "text": "Femur ve tibia" }, { "text": "Humerus ve skapula" } ] }
+  ]
+}
