@@ -59,6 +59,32 @@ curl -i -H "Origin: http://localhost:5173" http://localhost:8000/api/v1/health/
 # Access-Control-Allow-Origin: http://localhost:5173
 ```
 
+### Bir quiz oynamak
+
+```bash
+curl http://localhost:8000/api/v1/categories/
+```
+
+Quiz başlat. Yanıttaki `quiz_id` ve `token` değerlerini aşağıda `QUIZ_ID` ve `TOKEN` yerine yaz:
+
+```bash
+curl -X POST http://localhost:8000/api/v1/quizzes/ -H "Content-Type: application/json" -d '{"category": "yazilim"}'
+```
+
+Şu anki soruyu al (ilk istekte 5 saniye başlar):
+
+```bash
+curl http://localhost:8000/api/v1/quizzes/QUIZ_ID/current/ -H "Authorization: Bearer TOKEN"
+```
+
+Cevap ver (`question.id` ve şıklardan birinin `id`'si). Cevap 6 saniyeden (5 sn + 1 sn tolerans) geç gelirse `timed_out: true` olur:
+
+```bash
+curl -X POST http://localhost:8000/api/v1/quizzes/QUIZ_ID/answers/ -H "Authorization: Bearer TOKEN" -H "Content-Type: application/json" -d '{"question_id": 1, "choice_id": 2}'
+```
+
+Süre doldu bildirimi için `"choice_id": null` gönderilir. 20 soru cevaplanınca `current` şunu döner: `{"status": "finished", ..., "question": null}`.
+
 ## Hata biçimi
 
 Tüm hatalar aynı şekildedir; istemci `code`'a bakar, `message` kullanıcıya gösterilebilir:

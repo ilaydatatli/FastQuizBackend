@@ -10,3 +10,7 @@ class IPRateThrottle(SimpleRateThrottle):
 
 class QuizStartThrottle(IPRateThrottle):
     scope = "quiz_start"
+
+
+class AnswerThrottle(IPRateThrottle):
+    scope = "answer"

@@ -1,11 +1,19 @@
 from django.conf import settings
 from rest_framework import status
-from rest_framework.decorators import api_view, throttle_classes
+from rest_framework.decorators import api_view, authentication_classes, throttle_classes
 from rest_framework.response import Response
 
 from . import services
-from .serializers import CategorySerializer, QuizStartedSerializer, StartQuizSerializer
-from .throttles import QuizStartThrottle
+from .authentication import QuizTokenAuthentication
+from .serializers import (
+    AnswerResultSerializer,
+    AnswerSerializer,
+    CategorySerializer,
+    CurrentSerializer,
+    QuizStartedSerializer,
+    StartQuizSerializer,
+)
+from .throttles import AnswerThrottle, QuizStartThrottle
 
 
 @api_view(["GET"])
@@ -37,3 +45,28 @@ def start_quiz(request):
         }
     )
     return Response(payload.data, status=status.HTTP_201_CREATED)
+
+
+# Quiz endpoints below: QuizTokenAuthentication puts the QuizSession into request.auth.
+
+
+@api_view(["GET"])
+@authentication_classes([QuizTokenAuthentication])
+def current_question(request, quiz_id):
+    result = services.get_current(request.auth.id)
+    return Response(CurrentSerializer(result).data)
+
+
+@api_view(["POST"])
+@authentication_classes([QuizTokenAuthentication])
+@throttle_classes([AnswerThrottle])
+def answer(request, quiz_id):
+    serializer = AnswerSerializer(data=request.data)
+    serializer.is_valid(raise_exception=True)
+
+    result = services.submit_answer(
+        request.auth.id,
+        serializer.validated_data["question_id"],
+        serializer.validated_data["choice_id"],
+    )
+    return Response(AnswerResultSerializer(result).data)
