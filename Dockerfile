@@ -18,5 +18,5 @@ RUN useradd --create-home appuser
 USER appuser
 
 EXPOSE 8000
-# DigitalOcean provides PORT; default to 8000
-CMD ["sh", "-c", "exec gunicorn config.wsgi:application --bind 0.0.0.0:${PORT:-8000} --workers 2 --timeout 30 --access-logfile -"]
+# migrate + load questions, then Gunicorn (see start.sh)
+CMD ["sh", "start.sh"]
