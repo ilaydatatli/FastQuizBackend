@@ -235,10 +235,12 @@ class BundledQuestionFilesTests(TestCase):
                 "biyoloji",
                 "fotografcilik",
                 "anatomi",
+                "psikolojik-deneyler",
+                "muzik",
                 "genel-kultur",
             }
         )
         needed = settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"]
         for category in Category.objects.all():
             with self.subTest(category.slug):
-                self.assertEqual(category.questions.filter(is_active=True).count(), needed)
+                self.assertGreaterEqual(category.questions.filter(is_active=True).count(), needed)

@@ -1,0 +1,45 @@
+{
+  "category": { "slug": "psikolojik-deneyler", "name": "Psikolojik Deneyler", "description": "Tarihin ünlü deneyleri", "color": "coral", "order": 7 },
+  "questions": [
+    { "text": "Köpeklerin zil sesiyle salya akıttığı deneyi kim yaptı?", "choices": [
+      { "text": "Ivan Pavlov", "correct": true }, { "text": "B. F. Skinner" }, { "text": "John B. Watson" }, { "text": "Edward Thorndike" } ] },
+    { "text": "Milgram deneyi neyi inceledi?", "choices": [
+      { "text": "Otoriteye itaati", "correct": true }, { "text": "Bellek sınırlarını" }, { "text": "Uyku düzenini" }, { "text": "Renk algısını" } ] },
+    { "text": "Milgram deneyinde katılımcılar ne verdiklerini sandı?", "choices": [
+      { "text": "Elektrik şoku", "correct": true }, { "text": "İlaç" }, { "text": "Para ödülü" }, { "text": "Ceza puanı" } ] },
+    { "text": "Stanford Hapishane Deneyi'ni kim yürüttü?", "choices": [
+      { "text": "Philip Zimbardo", "correct": true }, { "text": "Stanley Milgram" }, { "text": "Solomon Asch" }, { "text": "Albert Bandura" } ] },
+    { "text": "Küçük Albert deneyini kim yaptı?", "choices": [
+      { "text": "John B. Watson", "correct": true }, { "text": "Ivan Pavlov" }, { "text": "B. F. Skinner" }, { "text": "Harry Harlow" } ] },
+    { "text": "Küçük Albert'e neyden korkması öğretildi?", "choices": [
+      { "text": "Beyaz fare", "correct": true }, { "text": "Köpek" }, { "text": "Karanlık" }, { "text": "Su" } ] },
+    { "text": "Bobo bebek deneyini yapan psikolog kimdir?", "choices": [
+      { "text": "Albert Bandura", "correct": true }, { "text": "Philip Zimbardo" }, { "text": "Stanley Milgram" }, { "text": "Leon Festinger" } ] },
+    { "text": "Bobo bebek deneyi neyi gösterdi?", "choices": [
+      { "text": "Gözlemle öğrenmeyi", "correct": true }, { "text": "Bellek kaybını" }, { "text": "Uyku ihtiyacını" }, { "text": "Renk körlüğünü" } ] },
+    { "text": "Asch deneyinde katılımcılar neyin uzunluğunu kıyasladı?", "choices": [
+      { "text": "Çizgilerin", "correct": true }, { "text": "Seslerin" }, { "text": "Gölgelerin" }, { "text": "Kelimelerin" } ] },
+    { "text": "Asch deneyi hangi davranışı inceledi?", "choices": [
+      { "text": "Gruba uyma", "correct": true }, { "text": "Otoriteye itaat" }, { "text": "Saldırganlık" }, { "text": "Yardım etme" } ] },
+    { "text": "Harlow'un yavru maymunları hangi anneyi tercih etti?", "choices": [
+      { "text": "Yumuşak kumaş anne", "correct": true }, { "text": "Biberonlu tel anne" }, { "text": "Tahta anne" }, { "text": "Plastik anne" } ] },
+    { "text": "Skinner kutusu hangi öğrenme türünü inceledi?", "choices": [
+      { "text": "Edimsel koşullanma", "correct": true }, { "text": "Klasik koşullanma" }, { "text": "Gözlemsel öğrenme" }, { "text": "Örtük öğrenme" } ] },
+    { "text": "Seligman köpeklerle hangi kavramı ortaya koydu?", "choices": [
+      { "text": "Öğrenilmiş çaresizlik", "correct": true }, { "text": "Bilişsel uyumsuzluk" }, { "text": "Hale etkisi" }, { "text": "Seyirci etkisi" } ] },
+    { "text": "Kitty Genovese olayı hangi etkiyle ilişkilendirilir?", "choices": [
+      { "text": "Seyirci etkisi", "correct": true }, { "text": "Plasebo etkisi" }, { "text": "Hawthorne etkisi" }, { "text": "Pygmalion etkisi" } ] },
+    { "text": "Seyirci etkisini deneylerle inceleyen ikili kimdir?", "choices": [
+      { "text": "Darley ve Latané", "correct": true }, { "text": "Asch ve Milgram" }, { "text": "Watson ve Rayner" }, { "text": "Harlow ve Zimmermann" } ] },
+    { "text": "Marshmallow testi neyi ölçtü?", "choices": [
+      { "text": "Hazzı erteleme", "correct": true }, { "text": "Kısa süreli bellek" }, { "text": "Renk tercihi" }, { "text": "Uyku süresi" } ] },
+    { "text": "Marshmallow testini kim geliştirdi?", "choices": [
+      { "text": "Walter Mischel", "correct": true }, { "text": "Jean Piaget" }, { "text": "Albert Bandura" }, { "text": "Martin Seligman" } ] },
+    { "text": "Festinger'ın 1 dolar / 20 dolar deneyi neyi destekledi?", "choices": [
+      { "text": "Bilişsel uyumsuzluk", "correct": true }, { "text": "Öğrenilmiş çaresizlik" }, { "text": "Seyirci etkisi" }, { "text": "Gruba uyma" } ] },
+    { "text": "Hawthorne deneyleri nerede yapıldı?", "choices": [
+      { "text": "Bir fabrikada", "correct": true }, { "text": "Bir hapishanede" }, { "text": "Bir hastanede" }, { "text": "Bir okulda" } ] },
+    { "text": "Rosenthal'ın öğretmen beklentisi deneyi hangi etkiyi gösterdi?", "choices": [
+      { "text": "Pygmalion etkisi", "correct": true }, { "text": "Hawthorne etkisi" }, { "text": "Plasebo etkisi" }, { "text": "Seyirci etkisi" } ] }
+  ]
+}

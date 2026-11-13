@@ -1,0 +1,55 @@
+{
+  "category": { "slug": "muzik", "name": "Müzik", "description": "Besteciler, çalgılar, nota", "color": "teal", "order": 8 },
+  "questions": [
+    { "text": "Bir oktavda kaç yarım ses vardır?", "choices": [
+      { "text": "12", "correct": true }, { "text": "8" }, { "text": "7" }, { "text": "10" } ] },
+    { "text": "Klasik gitarda kaç tel bulunur?", "choices": [
+      { "text": "6", "correct": true }, { "text": "4" }, { "text": "5" }, { "text": "7" } ] },
+    { "text": "Standart bir kemanda kaç tel bulunur?", "choices": [
+      { "text": "4", "correct": true }, { "text": "5" }, { "text": "6" }, { "text": "3" } ] },
+    { "text": "Ay Işığı Sonatı'nın bestecisi kimdir?", "choices": [
+      { "text": "Beethoven", "correct": true }, { "text": "Mozart" }, { "text": "Chopin" }, { "text": "Bach" } ] },
+    { "text": "Kuğu Gölü balesinin bestecisi kimdir?", "choices": [
+      { "text": "Çaykovski", "correct": true }, { "text": "Stravinski" }, { "text": "Prokofyev" }, { "text": "Rahmaninov" } ] },
+    { "text": "Dört Mevsim'in bestecisi kimdir?", "choices": [
+      { "text": "Vivaldi", "correct": true }, { "text": "Bach" }, { "text": "Händel" }, { "text": "Haydn" } ] },
+    { "text": "Rondo alla Turca (Türk Marşı) kimin eseridir?", "choices": [
+      { "text": "Mozart", "correct": true }, { "text": "Beethoven" }, { "text": "Schubert" }, { "text": "Liszt" } ] },
+    { "text": "Notaların yazıldığı beş çizgiye ne ad verilir?", "choices": [
+      { "text": "Porte", "correct": true }, { "text": "Ölçü" }, { "text": "Akor" }, { "text": "Gam" } ] },
+    { "text": "Müzikte \"piano\" terimi ne anlama gelir?", "choices": [
+      { "text": "Hafif (yumuşak)", "correct": true }, { "text": "Güçlü" }, { "text": "Hızlı" }, { "text": "Yavaş" } ] },
+    { "text": "Tempo terimi \"allegro\" ne anlama gelir?", "choices": [
+      { "text": "Hızlı", "correct": true }, { "text": "Yavaş" }, { "text": "Orta" }, { "text": "Çok yavaş" } ] },
+    { "text": "Bağlama hangi çalgı grubundadır?", "choices": [
+      { "text": "Telli", "correct": true }, { "text": "Üflemeli" }, { "text": "Vurmalı" }, { "text": "Tuşlu" } ] },
+    { "text": "Ney hangi çalgı grubundadır?", "choices": [
+      { "text": "Üflemeli", "correct": true }, { "text": "Telli" }, { "text": "Vurmalı" }, { "text": "Yaylı" } ] },
+    { "text": "Bohemian Rhapsody hangi grubun şarkısıdır?", "choices": [
+      { "text": "Queen", "correct": true }, { "text": "The Beatles" }, { "text": "Led Zeppelin" }, { "text": "Pink Floyd" } ] },
+    { "text": "Dünyada \"Pop'un Kralı\" olarak bilinen sanatçı kimdir?", "choices": [
+      { "text": "Michael Jackson", "correct": true }, { "text": "Elvis Presley" }, { "text": "Prince" }, { "text": "Freddie Mercury" } ] },
+    { "text": "İstiklal Marşı'nın bestecisi kimdir?", "choices": [
+      { "text": "Osman Zeki Üngör", "correct": true }, { "text": "Cemal Reşit Rey" }, { "text": "Ahmet Adnan Saygun" }, { "text": "Ulvi Cemal Erkin" } ] },
+    { "text": "Yunus Emre Oratoryosu'nun bestecisi kimdir?", "choices": [
+      { "text": "Ahmet Adnan Saygun", "correct": true }, { "text": "Cemal Reşit Rey" }, { "text": "Ulvi Cemal Erkin" }, { "text": "Necil Kâzım Akses" } ] },
+    { "text": "Ney genellikle hangi bitkiden yapılır?", "choices": [
+      { "text": "Kamış", "correct": true }, { "text": "Ceviz" }, { "text": "Abanoz" }, { "text": "Pirinç" } ] },
+    { "text": "Neyi çalan kişiye ne ad verilir?", "choices": [
+      { "text": "Neyzen", "correct": true }, { "text": "Kanuni" }, { "text": "Udi" }, { "text": "Tanburi" } ] },
+    { "text": "Neyin ağızlığına ne ad verilir?", "choices": [
+      { "text": "Başpare", "correct": true }, { "text": "Mızrap" }, { "text": "Perde" }, { "text": "Kalak" } ] },
+    { "text": "Neyin üzerinde toplam kaç delik bulunur?", "choices": [
+      { "text": "7", "correct": true }, { "text": "5" }, { "text": "6" }, { "text": "9" } ] },
+    { "text": "Birlikte çalınan üç veya daha fazla notaya ne denir?", "choices": [
+      { "text": "Akor", "correct": true }, { "text": "Melodi" }, { "text": "Ritim" }, { "text": "Tempo" } ] },
+    { "text": "Do majör gamında kaç diyez vardır?", "choices": [
+      { "text": "Hiç yok", "correct": true }, { "text": "1" }, { "text": "2" }, { "text": "7" } ] },
+    { "text": "Orkestrayı yöneten kişiye ne ad verilir?", "choices": [
+      { "text": "Şef", "correct": true }, { "text": "Solist" }, { "text": "Besteci" }, { "text": "Aranjör" } ] },
+    { "text": "Vals genellikle hangi ölçüyle çalınır?", "choices": [
+      { "text": "3/4", "correct": true }, { "text": "4/4" }, { "text": "2/4" }, { "text": "6/8" } ] },
+    { "text": "Mozart'ın doğduğu Salzburg bugün hangi ülkededir?", "choices": [
+      { "text": "Avusturya", "correct": true }, { "text": "Almanya" }, { "text": "İtalya" }, { "text": "İsviçre" } ] }
+  ]
+}

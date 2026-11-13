@@ -1,5 +1,5 @@
 {
-  "category": { "slug": "genel-kultur", "name": "Genel Kültür", "description": "Tarih, sanat, bilim", "color": "yellow", "order": 7 },
+  "category": { "slug": "genel-kultur", "name": "Genel Kültür", "description": "Tarih, sanat, bilim", "color": "yellow", "order": 9 },
   "questions": [
     { "text": "Mona Lisa tablosunun ressamı kimdir?", "choices": [
       { "text": "Leonardo da Vinci", "correct": true }, { "text": "Michelangelo" }, { "text": "Rafael" }, { "text": "Rembrandt" } ] },
@@ -40,6 +40,16 @@
     { "text": "Orhun Yazıtları bugün hangi ülkededir?", "choices": [
       { "text": "Moğolistan", "correct": true }, { "text": "Kazakistan" }, { "text": "Çin" }, { "text": "Kırgızistan" } ] },
     { "text": "Bir yıl yaklaşık kaç haftadır?", "choices": [
-      { "text": "52", "correct": true }, { "text": "48" }, { "text": "50" }, { "text": "56" } ] }
+      { "text": "52", "correct": true }, { "text": "48" }, { "text": "50" }, { "text": "56" } ] },
+    { "text": "Erzurum'un simgesi olan medrese hangisidir?", "choices": [
+      { "text": "Çifte Minareli Medrese", "correct": true }, { "text": "Karatay Medresesi" }, { "text": "İnce Minareli Medrese" }, { "text": "Gök Medrese" } ] },
+    { "text": "Erzurum'a özgü, yatay şişte pişen kebap hangisidir?", "choices": [
+      { "text": "Cağ kebabı", "correct": true }, { "text": "İskender kebap" }, { "text": "Adana kebap" }, { "text": "Testi kebabı" } ] },
+    { "text": "Erzurum'daki ünlü kayak merkezi hangisidir?", "choices": [
+      { "text": "Palandöken", "correct": true }, { "text": "Uludağ" }, { "text": "Erciyes" }, { "text": "Kartalkaya" } ] },
+    { "text": "Erzurum Kongresi hangi yıl toplandı?", "choices": [
+      { "text": "1919", "correct": true }, { "text": "1920" }, { "text": "1918" }, { "text": "1921" } ] },
+    { "text": "Erzurum'la özdeşleşen halk oyunu hangisidir?", "choices": [
+      { "text": "Bar", "correct": true }, { "text": "Horon" }, { "text": "Zeybek" }, { "text": "Teke zortlatması" } ] }
   ]
 }

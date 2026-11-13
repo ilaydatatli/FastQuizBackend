@@ -7,7 +7,7 @@ class Category(models.Model):
     name = models.CharField(max_length=50, unique=True)
     slug = models.SlugField(unique=True)
     description = models.CharField(max_length=150, blank=True)
-    # Design color key used by the client: cyan, violet, orange, lime, pink, blue, yellow
+    # Design color key used by the client: cyan, violet, orange, lime, pink, blue, yellow, coral, teal
     color = models.CharField(max_length=20)
     order = models.PositiveSmallIntegerField(default=0)
     is_active = models.BooleanField(default=True)
