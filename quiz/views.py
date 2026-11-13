@@ -10,10 +10,14 @@ from .serializers import (
     AnswerSerializer,
     CategorySerializer,
     CurrentSerializer,
+    LeaderboardSerializer,
     QuizStartedSerializer,
+    ResultSerializer,
+    SaveScoreSerializer,
+    ScoreSavedSerializer,
     StartQuizSerializer,
 )
-from .throttles import AnswerThrottle, QuizStartThrottle
+from .throttles import AnswerThrottle, QuizStartThrottle, ScoreThrottle
 
 
 @api_view(["GET"])
@@ -70,3 +74,25 @@ def answer(request, quiz_id):
         serializer.validated_data["choice_id"],
     )
     return Response(AnswerResultSerializer(result).data)
+
+
+@api_view(["GET"])
+@authentication_classes([QuizTokenAuthentication])
+def result(request, quiz_id):
+    return Response(ResultSerializer(services.get_result(request.auth.id)).data)
+
+
+@api_view(["POST"])
+@authentication_classes([QuizTokenAuthentication])
+@throttle_classes([ScoreThrottle])
+def save_score(request, quiz_id):
+    serializer = SaveScoreSerializer(data=request.data)
+    serializer.is_valid(raise_exception=True)
+
+    saved = services.save_score(request.auth.id, serializer.validated_data["nickname"])
+    return Response(ScoreSavedSerializer(saved).data, status=status.HTTP_201_CREATED)
+
+
+@api_view(["GET"])
+def leaderboard(request, category_slug):
+    return Response(LeaderboardSerializer(services.leaderboard(category_slug)).data)

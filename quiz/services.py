@@ -7,6 +7,7 @@ tests patch `quiz.services.now` to control time.
 
 import hashlib
 import random
+import re
 import secrets
 from datetime import timedelta
 
@@ -17,7 +18,7 @@ from django.utils import timezone
 from rest_framework import status
 
 from .exceptions import QuizError
-from .models import Category, QuizSession, SessionQuestion
+from .models import Category, QuizSession, Score, SessionQuestion
 
 # OS-level randomness: question picks and choice order should not be predictable.
 _rng = random.SystemRandom()
@@ -265,3 +266,111 @@ def _answer(session, question_id, choice_id, t):
         "position": session.current_index,
         "finished": session.status == QuizSession.Status.FINISHED,
     }
+
+
+# ---------------------------------------------------------------------------
+# Result, score and leaderboard
+# ---------------------------------------------------------------------------
+
+# 2-16 characters after trimming: letters (Turkish included), digits, space, "_" and "-".
+NICKNAME_RE = re.compile(r"^[\w\- ]{2,16}$")
+
+
+def get_result(session_id):
+    session = QuizSession.objects.select_related("category").get(pk=session_id)
+    if session.status != QuizSession.Status.FINISHED:
+        raise QuizError("QUIZ_NOT_FINISHED", "Quiz henüz bitmedi.", status.HTTP_409_CONFLICT)
+
+    saved = Score.objects.filter(session=session).first()
+    rank = score_rank(saved) if saved else rank_if_saved(session)
+    return {
+        "quiz_id": session.id,
+        "category": session.category,
+        "points": session.points,
+        "correct_count": session.correct_count,
+        "total_questions": settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"],
+        "timed_out_count": session.items.filter(timed_out=True).count(),
+        "qualifies_for_top10": rank <= settings.FAST_QUIZ["LEADERBOARD_SIZE"],
+        "score_saved": saved is not None,
+        "finished_at": session.finished_at,
+    }
+
+
+def save_score(session_id, nickname):
+    """Save a finished quiz to the leaderboard once. Points are copied from the session."""
+    nickname = (nickname or "").strip()
+    if not NICKNAME_RE.match(nickname):
+        raise QuizError(
+            "NICKNAME_INVALID",
+            "Takma ad 2–16 karakter olmalı; harf, rakam, boşluk, _ ve - kullanılabilir.",
+            status.HTTP_400_BAD_REQUEST,
+        )
+
+    t = now()
+    with transaction.atomic():
+        session = _lock(session_id)
+        expired = _expire_if_needed(session, t)
+        if not expired:
+            if session.status != QuizSession.Status.FINISHED:
+                raise QuizError("QUIZ_NOT_FINISHED", "Quiz henüz bitmedi.", status.HTTP_409_CONFLICT)
+            if Score.objects.filter(session=session).exists():
+                raise QuizError(
+                    "SCORE_ALREADY_SAVED", "Bu quiz'in skoru zaten kaydedildi.", status.HTTP_409_CONFLICT
+                )
+            score = Score.objects.create(
+                session=session,
+                category_id=session.category_id,
+                nickname=nickname,
+                points=session.points,
+                correct_count=session.correct_count,
+            )
+    if expired:
+        raise _quiz_expired()
+
+    return {
+        "nickname": score.nickname,
+        "points": score.points,
+        "correct_count": score.correct_count,
+        "rank": score_rank(score),
+        "category": session.category.slug,
+    }
+
+
+def leaderboard(category_slug):
+    category = Category.objects.filter(slug=category_slug, is_active=True).first()
+    if category is None:
+        raise QuizError("CATEGORY_NOT_FOUND", "Böyle bir kategori yok.", status.HTTP_404_NOT_FOUND)
+
+    size = settings.FAST_QUIZ["LEADERBOARD_SIZE"]
+    scores = category.scores.order_by(*LEADERBOARD_ORDER)[:size]  # one query
+    entries = [{"rank": rank, "score": score} for rank, score in enumerate(scores, start=1)]
+    return {"category": category, "entries": entries}
+
+
+# Points (high first) -> correct answers (high first) -> saved earlier first. id breaks exact ties.
+LEADERBOARD_ORDER = ["-points", "-correct_count", "created_at", "id"]
+
+
+def score_rank(score):
+    """1-based position of a saved score in its category, using LEADERBOARD_ORDER."""
+    ahead = Score.objects.filter(category_id=score.category_id).filter(
+        Q(points__gt=score.points)
+        | Q(points=score.points, correct_count__gt=score.correct_count)
+        | Q(points=score.points, correct_count=score.correct_count, created_at__lt=score.created_at)
+        | Q(
+            points=score.points,
+            correct_count=score.correct_count,
+            created_at=score.created_at,
+            id__lt=score.id,
+        )
+    )
+    return ahead.count() + 1
+
+
+def rank_if_saved(session):
+    """Rank this session would get if saved now: equal scores saved earlier stay ahead."""
+    ahead = Score.objects.filter(category_id=session.category_id).filter(
+        Q(points__gt=session.points)
+        | Q(points=session.points, correct_count__gte=session.correct_count)
+    )
+    return ahead.count() + 1

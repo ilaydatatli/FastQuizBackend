@@ -14,3 +14,7 @@ class QuizStartThrottle(IPRateThrottle):
 
 class AnswerThrottle(IPRateThrottle):
     scope = "answer"
+
+
+class ScoreThrottle(IPRateThrottle):
+    scope = "score"

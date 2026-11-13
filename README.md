@@ -85,6 +85,44 @@ curl -X POST http://localhost:8000/api/v1/quizzes/QUIZ_ID/answers/ -H "Authoriza
 
 Süre doldu bildirimi için `"choice_id": null` gönderilir. 20 soru cevaplanınca `current` şunu döner: `{"status": "finished", ..., "question": null}`.
 
+> İpucu: değerleri bir kez değişkene kaydet, sonra `$QUIZ` ve `$TOKEN` kullan:
+> `QUIZ="..."` ve `TOKEN="..."`
+
+### Sonuç, skor ve skor tablosu
+
+Bitmiş quiz'in sonucu (bitmediyse `409 QUIZ_NOT_FINISHED`):
+
+```bash
+curl http://localhost:8000/api/v1/quizzes/$QUIZ/result/ -H "Authorization: Bearer $TOKEN"
+```
+
+Takma adla skor tablosuna kaydet (bir quiz yalnızca bir kez; takma ad 2–16 karakter, harf/rakam/boşluk/`_`/`-`):
+
+```bash
+curl -X POST http://localhost:8000/api/v1/quizzes/$QUIZ/score/ -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{"nickname": "ilayda_99"}'
+```
+
+Bir kategorinin ilk 10'u (token gerekmez):
+
+```bash
+curl http://localhost:8000/api/v1/leaderboard/yazilim/
+```
+
+### Tüm uçlar
+
+| Metot | Yol | Token |
+|---|---|---|
+| GET | `/api/v1/health/` | — |
+| GET | `/api/v1/categories/` | — |
+| POST | `/api/v1/quizzes/` | — |
+| GET | `/api/v1/quizzes/{quiz_id}/current/` | ✅ |
+| POST | `/api/v1/quizzes/{quiz_id}/answers/` | ✅ |
+| GET | `/api/v1/quizzes/{quiz_id}/result/` | ✅ |
+| POST | `/api/v1/quizzes/{quiz_id}/score/` | ✅ |
+| GET | `/api/v1/leaderboard/{category_slug}/` | — |
+
+Ayrıntılı yanıt şekilleri: `../PROJE.md` Bölüm 6.
+
 ## Hata biçimi
 
 Tüm hatalar aynı şekildedir; istemci `code`'a bakar, `message` kullanıcıya gösterilebilir:

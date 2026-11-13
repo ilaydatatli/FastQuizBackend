@@ -83,3 +83,41 @@ class AnswerResultSerializer(serializers.Serializer):
     correct_count = serializers.IntegerField()
     position = serializers.IntegerField()
     finished = serializers.BooleanField()
+
+
+class ResultSerializer(serializers.Serializer):
+    quiz_id = serializers.UUIDField()
+    category = CategoryBriefSerializer()
+    points = serializers.IntegerField()
+    correct_count = serializers.IntegerField()
+    total_questions = serializers.IntegerField()
+    timed_out_count = serializers.IntegerField()
+    qualifies_for_top10 = serializers.BooleanField()
+    score_saved = serializers.BooleanField()
+    finished_at = serializers.DateTimeField()
+
+
+class SaveScoreSerializer(serializers.Serializer):
+    # Format rules (NICKNAME_INVALID) are checked in services.save_score.
+    nickname = serializers.CharField(allow_blank=True, trim_whitespace=False)
+
+
+class ScoreSavedSerializer(serializers.Serializer):
+    nickname = serializers.CharField()
+    points = serializers.IntegerField()
+    correct_count = serializers.IntegerField()
+    rank = serializers.IntegerField()
+    category = serializers.CharField()  # category slug
+
+
+class LeaderboardEntrySerializer(serializers.Serializer):
+    rank = serializers.IntegerField()
+    nickname = serializers.CharField(source="score.nickname")
+    points = serializers.IntegerField(source="score.points")
+    correct_count = serializers.IntegerField(source="score.correct_count")
+    created_at = serializers.DateTimeField(source="score.created_at")
+
+
+class LeaderboardSerializer(serializers.Serializer):
+    category = CategoryBriefSerializer()
+    entries = LeaderboardEntrySerializer(many=True)
