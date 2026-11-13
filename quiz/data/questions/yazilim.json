@@ -40,6 +40,46 @@
     { "text": "Linux çekirdeğini ilk kim yazdı?", "choices": [
       { "text": "Linus Torvalds", "correct": true }, { "text": "Bill Gates" }, { "text": "Guido van Rossum" }, { "text": "Steve Jobs" } ] },
     { "text": "API kısaltmasındaki \"I\" neyi ifade eder?", "choices": [
-      { "text": "Interface", "correct": true }, { "text": "Internet" }, { "text": "Index" }, { "text": "Input" } ] }
+      { "text": "Interface", "correct": true }, { "text": "Internet" }, { "text": "Index" }, { "text": "Input" } ] },
+    { "text": "Python'da bir sözlüğün anahtarlarını hangi metot verir?", "choices": [
+      { "text": "keys()", "correct": true }, { "text": "values()" }, { "text": "items()" }, { "text": "get()" } ] },
+    { "text": "HTTP'de 401 durum kodu neyi belirtir?", "choices": [
+      { "text": "Yetkisiz", "correct": true }, { "text": "Bulunamadı" }, { "text": "Sunucu hatası" }, { "text": "Yönlendirme" } ] },
+    { "text": "Git'te yeni dal oluşturup ona geçen komut hangisidir?", "choices": [
+      { "text": "git switch -c", "correct": true }, { "text": "git merge" }, { "text": "git push" }, { "text": "git log" } ] },
+    { "text": "Git'te değişiklikleri kayıt altına alan komut hangisidir?", "choices": [
+      { "text": "git commit", "correct": true }, { "text": "git push" }, { "text": "git clone" }, { "text": "git pull" } ] },
+    { "text": "Yığın (stack) veri yapısında hangi eleman önce çıkar?", "choices": [
+      { "text": "Son giren", "correct": true }, { "text": "İlk giren" }, { "text": "En küçük" }, { "text": "Rastgele biri" } ] },
+    { "text": "SQL'de tabloya yeni satır ekleyen komut hangisidir?", "choices": [
+      { "text": "INSERT", "correct": true }, { "text": "UPDATE" }, { "text": "SELECT" }, { "text": "DELETE" } ] },
+    { "text": "CSS'te metin rengini hangi özellik belirler?", "choices": [
+      { "text": "color", "correct": true }, { "text": "background" }, { "text": "font-size" }, { "text": "border" } ] },
+    { "text": "HTML'de bağlantı (link) hangi etiketle oluşturulur?", "choices": [
+      { "text": "<a>", "correct": true }, { "text": "<p>" }, { "text": "<img>" }, { "text": "<div>" } ] },
+    { "text": "Onaltılık sistemde F harfi onluk sistemde kaçtır?", "choices": [
+      { "text": "15", "correct": true }, { "text": "16" }, { "text": "14" }, { "text": "10" } ] },
+    { "text": "Onluk sistemdeki 8 sayısı ikilik sistemde nasıl yazılır?", "choices": [
+      { "text": "1000", "correct": true }, { "text": "110" }, { "text": "1001" }, { "text": "111" } ] },
+    { "text": "Python'da 7 // 2 işleminin sonucu nedir?", "choices": [
+      { "text": "3", "correct": true }, { "text": "3.5" }, { "text": "4" }, { "text": "1" } ] },
+    { "text": "Python'da 7 % 3 işleminin sonucu nedir?", "choices": [
+      { "text": "1", "correct": true }, { "text": "2" }, { "text": "0" }, { "text": "3" } ] },
+    { "text": "JavaScript'te tip kontrollü (katı) eşitlik operatörü hangisidir?", "choices": [
+      { "text": "===", "correct": true }, { "text": "==" }, { "text": "=" }, { "text": "!=" } ] },
+    { "text": "DNS'in temel görevi nedir?", "choices": [
+      { "text": "Alan adını IP'ye çevirmek", "correct": true }, { "text": "Dosya sıkıştırmak" }, { "text": "E-posta göndermek" }, { "text": "Veri şifrelemek" } ] },
+    { "text": "Hangisi bir NoSQL veritabanıdır?", "choices": [
+      { "text": "MongoDB", "correct": true }, { "text": "PostgreSQL" }, { "text": "MySQL" }, { "text": "SQLite" } ] },
+    { "text": "Python dilini kim yarattı?", "choices": [
+      { "text": "Guido van Rossum", "correct": true }, { "text": "James Gosling" }, { "text": "Dennis Ritchie" }, { "text": "Bjarne Stroustrup" } ] },
+    { "text": "C programlama dilini kim geliştirdi?", "choices": [
+      { "text": "Dennis Ritchie", "correct": true }, { "text": "Guido van Rossum" }, { "text": "Linus Torvalds" }, { "text": "James Gosling" } ] },
+    { "text": "Java dilinin yaratıcısı kimdir?", "choices": [
+      { "text": "James Gosling", "correct": true }, { "text": "Dennis Ritchie" }, { "text": "Brendan Eich" }, { "text": "Guido van Rossum" } ] },
+    { "text": "Bir fonksiyonun kendini çağırmasına ne denir?", "choices": [
+      { "text": "Özyineleme", "correct": true }, { "text": "Döngü" }, { "text": "Kalıtım" }, { "text": "Kapsülleme" } ] },
+    { "text": "HTTP varsayılan olarak hangi portu kullanır?", "choices": [
+      { "text": "80", "correct": true }, { "text": "443" }, { "text": "21" }, { "text": "22" } ] }
   ]
 }

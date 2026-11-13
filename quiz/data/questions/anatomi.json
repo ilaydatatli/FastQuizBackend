@@ -40,6 +40,46 @@
     { "text": "Vücudun en uzun siniri hangisidir?", "choices": [
       { "text": "Siyatik siniri", "correct": true }, { "text": "Optik sinir" }, { "text": "Radyal sinir" }, { "text": "Ulnar sinir" } ] },
     { "text": "Ön kol hangi iki kemikten oluşur?", "choices": [
-      { "text": "Radius ve ulna", "correct": true }, { "text": "Tibia ve fibula" }, { "text": "Femur ve tibia" }, { "text": "Humerus ve skapula" } ] }
+      { "text": "Radius ve ulna", "correct": true }, { "text": "Tibia ve fibula" }, { "text": "Femur ve tibia" }, { "text": "Humerus ve skapula" } ] },
+    { "text": "Kafatasının hareketli kemiği hangisidir?", "choices": [
+      { "text": "Alt çene kemiği", "correct": true }, { "text": "Alın kemiği" }, { "text": "Şakak kemiği" }, { "text": "Elmacık kemiği" } ] },
+    { "text": "Gözde ışığı algılayan tabaka hangisidir?", "choices": [
+      { "text": "Retina", "correct": true }, { "text": "Kornea" }, { "text": "İris" }, { "text": "Mercek" } ] },
+    { "text": "Omurganın en alt ucundaki kemiğe ne ad verilir?", "choices": [
+      { "text": "Kuyruk sokumu", "correct": true }, { "text": "Leğen kemiği" }, { "text": "Kürek kemiği" }, { "text": "Köprücük kemiği" } ] },
+    { "text": "Kürek kemiğinin tıbbi adı nedir?", "choices": [
+      { "text": "Skapula", "correct": true }, { "text": "Klavikula" }, { "text": "Sternum" }, { "text": "Patella" } ] },
+    { "text": "Göğüs kemiğinin tıbbi adı nedir?", "choices": [
+      { "text": "Sternum", "correct": true }, { "text": "Skapula" }, { "text": "Klavikula" }, { "text": "Humerus" } ] },
+    { "text": "Akciğerlere havayı taşıyan boruya ne ad verilir?", "choices": [
+      { "text": "Soluk borusu", "correct": true }, { "text": "Yemek borusu" }, { "text": "Aort" }, { "text": "Üreter" } ] },
+    { "text": "İdrarı böbrekten mesaneye taşıyan kanal hangisidir?", "choices": [
+      { "text": "Üreter", "correct": true }, { "text": "Üretra" }, { "text": "Aort" }, { "text": "Safra kanalı" } ] },
+    { "text": "Vücudun en büyük lenf organı hangisidir?", "choices": [
+      { "text": "Dalak", "correct": true }, { "text": "Timüs" }, { "text": "Bademcik" }, { "text": "Karaciğer" } ] },
+    { "text": "Kalbin sağ ve sol tarafını ayıran duvara ne denir?", "choices": [
+      { "text": "Septum", "correct": true }, { "text": "Kapakçık" }, { "text": "Aort" }, { "text": "Perikard" } ] },
+    { "text": "Kanı kalbe geri getiren damarlara ne denir?", "choices": [
+      { "text": "Toplardamar", "correct": true }, { "text": "Atardamar" }, { "text": "Kılcal damar" }, { "text": "Lenf damarı" } ] },
+    { "text": "En ince kan damarlarına ne ad verilir?", "choices": [
+      { "text": "Kılcal damar", "correct": true }, { "text": "Toplardamar" }, { "text": "Atardamar" }, { "text": "Aort" } ] },
+    { "text": "Büyüme hormonu hangi bezden salgılanır?", "choices": [
+      { "text": "Hipofiz", "correct": true }, { "text": "Tiroit" }, { "text": "Pankreas" }, { "text": "Böbrek üstü bezi" } ] },
+    { "text": "Boyunda bulunan ve metabolizmayı düzenleyen bez hangisidir?", "choices": [
+      { "text": "Tiroit", "correct": true }, { "text": "Hipofiz" }, { "text": "Timüs" }, { "text": "Pankreas" } ] },
+    { "text": "Adrenalin hangi bezden salgılanır?", "choices": [
+      { "text": "Böbrek üstü bezi", "correct": true }, { "text": "Tiroit" }, { "text": "Hipofiz" }, { "text": "Pankreas" } ] },
+    { "text": "Kafatası kemikleri birbirine nasıl bağlanır?", "choices": [
+      { "text": "Dikişlerle", "correct": true }, { "text": "Menteşe eklemle" }, { "text": "Küresel eklemle" }, { "text": "Kaslarla" } ] },
+    { "text": "Omuz eklemi hangi tür eklemdir?", "choices": [
+      { "text": "Küresel eklem", "correct": true }, { "text": "Menteşe eklem" }, { "text": "Eyer eklem" }, { "text": "Dikiş eklem" } ] },
+    { "text": "Dirsek eklemi hangi tür eklemdir?", "choices": [
+      { "text": "Menteşe eklem", "correct": true }, { "text": "Küresel eklem" }, { "text": "Eyer eklem" }, { "text": "Dikiş eklem" } ] },
+    { "text": "Baldırın arkasındaki büyük kasın adı nedir?", "choices": [
+      { "text": "Gastroknemius", "correct": true }, { "text": "Kuadriseps" }, { "text": "Deltoid" }, { "text": "Trapez" } ] },
+    { "text": "Uyluğun önündeki dört başlı kas hangisidir?", "choices": [
+      { "text": "Kuadriseps", "correct": true }, { "text": "Biseps" }, { "text": "Triseps" }, { "text": "Deltoid" } ] },
+    { "text": "Omzu saran üçgen biçimli kas hangisidir?", "choices": [
+      { "text": "Deltoid", "correct": true }, { "text": "Trapez" }, { "text": "Biseps" }, { "text": "Pektoral" } ] }
   ]
 }

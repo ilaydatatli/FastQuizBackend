@@ -40,6 +40,46 @@
     { "text": "Hollanda'nın anayasal başkenti neresidir?", "choices": [
       { "text": "Amsterdam", "correct": true }, { "text": "Lahey" }, { "text": "Rotterdam" }, { "text": "Utrecht" } ] },
     { "text": "Hangi ülkenin bayrağında ortada kırmızı bir daire vardır?", "choices": [
-      { "text": "Japonya", "correct": true }, { "text": "Çin" }, { "text": "Güney Kore" }, { "text": "Vietnam" } ] }
+      { "text": "Japonya", "correct": true }, { "text": "Çin" }, { "text": "Güney Kore" }, { "text": "Vietnam" } ] },
+    { "text": "Norveç'in başkenti neresidir?", "choices": [
+      { "text": "Oslo", "correct": true }, { "text": "Stockholm" }, { "text": "Helsinki" }, { "text": "Kopenhag" } ] },
+    { "text": "Yeni Zelanda'nın başkenti neresidir?", "choices": [
+      { "text": "Wellington", "correct": true }, { "text": "Auckland" }, { "text": "Christchurch" }, { "text": "Kanberra" } ] },
+    { "text": "Fas'ın başkenti neresidir?", "choices": [
+      { "text": "Rabat", "correct": true }, { "text": "Kazablanka" }, { "text": "Marakeş" }, { "text": "Fes" } ] },
+    { "text": "Vietnam'ın başkenti neresidir?", "choices": [
+      { "text": "Hanoi", "correct": true }, { "text": "Ho Chi Minh" }, { "text": "Bangkok" }, { "text": "Phnom Penh" } ] },
+    { "text": "İzlanda'nın başkenti neresidir?", "choices": [
+      { "text": "Reykjavik", "correct": true }, { "text": "Oslo" }, { "text": "Helsinki" }, { "text": "Dublin" } ] },
+    { "text": "Hindistan'ın başkenti neresidir?", "choices": [
+      { "text": "Yeni Delhi", "correct": true }, { "text": "Mumbai" }, { "text": "Kalküta" }, { "text": "Bangalore" } ] },
+    { "text": "Güney Kore'nin para birimi nedir?", "choices": [
+      { "text": "Won", "correct": true }, { "text": "Yen" }, { "text": "Yuan" }, { "text": "Ringgit" } ] },
+    { "text": "İsviçre'nin para birimi nedir?", "choices": [
+      { "text": "İsviçre frangı", "correct": true }, { "text": "Euro" }, { "text": "Sterlin" }, { "text": "Kron" } ] },
+    { "text": "Arjantin'de en çok konuşulan dil hangisidir?", "choices": [
+      { "text": "İspanyolca", "correct": true }, { "text": "Portekizce" }, { "text": "İtalyanca" }, { "text": "İngilizce" } ] },
+    { "text": "Sidney Opera Binası hangi ülkededir?", "choices": [
+      { "text": "Avustralya", "correct": true }, { "text": "Yeni Zelanda" }, { "text": "Kanada" }, { "text": "İngiltere" } ] },
+    { "text": "Kremlin hangi şehirdedir?", "choices": [
+      { "text": "Moskova", "correct": true }, { "text": "St. Petersburg" }, { "text": "Kiev" }, { "text": "Minsk" } ] },
+    { "text": "Kolezyum hangi şehirdedir?", "choices": [
+      { "text": "Roma", "correct": true }, { "text": "Atina" }, { "text": "Milano" }, { "text": "Napoli" } ] },
+    { "text": "Petra antik kenti hangi ülkededir?", "choices": [
+      { "text": "Ürdün", "correct": true }, { "text": "Mısır" }, { "text": "Lübnan" }, { "text": "Suriye" } ] },
+    { "text": "Angkor Wat hangi ülkededir?", "choices": [
+      { "text": "Kamboçya", "correct": true }, { "text": "Tayland" }, { "text": "Vietnam" }, { "text": "Laos" } ] },
+    { "text": "Nüfusu en kalabalık ülke hangisidir?", "choices": [
+      { "text": "Hindistan", "correct": true }, { "text": "Çin" }, { "text": "ABD" }, { "text": "Endonezya" } ] },
+    { "text": "Bayrağında sedir ağacı olan ülke hangisidir?", "choices": [
+      { "text": "Lübnan", "correct": true }, { "text": "Kıbrıs" }, { "text": "İsrail" }, { "text": "Ürdün" } ] },
+    { "text": "\"Doğan Güneş'in Ülkesi\" olarak bilinen ülke hangisidir?", "choices": [
+      { "text": "Japonya", "correct": true }, { "text": "Çin" }, { "text": "Güney Kore" }, { "text": "Tayland" } ] },
+    { "text": "Amazon Ormanları'nın büyük kısmı hangi ülkededir?", "choices": [
+      { "text": "Brezilya", "correct": true }, { "text": "Peru" }, { "text": "Kolombiya" }, { "text": "Venezuela" } ] },
+    { "text": "Avrupa'nın en uzun nehri hangisidir?", "choices": [
+      { "text": "Volga", "correct": true }, { "text": "Tuna" }, { "text": "Ren" }, { "text": "Dinyeper" } ] },
+    { "text": "Kilimanjaro Dağı hangi ülkededir?", "choices": [
+      { "text": "Tanzanya", "correct": true }, { "text": "Kenya" }, { "text": "Uganda" }, { "text": "Etiyopya" } ] }
   ]
 }

@@ -40,6 +40,46 @@
     { "text": "Akciğerde gaz alışverişinin yapıldığı keseciklere ne denir?", "choices": [
       { "text": "Alveol", "correct": true }, { "text": "Bronş" }, { "text": "Nefron" }, { "text": "Villus" } ] },
     { "text": "Kanı süzüp idrar oluşturan organ hangisidir?", "choices": [
-      { "text": "Böbrek", "correct": true }, { "text": "Dalak" }, { "text": "Mide" }, { "text": "Pankreas" } ] }
+      { "text": "Böbrek", "correct": true }, { "text": "Dalak" }, { "text": "Mide" }, { "text": "Pankreas" } ] },
+    { "text": "DNA'nın çift sarmal yapısını hangi ikili açıkladı?", "choices": [
+      { "text": "Watson ve Crick", "correct": true }, { "text": "Darwin ve Wallace" }, { "text": "Mendel ve Morgan" }, { "text": "Pasteur ve Koch" } ] },
+    { "text": "Doğal seçilim kuramıyla tanınan bilim insanı kimdir?", "choices": [
+      { "text": "Charles Darwin", "correct": true }, { "text": "Gregor Mendel" }, { "text": "Louis Pasteur" }, { "text": "Robert Hooke" } ] },
+    { "text": "Hücreyi ilk kez tanımlayan bilim insanı kimdir?", "choices": [
+      { "text": "Robert Hooke", "correct": true }, { "text": "Charles Darwin" }, { "text": "Louis Pasteur" }, { "text": "Gregor Mendel" } ] },
+    { "text": "Hücrede protein sentezi hangi yapıda gerçekleşir?", "choices": [
+      { "text": "Ribozom", "correct": true }, { "text": "Lizozom" }, { "text": "Koful" }, { "text": "Sentrozom" } ] },
+    { "text": "Bitkilere yeşil rengini veren pigment hangisidir?", "choices": [
+      { "text": "Klorofil", "correct": true }, { "text": "Karoten" }, { "text": "Melanin" }, { "text": "Hemoglobin" } ] },
+    { "text": "Bitkilerde suyu kökten yapraklara taşıyan doku hangisidir?", "choices": [
+      { "text": "Ksilem", "correct": true }, { "text": "Floem" }, { "text": "Epidermis" }, { "text": "Kambiyum" } ] },
+    { "text": "Mantarlar hangi canlı âlemindedir?", "choices": [
+      { "text": "Mantarlar", "correct": true }, { "text": "Bitkiler" }, { "text": "Protistler" }, { "text": "Bakteriler" } ] },
+    { "text": "Çekirdeği olmayan tek hücreli canlılara ne denir?", "choices": [
+      { "text": "Prokaryot", "correct": true }, { "text": "Ökaryot" }, { "text": "Virüs" }, { "text": "Mantar" } ] },
+    { "text": "Kalıtım bilgisini taşıyan molekül hangisidir?", "choices": [
+      { "text": "DNA", "correct": true }, { "text": "ATP" }, { "text": "Glikoz" }, { "text": "Kolesterol" } ] },
+    { "text": "Tırtılın kelebeğe dönüşmesine ne denir?", "choices": [
+      { "text": "Başkalaşım", "correct": true }, { "text": "Mitoz" }, { "text": "Fotosentez" }, { "text": "Kış uykusu" } ] },
+    { "text": "Hangisi memeli değildir?", "choices": [
+      { "text": "Penguen", "correct": true }, { "text": "Yunus" }, { "text": "Yarasa" }, { "text": "Fil" } ] },
+    { "text": "Besin zincirinde üretici olan canlılar hangileridir?", "choices": [
+      { "text": "Bitkiler", "correct": true }, { "text": "Otçullar" }, { "text": "Etçiller" }, { "text": "Ayrıştırıcılar" } ] },
+    { "text": "Birbirinin aynısı iki hücre oluşturan bölünme hangisidir?", "choices": [
+      { "text": "Mitoz", "correct": true }, { "text": "Mayoz" }, { "text": "Döllenme" }, { "text": "Tomurcuklanma" } ] },
+    { "text": "Üreme hücreleri hangi bölünmeyle oluşur?", "choices": [
+      { "text": "Mayoz", "correct": true }, { "text": "Mitoz" }, { "text": "Tomurcuklanma" }, { "text": "Rejenerasyon" } ] },
+    { "text": "Dünyadaki en büyük hayvan hangisidir?", "choices": [
+      { "text": "Mavi balina", "correct": true }, { "text": "Afrika fili" }, { "text": "Balina köpekbalığı" }, { "text": "Zürafa" } ] },
+    { "text": "Çiçek aşısını geliştiren bilim insanı kimdir?", "choices": [
+      { "text": "Edward Jenner", "correct": true }, { "text": "Louis Pasteur" }, { "text": "Robert Koch" }, { "text": "Alexander Fleming" } ] },
+    { "text": "Ahtapotun kaç kolu vardır?", "choices": [
+      { "text": "8", "correct": true }, { "text": "6" }, { "text": "10" }, { "text": "12" } ] },
+    { "text": "Arılar topladıkları nektarı neye dönüştürür?", "choices": [
+      { "text": "Bal", "correct": true }, { "text": "Polen" }, { "text": "Balmumu" }, { "text": "Propolis" } ] },
+    { "text": "Hangisi soğukkanlı bir hayvandır?", "choices": [
+      { "text": "Kertenkele", "correct": true }, { "text": "Kedi" }, { "text": "Kartal" }, { "text": "Yunus" } ] },
+    { "text": "Bitkiler fotosentezde dışarıya hangi gazı verir?", "choices": [
+      { "text": "Oksijen", "correct": true }, { "text": "Karbondioksit" }, { "text": "Azot" }, { "text": "Metan" } ] }
   ]
 }

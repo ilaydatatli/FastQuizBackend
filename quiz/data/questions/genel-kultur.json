@@ -50,6 +50,36 @@
     { "text": "Erzurum Kongresi hangi yıl toplandı?", "choices": [
       { "text": "1919", "correct": true }, { "text": "1920" }, { "text": "1918" }, { "text": "1921" } ] },
     { "text": "Erzurum'la özdeşleşen halk oyunu hangisidir?", "choices": [
-      { "text": "Bar", "correct": true }, { "text": "Horon" }, { "text": "Zeybek" }, { "text": "Teke zortlatması" } ] }
+      { "text": "Bar", "correct": true }, { "text": "Horon" }, { "text": "Zeybek" }, { "text": "Teke zortlatması" } ] },
+    { "text": "Güneş'e en yakın gezegen hangisidir?", "choices": [
+      { "text": "Merkür", "correct": true }, { "text": "Venüs" }, { "text": "Mars" }, { "text": "Dünya" } ] },
+    { "text": "\"Suç ve Ceza\" romanının yazarı kimdir?", "choices": [
+      { "text": "Dostoyevski", "correct": true }, { "text": "Tolstoy" }, { "text": "Çehov" }, { "text": "Gogol" } ] },
+    { "text": "\"Sefiller\" romanının yazarı kimdir?", "choices": [
+      { "text": "Victor Hugo", "correct": true }, { "text": "Balzac" }, { "text": "Émile Zola" }, { "text": "Alexandre Dumas" } ] },
+    { "text": "Altının kimyasal sembolü nedir?", "choices": [
+      { "text": "Au", "correct": true }, { "text": "Ag" }, { "text": "Al" }, { "text": "Pt" } ] },
+    { "text": "Malazgirt Savaşı hangi yıl yapıldı?", "choices": [
+      { "text": "1071", "correct": true }, { "text": "1453" }, { "text": "1176" }, { "text": "1299" } ] },
+    { "text": "Osmanlı Devleti hangi yıl kuruldu?", "choices": [
+      { "text": "1299", "correct": true }, { "text": "1071" }, { "text": "1453" }, { "text": "1326" } ] },
+    { "text": "TBMM hangi yıl açıldı?", "choices": [
+      { "text": "1920", "correct": true }, { "text": "1919" }, { "text": "1923" }, { "text": "1921" } ] },
+    { "text": "Büyük Taarruz hangi yıl başladı?", "choices": [
+      { "text": "1922", "correct": true }, { "text": "1921" }, { "text": "1920" }, { "text": "1923" } ] },
+    { "text": "\"Yıldızlı Gece\" tablosunun ressamı kimdir?", "choices": [
+      { "text": "Van Gogh", "correct": true }, { "text": "Monet" }, { "text": "Picasso" }, { "text": "Dalí" } ] },
+    { "text": "\"Guernica\" tablosunu kim yaptı?", "choices": [
+      { "text": "Picasso", "correct": true }, { "text": "Dalí" }, { "text": "Van Gogh" }, { "text": "Matisse" } ] },
+    { "text": "Telefonun mucidi olarak bilinen kişi kimdir?", "choices": [
+      { "text": "Graham Bell", "correct": true }, { "text": "Thomas Edison" }, { "text": "Nikola Tesla" }, { "text": "Guglielmo Marconi" } ] },
+    { "text": "Ampulü yaygınlaştırmasıyla tanınan mucit kimdir?", "choices": [
+      { "text": "Thomas Edison", "correct": true }, { "text": "Nikola Tesla" }, { "text": "Graham Bell" }, { "text": "James Watt" } ] },
+    { "text": "Belirgin halkalarıyla en ünlü gezegen hangisidir?", "choices": [
+      { "text": "Satürn", "correct": true }, { "text": "Jüpiter" }, { "text": "Mars" }, { "text": "Neptün" } ] },
+    { "text": "Nobel ödüllerine adını veren Alfred Nobel hangi ülkeliydi?", "choices": [
+      { "text": "İsveç", "correct": true }, { "text": "Norveç" }, { "text": "Danimarka" }, { "text": "Finlandiya" } ] },
+    { "text": "Mimar Sinan'ın \"ustalık eserim\" dediği yapı hangisidir?", "choices": [
+      { "text": "Selimiye Camii", "correct": true }, { "text": "Süleymaniye Camii" }, { "text": "Şehzade Camii" }, { "text": "Sultanahmet Camii" } ] }
   ]
 }

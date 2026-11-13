@@ -40,6 +40,46 @@
     { "text": "Derin öğrenmede yaygın kullanılan Python kütüphanesi hangisidir?", "choices": [
       { "text": "PyTorch", "correct": true }, { "text": "Django" }, { "text": "Flask" }, { "text": "Requests" } ] },
     { "text": "Geriye yayılım (backpropagation) ne işe yarar?", "choices": [
-      { "text": "Ağırlıkları güncellemek", "correct": true }, { "text": "Veri toplamak" }, { "text": "Görsel çizmek" }, { "text": "Modeli silmek" } ] }
+      { "text": "Ağırlıkları güncellemek", "correct": true }, { "text": "Veri toplamak" }, { "text": "Görsel çizmek" }, { "text": "Modeli silmek" } ] },
+    { "text": "Turing Testi'ni kim önerdi?", "choices": [
+      { "text": "Alan Turing", "correct": true }, { "text": "John McCarthy" }, { "text": "Marvin Minsky" }, { "text": "Geoffrey Hinton" } ] },
+    { "text": "Transformer mimarisini tanıtan 2017 makalesinin adı nedir?", "choices": [
+      { "text": "Attention Is All You Need", "correct": true }, { "text": "Deep Residual Learning" }, { "text": "ImageNet Classification" }, { "text": "Generative Adversarial Nets" } ] },
+    { "text": "GAN kısaltmasındaki \"A\" neyi ifade eder?", "choices": [
+      { "text": "Adversarial", "correct": true }, { "text": "Artificial" }, { "text": "Automated" }, { "text": "Attention" } ] },
+    { "text": "Modele verilen talimat metnine ne ad verilir?", "choices": [
+      { "text": "Prompt", "correct": true }, { "text": "Token" }, { "text": "Epoch" }, { "text": "Batch" } ] },
+    { "text": "Eğitim verisinin tamamının bir kez işlenmesine ne denir?", "choices": [
+      { "text": "Epoch", "correct": true }, { "text": "Batch" }, { "text": "Token" }, { "text": "Katman" } ] },
+    { "text": "Eğitilmiş bir modeli yeni bir göreve uyarlamaya ne denir?", "choices": [
+      { "text": "İnce ayar", "correct": true }, { "text": "Ön işleme" }, { "text": "Tokenizasyon" }, { "text": "Budama" } ] },
+    { "text": "Evrişimli sinir ağının kısaltması nedir?", "choices": [
+      { "text": "CNN", "correct": true }, { "text": "RNN" }, { "text": "LSTM" }, { "text": "MLP" } ] },
+    { "text": "ReLU nedir?", "choices": [
+      { "text": "Aktivasyon fonksiyonu", "correct": true }, { "text": "Kayıp fonksiyonu" }, { "text": "Veri seti" }, { "text": "Programlama dili" } ] },
+    { "text": "Derin öğrenmenin öncülerinden biri kimdir?", "choices": [
+      { "text": "Geoffrey Hinton", "correct": true }, { "text": "Linus Torvalds" }, { "text": "Tim Berners-Lee" }, { "text": "Bill Gates" } ] },
+    { "text": "ImageNet nedir?", "choices": [
+      { "text": "Görüntü veri seti", "correct": true }, { "text": "Sinir ağı türü" }, { "text": "Programlama dili" }, { "text": "Arama motoru" } ] },
+    { "text": "Kelimeleri sayı vektörlerine çevirmeye ne denir?", "choices": [
+      { "text": "Gömme (embedding)", "correct": true }, { "text": "Budama" }, { "text": "Damıtma" }, { "text": "Kümeleme" } ] },
+    { "text": "RAG yönteminde model yanıt vermeden önce ne yapar?", "choices": [
+      { "text": "İlgili belgeleri getirir", "correct": true }, { "text": "Kendini yeniden eğitir" }, { "text": "Görsel üretir" }, { "text": "Kodu derler" } ] },
+    { "text": "Kayıp (loss) fonksiyonu neyi ölçer?", "choices": [
+      { "text": "Tahmin hatasını", "correct": true }, { "text": "Model boyutunu" }, { "text": "Eğitim süresini" }, { "text": "Veri miktarını" } ] },
+    { "text": "Siri hangi şirketin sesli asistanıdır?", "choices": [
+      { "text": "Apple", "correct": true }, { "text": "Google" }, { "text": "Amazon" }, { "text": "Microsoft" } ] },
+    { "text": "Alexa hangi şirketin sesli asistanıdır?", "choices": [
+      { "text": "Amazon", "correct": true }, { "text": "Apple" }, { "text": "Google" }, { "text": "Samsung" } ] },
+    { "text": "1966'da yazılan ELIZA nedir?", "choices": [
+      { "text": "İlk sohbet botlarından", "correct": true }, { "text": "Bir satranç programı" }, { "text": "Bir robot kol" }, { "text": "Bir programlama dili" } ] },
+    { "text": "Llama modellerini hangi şirket yayımladı?", "choices": [
+      { "text": "Meta", "correct": true }, { "text": "OpenAI" }, { "text": "Google" }, { "text": "Anthropic" } ] },
+    { "text": "Modelin bir seferde işleyebildiği metin uzunluğuna ne denir?", "choices": [
+      { "text": "Bağlam penceresi", "correct": true }, { "text": "Öğrenme oranı" }, { "text": "Parti boyutu" }, { "text": "Gizli katman" } ] },
+    { "text": "Sinir ağında giriş ile çıkış arasındaki katmanlara ne denir?", "choices": [
+      { "text": "Gizli katman", "correct": true }, { "text": "Çıkış katmanı" }, { "text": "Giriş katmanı" }, { "text": "Ana katman" } ] },
+    { "text": "Gradyan inişi (gradient descent) ne için kullanılır?", "choices": [
+      { "text": "Hatayı azaltmak", "correct": true }, { "text": "Veri toplamak" }, { "text": "Görüntü büyütmek" }, { "text": "Metin çevirmek" } ] }
   ]
 }

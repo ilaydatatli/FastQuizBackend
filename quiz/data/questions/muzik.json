@@ -50,6 +50,36 @@
     { "text": "Vals genellikle hangi ölçüyle çalınır?", "choices": [
       { "text": "3/4", "correct": true }, { "text": "4/4" }, { "text": "2/4" }, { "text": "6/8" } ] },
     { "text": "Mozart'ın doğduğu Salzburg bugün hangi ülkededir?", "choices": [
-      { "text": "Avusturya", "correct": true }, { "text": "Almanya" }, { "text": "İtalya" }, { "text": "İsviçre" } ] }
+      { "text": "Avusturya", "correct": true }, { "text": "Almanya" }, { "text": "İtalya" }, { "text": "İsviçre" } ] },
+    { "text": "Do-re-mi dizisinde \"mi\"den sonra hangi nota gelir?", "choices": [
+      { "text": "Fa", "correct": true }, { "text": "Sol" }, { "text": "Re" }, { "text": "La" } ] },
+    { "text": "Bir dörtlük nota kaç sekizlik eder?", "choices": [
+      { "text": "2", "correct": true }, { "text": "4" }, { "text": "1" }, { "text": "8" } ] },
+    { "text": "Bir birlik nota kaç dörtlük eder?", "choices": [
+      { "text": "4", "correct": true }, { "text": "2" }, { "text": "8" }, { "text": "16" } ] },
+    { "text": "Notayı yarım ses yükselten işaret hangisidir?", "choices": [
+      { "text": "Diyez", "correct": true }, { "text": "Bemol" }, { "text": "Natürel" }, { "text": "Nokta" } ] },
+    { "text": "Notayı yarım ses alçaltan işaret hangisidir?", "choices": [
+      { "text": "Bemol", "correct": true }, { "text": "Diyez" }, { "text": "Natürel" }, { "text": "Nokta" } ] },
+    { "text": "Kanun çalan kişiye ne ad verilir?", "choices": [
+      { "text": "Kanuni", "correct": true }, { "text": "Neyzen" }, { "text": "Udi" }, { "text": "Tanburi" } ] },
+    { "text": "Yaylı çalgılar ailesinin en kalın sesli üyesi hangisidir?", "choices": [
+      { "text": "Kontrbas", "correct": true }, { "text": "Viyola" }, { "text": "Viyolonsel" }, { "text": "Keman" } ] },
+    { "text": "Piyano hangi ülkede icat edildi?", "choices": [
+      { "text": "İtalya", "correct": true }, { "text": "Almanya" }, { "text": "Avusturya" }, { "text": "Fransa" } ] },
+    { "text": "Beethoven'ın kaç senfonisi vardır?", "choices": [
+      { "text": "9", "correct": true }, { "text": "5" }, { "text": "7" }, { "text": "12" } ] },
+    { "text": "\"Für Elise\" kimin eseridir?", "choices": [
+      { "text": "Beethoven", "correct": true }, { "text": "Mozart" }, { "text": "Chopin" }, { "text": "Schubert" } ] },
+    { "text": "Chopin en çok hangi çalgı için besteledi?", "choices": [
+      { "text": "Piyano", "correct": true }, { "text": "Keman" }, { "text": "Org" }, { "text": "Flüt" } ] },
+    { "text": "\"Yesterday\" hangi grubun şarkısıdır?", "choices": [
+      { "text": "The Beatles", "correct": true }, { "text": "Queen" }, { "text": "The Rolling Stones" }, { "text": "ABBA" } ] },
+    { "text": "\"Gülpembe\" şarkısı kime aittir?", "choices": [
+      { "text": "Barış Manço", "correct": true }, { "text": "Cem Karaca" }, { "text": "Erkin Koray" }, { "text": "Fikret Kızılok" } ] },
+    { "text": "Tango hangi ülkede doğmuştur?", "choices": [
+      { "text": "Arjantin", "correct": true }, { "text": "İspanya" }, { "text": "Brezilya" }, { "text": "Küba" } ] },
+    { "text": "Şarkıda tekrar eden ana bölüme ne denir?", "choices": [
+      { "text": "Nakarat", "correct": true }, { "text": "Giriş" }, { "text": "Köprü" }, { "text": "Solo" } ] }
   ]
 }
