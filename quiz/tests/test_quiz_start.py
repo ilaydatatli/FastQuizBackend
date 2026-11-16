@@ -40,7 +40,7 @@ class QuizStartTests(APITestCase):
         )
         self.assertEqual(body["category"], {"slug": "yazilim", "name": "Yazılım", "color": "cyan"})
         self.assertEqual(body["total_questions"], 20)
-        self.assertEqual(body["time_limit_ms"], 5000)
+        self.assertEqual(body["time_limit_ms"], settings.FAST_QUIZ["TIME_LIMIT_MS"])
         self.assertTrue(body["expires_at"].endswith("+03:00"))  # Europe/Istanbul
         self.assertGreaterEqual(len(body["token"]), 40)
 

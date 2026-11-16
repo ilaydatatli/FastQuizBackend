@@ -195,7 +195,7 @@ if DEBUG:
 # Quiz constants. Always read via settings.FAST_QUIZ[...] so tests can override them.
 FAST_QUIZ = {
     "QUESTIONS_PER_QUIZ": 20,
-    "TIME_LIMIT_MS": 5000,
+    "TIME_LIMIT_MS": 10000,
     "GRACE_MS": 1000,
     "SESSION_TTL_MINUTES": 15,
     "FEEDBACK_HINT_MS": 700,  # informational only; used by the client

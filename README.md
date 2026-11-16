@@ -71,13 +71,13 @@ Quiz başlat. Yanıttaki `quiz_id` ve `token` değerlerini aşağıda `QUIZ_ID` 
 curl -X POST http://localhost:8000/api/v1/quizzes/ -H "Content-Type: application/json" -d '{"category": "yazilim"}'
 ```
 
-Şu anki soruyu al (ilk istekte 5 saniye başlar):
+Şu anki soruyu al (ilk istekte 10 saniye başlar):
 
 ```bash
 curl http://localhost:8000/api/v1/quizzes/QUIZ_ID/current/ -H "Authorization: Bearer TOKEN"
 ```
 
-Cevap ver (`question.id` ve şıklardan birinin `id`'si). Cevap 6 saniyeden (5 sn + 1 sn tolerans) geç gelirse `timed_out: true` olur:
+Cevap ver (`question.id` ve şıklardan birinin `id`'si). Cevap 11 saniyeden (10 sn + 1 sn tolerans) geç gelirse `timed_out: true` olur:
 
 ```bash
 curl -X POST http://localhost:8000/api/v1/quizzes/QUIZ_ID/answers/ -H "Authorization: Bearer TOKEN" -H "Content-Type: application/json" -d '{"question_id": 1, "choice_id": 2}'

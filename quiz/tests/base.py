@@ -1,7 +1,9 @@
 from datetime import timedelta
 from unittest.mock import patch
 
+from django.conf import settings
 from django.core.cache import cache
+from django.test import override_settings
 from rest_framework.test import APITestCase
 
 from quiz import services
@@ -10,6 +12,13 @@ from quiz.models import QuizSession
 from .factories import make_category, make_question_set
 
 
+# Timing tests use a fixed 5-second window so their numbers stay readable
+# (e.g. "answer at 4900 ms -> 102 points"). The real game value lives in
+# settings.FAST_QUIZ["TIME_LIMIT_MS"] and is checked in test_settings.py.
+FIXED_TIMING = override_settings(FAST_QUIZ={**settings.FAST_QUIZ, "TIME_LIMIT_MS": 5000})
+
+
+@FIXED_TIMING
 class QuizPlayTestCase(APITestCase):
     """
     Starts a 20-question quiz and offers helpers that call the API at a fake time.

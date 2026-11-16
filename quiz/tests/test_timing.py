@@ -5,9 +5,10 @@ from django.test import SimpleTestCase
 from quiz.models import QuizSession
 from quiz.services import calculate_points
 
-from .base import QuizPlayTestCase
+from .base import FIXED_TIMING, QuizPlayTestCase
 
 
+@FIXED_TIMING
 class CalculatePointsTests(SimpleTestCase):
     def test_points_by_elapsed_time(self):
         cases = {

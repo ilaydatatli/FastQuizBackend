@@ -342,7 +342,12 @@ def leaderboard(category_slug):
         raise QuizError("CATEGORY_NOT_FOUND", "Böyle bir kategori yok.", status.HTTP_404_NOT_FOUND)
 
     size = settings.FAST_QUIZ["LEADERBOARD_SIZE"]
-    scores = category.scores.order_by(*LEADERBOARD_ORDER)[:size]  # one query
+    # One row per nickname (exact spelling): that nickname's best score.
+    # PostgreSQL DISTINCT ON keeps the first row per nickname in LEADERBOARD_ORDER.
+    best_ids = (
+        category.scores.order_by("nickname", *LEADERBOARD_ORDER).distinct("nickname").values("id")
+    )
+    scores = Score.objects.filter(id__in=best_ids).order_by(*LEADERBOARD_ORDER)[:size]  # one query
     entries = [{"rank": rank, "score": score} for rank, score in enumerate(scores, start=1)]
     return {"category": category, "entries": entries}
 
@@ -351,9 +356,9 @@ def leaderboard(category_slug):
 LEADERBOARD_ORDER = ["-points", "-correct_count", "created_at", "id"]
 
 
-def score_rank(score):
-    """1-based position of a saved score in its category, using LEADERBOARD_ORDER."""
-    ahead = Score.objects.filter(category_id=score.category_id).filter(
+def _ahead_of(score):
+    """Scores that come before `score` in LEADERBOARD_ORDER."""
+    return (
         Q(points__gt=score.points)
         | Q(points=score.points, correct_count__gt=score.correct_count)
         | Q(points=score.points, correct_count=score.correct_count, created_at__lt=score.created_at)
@@ -364,13 +369,40 @@ def score_rank(score):
             id__lt=score.id,
         )
     )
-    return ahead.count() + 1
+
+
+def score_rank(score):
+    """
+    1-based row of this score's nickname in the leaderboard (one row per nickname,
+    showing its best score). If the nickname already had a better score, that row counts.
+    """
+    best = (
+        Score.objects.filter(category_id=score.category_id, nickname=score.nickname)
+        .order_by(*LEADERBOARD_ORDER)
+        .first()
+    )
+    other_players_ahead = (
+        Score.objects.filter(category_id=score.category_id)
+        .exclude(nickname=best.nickname)
+        .filter(_ahead_of(best))
+        .values("nickname")
+        .distinct()
+        .count()
+    )
+    return other_players_ahead + 1
 
 
 def rank_if_saved(session):
-    """Rank this session would get if saved now: equal scores saved earlier stay ahead."""
-    ahead = Score.objects.filter(category_id=session.category_id).filter(
-        Q(points__gt=session.points)
-        | Q(points=session.points, correct_count__gte=session.correct_count)
+    """Row this session would get if saved now (nickname unknown yet): players whose
+    best score is higher or equal stay ahead, because equal scores saved earlier win."""
+    players_ahead = (
+        Score.objects.filter(category_id=session.category_id)
+        .filter(
+            Q(points__gt=session.points)
+            | Q(points=session.points, correct_count__gte=session.correct_count)
+        )
+        .values("nickname")
+        .distinct()
+        .count()
     )
-    return ahead.count() + 1
+    return players_ahead + 1

@@ -1,3 +1,4 @@
+import itertools
 from unittest.mock import patch
 
 from django.conf import settings
@@ -23,9 +24,14 @@ def finished_session(category, points, correct_count):
     )
 
 
+_player_numbers = itertools.count(1)
+
+
 def fill_board(category, n, points=3000, correct_count=15):
+    """n different players (unique nicknames), all with the same score."""
     for _ in range(n):
-        make_score(finished_session(category, points, correct_count))
+        nickname = f"oyuncu{next(_player_numbers)}"
+        make_score(finished_session(category, points, correct_count), nickname=nickname)
 
 
 class FinishedQuizTestCase(QuizPlayTestCase):
@@ -299,3 +305,79 @@ class LeaderboardTests(APITestCase):
             self.add(f"oyuncu{i}", 1000 + i, 5)
         with self.assertNumQueries(2):  # category + scores
             self.get()
+
+
+class OneRowPerNicknameTests(APITestCase):
+    """The same nickname (exact spelling) appears once, with its best score."""
+
+    def setUp(self):
+        self.category = make_category(slug="yazilim", name="Yazılım", color="cyan")
+
+    def add(self, nickname, points, correct_count=10, category=None):
+        session = finished_session(category or self.category, points, correct_count)
+        return make_score(session, nickname=nickname)
+
+    def board(self):
+        entries = self.client.get("/api/v1/leaderboard/yazilim/").json()["entries"]
+        return [(e["rank"], e["nickname"], e["points"]) for e in entries]
+
+    def test_same_nickname_shows_only_its_best_score(self):
+        self.add("ilayda", 1200)
+        self.add("ilayda", 2500)
+        self.add("ilayda", 1800)
+        self.add("neonfox", 2000)
+
+        self.assertEqual(self.board(), [(1, "ilayda", 2500), (2, "neonfox", 2000)])
+
+    def test_different_spelling_is_a_different_player(self):
+        self.add("ilayda", 2000)
+        self.add("Ilayda", 1500)
+
+        self.assertEqual(self.board(), [(1, "ilayda", 2000), (2, "Ilayda", 1500)])
+
+    def test_top_ten_counts_players_not_scores(self):
+        for i in range(10):
+            self.add(f"oyuncu{i}", 1000 + i)
+        for _ in range(5):
+            self.add("tekrarci", 3000)  # one player saving many times
+
+        board = self.board()
+        self.assertEqual(len(board), 10)
+        self.assertEqual(board[0], (1, "tekrarci", 3000))
+        self.assertEqual([nickname for _, nickname, _ in board].count("tekrarci"), 1)
+
+    def test_other_category_scores_do_not_merge(self):
+        self.add("ilayda", 1000)
+        self.add("ilayda", 3900, category=make_category(slug="biyoloji", order=2))
+
+        self.assertEqual(self.board(), [(1, "ilayda", 1000)])
+
+
+class RankWithRepeatedNicknamesTests(FinishedQuizTestCase):
+    """Saved quiz: 18 x 180 = 3240 points (see FinishedQuizTestCase)."""
+
+    def add(self, nickname, points, correct_count=10):
+        make_score(finished_session(self.category, points, correct_count), nickname=nickname)
+
+    def test_rank_counts_players_not_their_extra_scores(self):
+        for _ in range(4):
+            self.add("rakip", 4000, 20)  # one player, four saves
+        self.finish_quiz()
+
+        self.assertEqual(self.save(nickname="ilayda").json()["rank"], 2)
+
+    def test_lower_new_score_returns_the_rank_of_the_best_row(self):
+        self.add("ilayda", 3900, 20)  # earlier, better score of the same player
+        self.add("rakip", 3500, 19)
+        self.finish_quiz()
+
+        body = self.save(nickname="ilayda").json()
+        self.assertEqual(body["points"], 18 * 180)  # this quiz's points
+        self.assertEqual(body["rank"], 1)  # the row shown on the board is the 3900 one
+
+    def test_qualifies_for_top10_counts_players(self):
+        for _ in range(12):
+            self.add("rakip", 4000, 20)  # 12 saves, but only one player
+        self.finish_quiz()
+
+        self.assertTrue(self.result().json()["qualifies_for_top10"])
