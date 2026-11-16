@@ -10,6 +10,7 @@ from .serializers import (
     AnswerSerializer,
     CategorySerializer,
     CurrentSerializer,
+    LanguageQuerySerializer,
     LeaderboardSerializer,
     QuizStartedSerializer,
     ResultSerializer,
@@ -25,9 +26,20 @@ def health(request):
     return Response({"status": "ok", "api_version": "v1"})
 
 
+def query_language(request):
+    """?lang=tr|en|es (default tr); anything else is a 400 VALIDATION_ERROR."""
+    serializer = LanguageQuerySerializer(data=request.query_params)
+    serializer.is_valid(raise_exception=True)
+    return serializer.validated_data["lang"]
+
+
 @api_view(["GET"])
 def categories(request):
-    return Response(CategorySerializer(services.playable_categories(), many=True).data)
+    language = query_language(request)
+    serializer = CategorySerializer(
+        services.playable_categories(language), many=True, context={"language": language}
+    )
+    return Response(serializer.data)
 
 
 @api_view(["POST"])
@@ -36,17 +48,21 @@ def start_quiz(request):
     serializer = StartQuizSerializer(data=request.data)
     serializer.is_valid(raise_exception=True)
 
-    session, raw_token = services.start_quiz(serializer.validated_data["category"])
+    session, raw_token = services.start_quiz(
+        serializer.validated_data["category"], serializer.validated_data["language"]
+    )
 
     payload = QuizStartedSerializer(
         {
             "quiz_id": session.id,
             "token": raw_token,
             "category": session.category,
+            "language": session.language,
             "total_questions": settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"],
             "time_limit_ms": settings.FAST_QUIZ["TIME_LIMIT_MS"],
             "expires_at": services.session_expires_at(session),
-        }
+        },
+        context={"language": session.language},
     )
     return Response(payload.data, status=status.HTTP_201_CREATED)
 
@@ -79,7 +95,8 @@ def answer(request, quiz_id):
 @api_view(["GET"])
 @authentication_classes([QuizTokenAuthentication])
 def result(request, quiz_id):
-    return Response(ResultSerializer(services.get_result(request.auth.id)).data)
+    data = services.get_result(request.auth.id)
+    return Response(ResultSerializer(data, context={"language": data["language"]}).data)
 
 
 @api_view(["POST"])
@@ -95,4 +112,6 @@ def save_score(request, quiz_id):
 
 @api_view(["GET"])
 def leaderboard(request, category_slug):
-    return Response(LeaderboardSerializer(services.leaderboard(category_slug)).data)
+    language = query_language(request)
+    data = services.leaderboard(category_slug, language)
+    return Response(LeaderboardSerializer(data, context={"language": language}).data)

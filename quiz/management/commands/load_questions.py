@@ -3,9 +3,12 @@ Load questions from quiz/data/questions/*.json into the database.
 
     python manage.py load_questions
 
-- Idempotent: categories are matched by slug, questions by (category, text).
+- Idempotent: categories are matched by slug, questions by (category, Turkish text).
 - Validates every file first; on any error nothing is written.
 - Questions that disappeared from a file are deactivated, not deleted.
+- Texts are language dictionaries: {"tr": "...", "en": "...", "es": "..."}. Turkish is
+  required; a missing language means the question is not offered in that language.
+  A plain string is accepted as Turkish only.
 """
 
 import json
@@ -15,22 +18,24 @@ from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
 
-from quiz.models import Category, Choice, Question
+from quiz.models import DEFAULT_LANGUAGE, LANGUAGES, Category, Choice, Question
 
 DEFAULT_DIR = Path(__file__).resolve().parents[2] / "data" / "questions"
 
 REQUIRED_CHOICES = 4
 REQUIRED_CORRECT = 1
+TRANSLATIONS = [lang for lang in LANGUAGES if lang != DEFAULT_LANGUAGE]  # en, es
 
-# Hard limits come from the model fields; soft limits keep questions readable in 5 seconds.
+# Hard limits come from the model fields; soft limits keep questions quick to read.
 MAX_QUESTION_LEN = Question._meta.get_field("text").max_length
 MAX_CHOICE_LEN = Choice._meta.get_field("text").max_length
+MAX_NAME_LEN = Category._meta.get_field("name").max_length
+MAX_DESCRIPTION_LEN = Category._meta.get_field("description").max_length
 SOFT_QUESTION_LEN = 90
 SOFT_CHOICE_LEN = 30
 
-CATEGORY_FIELDS = {
+PLAIN_CATEGORY_FIELDS = {
     "slug": Category._meta.get_field("slug").max_length,
-    "name": Category._meta.get_field("name").max_length,
     "color": Category._meta.get_field("color").max_length,
 }
 
@@ -69,11 +74,14 @@ class Command(BaseCommand):
 
     def load_file(self, data):
         cat = data["category"]
+        name, description = cat["name"], cat.get("description", {})
         category, _ = Category.objects.update_or_create(
             slug=cat["slug"],
             defaults={
-                "name": cat["name"],
-                "description": cat.get("description", ""),
+                "name": name[DEFAULT_LANGUAGE],
+                "description": description.get(DEFAULT_LANGUAGE, ""),
+                **{f"name_{lang}": name.get(lang, "") for lang in TRANSLATIONS},
+                **{f"description_{lang}": description.get(lang, "") for lang in TRANSLATIONS},
                 "color": cat["color"],
                 "order": cat["order"],
                 "is_active": True,
@@ -82,8 +90,14 @@ class Command(BaseCommand):
 
         created = updated = 0
         for item in data["questions"]:
+            text = item["text"]
             question, was_created = Question.objects.update_or_create(
-                category=category, text=item["text"], defaults={"is_active": True}
+                category=category,
+                text=text[DEFAULT_LANGUAGE],
+                defaults={
+                    "is_active": True,
+                    **{f"text_{lang}": text.get(lang, "") for lang in TRANSLATIONS},
+                },
             )
             changed = sync_choices(question, item["choices"])
             if was_created:
@@ -91,38 +105,57 @@ class Command(BaseCommand):
             elif changed:
                 updated += 1
 
-        texts = [item["text"] for item in data["questions"]]
+        texts = [item["text"][DEFAULT_LANGUAGE] for item in data["questions"]]
         deactivated = (
             category.questions.filter(is_active=True).exclude(text__in=texts).update(is_active=False)
         )
 
-        active = category.questions.filter(is_active=True).count()
+        active = category.questions.filter(is_active=True)
+        counts = {DEFAULT_LANGUAGE: active.count()}
+        for lang in TRANSLATIONS:
+            counts[lang] = active.exclude(**{f"text_{lang}": ""}).count()
+        per_language = ", ".join(f"{lang}: {count}" for lang, count in counts.items())
         self.stdout.write(
             f"{data['file']}: {created} yeni, {updated} güncellendi, "
-            f"{deactivated} pasifleştirildi, {active} aktif soru."
+            f"{deactivated} pasifleştirildi, aktif soru ({per_language})."
         )
         needed = settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"]
-        if active < needed:
-            self.stdout.write(
-                self.style.WARNING(
-                    f"Uyarı: '{category.name}' kategorisinde {active} aktif soru var, "
-                    f"bir quiz için {needed} gerekiyor."
+        for lang, count in counts.items():
+            if lang == DEFAULT_LANGUAGE:
+                if count < needed:
+                    self.stdout.write(
+                        self.style.WARNING(
+                            f"Uyarı: '{category.name}' kategorisinde {count} aktif soru var, "
+                            f"bir quiz için {needed} gerekiyor."
+                        )
+                    )
+            elif 0 < count < needed:
+                self.stdout.write(
+                    self.style.WARNING(
+                        f"Uyarı: '{category.name}' kategorisinde '{lang}' dilinde {count} soru var, "
+                        f"bir quiz için {needed} gerekiyor (bu dilde listelenmez)."
+                    )
                 )
-            )
 
 
 def sync_choices(question, choices):
     """Rewrite the choices only if they differ, so unchanged questions keep their choice ids."""
-    wanted = [(c["text"], bool(c.get("correct", False)), i) for i, c in enumerate(choices)]
-    current = list(question.choices.values_list("text", "is_correct", "order"))
+    fields = ["text", *(f"text_{lang}" for lang in TRANSLATIONS), "is_correct", "order"]
+    wanted = [
+        (
+            c["text"][DEFAULT_LANGUAGE],
+            *(c["text"].get(lang, "") for lang in TRANSLATIONS),
+            bool(c.get("correct", False)),
+            i,
+        )
+        for i, c in enumerate(choices)
+    ]
+    current = list(question.choices.values_list(*fields))
     if current == wanted:
         return False
 
     question.choices.all().delete()
-    Choice.objects.bulk_create(
-        Choice(question=question, text=text, is_correct=correct, order=order)
-        for text, correct, order in wanted
-    )
+    Choice.objects.bulk_create(Choice(question=question, **dict(zip(fields, row))) for row in wanted)
     return True
 
 
@@ -140,7 +173,7 @@ def parse_file(path, errors, warnings):
         return {"file": name, "category": {}, "questions": []}
 
     data["file"] = name
-    validate_category(name, data.get("category"), errors)
+    category_languages = validate_category(name, data.get("category"), errors)
 
     questions = data.get("questions")
     if not isinstance(questions, list) or not questions:
@@ -154,27 +187,32 @@ def parse_file(path, errors, warnings):
         if not isinstance(item, dict):
             errors.append(f"{where}: soru bir nesne olmalı.")
             continue
-        text = clean_text(item, "text")
-        if not text:
+        text = translations(item, "text", where, errors)
+        if not text.get(DEFAULT_LANGUAGE):
             errors.append(f"{where}: soru metni boş.")
             continue
-        if len(text) > MAX_QUESTION_LEN:
-            errors.append(f"{where}: soru metni {MAX_QUESTION_LEN} karakterden uzun.")
-        elif len(text) > SOFT_QUESTION_LEN:
-            warnings.append(f"{where}: soru {len(text)} karakter, ~{SOFT_QUESTION_LEN} önerilir.")
-        if text in seen_texts:
+        for lang, value in text.items():
+            label = where if lang == DEFAULT_LANGUAGE else f"{where} [{lang}]"
+            if len(value) > MAX_QUESTION_LEN:
+                errors.append(f"{label}: soru metni {MAX_QUESTION_LEN} karakterden uzun.")
+            elif len(value) > SOFT_QUESTION_LEN:
+                warnings.append(f"{label}: soru {len(value)} karakter, ~{SOFT_QUESTION_LEN} önerilir.")
+            if lang != DEFAULT_LANGUAGE and lang not in category_languages:
+                errors.append(f"{label}: kategorinin '{lang}' adı yok; önce kategori adını çevir.")
+        if text[DEFAULT_LANGUAGE] in seen_texts:
             errors.append(f"{where}: aynı soru metni dosyada iki kez var.")
-        seen_texts.add(text)
-        validate_choices(where, item.get("choices"), errors, warnings)
+        seen_texts.add(text[DEFAULT_LANGUAGE])
+        validate_choices(where, item.get("choices"), set(text), errors, warnings)
 
     return data
 
 
 def validate_category(name, cat, errors):
+    """Validate the category; returns the languages its name is available in."""
     if not isinstance(cat, dict):
         errors.append(f"{name}: 'category' nesnesi eksik.")
-        return
-    for field, max_len in CATEGORY_FIELDS.items():
+        return set()
+    for field, max_len in PLAIN_CATEGORY_FIELDS.items():
         value = clean_text(cat, field)
         if not value:
             errors.append(f"{name}: kategori '{field}' alanı boş.")
@@ -183,33 +221,83 @@ def validate_category(name, cat, errors):
     if not isinstance(cat.get("order"), int) or cat["order"] < 0:
         errors.append(f"{name}: kategori 'order' alanı 0 veya pozitif bir tam sayı olmalı.")
 
+    names = translations(cat, "name", f"{name}, kategori", errors)
+    if not names.get(DEFAULT_LANGUAGE):
+        errors.append(f"{name}: kategori 'name' alanı boş.")
+    for lang, value in names.items():
+        if len(value) > MAX_NAME_LEN:
+            errors.append(f"{name}: kategori 'name' alanı [{lang}] {MAX_NAME_LEN} karakterden uzun.")
+    descriptions = translations(cat, "description", f"{name}, kategori", errors)
+    for lang, value in descriptions.items():
+        if len(value) > MAX_DESCRIPTION_LEN:
+            errors.append(
+                f"{name}: kategori açıklaması [{lang}] {MAX_DESCRIPTION_LEN} karakterden uzun."
+            )
+    return set(names)
 
-def validate_choices(where, choices, errors, warnings):
+
+def validate_choices(where, choices, languages, errors, warnings):
+    """4 choices, 1 correct; every choice must exist in every language the question has."""
     if not isinstance(choices, list) or len(choices) != REQUIRED_CHOICES:
         count = len(choices) if isinstance(choices, list) else 0
         errors.append(f"{where}: tam {REQUIRED_CHOICES} şık olmalı (şu an {count}).")
         return
 
-    texts = []
+    texts_by_language = {lang: [] for lang in languages}
     for letter, choice in zip("ABCD", choices):
+        label = f"{where}, şık {letter}"
         if not isinstance(choice, dict):
-            errors.append(f"{where}, şık {letter}: şık bir nesne olmalı.")
+            errors.append(f"{label}: şık bir nesne olmalı.")
             return
-        text = clean_text(choice, "text")
-        if not text:
-            errors.append(f"{where}, şık {letter}: şık metni boş.")
-        elif len(text) > MAX_CHOICE_LEN:
-            errors.append(f"{where}, şık {letter}: {MAX_CHOICE_LEN} karakterden uzun.")
-        elif len(text) > SOFT_CHOICE_LEN:
-            warnings.append(f"{where}, şık {letter}: {len(text)} karakter, ~{SOFT_CHOICE_LEN} önerilir.")
-        texts.append(text)
+        text = translations(choice, "text", label, errors)
+        extra = set(text) - languages
+        if extra:
+            errors.append(f"{label}: soruda olmayan dilde metin var ({', '.join(sorted(extra))}).")
+        for lang in sorted(languages):
+            value = text.get(lang, "")
+            if not value:
+                if lang == DEFAULT_LANGUAGE:
+                    errors.append(f"{label}: şık metni boş.")
+                else:
+                    errors.append(f"{label}: '{lang}' çevirisi eksik (soru bu dilde çevrilmiş).")
+                continue
+            tag = label if lang == DEFAULT_LANGUAGE else f"{label} [{lang}]"
+            if len(value) > MAX_CHOICE_LEN:
+                errors.append(f"{tag}: {MAX_CHOICE_LEN} karakterden uzun.")
+            elif len(value) > SOFT_CHOICE_LEN:
+                warnings.append(f"{tag}: {len(value)} karakter, ~{SOFT_CHOICE_LEN} önerilir.")
+            texts_by_language[lang].append(value)
 
-    if len(set(texts)) != len(texts):
-        errors.append(f"{where}: aynı şık metni iki kez var.")
+    for lang, texts in texts_by_language.items():
+        if len(set(texts)) != len(texts):
+            tag = where if lang == DEFAULT_LANGUAGE else f"{where} [{lang}]"
+            errors.append(f"{tag}: aynı şık metni iki kez var.")
 
     correct = sum(1 for c in choices if c.get("correct") is True)
     if correct != REQUIRED_CORRECT:
         errors.append(f"{where}: tam {REQUIRED_CORRECT} doğru şık olmalı (şu an {correct}).")
+
+
+def translations(obj, key, where, errors):
+    """
+    Normalize obj[key] in place to a {language: text} dict without empty values.
+    A plain string counts as Turkish. Unknown language codes are errors.
+    """
+    value = obj.get(key)
+    if isinstance(value, str):
+        value = {DEFAULT_LANGUAGE: value}
+    if not isinstance(value, dict):
+        obj[key] = {}
+        return obj[key]
+    cleaned = {}
+    for lang, text in value.items():
+        if lang not in LANGUAGES:
+            errors.append(f"{where}: bilinmeyen dil kodu '{lang}' (geçerli: {', '.join(LANGUAGES)}).")
+            continue
+        if isinstance(text, str) and text.strip():
+            cleaned[lang] = text.strip()
+    obj[key] = cleaned
+    return cleaned
 
 
 def clean_text(obj, key):
@@ -225,7 +313,10 @@ def check_cross_file_duplicates(files, errors):
     for field in ("slug", "name"):
         seen = {}
         for data in files:
-            value = data["category"].get(field) if isinstance(data.get("category"), dict) else None
+            cat = data.get("category")
+            value = cat.get(field) if isinstance(cat, dict) else None
+            if isinstance(value, dict):
+                value = value.get(DEFAULT_LANGUAGE)
             if not value:
                 continue
             if value in seen:

@@ -1,85 +1,205 @@
 {
-  "category": { "slug": "psikolojik-deneyler", "name": "Psikolojik Deneyler", "description": "Tarihin ünlü deneyleri", "color": "coral", "order": 7 },
+  "category": { "slug": "psikolojik-deneyler", "color": "coral", "order": 7, "name": { "tr": "Psikolojik Deneyler" }, "description": { "tr": "Tarihin ünlü deneyleri" } },
   "questions": [
-    { "text": "Köpeklerin zil sesiyle salya akıttığı deneyi kim yaptı?", "choices": [
-      { "text": "Ivan Pavlov", "correct": true }, { "text": "B. F. Skinner" }, { "text": "John B. Watson" }, { "text": "Edward Thorndike" } ] },
-    { "text": "Milgram deneyi neyi inceledi?", "choices": [
-      { "text": "Otoriteye itaati", "correct": true }, { "text": "Bellek sınırlarını" }, { "text": "Uyku düzenini" }, { "text": "Renk algısını" } ] },
-    { "text": "Milgram deneyinde katılımcılar ne verdiklerini sandı?", "choices": [
-      { "text": "Elektrik şoku", "correct": true }, { "text": "İlaç" }, { "text": "Para ödülü" }, { "text": "Ceza puanı" } ] },
-    { "text": "Stanford Hapishane Deneyi'ni kim yürüttü?", "choices": [
-      { "text": "Philip Zimbardo", "correct": true }, { "text": "Stanley Milgram" }, { "text": "Solomon Asch" }, { "text": "Albert Bandura" } ] },
-    { "text": "Küçük Albert deneyini kim yaptı?", "choices": [
-      { "text": "John B. Watson", "correct": true }, { "text": "Ivan Pavlov" }, { "text": "B. F. Skinner" }, { "text": "Harry Harlow" } ] },
-    { "text": "Küçük Albert'e neyden korkması öğretildi?", "choices": [
-      { "text": "Beyaz fare", "correct": true }, { "text": "Köpek" }, { "text": "Karanlık" }, { "text": "Su" } ] },
-    { "text": "Bobo bebek deneyini yapan psikolog kimdir?", "choices": [
-      { "text": "Albert Bandura", "correct": true }, { "text": "Philip Zimbardo" }, { "text": "Stanley Milgram" }, { "text": "Leon Festinger" } ] },
-    { "text": "Bobo bebek deneyi neyi gösterdi?", "choices": [
-      { "text": "Gözlemle öğrenmeyi", "correct": true }, { "text": "Bellek kaybını" }, { "text": "Uyku ihtiyacını" }, { "text": "Renk körlüğünü" } ] },
-    { "text": "Asch deneyinde katılımcılar neyin uzunluğunu kıyasladı?", "choices": [
-      { "text": "Çizgilerin", "correct": true }, { "text": "Seslerin" }, { "text": "Gölgelerin" }, { "text": "Kelimelerin" } ] },
-    { "text": "Asch deneyi hangi davranışı inceledi?", "choices": [
-      { "text": "Gruba uyma", "correct": true }, { "text": "Otoriteye itaat" }, { "text": "Saldırganlık" }, { "text": "Yardım etme" } ] },
-    { "text": "Harlow'un yavru maymunları hangi anneyi tercih etti?", "choices": [
-      { "text": "Yumuşak kumaş anne", "correct": true }, { "text": "Biberonlu tel anne" }, { "text": "Tahta anne" }, { "text": "Plastik anne" } ] },
-    { "text": "Skinner kutusu hangi öğrenme türünü inceledi?", "choices": [
-      { "text": "Edimsel koşullanma", "correct": true }, { "text": "Klasik koşullanma" }, { "text": "Gözlemsel öğrenme" }, { "text": "Örtük öğrenme" } ] },
-    { "text": "Seligman köpeklerle hangi kavramı ortaya koydu?", "choices": [
-      { "text": "Öğrenilmiş çaresizlik", "correct": true }, { "text": "Bilişsel uyumsuzluk" }, { "text": "Hale etkisi" }, { "text": "Seyirci etkisi" } ] },
-    { "text": "Kitty Genovese olayı hangi etkiyle ilişkilendirilir?", "choices": [
-      { "text": "Seyirci etkisi", "correct": true }, { "text": "Plasebo etkisi" }, { "text": "Hawthorne etkisi" }, { "text": "Pygmalion etkisi" } ] },
-    { "text": "Seyirci etkisini deneylerle inceleyen ikili kimdir?", "choices": [
-      { "text": "Darley ve Latané", "correct": true }, { "text": "Asch ve Milgram" }, { "text": "Watson ve Rayner" }, { "text": "Harlow ve Zimmermann" } ] },
-    { "text": "Marshmallow testi neyi ölçtü?", "choices": [
-      { "text": "Hazzı erteleme", "correct": true }, { "text": "Kısa süreli bellek" }, { "text": "Renk tercihi" }, { "text": "Uyku süresi" } ] },
-    { "text": "Marshmallow testini kim geliştirdi?", "choices": [
-      { "text": "Walter Mischel", "correct": true }, { "text": "Jean Piaget" }, { "text": "Albert Bandura" }, { "text": "Martin Seligman" } ] },
-    { "text": "Festinger'ın 1 dolar / 20 dolar deneyi neyi destekledi?", "choices": [
-      { "text": "Bilişsel uyumsuzluk", "correct": true }, { "text": "Öğrenilmiş çaresizlik" }, { "text": "Seyirci etkisi" }, { "text": "Gruba uyma" } ] },
-    { "text": "Hawthorne deneyleri nerede yapıldı?", "choices": [
-      { "text": "Bir fabrikada", "correct": true }, { "text": "Bir hapishanede" }, { "text": "Bir hastanede" }, { "text": "Bir okulda" } ] },
-    { "text": "Rosenthal'ın öğretmen beklentisi deneyi hangi etkiyi gösterdi?", "choices": [
-      { "text": "Pygmalion etkisi", "correct": true }, { "text": "Hawthorne etkisi" }, { "text": "Plasebo etkisi" }, { "text": "Seyirci etkisi" } ] },
-    { "text": "Robbers Cave deneyi neyi inceledi?", "choices": [
-      { "text": "Gruplar arası çatışmayı", "correct": true }, { "text": "Uyku yoksunluğunu" }, { "text": "Bellek bozulmasını" }, { "text": "Renk algısını" } ] },
-    { "text": "Robbers Cave deneyini kim yürüttü?", "choices": [
-      { "text": "Muzafer Şerif", "correct": true }, { "text": "Solomon Asch" }, { "text": "Leon Festinger" }, { "text": "Stanley Milgram" } ] },
-    { "text": "Muzafer Şerif'in otokinetik etki deneyi neyi gösterdi?", "choices": [
-      { "text": "Grup normu oluşumunu", "correct": true }, { "text": "Otoriteye itaati" }, { "text": "Gözlemle öğrenmeyi" }, { "text": "Hazzı ertelemeyi" } ] },
-    { "text": "Hermann Ebbinghaus hangi konuyu inceledi?", "choices": [
-      { "text": "Bellek ve unutma", "correct": true }, { "text": "Uyku" }, { "text": "Saldırganlık" }, { "text": "Kişilik" } ] },
-    { "text": "Ebbinghaus'un çizdiği ünlü eğrinin adı nedir?", "choices": [
-      { "text": "Unutma eğrisi", "correct": true }, { "text": "Öğrenme platosu" }, { "text": "Çan eğrisi" }, { "text": "Talep eğrisi" } ] },
-    { "text": "Thorndike'ın kedileri neyin içinden kaçmayı öğrendi?", "choices": [
-      { "text": "Bulmaca kutusu", "correct": true }, { "text": "Labirent" }, { "text": "Skinner kutusu" }, { "text": "Su tankı" } ] },
-    { "text": "Thorndike'ın ortaya koyduğu öğrenme yasası hangisidir?", "choices": [
-      { "text": "Etki yasası", "correct": true }, { "text": "Çekim yasası" }, { "text": "Hız yasası" }, { "text": "Denge yasası" } ] },
-    { "text": "Loftus'un araba kazası deneyi neyi gösterdi?", "choices": [
-      { "text": "Soruların anıyı etkilediğini", "correct": true }, { "text": "Hızın doğru tahmin edildiğini" }, { "text": "Gözlemle öğrenmeyi" }, { "text": "Gruba uymayı" } ] },
-    { "text": "\"Görünmez goril\" deneyi neyi gösterdi?", "choices": [
-      { "text": "Dikkat körlüğünü", "correct": true }, { "text": "Renk körlüğünü" }, { "text": "Uzun süreli belleği" }, { "text": "Gruba uymayı" } ] },
-    { "text": "\"Görünmez goril\" deneyinde izleyiciler neyi sayıyordu?", "choices": [
-      { "text": "Pasları", "correct": true }, { "text": "Oyuncuları" }, { "text": "Sayıları" }, { "text": "Gorilleri" } ] },
-    { "text": "Piaget'nin \"üç dağ\" deneyi neyi ölçtü?", "choices": [
-      { "text": "Benmerkezciliği", "correct": true }, { "text": "Bellek kapasitesini" }, { "text": "Korkuyu" }, { "text": "Zekâ yaşını" } ] },
-    { "text": "Rosenhan deneyinde ne yapıldı?", "choices": [
-      { "text": "Sağlıklılar hastaneye yattı", "correct": true }, { "text": "Hastalar taburcu edildi" }, { "text": "İlaçlar karşılaştırıldı" }, { "text": "Hemşireler eğitildi" } ] },
-    { "text": "Tolman'ın fareleri labirentte ne oluşturdu?", "choices": [
-      { "text": "Bilişsel harita", "correct": true }, { "text": "Koşullu refleks" }, { "text": "Unutma eğrisi" }, { "text": "Hale etkisi" } ] },
-    { "text": "Kahneman ve Tversky hangi alanda çığır açtı?", "choices": [
-      { "text": "Karar verme yanılgıları", "correct": true }, { "text": "Hayvan öğrenmesi" }, { "text": "Rüya analizi" }, { "text": "Çocuk gelişimi" } ] },
-    { "text": "Stroop testinde katılımcıdan ne istenir?", "choices": [
-      { "text": "Yazının rengini söylemek", "correct": true }, { "text": "Kelimeyi ezberlemek" }, { "text": "Sayıları toplamak" }, { "text": "Şekilleri saymak" } ] },
-    { "text": "Stanford Hapishane Deneyi kaç gün sonra durduruldu?", "choices": [
-      { "text": "6", "correct": true }, { "text": "14" }, { "text": "2" }, { "text": "30" } ] },
-    { "text": "Milgram deneyleri hangi üniversitede yapıldı?", "choices": [
-      { "text": "Yale", "correct": true }, { "text": "Harvard" }, { "text": "Stanford" }, { "text": "Oxford" } ] },
-    { "text": "Asch deneyinde gerçek katılımcı dışındakiler kimdi?", "choices": [
-      { "text": "Gizli işbirlikçiler", "correct": true }, { "text": "Polis memurları" }, { "text": "Çocuklar" }, { "text": "Hastalar" } ] },
-    { "text": "Bobo bebek deneyinde çocuklar kimi izledi?", "choices": [
-      { "text": "Bir yetişkini", "correct": true }, { "text": "Bir hayvanı" }, { "text": "Bir robotu" }, { "text": "Bir bebeği" } ] },
-    { "text": "Marshmallow testinde beklerse çocuğa ne vaat edildi?", "choices": [
-      { "text": "İkinci bir şekerleme", "correct": true }, { "text": "Bir oyuncak" }, { "text": "Para" }, { "text": "Dondurma" } ] }
+    { "text": { "tr": "Köpeklerin zil sesiyle salya akıttığı deneyi kim yaptı?" }, "choices": [
+      { "text": { "tr": "Ivan Pavlov" }, "correct": true },
+      { "text": { "tr": "B. F. Skinner" } },
+      { "text": { "tr": "John B. Watson" } },
+      { "text": { "tr": "Edward Thorndike" } } ] },
+    { "text": { "tr": "Milgram deneyi neyi inceledi?" }, "choices": [
+      { "text": { "tr": "Otoriteye itaati" }, "correct": true },
+      { "text": { "tr": "Bellek sınırlarını" } },
+      { "text": { "tr": "Uyku düzenini" } },
+      { "text": { "tr": "Renk algısını" } } ] },
+    { "text": { "tr": "Milgram deneyinde katılımcılar ne verdiklerini sandı?" }, "choices": [
+      { "text": { "tr": "Elektrik şoku" }, "correct": true },
+      { "text": { "tr": "İlaç" } },
+      { "text": { "tr": "Para ödülü" } },
+      { "text": { "tr": "Ceza puanı" } } ] },
+    { "text": { "tr": "Stanford Hapishane Deneyi'ni kim yürüttü?" }, "choices": [
+      { "text": { "tr": "Philip Zimbardo" }, "correct": true },
+      { "text": { "tr": "Stanley Milgram" } },
+      { "text": { "tr": "Solomon Asch" } },
+      { "text": { "tr": "Albert Bandura" } } ] },
+    { "text": { "tr": "Küçük Albert deneyini kim yaptı?" }, "choices": [
+      { "text": { "tr": "John B. Watson" }, "correct": true },
+      { "text": { "tr": "Ivan Pavlov" } },
+      { "text": { "tr": "B. F. Skinner" } },
+      { "text": { "tr": "Harry Harlow" } } ] },
+    { "text": { "tr": "Küçük Albert'e neyden korkması öğretildi?" }, "choices": [
+      { "text": { "tr": "Beyaz fare" }, "correct": true },
+      { "text": { "tr": "Köpek" } },
+      { "text": { "tr": "Karanlık" } },
+      { "text": { "tr": "Su" } } ] },
+    { "text": { "tr": "Bobo bebek deneyini yapan psikolog kimdir?" }, "choices": [
+      { "text": { "tr": "Albert Bandura" }, "correct": true },
+      { "text": { "tr": "Philip Zimbardo" } },
+      { "text": { "tr": "Stanley Milgram" } },
+      { "text": { "tr": "Leon Festinger" } } ] },
+    { "text": { "tr": "Bobo bebek deneyi neyi gösterdi?" }, "choices": [
+      { "text": { "tr": "Gözlemle öğrenmeyi" }, "correct": true },
+      { "text": { "tr": "Bellek kaybını" } },
+      { "text": { "tr": "Uyku ihtiyacını" } },
+      { "text": { "tr": "Renk körlüğünü" } } ] },
+    { "text": { "tr": "Asch deneyinde katılımcılar neyin uzunluğunu kıyasladı?" }, "choices": [
+      { "text": { "tr": "Çizgilerin" }, "correct": true },
+      { "text": { "tr": "Seslerin" } },
+      { "text": { "tr": "Gölgelerin" } },
+      { "text": { "tr": "Kelimelerin" } } ] },
+    { "text": { "tr": "Asch deneyi hangi davranışı inceledi?" }, "choices": [
+      { "text": { "tr": "Gruba uyma" }, "correct": true },
+      { "text": { "tr": "Otoriteye itaat" } },
+      { "text": { "tr": "Saldırganlık" } },
+      { "text": { "tr": "Yardım etme" } } ] },
+    { "text": { "tr": "Harlow'un yavru maymunları hangi anneyi tercih etti?" }, "choices": [
+      { "text": { "tr": "Yumuşak kumaş anne" }, "correct": true },
+      { "text": { "tr": "Biberonlu tel anne" } },
+      { "text": { "tr": "Tahta anne" } },
+      { "text": { "tr": "Plastik anne" } } ] },
+    { "text": { "tr": "Skinner kutusu hangi öğrenme türünü inceledi?" }, "choices": [
+      { "text": { "tr": "Edimsel koşullanma" }, "correct": true },
+      { "text": { "tr": "Klasik koşullanma" } },
+      { "text": { "tr": "Gözlemsel öğrenme" } },
+      { "text": { "tr": "Örtük öğrenme" } } ] },
+    { "text": { "tr": "Seligman köpeklerle hangi kavramı ortaya koydu?" }, "choices": [
+      { "text": { "tr": "Öğrenilmiş çaresizlik" }, "correct": true },
+      { "text": { "tr": "Bilişsel uyumsuzluk" } },
+      { "text": { "tr": "Hale etkisi" } },
+      { "text": { "tr": "Seyirci etkisi" } } ] },
+    { "text": { "tr": "Kitty Genovese olayı hangi etkiyle ilişkilendirilir?" }, "choices": [
+      { "text": { "tr": "Seyirci etkisi" }, "correct": true },
+      { "text": { "tr": "Plasebo etkisi" } },
+      { "text": { "tr": "Hawthorne etkisi" } },
+      { "text": { "tr": "Pygmalion etkisi" } } ] },
+    { "text": { "tr": "Seyirci etkisini deneylerle inceleyen ikili kimdir?" }, "choices": [
+      { "text": { "tr": "Darley ve Latané" }, "correct": true },
+      { "text": { "tr": "Asch ve Milgram" } },
+      { "text": { "tr": "Watson ve Rayner" } },
+      { "text": { "tr": "Harlow ve Zimmermann" } } ] },
+    { "text": { "tr": "Marshmallow testi neyi ölçtü?" }, "choices": [
+      { "text": { "tr": "Hazzı erteleme" }, "correct": true },
+      { "text": { "tr": "Kısa süreli bellek" } },
+      { "text": { "tr": "Renk tercihi" } },
+      { "text": { "tr": "Uyku süresi" } } ] },
+    { "text": { "tr": "Marshmallow testini kim geliştirdi?" }, "choices": [
+      { "text": { "tr": "Walter Mischel" }, "correct": true },
+      { "text": { "tr": "Jean Piaget" } },
+      { "text": { "tr": "Albert Bandura" } },
+      { "text": { "tr": "Martin Seligman" } } ] },
+    { "text": { "tr": "Festinger'ın 1 dolar / 20 dolar deneyi neyi destekledi?" }, "choices": [
+      { "text": { "tr": "Bilişsel uyumsuzluk" }, "correct": true },
+      { "text": { "tr": "Öğrenilmiş çaresizlik" } },
+      { "text": { "tr": "Seyirci etkisi" } },
+      { "text": { "tr": "Gruba uyma" } } ] },
+    { "text": { "tr": "Hawthorne deneyleri nerede yapıldı?" }, "choices": [
+      { "text": { "tr": "Bir fabrikada" }, "correct": true },
+      { "text": { "tr": "Bir hapishanede" } },
+      { "text": { "tr": "Bir hastanede" } },
+      { "text": { "tr": "Bir okulda" } } ] },
+    { "text": { "tr": "Rosenthal'ın öğretmen beklentisi deneyi hangi etkiyi gösterdi?" }, "choices": [
+      { "text": { "tr": "Pygmalion etkisi" }, "correct": true },
+      { "text": { "tr": "Hawthorne etkisi" } },
+      { "text": { "tr": "Plasebo etkisi" } },
+      { "text": { "tr": "Seyirci etkisi" } } ] },
+    { "text": { "tr": "Robbers Cave deneyi neyi inceledi?" }, "choices": [
+      { "text": { "tr": "Gruplar arası çatışmayı" }, "correct": true },
+      { "text": { "tr": "Uyku yoksunluğunu" } },
+      { "text": { "tr": "Bellek bozulmasını" } },
+      { "text": { "tr": "Renk algısını" } } ] },
+    { "text": { "tr": "Robbers Cave deneyini kim yürüttü?" }, "choices": [
+      { "text": { "tr": "Muzafer Şerif" }, "correct": true },
+      { "text": { "tr": "Solomon Asch" } },
+      { "text": { "tr": "Leon Festinger" } },
+      { "text": { "tr": "Stanley Milgram" } } ] },
+    { "text": { "tr": "Muzafer Şerif'in otokinetik etki deneyi neyi gösterdi?" }, "choices": [
+      { "text": { "tr": "Grup normu oluşumunu" }, "correct": true },
+      { "text": { "tr": "Otoriteye itaati" } },
+      { "text": { "tr": "Gözlemle öğrenmeyi" } },
+      { "text": { "tr": "Hazzı ertelemeyi" } } ] },
+    { "text": { "tr": "Hermann Ebbinghaus hangi konuyu inceledi?" }, "choices": [
+      { "text": { "tr": "Bellek ve unutma" }, "correct": true },
+      { "text": { "tr": "Uyku" } },
+      { "text": { "tr": "Saldırganlık" } },
+      { "text": { "tr": "Kişilik" } } ] },
+    { "text": { "tr": "Ebbinghaus'un çizdiği ünlü eğrinin adı nedir?" }, "choices": [
+      { "text": { "tr": "Unutma eğrisi" }, "correct": true },
+      { "text": { "tr": "Öğrenme platosu" } },
+      { "text": { "tr": "Çan eğrisi" } },
+      { "text": { "tr": "Talep eğrisi" } } ] },
+    { "text": { "tr": "Thorndike'ın kedileri neyin içinden kaçmayı öğrendi?" }, "choices": [
+      { "text": { "tr": "Bulmaca kutusu" }, "correct": true },
+      { "text": { "tr": "Labirent" } },
+      { "text": { "tr": "Skinner kutusu" } },
+      { "text": { "tr": "Su tankı" } } ] },
+    { "text": { "tr": "Thorndike'ın ortaya koyduğu öğrenme yasası hangisidir?" }, "choices": [
+      { "text": { "tr": "Etki yasası" }, "correct": true },
+      { "text": { "tr": "Çekim yasası" } },
+      { "text": { "tr": "Hız yasası" } },
+      { "text": { "tr": "Denge yasası" } } ] },
+    { "text": { "tr": "Loftus'un araba kazası deneyi neyi gösterdi?" }, "choices": [
+      { "text": { "tr": "Soruların anıyı etkilediğini" }, "correct": true },
+      { "text": { "tr": "Hızın doğru tahmin edildiğini" } },
+      { "text": { "tr": "Gözlemle öğrenmeyi" } },
+      { "text": { "tr": "Gruba uymayı" } } ] },
+    { "text": { "tr": "\"Görünmez goril\" deneyi neyi gösterdi?" }, "choices": [
+      { "text": { "tr": "Dikkat körlüğünü" }, "correct": true },
+      { "text": { "tr": "Renk körlüğünü" } },
+      { "text": { "tr": "Uzun süreli belleği" } },
+      { "text": { "tr": "Gruba uymayı" } } ] },
+    { "text": { "tr": "\"Görünmez goril\" deneyinde izleyiciler neyi sayıyordu?" }, "choices": [
+      { "text": { "tr": "Pasları" }, "correct": true },
+      { "text": { "tr": "Oyuncuları" } },
+      { "text": { "tr": "Sayıları" } },
+      { "text": { "tr": "Gorilleri" } } ] },
+    { "text": { "tr": "Piaget'nin \"üç dağ\" deneyi neyi ölçtü?" }, "choices": [
+      { "text": { "tr": "Benmerkezciliği" }, "correct": true },
+      { "text": { "tr": "Bellek kapasitesini" } },
+      { "text": { "tr": "Korkuyu" } },
+      { "text": { "tr": "Zekâ yaşını" } } ] },
+    { "text": { "tr": "Rosenhan deneyinde ne yapıldı?" }, "choices": [
+      { "text": { "tr": "Sağlıklılar hastaneye yattı" }, "correct": true },
+      { "text": { "tr": "Hastalar taburcu edildi" } },
+      { "text": { "tr": "İlaçlar karşılaştırıldı" } },
+      { "text": { "tr": "Hemşireler eğitildi" } } ] },
+    { "text": { "tr": "Tolman'ın fareleri labirentte ne oluşturdu?" }, "choices": [
+      { "text": { "tr": "Bilişsel harita" }, "correct": true },
+      { "text": { "tr": "Koşullu refleks" } },
+      { "text": { "tr": "Unutma eğrisi" } },
+      { "text": { "tr": "Hale etkisi" } } ] },
+    { "text": { "tr": "Kahneman ve Tversky hangi alanda çığır açtı?" }, "choices": [
+      { "text": { "tr": "Karar verme yanılgıları" }, "correct": true },
+      { "text": { "tr": "Hayvan öğrenmesi" } },
+      { "text": { "tr": "Rüya analizi" } },
+      { "text": { "tr": "Çocuk gelişimi" } } ] },
+    { "text": { "tr": "Stroop testinde katılımcıdan ne istenir?" }, "choices": [
+      { "text": { "tr": "Yazının rengini söylemek" }, "correct": true },
+      { "text": { "tr": "Kelimeyi ezberlemek" } },
+      { "text": { "tr": "Sayıları toplamak" } },
+      { "text": { "tr": "Şekilleri saymak" } } ] },
+    { "text": { "tr": "Stanford Hapishane Deneyi kaç gün sonra durduruldu?" }, "choices": [
+      { "text": { "tr": "6" }, "correct": true },
+      { "text": { "tr": "14" } },
+      { "text": { "tr": "2" } },
+      { "text": { "tr": "30" } } ] },
+    { "text": { "tr": "Milgram deneyleri hangi üniversitede yapıldı?" }, "choices": [
+      { "text": { "tr": "Yale" }, "correct": true },
+      { "text": { "tr": "Harvard" } },
+      { "text": { "tr": "Stanford" } },
+      { "text": { "tr": "Oxford" } } ] },
+    { "text": { "tr": "Asch deneyinde gerçek katılımcı dışındakiler kimdi?" }, "choices": [
+      { "text": { "tr": "Gizli işbirlikçiler" }, "correct": true },
+      { "text": { "tr": "Polis memurları" } },
+      { "text": { "tr": "Çocuklar" } },
+      { "text": { "tr": "Hastalar" } } ] },
+    { "text": { "tr": "Bobo bebek deneyinde çocuklar kimi izledi?" }, "choices": [
+      { "text": { "tr": "Bir yetişkini" }, "correct": true },
+      { "text": { "tr": "Bir hayvanı" } },
+      { "text": { "tr": "Bir robotu" } },
+      { "text": { "tr": "Bir bebeği" } } ] },
+    { "text": { "tr": "Marshmallow testinde beklerse çocuğa ne vaat edildi?" }, "choices": [
+      { "text": { "tr": "İkinci bir şekerleme" }, "correct": true },
+      { "text": { "tr": "Bir oyuncak" } },
+      { "text": { "tr": "Para" } },
+      { "text": { "tr": "Dondurma" } } ] }
   ]
 }

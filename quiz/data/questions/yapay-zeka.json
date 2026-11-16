@@ -1,85 +1,205 @@
 {
-  "category": { "slug": "yapay-zeka", "name": "Yapay Zeka", "description": "Modeller, öğrenme, kavramlar", "color": "violet", "order": 2 },
+  "category": { "slug": "yapay-zeka", "color": "violet", "order": 2, "name": { "tr": "Yapay Zeka" }, "description": { "tr": "Modeller, öğrenme, kavramlar" } },
   "questions": [
-    { "text": "ChatGPT'yi hangi şirket geliştirdi?", "choices": [
-      { "text": "OpenAI", "correct": true }, { "text": "Google" }, { "text": "Meta" }, { "text": "Apple" } ] },
-    { "text": "Claude modellerini hangi şirket geliştiriyor?", "choices": [
-      { "text": "Anthropic", "correct": true }, { "text": "OpenAI" }, { "text": "Google" }, { "text": "Meta" } ] },
-    { "text": "Gemini modellerini hangi şirket geliştiriyor?", "choices": [
-      { "text": "Google", "correct": true }, { "text": "Meta" }, { "text": "Amazon" }, { "text": "Anthropic" } ] },
-    { "text": "LLM kısaltmasındaki ilk \"L\" neyi ifade eder?", "choices": [
-      { "text": "Large", "correct": true }, { "text": "Linear" }, { "text": "Logical" }, { "text": "Local" } ] },
-    { "text": "GPT kısaltmasındaki \"T\" neyi ifade eder?", "choices": [
-      { "text": "Transformer", "correct": true }, { "text": "Token" }, { "text": "Training" }, { "text": "Text" } ] },
-    { "text": "Etiketli veriyle yapılan öğrenmeye ne denir?", "choices": [
-      { "text": "Denetimli öğrenme", "correct": true }, { "text": "Denetimsiz öğrenme" }, { "text": "Pekiştirmeli öğrenme" }, { "text": "Kural tabanlı sistem" } ] },
-    { "text": "Ödül ve cezayla deneyerek öğrenmeye ne denir?", "choices": [
-      { "text": "Pekiştirmeli öğrenme", "correct": true }, { "text": "Denetimli öğrenme" }, { "text": "Denetimsiz öğrenme" }, { "text": "Kümeleme" } ] },
-    { "text": "Kümeleme hangi öğrenme türüne örnektir?", "choices": [
-      { "text": "Denetimsiz öğrenme", "correct": true }, { "text": "Denetimli öğrenme" }, { "text": "Pekiştirmeli öğrenme" }, { "text": "Kural tabanlı sistem" } ] },
-    { "text": "\"Yapay zekâ\" terimini 1956'da kim ortaya attı?", "choices": [
-      { "text": "John McCarthy", "correct": true }, { "text": "Alan Turing" }, { "text": "Ada Lovelace" }, { "text": "Elon Musk" } ] },
-    { "text": "1997'de Kasparov'u yenen satranç bilgisayarı hangisidir?", "choices": [
-      { "text": "Deep Blue", "correct": true }, { "text": "AlphaGo" }, { "text": "Watson" }, { "text": "Siri" } ] },
-    { "text": "AlphaGo, Lee Sedol'u hangi oyunda yendi?", "choices": [
-      { "text": "Go", "correct": true }, { "text": "Satranç" }, { "text": "Poker" }, { "text": "Dama" } ] },
-    { "text": "Sinir ağının eğitimle öğrendiği sayılara ne denir?", "choices": [
-      { "text": "Ağırlık", "correct": true }, { "text": "Etiket" }, { "text": "Piksel" }, { "text": "Prompt" } ] },
-    { "text": "Modelin eğitim verisini ezberlemesine ne denir?", "choices": [
-      { "text": "Aşırı öğrenme", "correct": true }, { "text": "Eksik öğrenme" }, { "text": "Normalizasyon" }, { "text": "Kümeleme" } ] },
-    { "text": "Görüntüden nesne tanıyan yapay zekâ alanı hangisidir?", "choices": [
-      { "text": "Bilgisayarlı görü", "correct": true }, { "text": "Doğal dil işleme" }, { "text": "Konuşma sentezi" }, { "text": "Öneri sistemleri" } ] },
-    { "text": "NLP kısaltması hangi alanı ifade eder?", "choices": [
-      { "text": "Doğal dil işleme", "correct": true }, { "text": "Sinir ağı programlama" }, { "text": "Ağ katmanı planı" }, { "text": "Yeni öğrenme protokolü" } ] },
-    { "text": "Hangisi metinden görsel üreten bir modeldir?", "choices": [
-      { "text": "DALL·E", "correct": true }, { "text": "BERT" }, { "text": "Word2Vec" }, { "text": "XGBoost" } ] },
-    { "text": "Modelin uydurma bilgiyi doğruymuş gibi yazmasına ne denir?", "choices": [
-      { "text": "Halüsinasyon", "correct": true }, { "text": "Aşırı öğrenme" }, { "text": "Regresyon" }, { "text": "Tokenizasyon" } ] },
-    { "text": "Dil modelleri metni hangi küçük parçalara böler?", "choices": [
-      { "text": "Token", "correct": true }, { "text": "Piksel" }, { "text": "Katman" }, { "text": "Neuron" } ] },
-    { "text": "Derin öğrenmede yaygın kullanılan Python kütüphanesi hangisidir?", "choices": [
-      { "text": "PyTorch", "correct": true }, { "text": "Django" }, { "text": "Flask" }, { "text": "Requests" } ] },
-    { "text": "Geriye yayılım (backpropagation) ne işe yarar?", "choices": [
-      { "text": "Ağırlıkları güncellemek", "correct": true }, { "text": "Veri toplamak" }, { "text": "Görsel çizmek" }, { "text": "Modeli silmek" } ] },
-    { "text": "Turing Testi'ni kim önerdi?", "choices": [
-      { "text": "Alan Turing", "correct": true }, { "text": "John McCarthy" }, { "text": "Marvin Minsky" }, { "text": "Geoffrey Hinton" } ] },
-    { "text": "Transformer mimarisini tanıtan 2017 makalesinin adı nedir?", "choices": [
-      { "text": "Attention Is All You Need", "correct": true }, { "text": "Deep Residual Learning" }, { "text": "ImageNet Classification" }, { "text": "Generative Adversarial Nets" } ] },
-    { "text": "GAN kısaltmasındaki \"A\" neyi ifade eder?", "choices": [
-      { "text": "Adversarial", "correct": true }, { "text": "Artificial" }, { "text": "Automated" }, { "text": "Attention" } ] },
-    { "text": "Modele verilen talimat metnine ne ad verilir?", "choices": [
-      { "text": "Prompt", "correct": true }, { "text": "Token" }, { "text": "Epoch" }, { "text": "Batch" } ] },
-    { "text": "Eğitim verisinin tamamının bir kez işlenmesine ne denir?", "choices": [
-      { "text": "Epoch", "correct": true }, { "text": "Batch" }, { "text": "Token" }, { "text": "Katman" } ] },
-    { "text": "Eğitilmiş bir modeli yeni bir göreve uyarlamaya ne denir?", "choices": [
-      { "text": "İnce ayar", "correct": true }, { "text": "Ön işleme" }, { "text": "Tokenizasyon" }, { "text": "Budama" } ] },
-    { "text": "Evrişimli sinir ağının kısaltması nedir?", "choices": [
-      { "text": "CNN", "correct": true }, { "text": "RNN" }, { "text": "LSTM" }, { "text": "MLP" } ] },
-    { "text": "ReLU nedir?", "choices": [
-      { "text": "Aktivasyon fonksiyonu", "correct": true }, { "text": "Kayıp fonksiyonu" }, { "text": "Veri seti" }, { "text": "Programlama dili" } ] },
-    { "text": "Derin öğrenmenin öncülerinden biri kimdir?", "choices": [
-      { "text": "Geoffrey Hinton", "correct": true }, { "text": "Linus Torvalds" }, { "text": "Tim Berners-Lee" }, { "text": "Bill Gates" } ] },
-    { "text": "ImageNet nedir?", "choices": [
-      { "text": "Görüntü veri seti", "correct": true }, { "text": "Sinir ağı türü" }, { "text": "Programlama dili" }, { "text": "Arama motoru" } ] },
-    { "text": "Kelimeleri sayı vektörlerine çevirmeye ne denir?", "choices": [
-      { "text": "Gömme (embedding)", "correct": true }, { "text": "Budama" }, { "text": "Damıtma" }, { "text": "Kümeleme" } ] },
-    { "text": "RAG yönteminde model yanıt vermeden önce ne yapar?", "choices": [
-      { "text": "İlgili belgeleri getirir", "correct": true }, { "text": "Kendini yeniden eğitir" }, { "text": "Görsel üretir" }, { "text": "Kodu derler" } ] },
-    { "text": "Kayıp (loss) fonksiyonu neyi ölçer?", "choices": [
-      { "text": "Tahmin hatasını", "correct": true }, { "text": "Model boyutunu" }, { "text": "Eğitim süresini" }, { "text": "Veri miktarını" } ] },
-    { "text": "Siri hangi şirketin sesli asistanıdır?", "choices": [
-      { "text": "Apple", "correct": true }, { "text": "Google" }, { "text": "Amazon" }, { "text": "Microsoft" } ] },
-    { "text": "Alexa hangi şirketin sesli asistanıdır?", "choices": [
-      { "text": "Amazon", "correct": true }, { "text": "Apple" }, { "text": "Google" }, { "text": "Samsung" } ] },
-    { "text": "1966'da yazılan ELIZA nedir?", "choices": [
-      { "text": "İlk sohbet botlarından", "correct": true }, { "text": "Bir satranç programı" }, { "text": "Bir robot kol" }, { "text": "Bir programlama dili" } ] },
-    { "text": "Llama modellerini hangi şirket yayımladı?", "choices": [
-      { "text": "Meta", "correct": true }, { "text": "OpenAI" }, { "text": "Google" }, { "text": "Anthropic" } ] },
-    { "text": "Modelin bir seferde işleyebildiği metin uzunluğuna ne denir?", "choices": [
-      { "text": "Bağlam penceresi", "correct": true }, { "text": "Öğrenme oranı" }, { "text": "Parti boyutu" }, { "text": "Gizli katman" } ] },
-    { "text": "Sinir ağında giriş ile çıkış arasındaki katmanlara ne denir?", "choices": [
-      { "text": "Gizli katman", "correct": true }, { "text": "Çıkış katmanı" }, { "text": "Giriş katmanı" }, { "text": "Ana katman" } ] },
-    { "text": "Gradyan inişi (gradient descent) ne için kullanılır?", "choices": [
-      { "text": "Hatayı azaltmak", "correct": true }, { "text": "Veri toplamak" }, { "text": "Görüntü büyütmek" }, { "text": "Metin çevirmek" } ] }
+    { "text": { "tr": "ChatGPT'yi hangi şirket geliştirdi?" }, "choices": [
+      { "text": { "tr": "OpenAI" }, "correct": true },
+      { "text": { "tr": "Google" } },
+      { "text": { "tr": "Meta" } },
+      { "text": { "tr": "Apple" } } ] },
+    { "text": { "tr": "Claude modellerini hangi şirket geliştiriyor?" }, "choices": [
+      { "text": { "tr": "Anthropic" }, "correct": true },
+      { "text": { "tr": "OpenAI" } },
+      { "text": { "tr": "Google" } },
+      { "text": { "tr": "Meta" } } ] },
+    { "text": { "tr": "Gemini modellerini hangi şirket geliştiriyor?" }, "choices": [
+      { "text": { "tr": "Google" }, "correct": true },
+      { "text": { "tr": "Meta" } },
+      { "text": { "tr": "Amazon" } },
+      { "text": { "tr": "Anthropic" } } ] },
+    { "text": { "tr": "LLM kısaltmasındaki ilk \"L\" neyi ifade eder?" }, "choices": [
+      { "text": { "tr": "Large" }, "correct": true },
+      { "text": { "tr": "Linear" } },
+      { "text": { "tr": "Logical" } },
+      { "text": { "tr": "Local" } } ] },
+    { "text": { "tr": "GPT kısaltmasındaki \"T\" neyi ifade eder?" }, "choices": [
+      { "text": { "tr": "Transformer" }, "correct": true },
+      { "text": { "tr": "Token" } },
+      { "text": { "tr": "Training" } },
+      { "text": { "tr": "Text" } } ] },
+    { "text": { "tr": "Etiketli veriyle yapılan öğrenmeye ne denir?" }, "choices": [
+      { "text": { "tr": "Denetimli öğrenme" }, "correct": true },
+      { "text": { "tr": "Denetimsiz öğrenme" } },
+      { "text": { "tr": "Pekiştirmeli öğrenme" } },
+      { "text": { "tr": "Kural tabanlı sistem" } } ] },
+    { "text": { "tr": "Ödül ve cezayla deneyerek öğrenmeye ne denir?" }, "choices": [
+      { "text": { "tr": "Pekiştirmeli öğrenme" }, "correct": true },
+      { "text": { "tr": "Denetimli öğrenme" } },
+      { "text": { "tr": "Denetimsiz öğrenme" } },
+      { "text": { "tr": "Kümeleme" } } ] },
+    { "text": { "tr": "Kümeleme hangi öğrenme türüne örnektir?" }, "choices": [
+      { "text": { "tr": "Denetimsiz öğrenme" }, "correct": true },
+      { "text": { "tr": "Denetimli öğrenme" } },
+      { "text": { "tr": "Pekiştirmeli öğrenme" } },
+      { "text": { "tr": "Kural tabanlı sistem" } } ] },
+    { "text": { "tr": "\"Yapay zekâ\" terimini 1956'da kim ortaya attı?" }, "choices": [
+      { "text": { "tr": "John McCarthy" }, "correct": true },
+      { "text": { "tr": "Alan Turing" } },
+      { "text": { "tr": "Ada Lovelace" } },
+      { "text": { "tr": "Elon Musk" } } ] },
+    { "text": { "tr": "1997'de Kasparov'u yenen satranç bilgisayarı hangisidir?" }, "choices": [
+      { "text": { "tr": "Deep Blue" }, "correct": true },
+      { "text": { "tr": "AlphaGo" } },
+      { "text": { "tr": "Watson" } },
+      { "text": { "tr": "Siri" } } ] },
+    { "text": { "tr": "AlphaGo, Lee Sedol'u hangi oyunda yendi?" }, "choices": [
+      { "text": { "tr": "Go" }, "correct": true },
+      { "text": { "tr": "Satranç" } },
+      { "text": { "tr": "Poker" } },
+      { "text": { "tr": "Dama" } } ] },
+    { "text": { "tr": "Sinir ağının eğitimle öğrendiği sayılara ne denir?" }, "choices": [
+      { "text": { "tr": "Ağırlık" }, "correct": true },
+      { "text": { "tr": "Etiket" } },
+      { "text": { "tr": "Piksel" } },
+      { "text": { "tr": "Prompt" } } ] },
+    { "text": { "tr": "Modelin eğitim verisini ezberlemesine ne denir?" }, "choices": [
+      { "text": { "tr": "Aşırı öğrenme" }, "correct": true },
+      { "text": { "tr": "Eksik öğrenme" } },
+      { "text": { "tr": "Normalizasyon" } },
+      { "text": { "tr": "Kümeleme" } } ] },
+    { "text": { "tr": "Görüntüden nesne tanıyan yapay zekâ alanı hangisidir?" }, "choices": [
+      { "text": { "tr": "Bilgisayarlı görü" }, "correct": true },
+      { "text": { "tr": "Doğal dil işleme" } },
+      { "text": { "tr": "Konuşma sentezi" } },
+      { "text": { "tr": "Öneri sistemleri" } } ] },
+    { "text": { "tr": "NLP kısaltması hangi alanı ifade eder?" }, "choices": [
+      { "text": { "tr": "Doğal dil işleme" }, "correct": true },
+      { "text": { "tr": "Sinir ağı programlama" } },
+      { "text": { "tr": "Ağ katmanı planı" } },
+      { "text": { "tr": "Yeni öğrenme protokolü" } } ] },
+    { "text": { "tr": "Hangisi metinden görsel üreten bir modeldir?" }, "choices": [
+      { "text": { "tr": "DALL·E" }, "correct": true },
+      { "text": { "tr": "BERT" } },
+      { "text": { "tr": "Word2Vec" } },
+      { "text": { "tr": "XGBoost" } } ] },
+    { "text": { "tr": "Modelin uydurma bilgiyi doğruymuş gibi yazmasına ne denir?" }, "choices": [
+      { "text": { "tr": "Halüsinasyon" }, "correct": true },
+      { "text": { "tr": "Aşırı öğrenme" } },
+      { "text": { "tr": "Regresyon" } },
+      { "text": { "tr": "Tokenizasyon" } } ] },
+    { "text": { "tr": "Dil modelleri metni hangi küçük parçalara böler?" }, "choices": [
+      { "text": { "tr": "Token" }, "correct": true },
+      { "text": { "tr": "Piksel" } },
+      { "text": { "tr": "Katman" } },
+      { "text": { "tr": "Neuron" } } ] },
+    { "text": { "tr": "Derin öğrenmede yaygın kullanılan Python kütüphanesi hangisidir?" }, "choices": [
+      { "text": { "tr": "PyTorch" }, "correct": true },
+      { "text": { "tr": "Django" } },
+      { "text": { "tr": "Flask" } },
+      { "text": { "tr": "Requests" } } ] },
+    { "text": { "tr": "Geriye yayılım (backpropagation) ne işe yarar?" }, "choices": [
+      { "text": { "tr": "Ağırlıkları güncellemek" }, "correct": true },
+      { "text": { "tr": "Veri toplamak" } },
+      { "text": { "tr": "Görsel çizmek" } },
+      { "text": { "tr": "Modeli silmek" } } ] },
+    { "text": { "tr": "Turing Testi'ni kim önerdi?" }, "choices": [
+      { "text": { "tr": "Alan Turing" }, "correct": true },
+      { "text": { "tr": "John McCarthy" } },
+      { "text": { "tr": "Marvin Minsky" } },
+      { "text": { "tr": "Geoffrey Hinton" } } ] },
+    { "text": { "tr": "Transformer mimarisini tanıtan 2017 makalesinin adı nedir?" }, "choices": [
+      { "text": { "tr": "Attention Is All You Need" }, "correct": true },
+      { "text": { "tr": "Deep Residual Learning" } },
+      { "text": { "tr": "ImageNet Classification" } },
+      { "text": { "tr": "Generative Adversarial Nets" } } ] },
+    { "text": { "tr": "GAN kısaltmasındaki \"A\" neyi ifade eder?" }, "choices": [
+      { "text": { "tr": "Adversarial" }, "correct": true },
+      { "text": { "tr": "Artificial" } },
+      { "text": { "tr": "Automated" } },
+      { "text": { "tr": "Attention" } } ] },
+    { "text": { "tr": "Modele verilen talimat metnine ne ad verilir?" }, "choices": [
+      { "text": { "tr": "Prompt" }, "correct": true },
+      { "text": { "tr": "Token" } },
+      { "text": { "tr": "Epoch" } },
+      { "text": { "tr": "Batch" } } ] },
+    { "text": { "tr": "Eğitim verisinin tamamının bir kez işlenmesine ne denir?" }, "choices": [
+      { "text": { "tr": "Epoch" }, "correct": true },
+      { "text": { "tr": "Batch" } },
+      { "text": { "tr": "Token" } },
+      { "text": { "tr": "Katman" } } ] },
+    { "text": { "tr": "Eğitilmiş bir modeli yeni bir göreve uyarlamaya ne denir?" }, "choices": [
+      { "text": { "tr": "İnce ayar" }, "correct": true },
+      { "text": { "tr": "Ön işleme" } },
+      { "text": { "tr": "Tokenizasyon" } },
+      { "text": { "tr": "Budama" } } ] },
+    { "text": { "tr": "Evrişimli sinir ağının kısaltması nedir?" }, "choices": [
+      { "text": { "tr": "CNN" }, "correct": true },
+      { "text": { "tr": "RNN" } },
+      { "text": { "tr": "LSTM" } },
+      { "text": { "tr": "MLP" } } ] },
+    { "text": { "tr": "ReLU nedir?" }, "choices": [
+      { "text": { "tr": "Aktivasyon fonksiyonu" }, "correct": true },
+      { "text": { "tr": "Kayıp fonksiyonu" } },
+      { "text": { "tr": "Veri seti" } },
+      { "text": { "tr": "Programlama dili" } } ] },
+    { "text": { "tr": "Derin öğrenmenin öncülerinden biri kimdir?" }, "choices": [
+      { "text": { "tr": "Geoffrey Hinton" }, "correct": true },
+      { "text": { "tr": "Linus Torvalds" } },
+      { "text": { "tr": "Tim Berners-Lee" } },
+      { "text": { "tr": "Bill Gates" } } ] },
+    { "text": { "tr": "ImageNet nedir?" }, "choices": [
+      { "text": { "tr": "Görüntü veri seti" }, "correct": true },
+      { "text": { "tr": "Sinir ağı türü" } },
+      { "text": { "tr": "Programlama dili" } },
+      { "text": { "tr": "Arama motoru" } } ] },
+    { "text": { "tr": "Kelimeleri sayı vektörlerine çevirmeye ne denir?" }, "choices": [
+      { "text": { "tr": "Gömme (embedding)" }, "correct": true },
+      { "text": { "tr": "Budama" } },
+      { "text": { "tr": "Damıtma" } },
+      { "text": { "tr": "Kümeleme" } } ] },
+    { "text": { "tr": "RAG yönteminde model yanıt vermeden önce ne yapar?" }, "choices": [
+      { "text": { "tr": "İlgili belgeleri getirir" }, "correct": true },
+      { "text": { "tr": "Kendini yeniden eğitir" } },
+      { "text": { "tr": "Görsel üretir" } },
+      { "text": { "tr": "Kodu derler" } } ] },
+    { "text": { "tr": "Kayıp (loss) fonksiyonu neyi ölçer?" }, "choices": [
+      { "text": { "tr": "Tahmin hatasını" }, "correct": true },
+      { "text": { "tr": "Model boyutunu" } },
+      { "text": { "tr": "Eğitim süresini" } },
+      { "text": { "tr": "Veri miktarını" } } ] },
+    { "text": { "tr": "Siri hangi şirketin sesli asistanıdır?" }, "choices": [
+      { "text": { "tr": "Apple" }, "correct": true },
+      { "text": { "tr": "Google" } },
+      { "text": { "tr": "Amazon" } },
+      { "text": { "tr": "Microsoft" } } ] },
+    { "text": { "tr": "Alexa hangi şirketin sesli asistanıdır?" }, "choices": [
+      { "text": { "tr": "Amazon" }, "correct": true },
+      { "text": { "tr": "Apple" } },
+      { "text": { "tr": "Google" } },
+      { "text": { "tr": "Samsung" } } ] },
+    { "text": { "tr": "1966'da yazılan ELIZA nedir?" }, "choices": [
+      { "text": { "tr": "İlk sohbet botlarından" }, "correct": true },
+      { "text": { "tr": "Bir satranç programı" } },
+      { "text": { "tr": "Bir robot kol" } },
+      { "text": { "tr": "Bir programlama dili" } } ] },
+    { "text": { "tr": "Llama modellerini hangi şirket yayımladı?" }, "choices": [
+      { "text": { "tr": "Meta" }, "correct": true },
+      { "text": { "tr": "OpenAI" } },
+      { "text": { "tr": "Google" } },
+      { "text": { "tr": "Anthropic" } } ] },
+    { "text": { "tr": "Modelin bir seferde işleyebildiği metin uzunluğuna ne denir?" }, "choices": [
+      { "text": { "tr": "Bağlam penceresi" }, "correct": true },
+      { "text": { "tr": "Öğrenme oranı" } },
+      { "text": { "tr": "Parti boyutu" } },
+      { "text": { "tr": "Gizli katman" } } ] },
+    { "text": { "tr": "Sinir ağında giriş ile çıkış arasındaki katmanlara ne denir?" }, "choices": [
+      { "text": { "tr": "Gizli katman" }, "correct": true },
+      { "text": { "tr": "Çıkış katmanı" } },
+      { "text": { "tr": "Giriş katmanı" } },
+      { "text": { "tr": "Ana katman" } } ] },
+    { "text": { "tr": "Gradyan inişi (gradient descent) ne için kullanılır?" }, "choices": [
+      { "text": { "tr": "Hatayı azaltmak" }, "correct": true },
+      { "text": { "tr": "Veri toplamak" } },
+      { "text": { "tr": "Görüntü büyütmek" } },
+      { "text": { "tr": "Metin çevirmek" } } ] }
   ]
 }

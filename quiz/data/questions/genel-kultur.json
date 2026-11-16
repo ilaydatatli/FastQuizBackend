@@ -1,85 +1,205 @@
 {
-  "category": { "slug": "genel-kultur", "name": "Genel Kültür", "description": "Tarih, sanat, bilim", "color": "yellow", "order": 9 },
+  "category": { "slug": "genel-kultur", "color": "yellow", "order": 9, "name": { "tr": "Genel Kültür" }, "description": { "tr": "Tarih, sanat, bilim" } },
   "questions": [
-    { "text": "Mona Lisa tablosunun ressamı kimdir?", "choices": [
-      { "text": "Leonardo da Vinci", "correct": true }, { "text": "Michelangelo" }, { "text": "Rafael" }, { "text": "Rembrandt" } ] },
-    { "text": "İstanbul hangi yılda fethedildi?", "choices": [
-      { "text": "1453", "correct": true }, { "text": "1071" }, { "text": "1299" }, { "text": "1517" } ] },
-    { "text": "Türkiye Cumhuriyeti hangi yıl ilan edildi?", "choices": [
-      { "text": "1923", "correct": true }, { "text": "1920" }, { "text": "1919" }, { "text": "1938" } ] },
-    { "text": "Güneş Sistemi'nin en büyük gezegeni hangisidir?", "choices": [
-      { "text": "Jüpiter", "correct": true }, { "text": "Satürn" }, { "text": "Neptün" }, { "text": "Uranüs" } ] },
-    { "text": "Suyun kimyasal formülü nedir?", "choices": [
-      { "text": "H2O", "correct": true }, { "text": "CO2" }, { "text": "O2" }, { "text": "NaCl" } ] },
-    { "text": "Romeo ve Juliet'in yazarı kimdir?", "choices": [
-      { "text": "William Shakespeare", "correct": true }, { "text": "Goethe" }, { "text": "Cervantes" }, { "text": "Dante" } ] },
-    { "text": "Işığın boşluktaki hızı yaklaşık kaçtır?", "choices": [
-      { "text": "300.000 km/sn", "correct": true }, { "text": "30.000 km/sn" }, { "text": "3.000 km/sn" }, { "text": "3.000.000 km/sn" } ] },
-    { "text": "İlk modern Olimpiyat Oyunları hangi şehirde yapıldı?", "choices": [
-      { "text": "Atina", "correct": true }, { "text": "Paris" }, { "text": "Londra" }, { "text": "Roma" } ] },
-    { "text": "Kızıl Gezegen olarak bilinen gezegen hangisidir?", "choices": [
-      { "text": "Mars", "correct": true }, { "text": "Venüs" }, { "text": "Merkür" }, { "text": "Jüpiter" } ] },
-    { "text": "Nutuk'u kim yazmıştır?", "choices": [
-      { "text": "Mustafa Kemal Atatürk", "correct": true }, { "text": "İsmet İnönü" }, { "text": "Ziya Gökalp" }, { "text": "Namık Kemal" } ] },
-    { "text": "Dünyanın en yüksek dağı hangisidir?", "choices": [
-      { "text": "Everest", "correct": true }, { "text": "K2" }, { "text": "Kilimanjaro" }, { "text": "Ağrı Dağı" } ] },
-    { "text": "Ay'a ilk ayak basan insan kimdir?", "choices": [
-      { "text": "Neil Armstrong", "correct": true }, { "text": "Buzz Aldrin" }, { "text": "Yuri Gagarin" }, { "text": "Michael Collins" } ] },
-    { "text": "İstiklal Marşı'nın şairi kimdir?", "choices": [
-      { "text": "Mehmet Akif Ersoy", "correct": true }, { "text": "Nazım Hikmet" }, { "text": "Yahya Kemal" }, { "text": "Tevfik Fikret" } ] },
-    { "text": "Periyodik tabloda \"Fe\" hangi elementtir?", "choices": [
-      { "text": "Demir", "correct": true }, { "text": "Flor" }, { "text": "Fosfor" }, { "text": "Kurşun" } ] },
-    { "text": "Bir futbol takımı sahada kaç oyuncuyla başlar?", "choices": [
-      { "text": "11", "correct": true }, { "text": "10" }, { "text": "9" }, { "text": "12" } ] },
-    { "text": "Evrensel çekim yasasını kim ortaya koydu?", "choices": [
-      { "text": "Isaac Newton", "correct": true }, { "text": "Galileo Galilei" }, { "text": "Albert Einstein" }, { "text": "Johannes Kepler" } ] },
-    { "text": "Dünyanın en büyük okyanusu hangisidir?", "choices": [
-      { "text": "Büyük Okyanus", "correct": true }, { "text": "Atlas Okyanusu" }, { "text": "Hint Okyanusu" }, { "text": "Arktik Okyanusu" } ] },
-    { "text": "Standart bir piyanoda kaç tuş bulunur?", "choices": [
-      { "text": "88", "correct": true }, { "text": "76" }, { "text": "64" }, { "text": "96" } ] },
-    { "text": "Orhun Yazıtları bugün hangi ülkededir?", "choices": [
-      { "text": "Moğolistan", "correct": true }, { "text": "Kazakistan" }, { "text": "Çin" }, { "text": "Kırgızistan" } ] },
-    { "text": "Bir yıl yaklaşık kaç haftadır?", "choices": [
-      { "text": "52", "correct": true }, { "text": "48" }, { "text": "50" }, { "text": "56" } ] },
-    { "text": "Erzurum'un simgesi olan medrese hangisidir?", "choices": [
-      { "text": "Çifte Minareli Medrese", "correct": true }, { "text": "Karatay Medresesi" }, { "text": "İnce Minareli Medrese" }, { "text": "Gök Medrese" } ] },
-    { "text": "Erzurum'a özgü, yatay şişte pişen kebap hangisidir?", "choices": [
-      { "text": "Cağ kebabı", "correct": true }, { "text": "İskender kebap" }, { "text": "Adana kebap" }, { "text": "Testi kebabı" } ] },
-    { "text": "Erzurum'daki ünlü kayak merkezi hangisidir?", "choices": [
-      { "text": "Palandöken", "correct": true }, { "text": "Uludağ" }, { "text": "Erciyes" }, { "text": "Kartalkaya" } ] },
-    { "text": "Erzurum Kongresi hangi yıl toplandı?", "choices": [
-      { "text": "1919", "correct": true }, { "text": "1920" }, { "text": "1918" }, { "text": "1921" } ] },
-    { "text": "Erzurum'la özdeşleşen halk oyunu hangisidir?", "choices": [
-      { "text": "Bar", "correct": true }, { "text": "Horon" }, { "text": "Zeybek" }, { "text": "Teke zortlatması" } ] },
-    { "text": "Güneş'e en yakın gezegen hangisidir?", "choices": [
-      { "text": "Merkür", "correct": true }, { "text": "Venüs" }, { "text": "Mars" }, { "text": "Dünya" } ] },
-    { "text": "\"Suç ve Ceza\" romanının yazarı kimdir?", "choices": [
-      { "text": "Dostoyevski", "correct": true }, { "text": "Tolstoy" }, { "text": "Çehov" }, { "text": "Gogol" } ] },
-    { "text": "\"Sefiller\" romanının yazarı kimdir?", "choices": [
-      { "text": "Victor Hugo", "correct": true }, { "text": "Balzac" }, { "text": "Émile Zola" }, { "text": "Alexandre Dumas" } ] },
-    { "text": "Altının kimyasal sembolü nedir?", "choices": [
-      { "text": "Au", "correct": true }, { "text": "Ag" }, { "text": "Al" }, { "text": "Pt" } ] },
-    { "text": "Malazgirt Savaşı hangi yıl yapıldı?", "choices": [
-      { "text": "1071", "correct": true }, { "text": "1453" }, { "text": "1176" }, { "text": "1299" } ] },
-    { "text": "Osmanlı Devleti hangi yıl kuruldu?", "choices": [
-      { "text": "1299", "correct": true }, { "text": "1071" }, { "text": "1453" }, { "text": "1326" } ] },
-    { "text": "TBMM hangi yıl açıldı?", "choices": [
-      { "text": "1920", "correct": true }, { "text": "1919" }, { "text": "1923" }, { "text": "1921" } ] },
-    { "text": "Büyük Taarruz hangi yıl başladı?", "choices": [
-      { "text": "1922", "correct": true }, { "text": "1921" }, { "text": "1920" }, { "text": "1923" } ] },
-    { "text": "\"Yıldızlı Gece\" tablosunun ressamı kimdir?", "choices": [
-      { "text": "Van Gogh", "correct": true }, { "text": "Monet" }, { "text": "Picasso" }, { "text": "Dalí" } ] },
-    { "text": "\"Guernica\" tablosunu kim yaptı?", "choices": [
-      { "text": "Picasso", "correct": true }, { "text": "Dalí" }, { "text": "Van Gogh" }, { "text": "Matisse" } ] },
-    { "text": "Telefonun mucidi olarak bilinen kişi kimdir?", "choices": [
-      { "text": "Graham Bell", "correct": true }, { "text": "Thomas Edison" }, { "text": "Nikola Tesla" }, { "text": "Guglielmo Marconi" } ] },
-    { "text": "Ampulü yaygınlaştırmasıyla tanınan mucit kimdir?", "choices": [
-      { "text": "Thomas Edison", "correct": true }, { "text": "Nikola Tesla" }, { "text": "Graham Bell" }, { "text": "James Watt" } ] },
-    { "text": "Belirgin halkalarıyla en ünlü gezegen hangisidir?", "choices": [
-      { "text": "Satürn", "correct": true }, { "text": "Jüpiter" }, { "text": "Mars" }, { "text": "Neptün" } ] },
-    { "text": "Nobel ödüllerine adını veren Alfred Nobel hangi ülkeliydi?", "choices": [
-      { "text": "İsveç", "correct": true }, { "text": "Norveç" }, { "text": "Danimarka" }, { "text": "Finlandiya" } ] },
-    { "text": "Mimar Sinan'ın \"ustalık eserim\" dediği yapı hangisidir?", "choices": [
-      { "text": "Selimiye Camii", "correct": true }, { "text": "Süleymaniye Camii" }, { "text": "Şehzade Camii" }, { "text": "Sultanahmet Camii" } ] }
+    { "text": { "tr": "Mona Lisa tablosunun ressamı kimdir?" }, "choices": [
+      { "text": { "tr": "Leonardo da Vinci" }, "correct": true },
+      { "text": { "tr": "Michelangelo" } },
+      { "text": { "tr": "Rafael" } },
+      { "text": { "tr": "Rembrandt" } } ] },
+    { "text": { "tr": "İstanbul hangi yılda fethedildi?" }, "choices": [
+      { "text": { "tr": "1453" }, "correct": true },
+      { "text": { "tr": "1071" } },
+      { "text": { "tr": "1299" } },
+      { "text": { "tr": "1517" } } ] },
+    { "text": { "tr": "Türkiye Cumhuriyeti hangi yıl ilan edildi?" }, "choices": [
+      { "text": { "tr": "1923" }, "correct": true },
+      { "text": { "tr": "1920" } },
+      { "text": { "tr": "1919" } },
+      { "text": { "tr": "1938" } } ] },
+    { "text": { "tr": "Güneş Sistemi'nin en büyük gezegeni hangisidir?" }, "choices": [
+      { "text": { "tr": "Jüpiter" }, "correct": true },
+      { "text": { "tr": "Satürn" } },
+      { "text": { "tr": "Neptün" } },
+      { "text": { "tr": "Uranüs" } } ] },
+    { "text": { "tr": "Suyun kimyasal formülü nedir?" }, "choices": [
+      { "text": { "tr": "H2O" }, "correct": true },
+      { "text": { "tr": "CO2" } },
+      { "text": { "tr": "O2" } },
+      { "text": { "tr": "NaCl" } } ] },
+    { "text": { "tr": "Romeo ve Juliet'in yazarı kimdir?" }, "choices": [
+      { "text": { "tr": "William Shakespeare" }, "correct": true },
+      { "text": { "tr": "Goethe" } },
+      { "text": { "tr": "Cervantes" } },
+      { "text": { "tr": "Dante" } } ] },
+    { "text": { "tr": "Işığın boşluktaki hızı yaklaşık kaçtır?" }, "choices": [
+      { "text": { "tr": "300.000 km/sn" }, "correct": true },
+      { "text": { "tr": "30.000 km/sn" } },
+      { "text": { "tr": "3.000 km/sn" } },
+      { "text": { "tr": "3.000.000 km/sn" } } ] },
+    { "text": { "tr": "İlk modern Olimpiyat Oyunları hangi şehirde yapıldı?" }, "choices": [
+      { "text": { "tr": "Atina" }, "correct": true },
+      { "text": { "tr": "Paris" } },
+      { "text": { "tr": "Londra" } },
+      { "text": { "tr": "Roma" } } ] },
+    { "text": { "tr": "Kızıl Gezegen olarak bilinen gezegen hangisidir?" }, "choices": [
+      { "text": { "tr": "Mars" }, "correct": true },
+      { "text": { "tr": "Venüs" } },
+      { "text": { "tr": "Merkür" } },
+      { "text": { "tr": "Jüpiter" } } ] },
+    { "text": { "tr": "Nutuk'u kim yazmıştır?" }, "choices": [
+      { "text": { "tr": "Mustafa Kemal Atatürk" }, "correct": true },
+      { "text": { "tr": "İsmet İnönü" } },
+      { "text": { "tr": "Ziya Gökalp" } },
+      { "text": { "tr": "Namık Kemal" } } ] },
+    { "text": { "tr": "Dünyanın en yüksek dağı hangisidir?" }, "choices": [
+      { "text": { "tr": "Everest" }, "correct": true },
+      { "text": { "tr": "K2" } },
+      { "text": { "tr": "Kilimanjaro" } },
+      { "text": { "tr": "Ağrı Dağı" } } ] },
+    { "text": { "tr": "Ay'a ilk ayak basan insan kimdir?" }, "choices": [
+      { "text": { "tr": "Neil Armstrong" }, "correct": true },
+      { "text": { "tr": "Buzz Aldrin" } },
+      { "text": { "tr": "Yuri Gagarin" } },
+      { "text": { "tr": "Michael Collins" } } ] },
+    { "text": { "tr": "İstiklal Marşı'nın şairi kimdir?" }, "choices": [
+      { "text": { "tr": "Mehmet Akif Ersoy" }, "correct": true },
+      { "text": { "tr": "Nazım Hikmet" } },
+      { "text": { "tr": "Yahya Kemal" } },
+      { "text": { "tr": "Tevfik Fikret" } } ] },
+    { "text": { "tr": "Periyodik tabloda \"Fe\" hangi elementtir?" }, "choices": [
+      { "text": { "tr": "Demir" }, "correct": true },
+      { "text": { "tr": "Flor" } },
+      { "text": { "tr": "Fosfor" } },
+      { "text": { "tr": "Kurşun" } } ] },
+    { "text": { "tr": "Bir futbol takımı sahada kaç oyuncuyla başlar?" }, "choices": [
+      { "text": { "tr": "11" }, "correct": true },
+      { "text": { "tr": "10" } },
+      { "text": { "tr": "9" } },
+      { "text": { "tr": "12" } } ] },
+    { "text": { "tr": "Evrensel çekim yasasını kim ortaya koydu?" }, "choices": [
+      { "text": { "tr": "Isaac Newton" }, "correct": true },
+      { "text": { "tr": "Galileo Galilei" } },
+      { "text": { "tr": "Albert Einstein" } },
+      { "text": { "tr": "Johannes Kepler" } } ] },
+    { "text": { "tr": "Dünyanın en büyük okyanusu hangisidir?" }, "choices": [
+      { "text": { "tr": "Büyük Okyanus" }, "correct": true },
+      { "text": { "tr": "Atlas Okyanusu" } },
+      { "text": { "tr": "Hint Okyanusu" } },
+      { "text": { "tr": "Arktik Okyanusu" } } ] },
+    { "text": { "tr": "Standart bir piyanoda kaç tuş bulunur?" }, "choices": [
+      { "text": { "tr": "88" }, "correct": true },
+      { "text": { "tr": "76" } },
+      { "text": { "tr": "64" } },
+      { "text": { "tr": "96" } } ] },
+    { "text": { "tr": "Orhun Yazıtları bugün hangi ülkededir?" }, "choices": [
+      { "text": { "tr": "Moğolistan" }, "correct": true },
+      { "text": { "tr": "Kazakistan" } },
+      { "text": { "tr": "Çin" } },
+      { "text": { "tr": "Kırgızistan" } } ] },
+    { "text": { "tr": "Bir yıl yaklaşık kaç haftadır?" }, "choices": [
+      { "text": { "tr": "52" }, "correct": true },
+      { "text": { "tr": "48" } },
+      { "text": { "tr": "50" } },
+      { "text": { "tr": "56" } } ] },
+    { "text": { "tr": "Erzurum'un simgesi olan medrese hangisidir?" }, "choices": [
+      { "text": { "tr": "Çifte Minareli Medrese" }, "correct": true },
+      { "text": { "tr": "Karatay Medresesi" } },
+      { "text": { "tr": "İnce Minareli Medrese" } },
+      { "text": { "tr": "Gök Medrese" } } ] },
+    { "text": { "tr": "Erzurum'a özgü, yatay şişte pişen kebap hangisidir?" }, "choices": [
+      { "text": { "tr": "Cağ kebabı" }, "correct": true },
+      { "text": { "tr": "İskender kebap" } },
+      { "text": { "tr": "Adana kebap" } },
+      { "text": { "tr": "Testi kebabı" } } ] },
+    { "text": { "tr": "Erzurum'daki ünlü kayak merkezi hangisidir?" }, "choices": [
+      { "text": { "tr": "Palandöken" }, "correct": true },
+      { "text": { "tr": "Uludağ" } },
+      { "text": { "tr": "Erciyes" } },
+      { "text": { "tr": "Kartalkaya" } } ] },
+    { "text": { "tr": "Erzurum Kongresi hangi yıl toplandı?" }, "choices": [
+      { "text": { "tr": "1919" }, "correct": true },
+      { "text": { "tr": "1920" } },
+      { "text": { "tr": "1918" } },
+      { "text": { "tr": "1921" } } ] },
+    { "text": { "tr": "Erzurum'la özdeşleşen halk oyunu hangisidir?" }, "choices": [
+      { "text": { "tr": "Bar" }, "correct": true },
+      { "text": { "tr": "Horon" } },
+      { "text": { "tr": "Zeybek" } },
+      { "text": { "tr": "Teke zortlatması" } } ] },
+    { "text": { "tr": "Güneş'e en yakın gezegen hangisidir?" }, "choices": [
+      { "text": { "tr": "Merkür" }, "correct": true },
+      { "text": { "tr": "Venüs" } },
+      { "text": { "tr": "Mars" } },
+      { "text": { "tr": "Dünya" } } ] },
+    { "text": { "tr": "\"Suç ve Ceza\" romanının yazarı kimdir?" }, "choices": [
+      { "text": { "tr": "Dostoyevski" }, "correct": true },
+      { "text": { "tr": "Tolstoy" } },
+      { "text": { "tr": "Çehov" } },
+      { "text": { "tr": "Gogol" } } ] },
+    { "text": { "tr": "\"Sefiller\" romanının yazarı kimdir?" }, "choices": [
+      { "text": { "tr": "Victor Hugo" }, "correct": true },
+      { "text": { "tr": "Balzac" } },
+      { "text": { "tr": "Émile Zola" } },
+      { "text": { "tr": "Alexandre Dumas" } } ] },
+    { "text": { "tr": "Altının kimyasal sembolü nedir?" }, "choices": [
+      { "text": { "tr": "Au" }, "correct": true },
+      { "text": { "tr": "Ag" } },
+      { "text": { "tr": "Al" } },
+      { "text": { "tr": "Pt" } } ] },
+    { "text": { "tr": "Malazgirt Savaşı hangi yıl yapıldı?" }, "choices": [
+      { "text": { "tr": "1071" }, "correct": true },
+      { "text": { "tr": "1453" } },
+      { "text": { "tr": "1176" } },
+      { "text": { "tr": "1299" } } ] },
+    { "text": { "tr": "Osmanlı Devleti hangi yıl kuruldu?" }, "choices": [
+      { "text": { "tr": "1299" }, "correct": true },
+      { "text": { "tr": "1071" } },
+      { "text": { "tr": "1453" } },
+      { "text": { "tr": "1326" } } ] },
+    { "text": { "tr": "TBMM hangi yıl açıldı?" }, "choices": [
+      { "text": { "tr": "1920" }, "correct": true },
+      { "text": { "tr": "1919" } },
+      { "text": { "tr": "1923" } },
+      { "text": { "tr": "1921" } } ] },
+    { "text": { "tr": "Büyük Taarruz hangi yıl başladı?" }, "choices": [
+      { "text": { "tr": "1922" }, "correct": true },
+      { "text": { "tr": "1921" } },
+      { "text": { "tr": "1920" } },
+      { "text": { "tr": "1923" } } ] },
+    { "text": { "tr": "\"Yıldızlı Gece\" tablosunun ressamı kimdir?" }, "choices": [
+      { "text": { "tr": "Van Gogh" }, "correct": true },
+      { "text": { "tr": "Monet" } },
+      { "text": { "tr": "Picasso" } },
+      { "text": { "tr": "Dalí" } } ] },
+    { "text": { "tr": "\"Guernica\" tablosunu kim yaptı?" }, "choices": [
+      { "text": { "tr": "Picasso" }, "correct": true },
+      { "text": { "tr": "Dalí" } },
+      { "text": { "tr": "Van Gogh" } },
+      { "text": { "tr": "Matisse" } } ] },
+    { "text": { "tr": "Telefonun mucidi olarak bilinen kişi kimdir?" }, "choices": [
+      { "text": { "tr": "Graham Bell" }, "correct": true },
+      { "text": { "tr": "Thomas Edison" } },
+      { "text": { "tr": "Nikola Tesla" } },
+      { "text": { "tr": "Guglielmo Marconi" } } ] },
+    { "text": { "tr": "Ampulü yaygınlaştırmasıyla tanınan mucit kimdir?" }, "choices": [
+      { "text": { "tr": "Thomas Edison" }, "correct": true },
+      { "text": { "tr": "Nikola Tesla" } },
+      { "text": { "tr": "Graham Bell" } },
+      { "text": { "tr": "James Watt" } } ] },
+    { "text": { "tr": "Belirgin halkalarıyla en ünlü gezegen hangisidir?" }, "choices": [
+      { "text": { "tr": "Satürn" }, "correct": true },
+      { "text": { "tr": "Jüpiter" } },
+      { "text": { "tr": "Mars" } },
+      { "text": { "tr": "Neptün" } } ] },
+    { "text": { "tr": "Nobel ödüllerine adını veren Alfred Nobel hangi ülkeliydi?" }, "choices": [
+      { "text": { "tr": "İsveç" }, "correct": true },
+      { "text": { "tr": "Norveç" } },
+      { "text": { "tr": "Danimarka" } },
+      { "text": { "tr": "Finlandiya" } } ] },
+    { "text": { "tr": "Mimar Sinan'ın \"ustalık eserim\" dediği yapı hangisidir?" }, "choices": [
+      { "text": { "tr": "Selimiye Camii" }, "correct": true },
+      { "text": { "tr": "Süleymaniye Camii" } },
+      { "text": { "tr": "Şehzade Camii" } },
+      { "text": { "tr": "Sultanahmet Camii" } } ] }
   ]
 }

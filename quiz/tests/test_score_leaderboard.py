@@ -261,7 +261,7 @@ class LeaderboardTests(APITestCase):
     def test_entry_shape(self):
         self.add("neonfox", 3640, 20)
         entry = self.get().json()["entries"][0]
-        self.assertEqual(set(entry), {"rank", "nickname", "points", "correct_count", "created_at"})
+        self.assertEqual(set(entry), {"rank", "nickname", "points", "correct_count", "language", "created_at"})
         self.assertEqual(entry["rank"], 1)
         self.assertEqual(entry["nickname"], "neonfox")
         self.assertTrue(entry["created_at"].endswith("+03:00"))

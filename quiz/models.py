@@ -2,11 +2,30 @@ import uuid
 
 from django.db import models
 
+# Supported languages. Turkish is the default and the source language: the plain fields
+# (name, description, text) are Turkish; `*_en` / `*_es` hold translations ("" = missing).
+DEFAULT_LANGUAGE = "tr"
+LANGUAGES = ["tr", "en", "es"]
+LANGUAGE_CHOICES = [("tr", "Türkçe"), ("en", "English"), ("es", "Español")]
+
+
+def localized(obj, field, language):
+    """obj.field in `language`, falling back to Turkish when the translation is missing."""
+    if language != DEFAULT_LANGUAGE:
+        value = getattr(obj, f"{field}_{language}", "")
+        if value:
+            return value
+    return getattr(obj, field)
+
 
 class Category(models.Model):
     name = models.CharField(max_length=50, unique=True)
     slug = models.SlugField(unique=True)
     description = models.CharField(max_length=150, blank=True)
+    name_en = models.CharField(max_length=50, blank=True)
+    name_es = models.CharField(max_length=50, blank=True)
+    description_en = models.CharField(max_length=150, blank=True)
+    description_es = models.CharField(max_length=150, blank=True)
     # Design color key used by the client: cyan, violet, orange, lime, pink, blue, yellow, coral, teal
     color = models.CharField(max_length=20)
     order = models.PositiveSmallIntegerField(default=0)
@@ -24,6 +43,9 @@ class Category(models.Model):
 class Question(models.Model):
     category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name="questions")
     text = models.CharField(max_length=150)
+    # Empty = the question is not offered in that language (e.g. Turkey-specific questions).
+    text_en = models.CharField(max_length=150, blank=True)
+    text_es = models.CharField(max_length=150, blank=True)
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -46,6 +68,8 @@ class Question(models.Model):
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name="choices")
     text = models.CharField(max_length=60)
+    text_en = models.CharField(max_length=60, blank=True)
+    text_es = models.CharField(max_length=60, blank=True)
     is_correct = models.BooleanField(default=False)
     # Only for ordering in the admin; the client receives choices shuffled.
     order = models.PositiveSmallIntegerField(default=0)
@@ -70,6 +94,8 @@ class QuizSession(models.Model):
     token_hash = models.CharField(max_length=64, unique=True)
     category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name="sessions")
     status = models.CharField(max_length=10, choices=Status.choices, default=Status.ACTIVE)
+    # Chosen when the quiz starts; questions and texts are served in this language.
+    language = models.CharField(max_length=2, choices=LANGUAGE_CHOICES, default=DEFAULT_LANGUAGE)
     current_index = models.PositiveSmallIntegerField(default=0)
     points = models.PositiveIntegerField(default=0)
     correct_count = models.PositiveSmallIntegerField(default=0)
@@ -129,6 +155,8 @@ class Score(models.Model):
     session = models.OneToOneField(QuizSession, on_delete=models.CASCADE, related_name="score")
     category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name="scores")
     nickname = models.CharField(max_length=16)
+    # Language the quiz was played in (copied from the session); shown as a flag.
+    language = models.CharField(max_length=2, choices=LANGUAGE_CHOICES, default=DEFAULT_LANGUAGE)
     # Copied from the session on the server; the client never sends these.
     points = models.PositiveIntegerField()
     correct_count = models.PositiveSmallIntegerField()

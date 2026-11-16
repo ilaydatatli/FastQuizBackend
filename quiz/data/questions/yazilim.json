@@ -1,85 +1,205 @@
 {
-  "category": { "slug": "yazilim", "name": "Yazılım", "description": "Kod, araçlar, kavramlar", "color": "cyan", "order": 1 },
+  "category": { "slug": "yazilim", "color": "cyan", "order": 1, "name": { "tr": "Yazılım" }, "description": { "tr": "Kod, araçlar, kavramlar" } },
   "questions": [
-    { "text": "HTTP'de 404 durum kodu ne anlama gelir?", "choices": [
-      { "text": "Bulunamadı", "correct": true }, { "text": "Sunucu hatası" }, { "text": "Yetkisiz" }, { "text": "Yönlendirme" } ] },
-    { "text": "HTTP'de 500 durum kodu neyi belirtir?", "choices": [
-      { "text": "Sunucu hatası", "correct": true }, { "text": "Bulunamadı" }, { "text": "Başarılı" }, { "text": "Yasak" } ] },
-    { "text": "Python'da bir listenin uzunluğunu hangi fonksiyon verir?", "choices": [
-      { "text": "len()", "correct": true }, { "text": "size()" }, { "text": "count()" }, { "text": "length()" } ] },
-    { "text": "Git'te değişiklikleri uzak repoya hangi komut gönderir?", "choices": [
-      { "text": "git push", "correct": true }, { "text": "git pull" }, { "text": "git fetch" }, { "text": "git clone" } ] },
-    { "text": "HTML'de en büyük başlık etiketi hangisidir?", "choices": [
-      { "text": "<h1>", "correct": true }, { "text": "<h6>" }, { "text": "<head>" }, { "text": "<title>" } ] },
-    { "text": "SQL'de tablodan veri okumak için hangi komut kullanılır?", "choices": [
-      { "text": "SELECT", "correct": true }, { "text": "INSERT" }, { "text": "UPDATE" }, { "text": "DELETE" } ] },
-    { "text": "CSS ne için kullanılır?", "choices": [
-      { "text": "Sayfaya stil vermek", "correct": true }, { "text": "Veritabanı sorgulamak" }, { "text": "Sunucu kurmak" }, { "text": "Dosya sıkıştırmak" } ] },
-    { "text": "JavaScript'te yeniden atanamayan değişken nasıl tanımlanır?", "choices": [
-      { "text": "const", "correct": true }, { "text": "let" }, { "text": "var" }, { "text": "static" } ] },
-    { "text": "1 bayt kaç bittir?", "choices": [
-      { "text": "8", "correct": true }, { "text": "4" }, { "text": "16" }, { "text": "10" } ] },
-    { "text": "Hangisi bir sürüm kontrol sistemidir?", "choices": [
-      { "text": "Git", "correct": true }, { "text": "Docker" }, { "text": "Nginx" }, { "text": "Redis" } ] },
-    { "text": "JSON kısaltmasındaki \"J\" neyi ifade eder?", "choices": [
-      { "text": "JavaScript", "correct": true }, { "text": "Java" }, { "text": "Joint" }, { "text": "Jupyter" } ] },
-    { "text": "Python'da yorum satırı hangi karakterle başlar?", "choices": [
-      { "text": "#", "correct": true }, { "text": "//" }, { "text": "--" }, { "text": "/*" } ] },
-    { "text": "İkilik sistemdeki 101 sayısı onluk sistemde kaçtır?", "choices": [
-      { "text": "5", "correct": true }, { "text": "3" }, { "text": "6" }, { "text": "7" } ] },
-    { "text": "REST API'de yeni kayıt oluşturmak için genelde hangi yöntem kullanılır?", "choices": [
-      { "text": "POST", "correct": true }, { "text": "GET" }, { "text": "HEAD" }, { "text": "OPTIONS" } ] },
-    { "text": "Kuyruk (queue) veri yapısında hangi eleman önce çıkar?", "choices": [
-      { "text": "İlk giren", "correct": true }, { "text": "Son giren" }, { "text": "Rastgele biri" }, { "text": "En küçüğü" } ] },
-    { "text": "Hangisi ilişkisel bir veritabanıdır?", "choices": [
-      { "text": "PostgreSQL", "correct": true }, { "text": "MongoDB" }, { "text": "Redis" }, { "text": "Elasticsearch" } ] },
-    { "text": "\"localhost\" genelde hangi IP adresini gösterir?", "choices": [
-      { "text": "127.0.0.1", "correct": true }, { "text": "192.168.1.1" }, { "text": "8.8.8.8" }, { "text": "255.255.255.0" } ] },
-    { "text": "HTTPS'deki \"S\" harfi neyi ifade eder?", "choices": [
-      { "text": "Secure", "correct": true }, { "text": "Server" }, { "text": "Simple" }, { "text": "Static" } ] },
-    { "text": "Linux çekirdeğini ilk kim yazdı?", "choices": [
-      { "text": "Linus Torvalds", "correct": true }, { "text": "Bill Gates" }, { "text": "Guido van Rossum" }, { "text": "Steve Jobs" } ] },
-    { "text": "API kısaltmasındaki \"I\" neyi ifade eder?", "choices": [
-      { "text": "Interface", "correct": true }, { "text": "Internet" }, { "text": "Index" }, { "text": "Input" } ] },
-    { "text": "Python'da bir sözlüğün anahtarlarını hangi metot verir?", "choices": [
-      { "text": "keys()", "correct": true }, { "text": "values()" }, { "text": "items()" }, { "text": "get()" } ] },
-    { "text": "HTTP'de 401 durum kodu neyi belirtir?", "choices": [
-      { "text": "Yetkisiz", "correct": true }, { "text": "Bulunamadı" }, { "text": "Sunucu hatası" }, { "text": "Yönlendirme" } ] },
-    { "text": "Git'te yeni dal oluşturup ona geçen komut hangisidir?", "choices": [
-      { "text": "git switch -c", "correct": true }, { "text": "git merge" }, { "text": "git push" }, { "text": "git log" } ] },
-    { "text": "Git'te değişiklikleri kayıt altına alan komut hangisidir?", "choices": [
-      { "text": "git commit", "correct": true }, { "text": "git push" }, { "text": "git clone" }, { "text": "git pull" } ] },
-    { "text": "Yığın (stack) veri yapısında hangi eleman önce çıkar?", "choices": [
-      { "text": "Son giren", "correct": true }, { "text": "İlk giren" }, { "text": "En küçük" }, { "text": "Rastgele biri" } ] },
-    { "text": "SQL'de tabloya yeni satır ekleyen komut hangisidir?", "choices": [
-      { "text": "INSERT", "correct": true }, { "text": "UPDATE" }, { "text": "SELECT" }, { "text": "DELETE" } ] },
-    { "text": "CSS'te metin rengini hangi özellik belirler?", "choices": [
-      { "text": "color", "correct": true }, { "text": "background" }, { "text": "font-size" }, { "text": "border" } ] },
-    { "text": "HTML'de bağlantı (link) hangi etiketle oluşturulur?", "choices": [
-      { "text": "<a>", "correct": true }, { "text": "<p>" }, { "text": "<img>" }, { "text": "<div>" } ] },
-    { "text": "Onaltılık sistemde F harfi onluk sistemde kaçtır?", "choices": [
-      { "text": "15", "correct": true }, { "text": "16" }, { "text": "14" }, { "text": "10" } ] },
-    { "text": "Onluk sistemdeki 8 sayısı ikilik sistemde nasıl yazılır?", "choices": [
-      { "text": "1000", "correct": true }, { "text": "110" }, { "text": "1001" }, { "text": "111" } ] },
-    { "text": "Python'da 7 // 2 işleminin sonucu nedir?", "choices": [
-      { "text": "3", "correct": true }, { "text": "3.5" }, { "text": "4" }, { "text": "1" } ] },
-    { "text": "Python'da 7 % 3 işleminin sonucu nedir?", "choices": [
-      { "text": "1", "correct": true }, { "text": "2" }, { "text": "0" }, { "text": "3" } ] },
-    { "text": "JavaScript'te tip kontrollü (katı) eşitlik operatörü hangisidir?", "choices": [
-      { "text": "===", "correct": true }, { "text": "==" }, { "text": "=" }, { "text": "!=" } ] },
-    { "text": "DNS'in temel görevi nedir?", "choices": [
-      { "text": "Alan adını IP'ye çevirmek", "correct": true }, { "text": "Dosya sıkıştırmak" }, { "text": "E-posta göndermek" }, { "text": "Veri şifrelemek" } ] },
-    { "text": "Hangisi bir NoSQL veritabanıdır?", "choices": [
-      { "text": "MongoDB", "correct": true }, { "text": "PostgreSQL" }, { "text": "MySQL" }, { "text": "SQLite" } ] },
-    { "text": "Python dilini kim yarattı?", "choices": [
-      { "text": "Guido van Rossum", "correct": true }, { "text": "James Gosling" }, { "text": "Dennis Ritchie" }, { "text": "Bjarne Stroustrup" } ] },
-    { "text": "C programlama dilini kim geliştirdi?", "choices": [
-      { "text": "Dennis Ritchie", "correct": true }, { "text": "Guido van Rossum" }, { "text": "Linus Torvalds" }, { "text": "James Gosling" } ] },
-    { "text": "Java dilinin yaratıcısı kimdir?", "choices": [
-      { "text": "James Gosling", "correct": true }, { "text": "Dennis Ritchie" }, { "text": "Brendan Eich" }, { "text": "Guido van Rossum" } ] },
-    { "text": "Bir fonksiyonun kendini çağırmasına ne denir?", "choices": [
-      { "text": "Özyineleme", "correct": true }, { "text": "Döngü" }, { "text": "Kalıtım" }, { "text": "Kapsülleme" } ] },
-    { "text": "HTTP varsayılan olarak hangi portu kullanır?", "choices": [
-      { "text": "80", "correct": true }, { "text": "443" }, { "text": "21" }, { "text": "22" } ] }
+    { "text": { "tr": "HTTP'de 404 durum kodu ne anlama gelir?" }, "choices": [
+      { "text": { "tr": "Bulunamadı" }, "correct": true },
+      { "text": { "tr": "Sunucu hatası" } },
+      { "text": { "tr": "Yetkisiz" } },
+      { "text": { "tr": "Yönlendirme" } } ] },
+    { "text": { "tr": "HTTP'de 500 durum kodu neyi belirtir?" }, "choices": [
+      { "text": { "tr": "Sunucu hatası" }, "correct": true },
+      { "text": { "tr": "Bulunamadı" } },
+      { "text": { "tr": "Başarılı" } },
+      { "text": { "tr": "Yasak" } } ] },
+    { "text": { "tr": "Python'da bir listenin uzunluğunu hangi fonksiyon verir?" }, "choices": [
+      { "text": { "tr": "len()" }, "correct": true },
+      { "text": { "tr": "size()" } },
+      { "text": { "tr": "count()" } },
+      { "text": { "tr": "length()" } } ] },
+    { "text": { "tr": "Git'te değişiklikleri uzak repoya hangi komut gönderir?" }, "choices": [
+      { "text": { "tr": "git push" }, "correct": true },
+      { "text": { "tr": "git pull" } },
+      { "text": { "tr": "git fetch" } },
+      { "text": { "tr": "git clone" } } ] },
+    { "text": { "tr": "HTML'de en büyük başlık etiketi hangisidir?" }, "choices": [
+      { "text": { "tr": "<h1>" }, "correct": true },
+      { "text": { "tr": "<h6>" } },
+      { "text": { "tr": "<head>" } },
+      { "text": { "tr": "<title>" } } ] },
+    { "text": { "tr": "SQL'de tablodan veri okumak için hangi komut kullanılır?" }, "choices": [
+      { "text": { "tr": "SELECT" }, "correct": true },
+      { "text": { "tr": "INSERT" } },
+      { "text": { "tr": "UPDATE" } },
+      { "text": { "tr": "DELETE" } } ] },
+    { "text": { "tr": "CSS ne için kullanılır?" }, "choices": [
+      { "text": { "tr": "Sayfaya stil vermek" }, "correct": true },
+      { "text": { "tr": "Veritabanı sorgulamak" } },
+      { "text": { "tr": "Sunucu kurmak" } },
+      { "text": { "tr": "Dosya sıkıştırmak" } } ] },
+    { "text": { "tr": "JavaScript'te yeniden atanamayan değişken nasıl tanımlanır?" }, "choices": [
+      { "text": { "tr": "const" }, "correct": true },
+      { "text": { "tr": "let" } },
+      { "text": { "tr": "var" } },
+      { "text": { "tr": "static" } } ] },
+    { "text": { "tr": "1 bayt kaç bittir?" }, "choices": [
+      { "text": { "tr": "8" }, "correct": true },
+      { "text": { "tr": "4" } },
+      { "text": { "tr": "16" } },
+      { "text": { "tr": "10" } } ] },
+    { "text": { "tr": "Hangisi bir sürüm kontrol sistemidir?" }, "choices": [
+      { "text": { "tr": "Git" }, "correct": true },
+      { "text": { "tr": "Docker" } },
+      { "text": { "tr": "Nginx" } },
+      { "text": { "tr": "Redis" } } ] },
+    { "text": { "tr": "JSON kısaltmasındaki \"J\" neyi ifade eder?" }, "choices": [
+      { "text": { "tr": "JavaScript" }, "correct": true },
+      { "text": { "tr": "Java" } },
+      { "text": { "tr": "Joint" } },
+      { "text": { "tr": "Jupyter" } } ] },
+    { "text": { "tr": "Python'da yorum satırı hangi karakterle başlar?" }, "choices": [
+      { "text": { "tr": "#" }, "correct": true },
+      { "text": { "tr": "//" } },
+      { "text": { "tr": "--" } },
+      { "text": { "tr": "/*" } } ] },
+    { "text": { "tr": "İkilik sistemdeki 101 sayısı onluk sistemde kaçtır?" }, "choices": [
+      { "text": { "tr": "5" }, "correct": true },
+      { "text": { "tr": "3" } },
+      { "text": { "tr": "6" } },
+      { "text": { "tr": "7" } } ] },
+    { "text": { "tr": "REST API'de yeni kayıt oluşturmak için genelde hangi yöntem kullanılır?" }, "choices": [
+      { "text": { "tr": "POST" }, "correct": true },
+      { "text": { "tr": "GET" } },
+      { "text": { "tr": "HEAD" } },
+      { "text": { "tr": "OPTIONS" } } ] },
+    { "text": { "tr": "Kuyruk (queue) veri yapısında hangi eleman önce çıkar?" }, "choices": [
+      { "text": { "tr": "İlk giren" }, "correct": true },
+      { "text": { "tr": "Son giren" } },
+      { "text": { "tr": "Rastgele biri" } },
+      { "text": { "tr": "En küçüğü" } } ] },
+    { "text": { "tr": "Hangisi ilişkisel bir veritabanıdır?" }, "choices": [
+      { "text": { "tr": "PostgreSQL" }, "correct": true },
+      { "text": { "tr": "MongoDB" } },
+      { "text": { "tr": "Redis" } },
+      { "text": { "tr": "Elasticsearch" } } ] },
+    { "text": { "tr": "\"localhost\" genelde hangi IP adresini gösterir?" }, "choices": [
+      { "text": { "tr": "127.0.0.1" }, "correct": true },
+      { "text": { "tr": "192.168.1.1" } },
+      { "text": { "tr": "8.8.8.8" } },
+      { "text": { "tr": "255.255.255.0" } } ] },
+    { "text": { "tr": "HTTPS'deki \"S\" harfi neyi ifade eder?" }, "choices": [
+      { "text": { "tr": "Secure" }, "correct": true },
+      { "text": { "tr": "Server" } },
+      { "text": { "tr": "Simple" } },
+      { "text": { "tr": "Static" } } ] },
+    { "text": { "tr": "Linux çekirdeğini ilk kim yazdı?" }, "choices": [
+      { "text": { "tr": "Linus Torvalds" }, "correct": true },
+      { "text": { "tr": "Bill Gates" } },
+      { "text": { "tr": "Guido van Rossum" } },
+      { "text": { "tr": "Steve Jobs" } } ] },
+    { "text": { "tr": "API kısaltmasındaki \"I\" neyi ifade eder?" }, "choices": [
+      { "text": { "tr": "Interface" }, "correct": true },
+      { "text": { "tr": "Internet" } },
+      { "text": { "tr": "Index" } },
+      { "text": { "tr": "Input" } } ] },
+    { "text": { "tr": "Python'da bir sözlüğün anahtarlarını hangi metot verir?" }, "choices": [
+      { "text": { "tr": "keys()" }, "correct": true },
+      { "text": { "tr": "values()" } },
+      { "text": { "tr": "items()" } },
+      { "text": { "tr": "get()" } } ] },
+    { "text": { "tr": "HTTP'de 401 durum kodu neyi belirtir?" }, "choices": [
+      { "text": { "tr": "Yetkisiz" }, "correct": true },
+      { "text": { "tr": "Bulunamadı" } },
+      { "text": { "tr": "Sunucu hatası" } },
+      { "text": { "tr": "Yönlendirme" } } ] },
+    { "text": { "tr": "Git'te yeni dal oluşturup ona geçen komut hangisidir?" }, "choices": [
+      { "text": { "tr": "git switch -c" }, "correct": true },
+      { "text": { "tr": "git merge" } },
+      { "text": { "tr": "git push" } },
+      { "text": { "tr": "git log" } } ] },
+    { "text": { "tr": "Git'te değişiklikleri kayıt altına alan komut hangisidir?" }, "choices": [
+      { "text": { "tr": "git commit" }, "correct": true },
+      { "text": { "tr": "git push" } },
+      { "text": { "tr": "git clone" } },
+      { "text": { "tr": "git pull" } } ] },
+    { "text": { "tr": "Yığın (stack) veri yapısında hangi eleman önce çıkar?" }, "choices": [
+      { "text": { "tr": "Son giren" }, "correct": true },
+      { "text": { "tr": "İlk giren" } },
+      { "text": { "tr": "En küçük" } },
+      { "text": { "tr": "Rastgele biri" } } ] },
+    { "text": { "tr": "SQL'de tabloya yeni satır ekleyen komut hangisidir?" }, "choices": [
+      { "text": { "tr": "INSERT" }, "correct": true },
+      { "text": { "tr": "UPDATE" } },
+      { "text": { "tr": "SELECT" } },
+      { "text": { "tr": "DELETE" } } ] },
+    { "text": { "tr": "CSS'te metin rengini hangi özellik belirler?" }, "choices": [
+      { "text": { "tr": "color" }, "correct": true },
+      { "text": { "tr": "background" } },
+      { "text": { "tr": "font-size" } },
+      { "text": { "tr": "border" } } ] },
+    { "text": { "tr": "HTML'de bağlantı (link) hangi etiketle oluşturulur?" }, "choices": [
+      { "text": { "tr": "<a>" }, "correct": true },
+      { "text": { "tr": "<p>" } },
+      { "text": { "tr": "<img>" } },
+      { "text": { "tr": "<div>" } } ] },
+    { "text": { "tr": "Onaltılık sistemde F harfi onluk sistemde kaçtır?" }, "choices": [
+      { "text": { "tr": "15" }, "correct": true },
+      { "text": { "tr": "16" } },
+      { "text": { "tr": "14" } },
+      { "text": { "tr": "10" } } ] },
+    { "text": { "tr": "Onluk sistemdeki 8 sayısı ikilik sistemde nasıl yazılır?" }, "choices": [
+      { "text": { "tr": "1000" }, "correct": true },
+      { "text": { "tr": "110" } },
+      { "text": { "tr": "1001" } },
+      { "text": { "tr": "111" } } ] },
+    { "text": { "tr": "Python'da 7 // 2 işleminin sonucu nedir?" }, "choices": [
+      { "text": { "tr": "3" }, "correct": true },
+      { "text": { "tr": "3.5" } },
+      { "text": { "tr": "4" } },
+      { "text": { "tr": "1" } } ] },
+    { "text": { "tr": "Python'da 7 % 3 işleminin sonucu nedir?" }, "choices": [
+      { "text": { "tr": "1" }, "correct": true },
+      { "text": { "tr": "2" } },
+      { "text": { "tr": "0" } },
+      { "text": { "tr": "3" } } ] },
+    { "text": { "tr": "JavaScript'te tip kontrollü (katı) eşitlik operatörü hangisidir?" }, "choices": [
+      { "text": { "tr": "===" }, "correct": true },
+      { "text": { "tr": "==" } },
+      { "text": { "tr": "=" } },
+      { "text": { "tr": "!=" } } ] },
+    { "text": { "tr": "DNS'in temel görevi nedir?" }, "choices": [
+      { "text": { "tr": "Alan adını IP'ye çevirmek" }, "correct": true },
+      { "text": { "tr": "Dosya sıkıştırmak" } },
+      { "text": { "tr": "E-posta göndermek" } },
+      { "text": { "tr": "Veri şifrelemek" } } ] },
+    { "text": { "tr": "Hangisi bir NoSQL veritabanıdır?" }, "choices": [
+      { "text": { "tr": "MongoDB" }, "correct": true },
+      { "text": { "tr": "PostgreSQL" } },
+      { "text": { "tr": "MySQL" } },
+      { "text": { "tr": "SQLite" } } ] },
+    { "text": { "tr": "Python dilini kim yarattı?" }, "choices": [
+      { "text": { "tr": "Guido van Rossum" }, "correct": true },
+      { "text": { "tr": "James Gosling" } },
+      { "text": { "tr": "Dennis Ritchie" } },
+      { "text": { "tr": "Bjarne Stroustrup" } } ] },
+    { "text": { "tr": "C programlama dilini kim geliştirdi?" }, "choices": [
+      { "text": { "tr": "Dennis Ritchie" }, "correct": true },
+      { "text": { "tr": "Guido van Rossum" } },
+      { "text": { "tr": "Linus Torvalds" } },
+      { "text": { "tr": "James Gosling" } } ] },
+    { "text": { "tr": "Java dilinin yaratıcısı kimdir?" }, "choices": [
+      { "text": { "tr": "James Gosling" }, "correct": true },
+      { "text": { "tr": "Dennis Ritchie" } },
+      { "text": { "tr": "Brendan Eich" } },
+      { "text": { "tr": "Guido van Rossum" } } ] },
+    { "text": { "tr": "Bir fonksiyonun kendini çağırmasına ne denir?" }, "choices": [
+      { "text": { "tr": "Özyineleme" }, "correct": true },
+      { "text": { "tr": "Döngü" } },
+      { "text": { "tr": "Kalıtım" } },
+      { "text": { "tr": "Kapsülleme" } } ] },
+    { "text": { "tr": "HTTP varsayılan olarak hangi portu kullanır?" }, "choices": [
+      { "text": { "tr": "80" }, "correct": true },
+      { "text": { "tr": "443" } },
+      { "text": { "tr": "21" } },
+      { "text": { "tr": "22" } } ] }
   ]
 }

@@ -18,7 +18,7 @@ from django.utils import timezone
 from rest_framework import status
 
 from .exceptions import QuizError
-from .models import Category, QuizSession, Score, SessionQuestion
+from .models import DEFAULT_LANGUAGE, Category, QuizSession, Score, SessionQuestion
 
 # OS-level randomness: question picks and choice order should not be predictable.
 _rng = random.SystemRandom()
@@ -32,12 +32,23 @@ def hash_token(raw_token):
     return hashlib.sha256(raw_token.encode()).hexdigest()
 
 
-def playable_categories():
-    """Active categories with enough active questions for a quiz, with `question_count`."""
+def in_language(language, prefix=""):
+    """Filter for questions that exist in `language` (Turkish: all of them)."""
+    if language == DEFAULT_LANGUAGE:
+        return Q()
+    return ~Q(**{f"{prefix}text_{language}": ""})
+
+
+def playable_categories(language=DEFAULT_LANGUAGE):
+    """
+    Active categories with enough active questions in `language` for a quiz,
+    annotated with `question_count` (questions available in that language).
+    """
     needed = settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"]
+    available = Q(questions__is_active=True) & in_language(language, prefix="questions__")
     return (
         Category.objects.filter(is_active=True)
-        .annotate(question_count=Count("questions", filter=Q(questions__is_active=True)))
+        .annotate(question_count=Count("questions", filter=available))
         .filter(question_count__gte=needed)
         .order_by("order", "name")
     )
@@ -47,9 +58,10 @@ def session_expires_at(session):
     return session.started_at + timedelta(minutes=settings.FAST_QUIZ["SESSION_TTL_MINUTES"])
 
 
-def start_quiz(category_slug):
+def start_quiz(category_slug, language=DEFAULT_LANGUAGE):
     """
-    Create a quiz for the category: pick random questions, shuffle each question's choices.
+    Create a quiz for the category in `language`: pick random questions that exist in that
+    language, shuffle each question's choices.
     Returns (session, raw_token). The raw token is shown to the client once and never stored.
     """
     needed = settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"]
@@ -58,7 +70,9 @@ def start_quiz(category_slug):
     if category is None:
         raise QuizError("CATEGORY_NOT_FOUND", "Böyle bir kategori yok.", status.HTTP_404_NOT_FOUND)
 
-    questions = list(category.questions.filter(is_active=True).prefetch_related("choices"))
+    questions = list(
+        category.questions.filter(in_language(language), is_active=True).prefetch_related("choices")
+    )
     if len(questions) < needed:
         raise QuizError(
             "NOT_ENOUGH_QUESTIONS",
@@ -70,7 +84,9 @@ def start_quiz(category_slug):
     raw_token = secrets.token_urlsafe(32)
 
     with transaction.atomic():
-        session = QuizSession.objects.create(category=category, token_hash=hash_token(raw_token))
+        session = QuizSession.objects.create(
+            category=category, language=language, token_hash=hash_token(raw_token)
+        )
         SessionQuestion.objects.bulk_create(
             SessionQuestion(
                 session=session,
@@ -286,6 +302,7 @@ def get_result(session_id):
     return {
         "quiz_id": session.id,
         "category": session.category,
+        "language": session.language,
         "points": session.points,
         "correct_count": session.correct_count,
         "total_questions": settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"],
@@ -321,6 +338,7 @@ def save_score(session_id, nickname):
                 session=session,
                 category_id=session.category_id,
                 nickname=nickname,
+                language=session.language,
                 points=session.points,
                 correct_count=session.correct_count,
             )
@@ -336,7 +354,7 @@ def save_score(session_id, nickname):
     }
 
 
-def leaderboard(category_slug):
+def leaderboard(category_slug, language=DEFAULT_LANGUAGE):
     category = Category.objects.filter(slug=category_slug, is_active=True).first()
     if category is None:
         raise QuizError("CATEGORY_NOT_FOUND", "Böyle bir kategori yok.", status.HTTP_404_NOT_FOUND)
@@ -349,7 +367,7 @@ def leaderboard(category_slug):
     )
     scores = Score.objects.filter(id__in=best_ids).order_by(*LEADERBOARD_ORDER)[:size]  # one query
     entries = [{"rank": rank, "score": score} for rank, score in enumerate(scores, start=1)]
-    return {"category": category, "entries": entries}
+    return {"category": category, "language": language, "entries": entries}
 
 
 # Points (high first) -> correct answers (high first) -> saved earlier first. id breaks exact ties.

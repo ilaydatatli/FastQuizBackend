@@ -1,49 +1,62 @@
 """
 Shapes sent to the client. Never use fields = "__all__" and never expose Choice.is_correct.
+
+Texts are returned in one language. Serializers read it from context["language"]
+(nested serializers share the root's context); missing translations fall back to Turkish.
 """
 
 from django.conf import settings
 from rest_framework import serializers
 
-from .models import Category
+from .models import DEFAULT_LANGUAGE, LANGUAGE_CHOICES, localized
 
 
-class CategorySerializer(serializers.ModelSerializer):
-    question_count = serializers.IntegerField(read_only=True)  # from playable_categories()
-
-    class Meta:
-        model = Category
-        fields = ["slug", "name", "description", "color", "question_count"]
+def _language(serializer):
+    return serializer.context.get("language", DEFAULT_LANGUAGE)
 
 
-class CategoryBriefSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Category
-        fields = ["slug", "name", "color"]
+class LanguageQuerySerializer(serializers.Serializer):
+    """Optional ?lang=tr|en|es on public GET endpoints."""
+
+    lang = serializers.ChoiceField(choices=LANGUAGE_CHOICES, required=False, default=DEFAULT_LANGUAGE)
+
+
+class CategorySerializer(serializers.Serializer):
+    def to_representation(self, category):
+        language = _language(self)
+        return {
+            "slug": category.slug,
+            "name": localized(category, "name", language),
+            "description": localized(category, "description", language),
+            "color": category.color,
+            "question_count": category.question_count,  # from playable_categories()
+        }
+
+
+class CategoryBriefSerializer(serializers.Serializer):
+    def to_representation(self, category):
+        return {
+            "slug": category.slug,
+            "name": localized(category, "name", _language(self)),
+            "color": category.color,
+        }
 
 
 class StartQuizSerializer(serializers.Serializer):
     category = serializers.CharField(max_length=50)
+    language = serializers.ChoiceField(
+        choices=LANGUAGE_CHOICES, required=False, default=DEFAULT_LANGUAGE
+    )
 
 
 class QuizStartedSerializer(serializers.Serializer):
     quiz_id = serializers.UUIDField()
     token = serializers.CharField()
     category = CategoryBriefSerializer()
+    language = serializers.CharField()
     total_questions = serializers.IntegerField()
     time_limit_ms = serializers.IntegerField()
     expires_at = serializers.DateTimeField()  # rendered in Europe/Istanbul, e.g. +03:00
-
-
-class ChoiceSerializer(serializers.Serializer):
-    # Only id and text. is_correct must never reach the client before the answer.
-    id = serializers.IntegerField()
-    text = serializers.CharField()
-
-
-class QuestionSerializer(serializers.Serializer):
-    id = serializers.IntegerField(source="question.id")
-    text = serializers.CharField(source="question.text")
 
 
 class CurrentSerializer(serializers.Serializer):
@@ -59,9 +72,15 @@ class CurrentSerializer(serializers.Serializer):
             "question": None,
         }
         if item is not None:
+            language = session.language
             data["question"] = {
-                **QuestionSerializer(item).data,
-                "choices": ChoiceSerializer(result["choices"], many=True).data,
+                "id": item.question.id,
+                "text": localized(item.question, "text", language),
+                # Only id and text: is_correct must never reach the client before the answer.
+                "choices": [
+                    {"id": choice.id, "text": localized(choice, "text", language)}
+                    for choice in result["choices"]
+                ],
             }
             data["time_limit_ms"] = settings.FAST_QUIZ["TIME_LIMIT_MS"]
             data["remaining_ms"] = result["remaining_ms"]
@@ -115,6 +134,7 @@ class LeaderboardEntrySerializer(serializers.Serializer):
     nickname = serializers.CharField(source="score.nickname")
     points = serializers.IntegerField(source="score.points")
     correct_count = serializers.IntegerField(source="score.correct_count")
+    language = serializers.CharField(source="score.language")  # played in; shown as a flag
     created_at = serializers.DateTimeField(source="score.created_at")
 
 

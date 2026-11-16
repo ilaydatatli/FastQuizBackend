@@ -36,7 +36,7 @@ class ChoiceInlineFormSet(BaseInlineFormSet):
 class ChoiceInline(admin.TabularInline):
     model = Choice
     formset = ChoiceInlineFormSet
-    fields = ["order", "text", "is_correct"]
+    fields = ["order", "text", "text_en", "text_es", "is_correct"]
     extra = REQUIRED_CHOICES
     max_num = REQUIRED_CHOICES
 
