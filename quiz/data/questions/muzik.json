@@ -126,11 +126,11 @@
       { "text": { "tr": "Almanya", "en": "Germany", "nl": "Duitsland" } },
       { "text": { "tr": "İtalya", "en": "Italy", "nl": "Italië" } },
       { "text": { "tr": "İsviçre", "en": "Switzerland", "nl": "Zwitserland" } } ] },
-    { "text": { "tr": "Do-re-mi dizisinde \"mi\"den sonra hangi nota gelir?", "en": "In do-re-mi, which note comes after \"mi\"?", "nl": "Welke noot komt na \"mi\" in do-re-mi?" }, "choices": [
-      { "text": { "tr": "Fa", "en": "Fa", "nl": "Fa" }, "correct": true },
-      { "text": { "tr": "Sol", "en": "Sol", "nl": "Sol" } },
-      { "text": { "tr": "Re", "en": "Re", "nl": "Re" } },
-      { "text": { "tr": "La", "en": "La", "nl": "La" } } ] },
+    { "text": { "tr": "Do-re-mi dizisinde \"mi\"den sonra hangi nota gelir?", "en": "In the C major scale, which note comes after E?", "nl": "Welke noot komt na de E in de toonladder van C majeur?" }, "choices": [
+      { "text": { "tr": "Fa", "en": "F", "nl": "F" }, "correct": true },
+      { "text": { "tr": "Sol", "en": "G", "nl": "G" } },
+      { "text": { "tr": "Re", "en": "D", "nl": "D" } },
+      { "text": { "tr": "La", "en": "A", "nl": "A" } } ] },
     { "text": { "tr": "Bir dörtlük nota kaç sekizlik eder?", "en": "How many eighth notes equal one quarter note?", "nl": "Hoeveel achtste noten zijn samen één kwartnoot?" }, "choices": [
       { "text": { "tr": "2", "en": "2", "nl": "2" }, "correct": true },
       { "text": { "tr": "4", "en": "4", "nl": "4" } },
