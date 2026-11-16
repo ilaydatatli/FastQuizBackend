@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "yapay-zeka", "color": "violet", "order": 2, "name": { "tr": "Yapay Zeka", "en": "Artificial Intelligence", "nl": "Kunstmatige intelligentie" }, "description": { "tr": "Modeller, öğrenme, kavramlar", "en": "Models, learning, concepts", "nl": "Modellen, leren, concepten" } },
+  "category": { "slug": "yapay-zeka", "color": "violet", "order": 2, "name": { "tr": "Yapay Zeka", "en": "Artificial Intelligence", "nl": "Kunstmatige intelligentie", "es": "Inteligencia artificial" }, "description": { "tr": "Modeller, öğrenme, kavramlar", "en": "Models, learning, concepts", "nl": "Modellen, leren, concepten", "es": "Modelos, aprendizaje, conceptos" } },
   "questions": [
-    { "text": { "tr": "ChatGPT'yi hangi şirket geliştirdi?", "en": "Which company developed ChatGPT?", "nl": "Welk bedrijf ontwikkelde ChatGPT?" }, "choices": [
-      { "text": { "tr": "OpenAI", "en": "OpenAI", "nl": "OpenAI" }, "correct": true },
-      { "text": { "tr": "Google", "en": "Google", "nl": "Google" } },
-      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta" } },
-      { "text": { "tr": "Apple", "en": "Apple", "nl": "Apple" } } ] },
-    { "text": { "tr": "Claude modellerini hangi şirket geliştiriyor?", "en": "Which company develops the Claude models?", "nl": "Welk bedrijf ontwikkelt de Claude-modellen?" }, "choices": [
-      { "text": { "tr": "Anthropic", "en": "Anthropic", "nl": "Anthropic" }, "correct": true },
-      { "text": { "tr": "OpenAI", "en": "OpenAI", "nl": "OpenAI" } },
-      { "text": { "tr": "Google", "en": "Google", "nl": "Google" } },
-      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta" } } ] },
-    { "text": { "tr": "Gemini modellerini hangi şirket geliştiriyor?", "en": "Which company develops the Gemini models?", "nl": "Welk bedrijf ontwikkelt de Gemini-modellen?" }, "choices": [
-      { "text": { "tr": "Google", "en": "Google", "nl": "Google" }, "correct": true },
-      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta" } },
-      { "text": { "tr": "Amazon", "en": "Amazon", "nl": "Amazon" } },
-      { "text": { "tr": "Anthropic", "en": "Anthropic", "nl": "Anthropic" } } ] },
-    { "text": { "tr": "LLM kısaltmasındaki ilk \"L\" neyi ifade eder?", "en": "What does the first \"L\" in LLM stand for?", "nl": "Waar staat de eerste \"L\" in LLM voor?" }, "choices": [
-      { "text": { "tr": "Large", "en": "Large", "nl": "Large" }, "correct": true },
-      { "text": { "tr": "Linear", "en": "Linear", "nl": "Linear" } },
-      { "text": { "tr": "Logical", "en": "Logical", "nl": "Logical" } },
-      { "text": { "tr": "Local", "en": "Local", "nl": "Local" } } ] },
-    { "text": { "tr": "GPT kısaltmasındaki \"T\" neyi ifade eder?", "en": "What does the \"T\" in GPT stand for?", "nl": "Waar staat de \"T\" in GPT voor?" }, "choices": [
-      { "text": { "tr": "Transformer", "en": "Transformer", "nl": "Transformer" }, "correct": true },
-      { "text": { "tr": "Token", "en": "Token", "nl": "Token" } },
-      { "text": { "tr": "Training", "en": "Training", "nl": "Training" } },
-      { "text": { "tr": "Text", "en": "Text", "nl": "Text" } } ] },
-    { "text": { "tr": "Etiketli veriyle yapılan öğrenmeye ne denir?", "en": "What is learning from labeled data called?", "nl": "Hoe heet leren met gelabelde data?" }, "choices": [
-      { "text": { "tr": "Denetimli öğrenme", "en": "Supervised learning", "nl": "Gesuperviseerd leren" }, "correct": true },
-      { "text": { "tr": "Denetimsiz öğrenme", "en": "Unsupervised learning", "nl": "Ongesuperviseerd leren" } },
-      { "text": { "tr": "Pekiştirmeli öğrenme", "en": "Reinforcement learning", "nl": "Bekrachtigingsleren" } },
-      { "text": { "tr": "Kural tabanlı sistem", "en": "Rule-based system", "nl": "Regelgebaseerd systeem" } } ] },
-    { "text": { "tr": "Ödül ve cezayla deneyerek öğrenmeye ne denir?", "en": "What is learning by trial with rewards and penalties called?", "nl": "Hoe heet leren door uitproberen met beloning en straf?" }, "choices": [
-      { "text": { "tr": "Pekiştirmeli öğrenme", "en": "Reinforcement learning", "nl": "Bekrachtigingsleren" }, "correct": true },
-      { "text": { "tr": "Denetimli öğrenme", "en": "Supervised learning", "nl": "Gesuperviseerd leren" } },
-      { "text": { "tr": "Denetimsiz öğrenme", "en": "Unsupervised learning", "nl": "Ongesuperviseerd leren" } },
-      { "text": { "tr": "Kümeleme", "en": "Clustering", "nl": "Clustering" } } ] },
-    { "text": { "tr": "Kümeleme hangi öğrenme türüne örnektir?", "en": "Clustering is an example of which type of learning?", "nl": "Clustering is een voorbeeld van welk soort leren?" }, "choices": [
-      { "text": { "tr": "Denetimsiz öğrenme", "en": "Unsupervised learning", "nl": "Ongesuperviseerd leren" }, "correct": true },
-      { "text": { "tr": "Denetimli öğrenme", "en": "Supervised learning", "nl": "Gesuperviseerd leren" } },
-      { "text": { "tr": "Pekiştirmeli öğrenme", "en": "Reinforcement learning", "nl": "Bekrachtigingsleren" } },
-      { "text": { "tr": "Kural tabanlı sistem", "en": "Rule-based system", "nl": "Regelgebaseerd systeem" } } ] },
-    { "text": { "tr": "\"Yapay zekâ\" terimini 1956'da kim ortaya attı?", "en": "Who coined the term \"artificial intelligence\" in 1956?", "nl": "Wie bedacht in 1956 de term \"kunstmatige intelligentie\"?" }, "choices": [
-      { "text": { "tr": "John McCarthy", "en": "John McCarthy", "nl": "John McCarthy" }, "correct": true },
-      { "text": { "tr": "Alan Turing", "en": "Alan Turing", "nl": "Alan Turing" } },
-      { "text": { "tr": "Ada Lovelace", "en": "Ada Lovelace", "nl": "Ada Lovelace" } },
-      { "text": { "tr": "Elon Musk", "en": "Elon Musk", "nl": "Elon Musk" } } ] },
-    { "text": { "tr": "1997'de Kasparov'u yenen satranç bilgisayarı hangisidir?", "en": "Which chess computer beat Kasparov in 1997?", "nl": "Welke schaakcomputer versloeg Kasparov in 1997?" }, "choices": [
-      { "text": { "tr": "Deep Blue", "en": "Deep Blue", "nl": "Deep Blue" }, "correct": true },
-      { "text": { "tr": "AlphaGo", "en": "AlphaGo", "nl": "AlphaGo" } },
-      { "text": { "tr": "Watson", "en": "Watson", "nl": "Watson" } },
-      { "text": { "tr": "Siri", "en": "Siri", "nl": "Siri" } } ] },
-    { "text": { "tr": "AlphaGo, Lee Sedol'u hangi oyunda yendi?", "en": "In which game did AlphaGo beat Lee Sedol?", "nl": "In welk spel versloeg AlphaGo Lee Sedol?" }, "choices": [
-      { "text": { "tr": "Go", "en": "Go", "nl": "Go" }, "correct": true },
-      { "text": { "tr": "Satranç", "en": "Chess", "nl": "Schaken" } },
-      { "text": { "tr": "Poker", "en": "Poker", "nl": "Poker" } },
-      { "text": { "tr": "Dama", "en": "Checkers", "nl": "Dammen" } } ] },
-    { "text": { "tr": "Sinir ağının eğitimle öğrendiği sayılara ne denir?", "en": "What are the numbers a neural network learns in training?", "nl": "Hoe heten de getallen die een neuraal netwerk leert tijdens training?" }, "choices": [
-      { "text": { "tr": "Ağırlık", "en": "Weights", "nl": "Gewichten" }, "correct": true },
-      { "text": { "tr": "Etiket", "en": "Labels", "nl": "Labels" } },
-      { "text": { "tr": "Piksel", "en": "Pixels", "nl": "Pixels" } },
-      { "text": { "tr": "Prompt", "en": "Prompts", "nl": "Prompts" } } ] },
-    { "text": { "tr": "Modelin eğitim verisini ezberlemesine ne denir?", "en": "What is it called when a model memorizes its training data?", "nl": "Hoe heet het als een model zijn trainingsdata uit het hoofd leert?" }, "choices": [
-      { "text": { "tr": "Aşırı öğrenme", "en": "Overfitting", "nl": "Overfitting" }, "correct": true },
-      { "text": { "tr": "Eksik öğrenme", "en": "Underfitting", "nl": "Underfitting" } },
-      { "text": { "tr": "Normalizasyon", "en": "Normalization", "nl": "Normalisatie" } },
-      { "text": { "tr": "Kümeleme", "en": "Clustering", "nl": "Clustering" } } ] },
-    { "text": { "tr": "Görüntüden nesne tanıyan yapay zekâ alanı hangisidir?", "en": "Which AI field recognizes objects in images?", "nl": "Welk AI-vakgebied herkent objecten in beelden?" }, "choices": [
-      { "text": { "tr": "Bilgisayarlı görü", "en": "Computer vision", "nl": "Computervisie" }, "correct": true },
-      { "text": { "tr": "Doğal dil işleme", "en": "Natural language processing", "nl": "Natuurlijke taalverwerking" } },
-      { "text": { "tr": "Konuşma sentezi", "en": "Speech synthesis", "nl": "Spraaksynthese" } },
-      { "text": { "tr": "Öneri sistemleri", "en": "Recommender systems", "nl": "Aanbevelingssystemen" } } ] },
-    { "text": { "tr": "NLP kısaltması hangi alanı ifade eder?", "en": "What does NLP stand for?", "nl": "Waar staat de afkorting NLP voor?" }, "choices": [
-      { "text": { "tr": "Doğal dil işleme", "en": "Natural language processing", "nl": "Natural language processing" }, "correct": true },
-      { "text": { "tr": "Sinir ağı programlama", "en": "Neural layer programming", "nl": "Neural layer programming" } },
-      { "text": { "tr": "Ağ katmanı planı", "en": "Network layer plan", "nl": "Network layer plan" } },
-      { "text": { "tr": "Yeni öğrenme protokolü", "en": "New learning protocol", "nl": "New learning protocol" } } ] },
-    { "text": { "tr": "Hangisi metinden görsel üreten bir modeldir?", "en": "Which one is a text-to-image model?", "nl": "Welk model maakt afbeeldingen op basis van tekst?" }, "choices": [
-      { "text": { "tr": "DALL·E", "en": "DALL·E", "nl": "DALL·E" }, "correct": true },
-      { "text": { "tr": "BERT", "en": "BERT", "nl": "BERT" } },
-      { "text": { "tr": "Word2Vec", "en": "Word2Vec", "nl": "Word2Vec" } },
-      { "text": { "tr": "XGBoost", "en": "XGBoost", "nl": "XGBoost" } } ] },
-    { "text": { "tr": "Modelin uydurma bilgiyi doğruymuş gibi yazmasına ne denir?", "en": "What is it called when a model states made-up facts as true?", "nl": "Hoe heet het als een model verzonnen feiten als waar presenteert?" }, "choices": [
-      { "text": { "tr": "Halüsinasyon", "en": "Hallucination", "nl": "Hallucinatie" }, "correct": true },
-      { "text": { "tr": "Aşırı öğrenme", "en": "Overfitting", "nl": "Overfitting" } },
-      { "text": { "tr": "Regresyon", "en": "Regression", "nl": "Regressie" } },
-      { "text": { "tr": "Tokenizasyon", "en": "Tokenization", "nl": "Tokenisatie" } } ] },
-    { "text": { "tr": "Dil modelleri metni hangi küçük parçalara böler?", "en": "Into which small pieces do language models split text?", "nl": "In welke kleine stukjes delen taalmodellen tekst op?" }, "choices": [
-      { "text": { "tr": "Token", "en": "Tokens", "nl": "Tokens" }, "correct": true },
-      { "text": { "tr": "Piksel", "en": "Pixels", "nl": "Pixels" } },
-      { "text": { "tr": "Katman", "en": "Layers", "nl": "Lagen" } },
-      { "text": { "tr": "Neuron", "en": "Neurons", "nl": "Neuronen" } } ] },
-    { "text": { "tr": "Derin öğrenmede yaygın kullanılan Python kütüphanesi hangisidir?", "en": "Which Python library is widely used for deep learning?", "nl": "Welke Python-bibliotheek wordt veel gebruikt voor deep learning?" }, "choices": [
-      { "text": { "tr": "PyTorch", "en": "PyTorch", "nl": "PyTorch" }, "correct": true },
-      { "text": { "tr": "Django", "en": "Django", "nl": "Django" } },
-      { "text": { "tr": "Flask", "en": "Flask", "nl": "Flask" } },
-      { "text": { "tr": "Requests", "en": "Requests", "nl": "Requests" } } ] },
-    { "text": { "tr": "Geriye yayılım (backpropagation) ne işe yarar?", "en": "What does backpropagation do?", "nl": "Wat doet backpropagation?" }, "choices": [
-      { "text": { "tr": "Ağırlıkları güncellemek", "en": "Updates the weights", "nl": "De gewichten bijwerken" }, "correct": true },
-      { "text": { "tr": "Veri toplamak", "en": "Collects data", "nl": "Data verzamelen" } },
-      { "text": { "tr": "Görsel çizmek", "en": "Draws images", "nl": "Afbeeldingen tekenen" } },
-      { "text": { "tr": "Modeli silmek", "en": "Deletes the model", "nl": "Het model verwijderen" } } ] },
-    { "text": { "tr": "Turing Testi'ni kim önerdi?", "en": "Who proposed the Turing Test?", "nl": "Wie stelde de Turingtest voor?" }, "choices": [
-      { "text": { "tr": "Alan Turing", "en": "Alan Turing", "nl": "Alan Turing" }, "correct": true },
-      { "text": { "tr": "John McCarthy", "en": "John McCarthy", "nl": "John McCarthy" } },
-      { "text": { "tr": "Marvin Minsky", "en": "Marvin Minsky", "nl": "Marvin Minsky" } },
-      { "text": { "tr": "Geoffrey Hinton", "en": "Geoffrey Hinton", "nl": "Geoffrey Hinton" } } ] },
-    { "text": { "tr": "Transformer mimarisini tanıtan 2017 makalesinin adı nedir?", "en": "What is the 2017 paper that introduced the Transformer?", "nl": "Welk artikel uit 2017 introduceerde de Transformer?" }, "choices": [
-      { "text": { "tr": "Attention Is All You Need", "en": "Attention Is All You Need", "nl": "Attention Is All You Need" }, "correct": true },
-      { "text": { "tr": "Deep Residual Learning", "en": "Deep Residual Learning", "nl": "Deep Residual Learning" } },
-      { "text": { "tr": "ImageNet Classification", "en": "ImageNet Classification", "nl": "ImageNet Classification" } },
-      { "text": { "tr": "Generative Adversarial Nets", "en": "Generative Adversarial Nets", "nl": "Generative Adversarial Nets" } } ] },
-    { "text": { "tr": "GAN kısaltmasındaki \"A\" neyi ifade eder?", "en": "What does the \"A\" in GAN stand for?", "nl": "Waar staat de \"A\" in GAN voor?" }, "choices": [
-      { "text": { "tr": "Adversarial", "en": "Adversarial", "nl": "Adversarial" }, "correct": true },
-      { "text": { "tr": "Artificial", "en": "Artificial", "nl": "Artificial" } },
-      { "text": { "tr": "Automated", "en": "Automated", "nl": "Automated" } },
-      { "text": { "tr": "Attention", "en": "Attention", "nl": "Attention" } } ] },
-    { "text": { "tr": "Modele verilen talimat metnine ne ad verilir?", "en": "What is the instruction text given to a model called?", "nl": "Hoe heet de instructietekst die je aan een model geeft?" }, "choices": [
-      { "text": { "tr": "Prompt", "en": "Prompt", "nl": "Prompt" }, "correct": true },
-      { "text": { "tr": "Token", "en": "Token", "nl": "Token" } },
-      { "text": { "tr": "Epoch", "en": "Epoch", "nl": "Epoch" } },
-      { "text": { "tr": "Batch", "en": "Batch", "nl": "Batch" } } ] },
-    { "text": { "tr": "Eğitim verisinin tamamının bir kez işlenmesine ne denir?", "en": "What is one full pass over the training data called?", "nl": "Hoe heet één volledige ronde door de trainingsdata?" }, "choices": [
-      { "text": { "tr": "Epoch", "en": "Epoch", "nl": "Epoch" }, "correct": true },
-      { "text": { "tr": "Batch", "en": "Batch", "nl": "Batch" } },
-      { "text": { "tr": "Token", "en": "Token", "nl": "Token" } },
-      { "text": { "tr": "Katman", "en": "Layer", "nl": "Laag" } } ] },
-    { "text": { "tr": "Eğitilmiş bir modeli yeni bir göreve uyarlamaya ne denir?", "en": "What is adapting a trained model to a new task called?", "nl": "Hoe heet het aanpassen van een getraind model aan een nieuwe taak?" }, "choices": [
-      { "text": { "tr": "İnce ayar", "en": "Fine-tuning", "nl": "Fine-tuning" }, "correct": true },
-      { "text": { "tr": "Ön işleme", "en": "Preprocessing", "nl": "Voorbewerking" } },
-      { "text": { "tr": "Tokenizasyon", "en": "Tokenization", "nl": "Tokenisatie" } },
-      { "text": { "tr": "Budama", "en": "Pruning", "nl": "Pruning" } } ] },
-    { "text": { "tr": "Evrişimli sinir ağının kısaltması nedir?", "en": "What is the abbreviation for a convolutional neural network?", "nl": "Wat is de afkorting voor een convolutioneel neuraal netwerk?" }, "choices": [
-      { "text": { "tr": "CNN", "en": "CNN", "nl": "CNN" }, "correct": true },
-      { "text": { "tr": "RNN", "en": "RNN", "nl": "RNN" } },
-      { "text": { "tr": "LSTM", "en": "LSTM", "nl": "LSTM" } },
-      { "text": { "tr": "MLP", "en": "MLP", "nl": "MLP" } } ] },
-    { "text": { "tr": "ReLU nedir?", "en": "What is ReLU?", "nl": "Wat is ReLU?" }, "choices": [
-      { "text": { "tr": "Aktivasyon fonksiyonu", "en": "An activation function", "nl": "Een activatiefunctie" }, "correct": true },
-      { "text": { "tr": "Kayıp fonksiyonu", "en": "A loss function", "nl": "Een verliesfunctie" } },
-      { "text": { "tr": "Veri seti", "en": "A dataset", "nl": "Een dataset" } },
-      { "text": { "tr": "Programlama dili", "en": "A programming language", "nl": "Een programmeertaal" } } ] },
-    { "text": { "tr": "Derin öğrenmenin öncülerinden biri kimdir?", "en": "Who is one of the pioneers of deep learning?", "nl": "Wie is een van de pioniers van deep learning?" }, "choices": [
-      { "text": { "tr": "Geoffrey Hinton", "en": "Geoffrey Hinton", "nl": "Geoffrey Hinton" }, "correct": true },
-      { "text": { "tr": "Linus Torvalds", "en": "Linus Torvalds", "nl": "Linus Torvalds" } },
-      { "text": { "tr": "Tim Berners-Lee", "en": "Tim Berners-Lee", "nl": "Tim Berners-Lee" } },
-      { "text": { "tr": "Bill Gates", "en": "Bill Gates", "nl": "Bill Gates" } } ] },
-    { "text": { "tr": "ImageNet nedir?", "en": "What is ImageNet?", "nl": "Wat is ImageNet?" }, "choices": [
-      { "text": { "tr": "Görüntü veri seti", "en": "An image dataset", "nl": "Een beelddataset" }, "correct": true },
-      { "text": { "tr": "Sinir ağı türü", "en": "A neural network type", "nl": "Een soort neuraal netwerk" } },
-      { "text": { "tr": "Programlama dili", "en": "A programming language", "nl": "Een programmeertaal" } },
-      { "text": { "tr": "Arama motoru", "en": "A search engine", "nl": "Een zoekmachine" } } ] },
-    { "text": { "tr": "Kelimeleri sayı vektörlerine çevirmeye ne denir?", "en": "What is turning words into number vectors called?", "nl": "Hoe heet het omzetten van woorden in getalvectoren?" }, "choices": [
-      { "text": { "tr": "Gömme (embedding)", "en": "Embedding", "nl": "Embedding" }, "correct": true },
-      { "text": { "tr": "Budama", "en": "Pruning", "nl": "Pruning" } },
-      { "text": { "tr": "Damıtma", "en": "Distillation", "nl": "Distillatie" } },
-      { "text": { "tr": "Kümeleme", "en": "Clustering", "nl": "Clustering" } } ] },
-    { "text": { "tr": "RAG yönteminde model yanıt vermeden önce ne yapar?", "en": "In RAG, what does the model do before answering?", "nl": "Wat doet het model bij RAG voordat het antwoordt?" }, "choices": [
-      { "text": { "tr": "İlgili belgeleri getirir", "en": "Retrieves relevant documents", "nl": "Relevante documenten ophalen" }, "correct": true },
-      { "text": { "tr": "Kendini yeniden eğitir", "en": "Retrains itself", "nl": "Zichzelf opnieuw trainen" } },
-      { "text": { "tr": "Görsel üretir", "en": "Generates an image", "nl": "Een afbeelding maken" } },
-      { "text": { "tr": "Kodu derler", "en": "Compiles code", "nl": "Code compileren" } } ] },
-    { "text": { "tr": "Kayıp (loss) fonksiyonu neyi ölçer?", "en": "What does a loss function measure?", "nl": "Wat meet een verliesfunctie (loss)?" }, "choices": [
-      { "text": { "tr": "Tahmin hatasını", "en": "Prediction error", "nl": "De voorspellingsfout" }, "correct": true },
-      { "text": { "tr": "Model boyutunu", "en": "Model size", "nl": "De modelgrootte" } },
-      { "text": { "tr": "Eğitim süresini", "en": "Training time", "nl": "De trainingstijd" } },
-      { "text": { "tr": "Veri miktarını", "en": "Amount of data", "nl": "De hoeveelheid data" } } ] },
-    { "text": { "tr": "Siri hangi şirketin sesli asistanıdır?", "en": "Siri is the voice assistant of which company?", "nl": "Van welk bedrijf is de spraakassistent Siri?" }, "choices": [
-      { "text": { "tr": "Apple", "en": "Apple", "nl": "Apple" }, "correct": true },
-      { "text": { "tr": "Google", "en": "Google", "nl": "Google" } },
-      { "text": { "tr": "Amazon", "en": "Amazon", "nl": "Amazon" } },
-      { "text": { "tr": "Microsoft", "en": "Microsoft", "nl": "Microsoft" } } ] },
-    { "text": { "tr": "Alexa hangi şirketin sesli asistanıdır?", "en": "Alexa is the voice assistant of which company?", "nl": "Van welk bedrijf is de spraakassistent Alexa?" }, "choices": [
-      { "text": { "tr": "Amazon", "en": "Amazon", "nl": "Amazon" }, "correct": true },
-      { "text": { "tr": "Apple", "en": "Apple", "nl": "Apple" } },
-      { "text": { "tr": "Google", "en": "Google", "nl": "Google" } },
-      { "text": { "tr": "Samsung", "en": "Samsung", "nl": "Samsung" } } ] },
-    { "text": { "tr": "1966'da yazılan ELIZA nedir?", "en": "What is ELIZA, written in 1966?", "nl": "Wat is ELIZA, geschreven in 1966?" }, "choices": [
-      { "text": { "tr": "İlk sohbet botlarından", "en": "One of the first chatbots", "nl": "Een van de eerste chatbots" }, "correct": true },
-      { "text": { "tr": "Bir satranç programı", "en": "A chess program", "nl": "Een schaakprogramma" } },
-      { "text": { "tr": "Bir robot kol", "en": "A robotic arm", "nl": "Een robotarm" } },
-      { "text": { "tr": "Bir programlama dili", "en": "A programming language", "nl": "Een programmeertaal" } } ] },
-    { "text": { "tr": "Llama modellerini hangi şirket yayımladı?", "en": "Which company released the Llama models?", "nl": "Welk bedrijf bracht de Llama-modellen uit?" }, "choices": [
-      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta" }, "correct": true },
-      { "text": { "tr": "OpenAI", "en": "OpenAI", "nl": "OpenAI" } },
-      { "text": { "tr": "Google", "en": "Google", "nl": "Google" } },
-      { "text": { "tr": "Anthropic", "en": "Anthropic", "nl": "Anthropic" } } ] },
-    { "text": { "tr": "Modelin bir seferde işleyebildiği metin uzunluğuna ne denir?", "en": "What is the amount of text a model can handle at once called?", "nl": "Hoe heet de hoeveelheid tekst die een model in één keer verwerkt?" }, "choices": [
-      { "text": { "tr": "Bağlam penceresi", "en": "Context window", "nl": "Contextvenster" }, "correct": true },
-      { "text": { "tr": "Öğrenme oranı", "en": "Learning rate", "nl": "Leersnelheid" } },
-      { "text": { "tr": "Parti boyutu", "en": "Batch size", "nl": "Batchgrootte" } },
-      { "text": { "tr": "Gizli katman", "en": "Hidden layer", "nl": "Verborgen laag" } } ] },
-    { "text": { "tr": "Sinir ağında giriş ile çıkış arasındaki katmanlara ne denir?", "en": "What are the layers between input and output in a neural net?", "nl": "Hoe heten de lagen tussen invoer en uitvoer in een neuraal net?" }, "choices": [
-      { "text": { "tr": "Gizli katman", "en": "Hidden layers", "nl": "Verborgen lagen" }, "correct": true },
-      { "text": { "tr": "Çıkış katmanı", "en": "Output layers", "nl": "Uitvoerlagen" } },
-      { "text": { "tr": "Giriş katmanı", "en": "Input layers", "nl": "Invoerlagen" } },
-      { "text": { "tr": "Ana katman", "en": "Main layers", "nl": "Hoofdlagen" } } ] },
-    { "text": { "tr": "Gradyan inişi (gradient descent) ne için kullanılır?", "en": "What is gradient descent used for?", "nl": "Waarvoor wordt gradient descent gebruikt?" }, "choices": [
-      { "text": { "tr": "Hatayı azaltmak", "en": "Reducing the error", "nl": "De fout verkleinen" }, "correct": true },
-      { "text": { "tr": "Veri toplamak", "en": "Collecting data", "nl": "Data verzamelen" } },
-      { "text": { "tr": "Görüntü büyütmek", "en": "Upscaling images", "nl": "Beelden vergroten" } },
-      { "text": { "tr": "Metin çevirmek", "en": "Translating text", "nl": "Tekst vertalen" } } ] }
+    { "text": { "tr": "ChatGPT'yi hangi şirket geliştirdi?", "en": "Which company developed ChatGPT?", "nl": "Welk bedrijf ontwikkelde ChatGPT?", "es": "¿Qué empresa desarrolló ChatGPT?" }, "choices": [
+      { "text": { "tr": "OpenAI", "en": "OpenAI", "nl": "OpenAI", "es": "OpenAI" }, "correct": true },
+      { "text": { "tr": "Google", "en": "Google", "nl": "Google", "es": "Google" } },
+      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta", "es": "Meta" } },
+      { "text": { "tr": "Apple", "en": "Apple", "nl": "Apple", "es": "Apple" } } ] },
+    { "text": { "tr": "Claude modellerini hangi şirket geliştiriyor?", "en": "Which company develops the Claude models?", "nl": "Welk bedrijf ontwikkelt de Claude-modellen?", "es": "¿Qué empresa desarrolla los modelos Claude?" }, "choices": [
+      { "text": { "tr": "Anthropic", "en": "Anthropic", "nl": "Anthropic", "es": "Anthropic" }, "correct": true },
+      { "text": { "tr": "OpenAI", "en": "OpenAI", "nl": "OpenAI", "es": "OpenAI" } },
+      { "text": { "tr": "Google", "en": "Google", "nl": "Google", "es": "Google" } },
+      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta", "es": "Meta" } } ] },
+    { "text": { "tr": "Gemini modellerini hangi şirket geliştiriyor?", "en": "Which company develops the Gemini models?", "nl": "Welk bedrijf ontwikkelt de Gemini-modellen?", "es": "¿Qué empresa desarrolla los modelos Gemini?" }, "choices": [
+      { "text": { "tr": "Google", "en": "Google", "nl": "Google", "es": "Google" }, "correct": true },
+      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta", "es": "Meta" } },
+      { "text": { "tr": "Amazon", "en": "Amazon", "nl": "Amazon", "es": "Amazon" } },
+      { "text": { "tr": "Anthropic", "en": "Anthropic", "nl": "Anthropic", "es": "Anthropic" } } ] },
+    { "text": { "tr": "LLM kısaltmasındaki ilk \"L\" neyi ifade eder?", "en": "What does the first \"L\" in LLM stand for?", "nl": "Waar staat de eerste \"L\" in LLM voor?", "es": "¿Qué significa la primera \"L\" de LLM?" }, "choices": [
+      { "text": { "tr": "Large", "en": "Large", "nl": "Large", "es": "Large" }, "correct": true },
+      { "text": { "tr": "Linear", "en": "Linear", "nl": "Linear", "es": "Linear" } },
+      { "text": { "tr": "Logical", "en": "Logical", "nl": "Logical", "es": "Logical" } },
+      { "text": { "tr": "Local", "en": "Local", "nl": "Local", "es": "Local" } } ] },
+    { "text": { "tr": "GPT kısaltmasındaki \"T\" neyi ifade eder?", "en": "What does the \"T\" in GPT stand for?", "nl": "Waar staat de \"T\" in GPT voor?", "es": "¿Qué significa la \"T\" de GPT?" }, "choices": [
+      { "text": { "tr": "Transformer", "en": "Transformer", "nl": "Transformer", "es": "Transformer" }, "correct": true },
+      { "text": { "tr": "Token", "en": "Token", "nl": "Token", "es": "Token" } },
+      { "text": { "tr": "Training", "en": "Training", "nl": "Training", "es": "Training" } },
+      { "text": { "tr": "Text", "en": "Text", "nl": "Text", "es": "Text" } } ] },
+    { "text": { "tr": "Etiketli veriyle yapılan öğrenmeye ne denir?", "en": "What is learning from labeled data called?", "nl": "Hoe heet leren met gelabelde data?", "es": "¿Cómo se llama aprender con datos etiquetados?" }, "choices": [
+      { "text": { "tr": "Denetimli öğrenme", "en": "Supervised learning", "nl": "Gesuperviseerd leren", "es": "Aprendizaje supervisado" }, "correct": true },
+      { "text": { "tr": "Denetimsiz öğrenme", "en": "Unsupervised learning", "nl": "Ongesuperviseerd leren", "es": "Aprendizaje no supervisado" } },
+      { "text": { "tr": "Pekiştirmeli öğrenme", "en": "Reinforcement learning", "nl": "Bekrachtigingsleren", "es": "Aprendizaje por refuerzo" } },
+      { "text": { "tr": "Kural tabanlı sistem", "en": "Rule-based system", "nl": "Regelgebaseerd systeem", "es": "Sistema basado en reglas" } } ] },
+    { "text": { "tr": "Ödül ve cezayla deneyerek öğrenmeye ne denir?", "en": "What is learning by trial with rewards and penalties called?", "nl": "Hoe heet leren door uitproberen met beloning en straf?", "es": "¿Cómo se llama aprender probando con premios y castigos?" }, "choices": [
+      { "text": { "tr": "Pekiştirmeli öğrenme", "en": "Reinforcement learning", "nl": "Bekrachtigingsleren", "es": "Aprendizaje por refuerzo" }, "correct": true },
+      { "text": { "tr": "Denetimli öğrenme", "en": "Supervised learning", "nl": "Gesuperviseerd leren", "es": "Aprendizaje supervisado" } },
+      { "text": { "tr": "Denetimsiz öğrenme", "en": "Unsupervised learning", "nl": "Ongesuperviseerd leren", "es": "Aprendizaje no supervisado" } },
+      { "text": { "tr": "Kümeleme", "en": "Clustering", "nl": "Clustering", "es": "Agrupamiento" } } ] },
+    { "text": { "tr": "Kümeleme hangi öğrenme türüne örnektir?", "en": "Clustering is an example of which type of learning?", "nl": "Clustering is een voorbeeld van welk soort leren?", "es": "¿De qué tipo de aprendizaje es un ejemplo el agrupamiento (clustering)?" }, "choices": [
+      { "text": { "tr": "Denetimsiz öğrenme", "en": "Unsupervised learning", "nl": "Ongesuperviseerd leren", "es": "Aprendizaje no supervisado" }, "correct": true },
+      { "text": { "tr": "Denetimli öğrenme", "en": "Supervised learning", "nl": "Gesuperviseerd leren", "es": "Aprendizaje supervisado" } },
+      { "text": { "tr": "Pekiştirmeli öğrenme", "en": "Reinforcement learning", "nl": "Bekrachtigingsleren", "es": "Aprendizaje por refuerzo" } },
+      { "text": { "tr": "Kural tabanlı sistem", "en": "Rule-based system", "nl": "Regelgebaseerd systeem", "es": "Sistema basado en reglas" } } ] },
+    { "text": { "tr": "\"Yapay zekâ\" terimini 1956'da kim ortaya attı?", "en": "Who coined the term \"artificial intelligence\" in 1956?", "nl": "Wie bedacht in 1956 de term \"kunstmatige intelligentie\"?", "es": "¿Quién acuñó el término \"inteligencia artificial\" en 1956?" }, "choices": [
+      { "text": { "tr": "John McCarthy", "en": "John McCarthy", "nl": "John McCarthy", "es": "John McCarthy" }, "correct": true },
+      { "text": { "tr": "Alan Turing", "en": "Alan Turing", "nl": "Alan Turing", "es": "Alan Turing" } },
+      { "text": { "tr": "Ada Lovelace", "en": "Ada Lovelace", "nl": "Ada Lovelace", "es": "Ada Lovelace" } },
+      { "text": { "tr": "Elon Musk", "en": "Elon Musk", "nl": "Elon Musk", "es": "Elon Musk" } } ] },
+    { "text": { "tr": "1997'de Kasparov'u yenen satranç bilgisayarı hangisidir?", "en": "Which chess computer beat Kasparov in 1997?", "nl": "Welke schaakcomputer versloeg Kasparov in 1997?", "es": "¿Qué computadora de ajedrez venció a Kasparov en 1997?" }, "choices": [
+      { "text": { "tr": "Deep Blue", "en": "Deep Blue", "nl": "Deep Blue", "es": "Deep Blue" }, "correct": true },
+      { "text": { "tr": "AlphaGo", "en": "AlphaGo", "nl": "AlphaGo", "es": "AlphaGo" } },
+      { "text": { "tr": "Watson", "en": "Watson", "nl": "Watson", "es": "Watson" } },
+      { "text": { "tr": "Siri", "en": "Siri", "nl": "Siri", "es": "Siri" } } ] },
+    { "text": { "tr": "AlphaGo, Lee Sedol'u hangi oyunda yendi?", "en": "In which game did AlphaGo beat Lee Sedol?", "nl": "In welk spel versloeg AlphaGo Lee Sedol?", "es": "¿En qué juego venció AlphaGo a Lee Sedol?" }, "choices": [
+      { "text": { "tr": "Go", "en": "Go", "nl": "Go", "es": "Go" }, "correct": true },
+      { "text": { "tr": "Satranç", "en": "Chess", "nl": "Schaken", "es": "Ajedrez" } },
+      { "text": { "tr": "Poker", "en": "Poker", "nl": "Poker", "es": "Póquer" } },
+      { "text": { "tr": "Dama", "en": "Checkers", "nl": "Dammen", "es": "Damas" } } ] },
+    { "text": { "tr": "Sinir ağının eğitimle öğrendiği sayılara ne denir?", "en": "What are the numbers a neural network learns in training?", "nl": "Hoe heten de getallen die een neuraal netwerk leert tijdens training?", "es": "¿Cómo se llaman los números que una red neuronal aprende al entrenar?" }, "choices": [
+      { "text": { "tr": "Ağırlık", "en": "Weights", "nl": "Gewichten", "es": "Pesos" }, "correct": true },
+      { "text": { "tr": "Etiket", "en": "Labels", "nl": "Labels", "es": "Etiquetas" } },
+      { "text": { "tr": "Piksel", "en": "Pixels", "nl": "Pixels", "es": "Píxeles" } },
+      { "text": { "tr": "Prompt", "en": "Prompts", "nl": "Prompts", "es": "Prompts" } } ] },
+    { "text": { "tr": "Modelin eğitim verisini ezberlemesine ne denir?", "en": "What is it called when a model memorizes its training data?", "nl": "Hoe heet het als een model zijn trainingsdata uit het hoofd leert?", "es": "¿Cómo se llama cuando un modelo memoriza sus datos de entrenamiento?" }, "choices": [
+      { "text": { "tr": "Aşırı öğrenme", "en": "Overfitting", "nl": "Overfitting", "es": "Sobreajuste" }, "correct": true },
+      { "text": { "tr": "Eksik öğrenme", "en": "Underfitting", "nl": "Underfitting", "es": "Subajuste" } },
+      { "text": { "tr": "Normalizasyon", "en": "Normalization", "nl": "Normalisatie", "es": "Normalización" } },
+      { "text": { "tr": "Kümeleme", "en": "Clustering", "nl": "Clustering", "es": "Agrupamiento" } } ] },
+    { "text": { "tr": "Görüntüden nesne tanıyan yapay zekâ alanı hangisidir?", "en": "Which AI field recognizes objects in images?", "nl": "Welk AI-vakgebied herkent objecten in beelden?", "es": "¿Qué campo de la IA reconoce objetos en imágenes?" }, "choices": [
+      { "text": { "tr": "Bilgisayarlı görü", "en": "Computer vision", "nl": "Computervisie", "es": "Visión por computadora" }, "correct": true },
+      { "text": { "tr": "Doğal dil işleme", "en": "Natural language processing", "nl": "Natuurlijke taalverwerking", "es": "Procesamiento del lenguaje" } },
+      { "text": { "tr": "Konuşma sentezi", "en": "Speech synthesis", "nl": "Spraaksynthese", "es": "Síntesis de voz" } },
+      { "text": { "tr": "Öneri sistemleri", "en": "Recommender systems", "nl": "Aanbevelingssystemen", "es": "Sistemas de recomendación" } } ] },
+    { "text": { "tr": "NLP kısaltması hangi alanı ifade eder?", "en": "What does NLP stand for?", "nl": "Waar staat de afkorting NLP voor?", "es": "¿Qué significa la sigla NLP?" }, "choices": [
+      { "text": { "tr": "Doğal dil işleme", "en": "Natural language processing", "nl": "Natural language processing", "es": "Natural language processing" }, "correct": true },
+      { "text": { "tr": "Sinir ağı programlama", "en": "Neural layer programming", "nl": "Neural layer programming", "es": "Neural layer programming" } },
+      { "text": { "tr": "Ağ katmanı planı", "en": "Network layer plan", "nl": "Network layer plan", "es": "Network layer plan" } },
+      { "text": { "tr": "Yeni öğrenme protokolü", "en": "New learning protocol", "nl": "New learning protocol", "es": "New learning protocol" } } ] },
+    { "text": { "tr": "Hangisi metinden görsel üreten bir modeldir?", "en": "Which one is a text-to-image model?", "nl": "Welk model maakt afbeeldingen op basis van tekst?", "es": "¿Cuál es un modelo que genera imágenes a partir de texto?" }, "choices": [
+      { "text": { "tr": "DALL·E", "en": "DALL·E", "nl": "DALL·E", "es": "DALL·E" }, "correct": true },
+      { "text": { "tr": "BERT", "en": "BERT", "nl": "BERT", "es": "BERT" } },
+      { "text": { "tr": "Word2Vec", "en": "Word2Vec", "nl": "Word2Vec", "es": "Word2Vec" } },
+      { "text": { "tr": "XGBoost", "en": "XGBoost", "nl": "XGBoost", "es": "XGBoost" } } ] },
+    { "text": { "tr": "Modelin uydurma bilgiyi doğruymuş gibi yazmasına ne denir?", "en": "What is it called when a model states made-up facts as true?", "nl": "Hoe heet het als een model verzonnen feiten als waar presenteert?", "es": "¿Cómo se llama cuando un modelo presenta datos inventados como ciertos?" }, "choices": [
+      { "text": { "tr": "Halüsinasyon", "en": "Hallucination", "nl": "Hallucinatie", "es": "Alucinación" }, "correct": true },
+      { "text": { "tr": "Aşırı öğrenme", "en": "Overfitting", "nl": "Overfitting", "es": "Sobreajuste" } },
+      { "text": { "tr": "Regresyon", "en": "Regression", "nl": "Regressie", "es": "Regresión" } },
+      { "text": { "tr": "Tokenizasyon", "en": "Tokenization", "nl": "Tokenisatie", "es": "Tokenización" } } ] },
+    { "text": { "tr": "Dil modelleri metni hangi küçük parçalara böler?", "en": "Into which small pieces do language models split text?", "nl": "In welke kleine stukjes delen taalmodellen tekst op?", "es": "¿En qué piezas pequeñas dividen el texto los modelos de lenguaje?" }, "choices": [
+      { "text": { "tr": "Token", "en": "Tokens", "nl": "Tokens", "es": "Tokens" }, "correct": true },
+      { "text": { "tr": "Piksel", "en": "Pixels", "nl": "Pixels", "es": "Píxeles" } },
+      { "text": { "tr": "Katman", "en": "Layers", "nl": "Lagen", "es": "Capas" } },
+      { "text": { "tr": "Neuron", "en": "Neurons", "nl": "Neuronen", "es": "Neuronas" } } ] },
+    { "text": { "tr": "Derin öğrenmede yaygın kullanılan Python kütüphanesi hangisidir?", "en": "Which Python library is widely used for deep learning?", "nl": "Welke Python-bibliotheek wordt veel gebruikt voor deep learning?", "es": "¿Qué biblioteca de Python se usa mucho en aprendizaje profundo?" }, "choices": [
+      { "text": { "tr": "PyTorch", "en": "PyTorch", "nl": "PyTorch", "es": "PyTorch" }, "correct": true },
+      { "text": { "tr": "Django", "en": "Django", "nl": "Django", "es": "Django" } },
+      { "text": { "tr": "Flask", "en": "Flask", "nl": "Flask", "es": "Flask" } },
+      { "text": { "tr": "Requests", "en": "Requests", "nl": "Requests", "es": "Requests" } } ] },
+    { "text": { "tr": "Geriye yayılım (backpropagation) ne işe yarar?", "en": "What does backpropagation do?", "nl": "Wat doet backpropagation?", "es": "¿Para qué sirve la retropropagación (backpropagation)?" }, "choices": [
+      { "text": { "tr": "Ağırlıkları güncellemek", "en": "Updates the weights", "nl": "De gewichten bijwerken", "es": "Actualizar los pesos" }, "correct": true },
+      { "text": { "tr": "Veri toplamak", "en": "Collects data", "nl": "Data verzamelen", "es": "Recoger datos" } },
+      { "text": { "tr": "Görsel çizmek", "en": "Draws images", "nl": "Afbeeldingen tekenen", "es": "Dibujar imágenes" } },
+      { "text": { "tr": "Modeli silmek", "en": "Deletes the model", "nl": "Het model verwijderen", "es": "Borrar el modelo" } } ] },
+    { "text": { "tr": "Turing Testi'ni kim önerdi?", "en": "Who proposed the Turing Test?", "nl": "Wie stelde de Turingtest voor?", "es": "¿Quién propuso el test de Turing?" }, "choices": [
+      { "text": { "tr": "Alan Turing", "en": "Alan Turing", "nl": "Alan Turing", "es": "Alan Turing" }, "correct": true },
+      { "text": { "tr": "John McCarthy", "en": "John McCarthy", "nl": "John McCarthy", "es": "John McCarthy" } },
+      { "text": { "tr": "Marvin Minsky", "en": "Marvin Minsky", "nl": "Marvin Minsky", "es": "Marvin Minsky" } },
+      { "text": { "tr": "Geoffrey Hinton", "en": "Geoffrey Hinton", "nl": "Geoffrey Hinton", "es": "Geoffrey Hinton" } } ] },
+    { "text": { "tr": "Transformer mimarisini tanıtan 2017 makalesinin adı nedir?", "en": "What is the 2017 paper that introduced the Transformer?", "nl": "Welk artikel uit 2017 introduceerde de Transformer?", "es": "¿Qué artículo de 2017 presentó la arquitectura Transformer?" }, "choices": [
+      { "text": { "tr": "Attention Is All You Need", "en": "Attention Is All You Need", "nl": "Attention Is All You Need", "es": "Attention Is All You Need" }, "correct": true },
+      { "text": { "tr": "Deep Residual Learning", "en": "Deep Residual Learning", "nl": "Deep Residual Learning", "es": "Deep Residual Learning" } },
+      { "text": { "tr": "ImageNet Classification", "en": "ImageNet Classification", "nl": "ImageNet Classification", "es": "ImageNet Classification" } },
+      { "text": { "tr": "Generative Adversarial Nets", "en": "Generative Adversarial Nets", "nl": "Generative Adversarial Nets", "es": "Generative Adversarial Nets" } } ] },
+    { "text": { "tr": "GAN kısaltmasındaki \"A\" neyi ifade eder?", "en": "What does the \"A\" in GAN stand for?", "nl": "Waar staat de \"A\" in GAN voor?", "es": "¿Qué significa la \"A\" de GAN?" }, "choices": [
+      { "text": { "tr": "Adversarial", "en": "Adversarial", "nl": "Adversarial", "es": "Adversarial" }, "correct": true },
+      { "text": { "tr": "Artificial", "en": "Artificial", "nl": "Artificial", "es": "Artificial" } },
+      { "text": { "tr": "Automated", "en": "Automated", "nl": "Automated", "es": "Automated" } },
+      { "text": { "tr": "Attention", "en": "Attention", "nl": "Attention", "es": "Attention" } } ] },
+    { "text": { "tr": "Modele verilen talimat metnine ne ad verilir?", "en": "What is the instruction text given to a model called?", "nl": "Hoe heet de instructietekst die je aan een model geeft?", "es": "¿Cómo se llama el texto de instrucciones que se da a un modelo?" }, "choices": [
+      { "text": { "tr": "Prompt", "en": "Prompt", "nl": "Prompt", "es": "Prompt" }, "correct": true },
+      { "text": { "tr": "Token", "en": "Token", "nl": "Token", "es": "Token" } },
+      { "text": { "tr": "Epoch", "en": "Epoch", "nl": "Epoch", "es": "Época" } },
+      { "text": { "tr": "Batch", "en": "Batch", "nl": "Batch", "es": "Lote" } } ] },
+    { "text": { "tr": "Eğitim verisinin tamamının bir kez işlenmesine ne denir?", "en": "What is one full pass over the training data called?", "nl": "Hoe heet één volledige ronde door de trainingsdata?", "es": "¿Cómo se llama una pasada completa por los datos de entrenamiento?" }, "choices": [
+      { "text": { "tr": "Epoch", "en": "Epoch", "nl": "Epoch", "es": "Época" }, "correct": true },
+      { "text": { "tr": "Batch", "en": "Batch", "nl": "Batch", "es": "Lote" } },
+      { "text": { "tr": "Token", "en": "Token", "nl": "Token", "es": "Token" } },
+      { "text": { "tr": "Katman", "en": "Layer", "nl": "Laag", "es": "Capa" } } ] },
+    { "text": { "tr": "Eğitilmiş bir modeli yeni bir göreve uyarlamaya ne denir?", "en": "What is adapting a trained model to a new task called?", "nl": "Hoe heet het aanpassen van een getraind model aan een nieuwe taak?", "es": "¿Cómo se llama adaptar un modelo entrenado a una tarea nueva?" }, "choices": [
+      { "text": { "tr": "İnce ayar", "en": "Fine-tuning", "nl": "Fine-tuning", "es": "Ajuste fino" }, "correct": true },
+      { "text": { "tr": "Ön işleme", "en": "Preprocessing", "nl": "Voorbewerking", "es": "Preprocesamiento" } },
+      { "text": { "tr": "Tokenizasyon", "en": "Tokenization", "nl": "Tokenisatie", "es": "Tokenización" } },
+      { "text": { "tr": "Budama", "en": "Pruning", "nl": "Pruning", "es": "Poda" } } ] },
+    { "text": { "tr": "Evrişimli sinir ağının kısaltması nedir?", "en": "What is the abbreviation for a convolutional neural network?", "nl": "Wat is de afkorting voor een convolutioneel neuraal netwerk?", "es": "¿Cuál es la sigla de una red neuronal convolucional?" }, "choices": [
+      { "text": { "tr": "CNN", "en": "CNN", "nl": "CNN", "es": "CNN" }, "correct": true },
+      { "text": { "tr": "RNN", "en": "RNN", "nl": "RNN", "es": "RNN" } },
+      { "text": { "tr": "LSTM", "en": "LSTM", "nl": "LSTM", "es": "LSTM" } },
+      { "text": { "tr": "MLP", "en": "MLP", "nl": "MLP", "es": "MLP" } } ] },
+    { "text": { "tr": "ReLU nedir?", "en": "What is ReLU?", "nl": "Wat is ReLU?", "es": "¿Qué es ReLU?" }, "choices": [
+      { "text": { "tr": "Aktivasyon fonksiyonu", "en": "An activation function", "nl": "Een activatiefunctie", "es": "Una función de activación" }, "correct": true },
+      { "text": { "tr": "Kayıp fonksiyonu", "en": "A loss function", "nl": "Een verliesfunctie", "es": "Una función de pérdida" } },
+      { "text": { "tr": "Veri seti", "en": "A dataset", "nl": "Een dataset", "es": "Un conjunto de datos" } },
+      { "text": { "tr": "Programlama dili", "en": "A programming language", "nl": "Een programmeertaal", "es": "Un lenguaje de programación" } } ] },
+    { "text": { "tr": "Derin öğrenmenin öncülerinden biri kimdir?", "en": "Who is one of the pioneers of deep learning?", "nl": "Wie is een van de pioniers van deep learning?", "es": "¿Quién es uno de los pioneros del aprendizaje profundo?" }, "choices": [
+      { "text": { "tr": "Geoffrey Hinton", "en": "Geoffrey Hinton", "nl": "Geoffrey Hinton", "es": "Geoffrey Hinton" }, "correct": true },
+      { "text": { "tr": "Linus Torvalds", "en": "Linus Torvalds", "nl": "Linus Torvalds", "es": "Linus Torvalds" } },
+      { "text": { "tr": "Tim Berners-Lee", "en": "Tim Berners-Lee", "nl": "Tim Berners-Lee", "es": "Tim Berners-Lee" } },
+      { "text": { "tr": "Bill Gates", "en": "Bill Gates", "nl": "Bill Gates", "es": "Bill Gates" } } ] },
+    { "text": { "tr": "ImageNet nedir?", "en": "What is ImageNet?", "nl": "Wat is ImageNet?", "es": "¿Qué es ImageNet?" }, "choices": [
+      { "text": { "tr": "Görüntü veri seti", "en": "An image dataset", "nl": "Een beelddataset", "es": "Un conjunto de imágenes" }, "correct": true },
+      { "text": { "tr": "Sinir ağı türü", "en": "A neural network type", "nl": "Een soort neuraal netwerk", "es": "Un tipo de red neuronal" } },
+      { "text": { "tr": "Programlama dili", "en": "A programming language", "nl": "Een programmeertaal", "es": "Un lenguaje de programación" } },
+      { "text": { "tr": "Arama motoru", "en": "A search engine", "nl": "Een zoekmachine", "es": "Un buscador" } } ] },
+    { "text": { "tr": "Kelimeleri sayı vektörlerine çevirmeye ne denir?", "en": "What is turning words into number vectors called?", "nl": "Hoe heet het omzetten van woorden in getalvectoren?", "es": "¿Cómo se llama convertir palabras en vectores numéricos?" }, "choices": [
+      { "text": { "tr": "Gömme (embedding)", "en": "Embedding", "nl": "Embedding", "es": "Embedding" }, "correct": true },
+      { "text": { "tr": "Budama", "en": "Pruning", "nl": "Pruning", "es": "Poda" } },
+      { "text": { "tr": "Damıtma", "en": "Distillation", "nl": "Distillatie", "es": "Destilación" } },
+      { "text": { "tr": "Kümeleme", "en": "Clustering", "nl": "Clustering", "es": "Agrupamiento" } } ] },
+    { "text": { "tr": "RAG yönteminde model yanıt vermeden önce ne yapar?", "en": "In RAG, what does the model do before answering?", "nl": "Wat doet het model bij RAG voordat het antwoordt?", "es": "En RAG, ¿qué hace el modelo antes de responder?" }, "choices": [
+      { "text": { "tr": "İlgili belgeleri getirir", "en": "Retrieves relevant documents", "nl": "Relevante documenten ophalen", "es": "Busca documentos relevantes" }, "correct": true },
+      { "text": { "tr": "Kendini yeniden eğitir", "en": "Retrains itself", "nl": "Zichzelf opnieuw trainen", "es": "Se reentrena" } },
+      { "text": { "tr": "Görsel üretir", "en": "Generates an image", "nl": "Een afbeelding maken", "es": "Genera una imagen" } },
+      { "text": { "tr": "Kodu derler", "en": "Compiles code", "nl": "Code compileren", "es": "Compila código" } } ] },
+    { "text": { "tr": "Kayıp (loss) fonksiyonu neyi ölçer?", "en": "What does a loss function measure?", "nl": "Wat meet een verliesfunctie (loss)?", "es": "¿Qué mide una función de pérdida (loss)?" }, "choices": [
+      { "text": { "tr": "Tahmin hatasını", "en": "Prediction error", "nl": "De voorspellingsfout", "es": "El error de predicción" }, "correct": true },
+      { "text": { "tr": "Model boyutunu", "en": "Model size", "nl": "De modelgrootte", "es": "El tamaño del modelo" } },
+      { "text": { "tr": "Eğitim süresini", "en": "Training time", "nl": "De trainingstijd", "es": "El tiempo de entrenamiento" } },
+      { "text": { "tr": "Veri miktarını", "en": "Amount of data", "nl": "De hoeveelheid data", "es": "La cantidad de datos" } } ] },
+    { "text": { "tr": "Siri hangi şirketin sesli asistanıdır?", "en": "Siri is the voice assistant of which company?", "nl": "Van welk bedrijf is de spraakassistent Siri?", "es": "¿De qué empresa es el asistente de voz Siri?" }, "choices": [
+      { "text": { "tr": "Apple", "en": "Apple", "nl": "Apple", "es": "Apple" }, "correct": true },
+      { "text": { "tr": "Google", "en": "Google", "nl": "Google", "es": "Google" } },
+      { "text": { "tr": "Amazon", "en": "Amazon", "nl": "Amazon", "es": "Amazon" } },
+      { "text": { "tr": "Microsoft", "en": "Microsoft", "nl": "Microsoft", "es": "Microsoft" } } ] },
+    { "text": { "tr": "Alexa hangi şirketin sesli asistanıdır?", "en": "Alexa is the voice assistant of which company?", "nl": "Van welk bedrijf is de spraakassistent Alexa?", "es": "¿De qué empresa es el asistente de voz Alexa?" }, "choices": [
+      { "text": { "tr": "Amazon", "en": "Amazon", "nl": "Amazon", "es": "Amazon" }, "correct": true },
+      { "text": { "tr": "Apple", "en": "Apple", "nl": "Apple", "es": "Apple" } },
+      { "text": { "tr": "Google", "en": "Google", "nl": "Google", "es": "Google" } },
+      { "text": { "tr": "Samsung", "en": "Samsung", "nl": "Samsung", "es": "Samsung" } } ] },
+    { "text": { "tr": "1966'da yazılan ELIZA nedir?", "en": "What is ELIZA, written in 1966?", "nl": "Wat is ELIZA, geschreven in 1966?", "es": "¿Qué es ELIZA, escrito en 1966?" }, "choices": [
+      { "text": { "tr": "İlk sohbet botlarından", "en": "One of the first chatbots", "nl": "Een van de eerste chatbots", "es": "Uno de los primeros chatbots" }, "correct": true },
+      { "text": { "tr": "Bir satranç programı", "en": "A chess program", "nl": "Een schaakprogramma", "es": "Un programa de ajedrez" } },
+      { "text": { "tr": "Bir robot kol", "en": "A robotic arm", "nl": "Een robotarm", "es": "Un brazo robótico" } },
+      { "text": { "tr": "Bir programlama dili", "en": "A programming language", "nl": "Een programmeertaal", "es": "Un lenguaje de programación" } } ] },
+    { "text": { "tr": "Llama modellerini hangi şirket yayımladı?", "en": "Which company released the Llama models?", "nl": "Welk bedrijf bracht de Llama-modellen uit?", "es": "¿Qué empresa lanzó los modelos Llama?" }, "choices": [
+      { "text": { "tr": "Meta", "en": "Meta", "nl": "Meta", "es": "Meta" }, "correct": true },
+      { "text": { "tr": "OpenAI", "en": "OpenAI", "nl": "OpenAI", "es": "OpenAI" } },
+      { "text": { "tr": "Google", "en": "Google", "nl": "Google", "es": "Google" } },
+      { "text": { "tr": "Anthropic", "en": "Anthropic", "nl": "Anthropic", "es": "Anthropic" } } ] },
+    { "text": { "tr": "Modelin bir seferde işleyebildiği metin uzunluğuna ne denir?", "en": "What is the amount of text a model can handle at once called?", "nl": "Hoe heet de hoeveelheid tekst die een model in één keer verwerkt?", "es": "¿Cómo se llama la cantidad de texto que un modelo procesa de una vez?" }, "choices": [
+      { "text": { "tr": "Bağlam penceresi", "en": "Context window", "nl": "Contextvenster", "es": "Ventana de contexto" }, "correct": true },
+      { "text": { "tr": "Öğrenme oranı", "en": "Learning rate", "nl": "Leersnelheid", "es": "Tasa de aprendizaje" } },
+      { "text": { "tr": "Parti boyutu", "en": "Batch size", "nl": "Batchgrootte", "es": "Tamaño de lote" } },
+      { "text": { "tr": "Gizli katman", "en": "Hidden layer", "nl": "Verborgen laag", "es": "Capa oculta" } } ] },
+    { "text": { "tr": "Sinir ağında giriş ile çıkış arasındaki katmanlara ne denir?", "en": "What are the layers between input and output in a neural net?", "nl": "Hoe heten de lagen tussen invoer en uitvoer in een neuraal net?", "es": "¿Cómo se llaman las capas entre la entrada y la salida de una red neuronal?" }, "choices": [
+      { "text": { "tr": "Gizli katman", "en": "Hidden layers", "nl": "Verborgen lagen", "es": "Capas ocultas" }, "correct": true },
+      { "text": { "tr": "Çıkış katmanı", "en": "Output layers", "nl": "Uitvoerlagen", "es": "Capas de salida" } },
+      { "text": { "tr": "Giriş katmanı", "en": "Input layers", "nl": "Invoerlagen", "es": "Capas de entrada" } },
+      { "text": { "tr": "Ana katman", "en": "Main layers", "nl": "Hoofdlagen", "es": "Capas principales" } } ] },
+    { "text": { "tr": "Gradyan inişi (gradient descent) ne için kullanılır?", "en": "What is gradient descent used for?", "nl": "Waarvoor wordt gradient descent gebruikt?", "es": "¿Para qué se usa el descenso de gradiente?" }, "choices": [
+      { "text": { "tr": "Hatayı azaltmak", "en": "Reducing the error", "nl": "De fout verkleinen", "es": "Reducir el error" }, "correct": true },
+      { "text": { "tr": "Veri toplamak", "en": "Collecting data", "nl": "Data verzamelen", "es": "Recoger datos" } },
+      { "text": { "tr": "Görüntü büyütmek", "en": "Upscaling images", "nl": "Beelden vergroten", "es": "Ampliar imágenes" } },
+      { "text": { "tr": "Metin çevirmek", "en": "Translating text", "nl": "Tekst vertalen", "es": "Traducir texto" } } ] }
   ]
 }

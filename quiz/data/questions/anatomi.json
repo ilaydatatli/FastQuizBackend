@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "anatomi", "color": "blue", "order": 6, "name": { "tr": "Anatomi", "en": "Anatomy", "nl": "Anatomie" }, "description": { "tr": "Kemikler, kaslar, organlar", "en": "Bones, muscles, organs", "nl": "Botten, spieren, organen" } },
+  "category": { "slug": "anatomi", "color": "blue", "order": 6, "name": { "tr": "Anatomi", "en": "Anatomy", "nl": "Anatomie", "es": "Anatomía" }, "description": { "tr": "Kemikler, kaslar, organlar", "en": "Bones, muscles, organs", "nl": "Botten, spieren, organen", "es": "Huesos, músculos, órganos" } },
   "questions": [
-    { "text": { "tr": "İnsan vücudunun en uzun kemiği hangisidir?", "en": "What is the longest bone in the human body?", "nl": "Wat is het langste bot van het menselijk lichaam?" }, "choices": [
-      { "text": { "tr": "Uyluk kemiği", "en": "Femur (thigh bone)", "nl": "Dijbeen" }, "correct": true },
-      { "text": { "tr": "Kaval kemiği", "en": "Tibia (shin bone)", "nl": "Scheenbeen" } },
-      { "text": { "tr": "Üst kol kemiği", "en": "Humerus", "nl": "Opperarmbeen" } },
-      { "text": { "tr": "Köprücük kemiği", "en": "Clavicle", "nl": "Sleutelbeen" } } ] },
-    { "text": { "tr": "Vücudun en küçük kemikleri nerede bulunur?", "en": "Where are the smallest bones in the body?", "nl": "Waar zitten de kleinste botjes van het lichaam?" }, "choices": [
-      { "text": { "tr": "Orta kulak", "en": "Middle ear", "nl": "Middenoor" }, "correct": true },
-      { "text": { "tr": "Burun", "en": "Nose", "nl": "Neus" } },
-      { "text": { "tr": "El bileği", "en": "Wrist", "nl": "Pols" } },
-      { "text": { "tr": "Ayak parmağı", "en": "Toes", "nl": "Tenen" } } ] },
-    { "text": { "tr": "İnsan kalbinde kaç odacık bulunur?", "en": "How many chambers does the human heart have?", "nl": "Hoeveel kamers heeft het menselijk hart?" }, "choices": [
-      { "text": { "tr": "4", "en": "4", "nl": "4" }, "correct": true },
-      { "text": { "tr": "2", "en": "2", "nl": "2" } },
-      { "text": { "tr": "3", "en": "3", "nl": "3" } },
-      { "text": { "tr": "6", "en": "6", "nl": "6" } } ] },
-    { "text": { "tr": "Dizkapağı kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the kneecap?", "nl": "Wat is de medische naam van de knieschijf?" }, "choices": [
-      { "text": { "tr": "Patella", "en": "Patella", "nl": "Patella" }, "correct": true },
-      { "text": { "tr": "Femur", "en": "Femur", "nl": "Femur" } },
-      { "text": { "tr": "Tibia", "en": "Tibia", "nl": "Tibia" } },
-      { "text": { "tr": "Fibula", "en": "Fibula", "nl": "Fibula" } } ] },
-    { "text": { "tr": "Göğüs boşluğunu karın boşluğundan ayıran kas hangisidir?", "en": "Which muscle separates the chest from the abdomen?", "nl": "Welke spier scheidt de borstholte van de buikholte?" }, "choices": [
-      { "text": { "tr": "Diyafram", "en": "Diaphragm", "nl": "Middenrif" }, "correct": true },
-      { "text": { "tr": "Pazı kası", "en": "Biceps", "nl": "Biceps" } },
-      { "text": { "tr": "Trapez kası", "en": "Trapezius", "nl": "Monnikskapspier" } },
-      { "text": { "tr": "Deltoid kas", "en": "Deltoid", "nl": "Deltaspier" } } ] },
-    { "text": { "tr": "Safra hangi organda üretilir?", "en": "Which organ produces bile?", "nl": "Welk orgaan maakt gal aan?" }, "choices": [
-      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever" }, "correct": true },
-      { "text": { "tr": "Safra kesesi", "en": "Gallbladder", "nl": "Galblaas" } },
-      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier" } },
-      { "text": { "tr": "Dalak", "en": "Spleen", "nl": "Milt" } } ] },
-    { "text": { "tr": "İnsanda kaç çift kaburga bulunur?", "en": "How many pairs of ribs does a human have?", "nl": "Hoeveel paar ribben heeft een mens?" }, "choices": [
-      { "text": { "tr": "12", "en": "12", "nl": "12" }, "correct": true },
-      { "text": { "tr": "10", "en": "10", "nl": "10" } },
-      { "text": { "tr": "14", "en": "14", "nl": "14" } },
-      { "text": { "tr": "8", "en": "8", "nl": "8" } } ] },
-    { "text": { "tr": "Boyun bölgesinde kaç omur bulunur?", "en": "How many vertebrae are in the neck?", "nl": "Hoeveel wervels zitten er in de nek?" }, "choices": [
-      { "text": { "tr": "7", "en": "7", "nl": "7" }, "correct": true },
-      { "text": { "tr": "5", "en": "5", "nl": "5" } },
-      { "text": { "tr": "9", "en": "9", "nl": "9" } },
-      { "text": { "tr": "12", "en": "12", "nl": "12" } } ] },
-    { "text": { "tr": "Gözün renkli kısmına ne ad verilir?", "en": "What is the colored part of the eye called?", "nl": "Hoe heet het gekleurde deel van het oog?" }, "choices": [
-      { "text": { "tr": "İris", "en": "Iris", "nl": "Iris" }, "correct": true },
-      { "text": { "tr": "Retina", "en": "Retina", "nl": "Netvlies" } },
-      { "text": { "tr": "Kornea", "en": "Cornea", "nl": "Hoornvlies" } },
-      { "text": { "tr": "Göz bebeği", "en": "Pupil", "nl": "Pupil" } } ] },
-    { "text": { "tr": "Besinlerin en çok emildiği organ hangisidir?", "en": "Where are most nutrients absorbed?", "nl": "Waar worden de meeste voedingsstoffen opgenomen?" }, "choices": [
-      { "text": { "tr": "İnce bağırsak", "en": "Small intestine", "nl": "Dunne darm" }, "correct": true },
-      { "text": { "tr": "Mide", "en": "Stomach", "nl": "Maag" } },
-      { "text": { "tr": "Kalın bağırsak", "en": "Large intestine", "nl": "Dikke darm" } },
-      { "text": { "tr": "Yemek borusu", "en": "Esophagus", "nl": "Slokdarm" } } ] },
-    { "text": { "tr": "Pazı kasının diğer adı nedir?", "en": "Which muscle bends the elbow at the front of the upper arm?", "nl": "Welke spier buigt de elleboog aan de voorkant van de bovenarm?" }, "choices": [
-      { "text": { "tr": "Biseps", "en": "Biceps", "nl": "Biceps" }, "correct": true },
-      { "text": { "tr": "Triseps", "en": "Triceps", "nl": "Triceps" } },
-      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier" } },
-      { "text": { "tr": "Kuadriseps", "en": "Quadriceps", "nl": "Quadriceps" } } ] },
-    { "text": { "tr": "Denge ve kas koordinasyonunu sağlayan beyin bölümü hangisidir?", "en": "Which part of the brain controls balance and coordination?", "nl": "Welk deel van de hersenen regelt evenwicht en coördinatie?" }, "choices": [
-      { "text": { "tr": "Beyincik", "en": "Cerebellum", "nl": "Kleine hersenen" }, "correct": true },
-      { "text": { "tr": "Hipotalamus", "en": "Hypothalamus", "nl": "Hypothalamus" } },
-      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse" } },
-      { "text": { "tr": "Talamus", "en": "Thalamus", "nl": "Thalamus" } } ] },
-    { "text": { "tr": "Kası kemiğe bağlayan yapıya ne ad verilir?", "en": "What connects a muscle to a bone?", "nl": "Wat verbindt een spier met een bot?" }, "choices": [
-      { "text": { "tr": "Tendon", "en": "Tendon", "nl": "Pees" }, "correct": true },
-      { "text": { "tr": "Ligament", "en": "Ligament", "nl": "Gewrichtsband" } },
-      { "text": { "tr": "Kıkırdak", "en": "Cartilage", "nl": "Kraakbeen" } },
-      { "text": { "tr": "Menisküs", "en": "Meniscus", "nl": "Meniscus" } } ] },
-    { "text": { "tr": "Midede salgılanan asit hangisidir?", "en": "Which acid is produced in the stomach?", "nl": "Welk zuur wordt in de maag aangemaakt?" }, "choices": [
-      { "text": { "tr": "Hidroklorik asit", "en": "Hydrochloric acid", "nl": "Zoutzuur" }, "correct": true },
-      { "text": { "tr": "Sülfürik asit", "en": "Sulfuric acid", "nl": "Zwavelzuur" } },
-      { "text": { "tr": "Laktik asit", "en": "Lactic acid", "nl": "Melkzuur" } },
-      { "text": { "tr": "Sitrik asit", "en": "Citric acid", "nl": "Citroenzuur" } } ] },
-    { "text": { "tr": "Vücuttaki en büyük atardamar hangisidir?", "en": "What is the largest artery in the body?", "nl": "Wat is de grootste slagader van het lichaam?" }, "choices": [
-      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta" }, "correct": true },
-      { "text": { "tr": "Şah damarı", "en": "Carotid artery", "nl": "Halsslagader" } },
-      { "text": { "tr": "Akciğer atardamarı", "en": "Pulmonary artery", "nl": "Longslagader" } },
-      { "text": { "tr": "Uyluk atardamarı", "en": "Femoral artery", "nl": "Dijbeenslagader" } } ] },
-    { "text": { "tr": "Yirmilik dişler dahil yetişkinde kaç diş bulunur?", "en": "How many teeth does an adult have, wisdom teeth included?", "nl": "Hoeveel tanden heeft een volwassene, verstandskiezen meegeteld?" }, "choices": [
-      { "text": { "tr": "32", "en": "32", "nl": "32" }, "correct": true },
-      { "text": { "tr": "28", "en": "28", "nl": "28" } },
-      { "text": { "tr": "30", "en": "30", "nl": "30" } },
-      { "text": { "tr": "36", "en": "36", "nl": "36" } } ] },
-    { "text": { "tr": "Kalp duvarının kas tabakasına ne ad verilir?", "en": "What is the muscle layer of the heart wall called?", "nl": "Hoe heet de spierlaag van de hartwand?" }, "choices": [
-      { "text": { "tr": "Miyokard", "en": "Myocardium", "nl": "Myocard" }, "correct": true },
-      { "text": { "tr": "Perikard", "en": "Pericardium", "nl": "Pericard" } },
-      { "text": { "tr": "Endokard", "en": "Endocardium", "nl": "Endocard" } },
-      { "text": { "tr": "Epikard", "en": "Epicardium", "nl": "Epicard" } } ] },
-    { "text": { "tr": "Görme sinyallerini beyne ileten sinir hangisidir?", "en": "Which nerve carries visual signals to the brain?", "nl": "Welke zenuw stuurt beeldsignalen naar de hersenen?" }, "choices": [
-      { "text": { "tr": "Optik sinir", "en": "Optic nerve", "nl": "Oogzenuw" }, "correct": true },
-      { "text": { "tr": "Vagus siniri", "en": "Vagus nerve", "nl": "Nervus vagus" } },
-      { "text": { "tr": "Yüz siniri", "en": "Facial nerve", "nl": "Aangezichtszenuw" } },
-      { "text": { "tr": "Koku siniri", "en": "Olfactory nerve", "nl": "Reukzenuw" } } ] },
-    { "text": { "tr": "Vücudun en uzun siniri hangisidir?", "en": "What is the longest nerve in the body?", "nl": "Wat is de langste zenuw van het lichaam?" }, "choices": [
-      { "text": { "tr": "Siyatik siniri", "en": "Sciatic nerve", "nl": "Heupzenuw" }, "correct": true },
-      { "text": { "tr": "Optik sinir", "en": "Optic nerve", "nl": "Oogzenuw" } },
-      { "text": { "tr": "Radyal sinir", "en": "Radial nerve", "nl": "Spaakbeenzenuw" } },
-      { "text": { "tr": "Ulnar sinir", "en": "Ulnar nerve", "nl": "Ellepijpzenuw" } } ] },
-    { "text": { "tr": "Ön kol hangi iki kemikten oluşur?", "en": "Which two bones form the forearm?", "nl": "Uit welke twee botten bestaat de onderarm?" }, "choices": [
-      { "text": { "tr": "Radius ve ulna", "en": "Radius and ulna", "nl": "Spaakbeen en ellepijp" }, "correct": true },
-      { "text": { "tr": "Tibia ve fibula", "en": "Tibia and fibula", "nl": "Scheenbeen en kuitbeen" } },
-      { "text": { "tr": "Femur ve tibia", "en": "Femur and tibia", "nl": "Dijbeen en scheenbeen" } },
-      { "text": { "tr": "Humerus ve skapula", "en": "Humerus and scapula", "nl": "Opperarmbeen en schouderblad" } } ] },
-    { "text": { "tr": "Kafatasının hareketli kemiği hangisidir?", "en": "Which bone of the skull can move?", "nl": "Welk bot van de schedel kan bewegen?" }, "choices": [
-      { "text": { "tr": "Alt çene kemiği", "en": "Lower jaw", "nl": "Onderkaak" }, "correct": true },
-      { "text": { "tr": "Alın kemiği", "en": "Frontal bone", "nl": "Voorhoofdsbeen" } },
-      { "text": { "tr": "Şakak kemiği", "en": "Temporal bone", "nl": "Slaapbeen" } },
-      { "text": { "tr": "Elmacık kemiği", "en": "Cheekbone", "nl": "Jukbeen" } } ] },
-    { "text": { "tr": "Gözde ışığı algılayan tabaka hangisidir?", "en": "Which layer of the eye detects light?", "nl": "Welke laag van het oog vangt licht op?" }, "choices": [
-      { "text": { "tr": "Retina", "en": "Retina", "nl": "Netvlies" }, "correct": true },
-      { "text": { "tr": "Kornea", "en": "Cornea", "nl": "Hoornvlies" } },
-      { "text": { "tr": "İris", "en": "Iris", "nl": "Iris" } },
-      { "text": { "tr": "Mercek", "en": "Lens", "nl": "Ooglens" } } ] },
-    { "text": { "tr": "Omurganın en alt ucundaki kemiğe ne ad verilir?", "en": "What is the bone at the bottom of the spine called?", "nl": "Hoe heet het bot onderaan de wervelkolom?" }, "choices": [
-      { "text": { "tr": "Kuyruk sokumu", "en": "Coccyx (tailbone)", "nl": "Stuitbeen" }, "correct": true },
-      { "text": { "tr": "Leğen kemiği", "en": "Pelvis", "nl": "Bekken" } },
-      { "text": { "tr": "Kürek kemiği", "en": "Shoulder blade", "nl": "Schouderblad" } },
-      { "text": { "tr": "Köprücük kemiği", "en": "Collarbone", "nl": "Sleutelbeen" } } ] },
-    { "text": { "tr": "Kürek kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the shoulder blade?", "nl": "Wat is de medische naam van het schouderblad?" }, "choices": [
-      { "text": { "tr": "Skapula", "en": "Scapula", "nl": "Scapula" }, "correct": true },
-      { "text": { "tr": "Klavikula", "en": "Clavicle", "nl": "Clavicula" } },
-      { "text": { "tr": "Sternum", "en": "Sternum", "nl": "Sternum" } },
-      { "text": { "tr": "Patella", "en": "Patella", "nl": "Patella" } } ] },
-    { "text": { "tr": "Göğüs kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the breastbone?", "nl": "Wat is de medische naam van het borstbeen?" }, "choices": [
-      { "text": { "tr": "Sternum", "en": "Sternum", "nl": "Sternum" }, "correct": true },
-      { "text": { "tr": "Skapula", "en": "Scapula", "nl": "Scapula" } },
-      { "text": { "tr": "Klavikula", "en": "Clavicle", "nl": "Clavicula" } },
-      { "text": { "tr": "Humerus", "en": "Humerus", "nl": "Humerus" } } ] },
-    { "text": { "tr": "Akciğerlere havayı taşıyan boruya ne ad verilir?", "en": "What is the tube that carries air to the lungs called?", "nl": "Hoe heet de buis die lucht naar de longen voert?" }, "choices": [
-      { "text": { "tr": "Soluk borusu", "en": "Windpipe (trachea)", "nl": "Luchtpijp" }, "correct": true },
-      { "text": { "tr": "Yemek borusu", "en": "Esophagus", "nl": "Slokdarm" } },
-      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta" } },
-      { "text": { "tr": "Üreter", "en": "Ureter", "nl": "Urineleider" } } ] },
-    { "text": { "tr": "İdrarı böbrekten mesaneye taşıyan kanal hangisidir?", "en": "Which tube carries urine from the kidney to the bladder?", "nl": "Welke buis voert urine van de nier naar de blaas?" }, "choices": [
-      { "text": { "tr": "Üreter", "en": "Ureter", "nl": "Urineleider" }, "correct": true },
-      { "text": { "tr": "Üretra", "en": "Urethra", "nl": "Urinebuis" } },
-      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta" } },
-      { "text": { "tr": "Safra kanalı", "en": "Bile duct", "nl": "Galgang" } } ] },
-    { "text": { "tr": "Vücudun en büyük lenf organı hangisidir?", "en": "What is the largest lymphatic organ in the body?", "nl": "Wat is het grootste lymfeorgaan van het lichaam?" }, "choices": [
-      { "text": { "tr": "Dalak", "en": "Spleen", "nl": "Milt" }, "correct": true },
-      { "text": { "tr": "Timüs", "en": "Thymus", "nl": "Zwezerik" } },
-      { "text": { "tr": "Bademcik", "en": "Tonsil", "nl": "Amandel" } },
-      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever" } } ] },
-    { "text": { "tr": "Kalbin sağ ve sol tarafını ayıran duvara ne denir?", "en": "What is the wall between the heart's left and right sides?", "nl": "Hoe heet de wand tussen de linker- en rechterhelft van het hart?" }, "choices": [
-      { "text": { "tr": "Septum", "en": "Septum", "nl": "Septum" }, "correct": true },
-      { "text": { "tr": "Kapakçık", "en": "Valve", "nl": "Hartklep" } },
-      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta" } },
-      { "text": { "tr": "Perikard", "en": "Pericardium", "nl": "Pericard" } } ] },
-    { "text": { "tr": "Kanı kalbe geri getiren damarlara ne denir?", "en": "What are the vessels that bring blood back to the heart?", "nl": "Hoe heten de bloedvaten die bloed terug naar het hart brengen?" }, "choices": [
-      { "text": { "tr": "Toplardamar", "en": "Veins", "nl": "Aders" }, "correct": true },
-      { "text": { "tr": "Atardamar", "en": "Arteries", "nl": "Slagaders" } },
-      { "text": { "tr": "Kılcal damar", "en": "Capillaries", "nl": "Haarvaten" } },
-      { "text": { "tr": "Lenf damarı", "en": "Lymph vessels", "nl": "Lymfevaten" } } ] },
-    { "text": { "tr": "En ince kan damarlarına ne ad verilir?", "en": "What are the smallest blood vessels called?", "nl": "Hoe heten de kleinste bloedvaten?" }, "choices": [
-      { "text": { "tr": "Kılcal damar", "en": "Capillaries", "nl": "Haarvaten" }, "correct": true },
-      { "text": { "tr": "Toplardamar", "en": "Veins", "nl": "Aders" } },
-      { "text": { "tr": "Atardamar", "en": "Arteries", "nl": "Slagaders" } },
-      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta" } } ] },
-    { "text": { "tr": "Büyüme hormonu hangi bezden salgılanır?", "en": "Which gland releases growth hormone?", "nl": "Welke klier maakt groeihormoon aan?" }, "choices": [
-      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse" }, "correct": true },
-      { "text": { "tr": "Tiroit", "en": "Thyroid", "nl": "Schildklier" } },
-      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier" } },
-      { "text": { "tr": "Böbrek üstü bezi", "en": "Adrenal gland", "nl": "Bijnier" } } ] },
-    { "text": { "tr": "Boyunda bulunan ve metabolizmayı düzenleyen bez hangisidir?", "en": "Which gland in the neck regulates metabolism?", "nl": "Welke klier in de hals regelt de stofwisseling?" }, "choices": [
-      { "text": { "tr": "Tiroit", "en": "Thyroid", "nl": "Schildklier" }, "correct": true },
-      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse" } },
-      { "text": { "tr": "Timüs", "en": "Thymus", "nl": "Zwezerik" } },
-      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier" } } ] },
-    { "text": { "tr": "Adrenalin hangi bezden salgılanır?", "en": "Which gland releases adrenaline?", "nl": "Welke klier maakt adrenaline aan?" }, "choices": [
-      { "text": { "tr": "Böbrek üstü bezi", "en": "Adrenal gland", "nl": "Bijnier" }, "correct": true },
-      { "text": { "tr": "Tiroit", "en": "Thyroid", "nl": "Schildklier" } },
-      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse" } },
-      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier" } } ] },
-    { "text": { "tr": "Kafatası kemikleri birbirine nasıl bağlanır?", "en": "How are the skull bones joined together?", "nl": "Hoe zijn de schedelbotten met elkaar verbonden?" }, "choices": [
-      { "text": { "tr": "Dikişlerle", "en": "By sutures", "nl": "Met naden" }, "correct": true },
-      { "text": { "tr": "Menteşe eklemle", "en": "By hinge joints", "nl": "Met scharniergewrichten" } },
-      { "text": { "tr": "Küresel eklemle", "en": "By ball-and-socket joints", "nl": "Met kogelgewrichten" } },
-      { "text": { "tr": "Kaslarla", "en": "By muscles", "nl": "Met spieren" } } ] },
-    { "text": { "tr": "Omuz eklemi hangi tür eklemdir?", "en": "What type of joint is the shoulder?", "nl": "Wat voor gewricht is de schouder?" }, "choices": [
-      { "text": { "tr": "Küresel eklem", "en": "Ball-and-socket joint", "nl": "Kogelgewricht" }, "correct": true },
-      { "text": { "tr": "Menteşe eklem", "en": "Hinge joint", "nl": "Scharniergewricht" } },
-      { "text": { "tr": "Eyer eklem", "en": "Saddle joint", "nl": "Zadelgewricht" } },
-      { "text": { "tr": "Dikiş eklem", "en": "Suture joint", "nl": "Naadverbinding" } } ] },
-    { "text": { "tr": "Dirsek eklemi hangi tür eklemdir?", "en": "What type of joint is the elbow?", "nl": "Wat voor gewricht is de elleboog?" }, "choices": [
-      { "text": { "tr": "Menteşe eklem", "en": "Hinge joint", "nl": "Scharniergewricht" }, "correct": true },
-      { "text": { "tr": "Küresel eklem", "en": "Ball-and-socket joint", "nl": "Kogelgewricht" } },
-      { "text": { "tr": "Eyer eklem", "en": "Saddle joint", "nl": "Zadelgewricht" } },
-      { "text": { "tr": "Dikiş eklem", "en": "Suture joint", "nl": "Naadverbinding" } } ] },
-    { "text": { "tr": "Baldırın arkasındaki büyük kasın adı nedir?", "en": "What is the large muscle at the back of the calf?", "nl": "Hoe heet de grote spier aan de achterkant van de kuit?" }, "choices": [
-      { "text": { "tr": "Gastroknemius", "en": "Gastrocnemius", "nl": "Gastrocnemius" }, "correct": true },
-      { "text": { "tr": "Kuadriseps", "en": "Quadriceps", "nl": "Quadriceps" } },
-      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier" } },
-      { "text": { "tr": "Trapez", "en": "Trapezius", "nl": "Monnikskapspier" } } ] },
-    { "text": { "tr": "Uyluğun önündeki dört başlı kas hangisidir?", "en": "Which four-headed muscle is at the front of the thigh?", "nl": "Welke vierhoofdige spier zit aan de voorkant van de dij?" }, "choices": [
-      { "text": { "tr": "Kuadriseps", "en": "Quadriceps", "nl": "Quadriceps" }, "correct": true },
-      { "text": { "tr": "Biseps", "en": "Biceps", "nl": "Biceps" } },
-      { "text": { "tr": "Triseps", "en": "Triceps", "nl": "Triceps" } },
-      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier" } } ] },
-    { "text": { "tr": "Omzu saran üçgen biçimli kas hangisidir?", "en": "Which triangular muscle covers the shoulder?", "nl": "Welke driehoekige spier bedekt de schouder?" }, "choices": [
-      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier" }, "correct": true },
-      { "text": { "tr": "Trapez", "en": "Trapezius", "nl": "Monnikskapspier" } },
-      { "text": { "tr": "Biseps", "en": "Biceps", "nl": "Biceps" } },
-      { "text": { "tr": "Pektoral", "en": "Pectoral", "nl": "Borstspier" } } ] }
+    { "text": { "tr": "İnsan vücudunun en uzun kemiği hangisidir?", "en": "What is the longest bone in the human body?", "nl": "Wat is het langste bot van het menselijk lichaam?", "es": "¿Cuál es el hueso más largo del cuerpo humano?" }, "choices": [
+      { "text": { "tr": "Uyluk kemiği", "en": "Femur (thigh bone)", "nl": "Dijbeen", "es": "Fémur" }, "correct": true },
+      { "text": { "tr": "Kaval kemiği", "en": "Tibia (shin bone)", "nl": "Scheenbeen", "es": "Tibia" } },
+      { "text": { "tr": "Üst kol kemiği", "en": "Humerus", "nl": "Opperarmbeen", "es": "Húmero" } },
+      { "text": { "tr": "Köprücük kemiği", "en": "Clavicle", "nl": "Sleutelbeen", "es": "Clavícula" } } ] },
+    { "text": { "tr": "Vücudun en küçük kemikleri nerede bulunur?", "en": "Where are the smallest bones in the body?", "nl": "Waar zitten de kleinste botjes van het lichaam?", "es": "¿Dónde están los huesos más pequeños del cuerpo?" }, "choices": [
+      { "text": { "tr": "Orta kulak", "en": "Middle ear", "nl": "Middenoor", "es": "Oído medio" }, "correct": true },
+      { "text": { "tr": "Burun", "en": "Nose", "nl": "Neus", "es": "Nariz" } },
+      { "text": { "tr": "El bileği", "en": "Wrist", "nl": "Pols", "es": "Muñeca" } },
+      { "text": { "tr": "Ayak parmağı", "en": "Toes", "nl": "Tenen", "es": "Dedos del pie" } } ] },
+    { "text": { "tr": "İnsan kalbinde kaç odacık bulunur?", "en": "How many chambers does the human heart have?", "nl": "Hoeveel kamers heeft het menselijk hart?", "es": "¿Cuántas cavidades tiene el corazón humano?" }, "choices": [
+      { "text": { "tr": "4", "en": "4", "nl": "4", "es": "4" }, "correct": true },
+      { "text": { "tr": "2", "en": "2", "nl": "2", "es": "2" } },
+      { "text": { "tr": "3", "en": "3", "nl": "3", "es": "3" } },
+      { "text": { "tr": "6", "en": "6", "nl": "6", "es": "6" } } ] },
+    { "text": { "tr": "Dizkapağı kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the kneecap?", "nl": "Wat is de medische naam van de knieschijf?", "es": "¿Cuál es el nombre médico de la rótula?" }, "choices": [
+      { "text": { "tr": "Patella", "en": "Patella", "nl": "Patella", "es": "Patela" }, "correct": true },
+      { "text": { "tr": "Femur", "en": "Femur", "nl": "Femur", "es": "Fémur" } },
+      { "text": { "tr": "Tibia", "en": "Tibia", "nl": "Tibia", "es": "Tibia" } },
+      { "text": { "tr": "Fibula", "en": "Fibula", "nl": "Fibula", "es": "Peroné" } } ] },
+    { "text": { "tr": "Göğüs boşluğunu karın boşluğundan ayıran kas hangisidir?", "en": "Which muscle separates the chest from the abdomen?", "nl": "Welke spier scheidt de borstholte van de buikholte?", "es": "¿Qué músculo separa el tórax del abdomen?" }, "choices": [
+      { "text": { "tr": "Diyafram", "en": "Diaphragm", "nl": "Middenrif", "es": "Diafragma" }, "correct": true },
+      { "text": { "tr": "Pazı kası", "en": "Biceps", "nl": "Biceps", "es": "Bíceps" } },
+      { "text": { "tr": "Trapez kası", "en": "Trapezius", "nl": "Monnikskapspier", "es": "Trapecio" } },
+      { "text": { "tr": "Deltoid kas", "en": "Deltoid", "nl": "Deltaspier", "es": "Deltoides" } } ] },
+    { "text": { "tr": "Safra hangi organda üretilir?", "en": "Which organ produces bile?", "nl": "Welk orgaan maakt gal aan?", "es": "¿Qué órgano produce la bilis?" }, "choices": [
+      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever", "es": "Hígado" }, "correct": true },
+      { "text": { "tr": "Safra kesesi", "en": "Gallbladder", "nl": "Galblaas", "es": "Vesícula biliar" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier", "es": "Páncreas" } },
+      { "text": { "tr": "Dalak", "en": "Spleen", "nl": "Milt", "es": "Bazo" } } ] },
+    { "text": { "tr": "İnsanda kaç çift kaburga bulunur?", "en": "How many pairs of ribs does a human have?", "nl": "Hoeveel paar ribben heeft een mens?", "es": "¿Cuántos pares de costillas tiene una persona?" }, "choices": [
+      { "text": { "tr": "12", "en": "12", "nl": "12", "es": "12" }, "correct": true },
+      { "text": { "tr": "10", "en": "10", "nl": "10", "es": "10" } },
+      { "text": { "tr": "14", "en": "14", "nl": "14", "es": "14" } },
+      { "text": { "tr": "8", "en": "8", "nl": "8", "es": "8" } } ] },
+    { "text": { "tr": "Boyun bölgesinde kaç omur bulunur?", "en": "How many vertebrae are in the neck?", "nl": "Hoeveel wervels zitten er in de nek?", "es": "¿Cuántas vértebras hay en el cuello?" }, "choices": [
+      { "text": { "tr": "7", "en": "7", "nl": "7", "es": "7" }, "correct": true },
+      { "text": { "tr": "5", "en": "5", "nl": "5", "es": "5" } },
+      { "text": { "tr": "9", "en": "9", "nl": "9", "es": "9" } },
+      { "text": { "tr": "12", "en": "12", "nl": "12", "es": "12" } } ] },
+    { "text": { "tr": "Gözün renkli kısmına ne ad verilir?", "en": "What is the colored part of the eye called?", "nl": "Hoe heet het gekleurde deel van het oog?", "es": "¿Cómo se llama la parte de color del ojo?" }, "choices": [
+      { "text": { "tr": "İris", "en": "Iris", "nl": "Iris", "es": "Iris" }, "correct": true },
+      { "text": { "tr": "Retina", "en": "Retina", "nl": "Netvlies", "es": "Retina" } },
+      { "text": { "tr": "Kornea", "en": "Cornea", "nl": "Hoornvlies", "es": "Córnea" } },
+      { "text": { "tr": "Göz bebeği", "en": "Pupil", "nl": "Pupil", "es": "Pupila" } } ] },
+    { "text": { "tr": "Besinlerin en çok emildiği organ hangisidir?", "en": "Where are most nutrients absorbed?", "nl": "Waar worden de meeste voedingsstoffen opgenomen?", "es": "¿Dónde se absorben la mayoría de los nutrientes?" }, "choices": [
+      { "text": { "tr": "İnce bağırsak", "en": "Small intestine", "nl": "Dunne darm", "es": "Intestino delgado" }, "correct": true },
+      { "text": { "tr": "Mide", "en": "Stomach", "nl": "Maag", "es": "Estómago" } },
+      { "text": { "tr": "Kalın bağırsak", "en": "Large intestine", "nl": "Dikke darm", "es": "Intestino grueso" } },
+      { "text": { "tr": "Yemek borusu", "en": "Esophagus", "nl": "Slokdarm", "es": "Esófago" } } ] },
+    { "text": { "tr": "Pazı kasının diğer adı nedir?", "en": "Which muscle bends the elbow at the front of the upper arm?", "nl": "Welke spier buigt de elleboog aan de voorkant van de bovenarm?", "es": "¿Qué músculo dobla el codo en la parte delantera del brazo?" }, "choices": [
+      { "text": { "tr": "Biseps", "en": "Biceps", "nl": "Biceps", "es": "Bíceps" }, "correct": true },
+      { "text": { "tr": "Triseps", "en": "Triceps", "nl": "Triceps", "es": "Tríceps" } },
+      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier", "es": "Deltoides" } },
+      { "text": { "tr": "Kuadriseps", "en": "Quadriceps", "nl": "Quadriceps", "es": "Cuádriceps" } } ] },
+    { "text": { "tr": "Denge ve kas koordinasyonunu sağlayan beyin bölümü hangisidir?", "en": "Which part of the brain controls balance and coordination?", "nl": "Welk deel van de hersenen regelt evenwicht en coördinatie?", "es": "¿Qué parte del cerebro controla el equilibrio y la coordinación?" }, "choices": [
+      { "text": { "tr": "Beyincik", "en": "Cerebellum", "nl": "Kleine hersenen", "es": "Cerebelo" }, "correct": true },
+      { "text": { "tr": "Hipotalamus", "en": "Hypothalamus", "nl": "Hypothalamus", "es": "Hipotálamo" } },
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse", "es": "Hipófisis" } },
+      { "text": { "tr": "Talamus", "en": "Thalamus", "nl": "Thalamus", "es": "Tálamo" } } ] },
+    { "text": { "tr": "Kası kemiğe bağlayan yapıya ne ad verilir?", "en": "What connects a muscle to a bone?", "nl": "Wat verbindt een spier met een bot?", "es": "¿Qué une un músculo con un hueso?" }, "choices": [
+      { "text": { "tr": "Tendon", "en": "Tendon", "nl": "Pees", "es": "Tendón" }, "correct": true },
+      { "text": { "tr": "Ligament", "en": "Ligament", "nl": "Gewrichtsband", "es": "Ligamento" } },
+      { "text": { "tr": "Kıkırdak", "en": "Cartilage", "nl": "Kraakbeen", "es": "Cartílago" } },
+      { "text": { "tr": "Menisküs", "en": "Meniscus", "nl": "Meniscus", "es": "Menisco" } } ] },
+    { "text": { "tr": "Midede salgılanan asit hangisidir?", "en": "Which acid is produced in the stomach?", "nl": "Welk zuur wordt in de maag aangemaakt?", "es": "¿Qué ácido se produce en el estómago?" }, "choices": [
+      { "text": { "tr": "Hidroklorik asit", "en": "Hydrochloric acid", "nl": "Zoutzuur", "es": "Ácido clorhídrico" }, "correct": true },
+      { "text": { "tr": "Sülfürik asit", "en": "Sulfuric acid", "nl": "Zwavelzuur", "es": "Ácido sulfúrico" } },
+      { "text": { "tr": "Laktik asit", "en": "Lactic acid", "nl": "Melkzuur", "es": "Ácido láctico" } },
+      { "text": { "tr": "Sitrik asit", "en": "Citric acid", "nl": "Citroenzuur", "es": "Ácido cítrico" } } ] },
+    { "text": { "tr": "Vücuttaki en büyük atardamar hangisidir?", "en": "What is the largest artery in the body?", "nl": "Wat is de grootste slagader van het lichaam?", "es": "¿Cuál es la arteria más grande del cuerpo?" }, "choices": [
+      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta", "es": "Aorta" }, "correct": true },
+      { "text": { "tr": "Şah damarı", "en": "Carotid artery", "nl": "Halsslagader", "es": "Arteria carótida" } },
+      { "text": { "tr": "Akciğer atardamarı", "en": "Pulmonary artery", "nl": "Longslagader", "es": "Arteria pulmonar" } },
+      { "text": { "tr": "Uyluk atardamarı", "en": "Femoral artery", "nl": "Dijbeenslagader", "es": "Arteria femoral" } } ] },
+    { "text": { "tr": "Yirmilik dişler dahil yetişkinde kaç diş bulunur?", "en": "How many teeth does an adult have, wisdom teeth included?", "nl": "Hoeveel tanden heeft een volwassene, verstandskiezen meegeteld?", "es": "¿Cuántos dientes tiene un adulto, contando las muelas del juicio?" }, "choices": [
+      { "text": { "tr": "32", "en": "32", "nl": "32", "es": "32" }, "correct": true },
+      { "text": { "tr": "28", "en": "28", "nl": "28", "es": "28" } },
+      { "text": { "tr": "30", "en": "30", "nl": "30", "es": "30" } },
+      { "text": { "tr": "36", "en": "36", "nl": "36", "es": "36" } } ] },
+    { "text": { "tr": "Kalp duvarının kas tabakasına ne ad verilir?", "en": "What is the muscle layer of the heart wall called?", "nl": "Hoe heet de spierlaag van de hartwand?", "es": "¿Cómo se llama la capa muscular de la pared del corazón?" }, "choices": [
+      { "text": { "tr": "Miyokard", "en": "Myocardium", "nl": "Myocard", "es": "Miocardio" }, "correct": true },
+      { "text": { "tr": "Perikard", "en": "Pericardium", "nl": "Pericard", "es": "Pericardio" } },
+      { "text": { "tr": "Endokard", "en": "Endocardium", "nl": "Endocard", "es": "Endocardio" } },
+      { "text": { "tr": "Epikard", "en": "Epicardium", "nl": "Epicard", "es": "Epicardio" } } ] },
+    { "text": { "tr": "Görme sinyallerini beyne ileten sinir hangisidir?", "en": "Which nerve carries visual signals to the brain?", "nl": "Welke zenuw stuurt beeldsignalen naar de hersenen?", "es": "¿Qué nervio lleva las señales visuales al cerebro?" }, "choices": [
+      { "text": { "tr": "Optik sinir", "en": "Optic nerve", "nl": "Oogzenuw", "es": "Nervio óptico" }, "correct": true },
+      { "text": { "tr": "Vagus siniri", "en": "Vagus nerve", "nl": "Nervus vagus", "es": "Nervio vago" } },
+      { "text": { "tr": "Yüz siniri", "en": "Facial nerve", "nl": "Aangezichtszenuw", "es": "Nervio facial" } },
+      { "text": { "tr": "Koku siniri", "en": "Olfactory nerve", "nl": "Reukzenuw", "es": "Nervio olfatorio" } } ] },
+    { "text": { "tr": "Vücudun en uzun siniri hangisidir?", "en": "What is the longest nerve in the body?", "nl": "Wat is de langste zenuw van het lichaam?", "es": "¿Cuál es el nervio más largo del cuerpo?" }, "choices": [
+      { "text": { "tr": "Siyatik siniri", "en": "Sciatic nerve", "nl": "Heupzenuw", "es": "Nervio ciático" }, "correct": true },
+      { "text": { "tr": "Optik sinir", "en": "Optic nerve", "nl": "Oogzenuw", "es": "Nervio óptico" } },
+      { "text": { "tr": "Radyal sinir", "en": "Radial nerve", "nl": "Spaakbeenzenuw", "es": "Nervio radial" } },
+      { "text": { "tr": "Ulnar sinir", "en": "Ulnar nerve", "nl": "Ellepijpzenuw", "es": "Nervio cubital" } } ] },
+    { "text": { "tr": "Ön kol hangi iki kemikten oluşur?", "en": "Which two bones form the forearm?", "nl": "Uit welke twee botten bestaat de onderarm?", "es": "¿Qué dos huesos forman el antebrazo?" }, "choices": [
+      { "text": { "tr": "Radius ve ulna", "en": "Radius and ulna", "nl": "Spaakbeen en ellepijp", "es": "Radio y cúbito" }, "correct": true },
+      { "text": { "tr": "Tibia ve fibula", "en": "Tibia and fibula", "nl": "Scheenbeen en kuitbeen", "es": "Tibia y peroné" } },
+      { "text": { "tr": "Femur ve tibia", "en": "Femur and tibia", "nl": "Dijbeen en scheenbeen", "es": "Fémur y tibia" } },
+      { "text": { "tr": "Humerus ve skapula", "en": "Humerus and scapula", "nl": "Opperarmbeen en schouderblad", "es": "Húmero y escápula" } } ] },
+    { "text": { "tr": "Kafatasının hareketli kemiği hangisidir?", "en": "Which bone of the skull can move?", "nl": "Welk bot van de schedel kan bewegen?", "es": "¿Qué hueso del cráneo se puede mover?" }, "choices": [
+      { "text": { "tr": "Alt çene kemiği", "en": "Lower jaw", "nl": "Onderkaak", "es": "Mandíbula" }, "correct": true },
+      { "text": { "tr": "Alın kemiği", "en": "Frontal bone", "nl": "Voorhoofdsbeen", "es": "Hueso frontal" } },
+      { "text": { "tr": "Şakak kemiği", "en": "Temporal bone", "nl": "Slaapbeen", "es": "Hueso temporal" } },
+      { "text": { "tr": "Elmacık kemiği", "en": "Cheekbone", "nl": "Jukbeen", "es": "Pómulo" } } ] },
+    { "text": { "tr": "Gözde ışığı algılayan tabaka hangisidir?", "en": "Which layer of the eye detects light?", "nl": "Welke laag van het oog vangt licht op?", "es": "¿Qué capa del ojo detecta la luz?" }, "choices": [
+      { "text": { "tr": "Retina", "en": "Retina", "nl": "Netvlies", "es": "Retina" }, "correct": true },
+      { "text": { "tr": "Kornea", "en": "Cornea", "nl": "Hoornvlies", "es": "Córnea" } },
+      { "text": { "tr": "İris", "en": "Iris", "nl": "Iris", "es": "Iris" } },
+      { "text": { "tr": "Mercek", "en": "Lens", "nl": "Ooglens", "es": "Cristalino" } } ] },
+    { "text": { "tr": "Omurganın en alt ucundaki kemiğe ne ad verilir?", "en": "What is the bone at the bottom of the spine called?", "nl": "Hoe heet het bot onderaan de wervelkolom?", "es": "¿Cómo se llama el hueso del extremo inferior de la columna?" }, "choices": [
+      { "text": { "tr": "Kuyruk sokumu", "en": "Coccyx (tailbone)", "nl": "Stuitbeen", "es": "Coxis" }, "correct": true },
+      { "text": { "tr": "Leğen kemiği", "en": "Pelvis", "nl": "Bekken", "es": "Pelvis" } },
+      { "text": { "tr": "Kürek kemiği", "en": "Shoulder blade", "nl": "Schouderblad", "es": "Omóplato" } },
+      { "text": { "tr": "Köprücük kemiği", "en": "Collarbone", "nl": "Sleutelbeen", "es": "Clavícula" } } ] },
+    { "text": { "tr": "Kürek kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the shoulder blade?", "nl": "Wat is de medische naam van het schouderblad?", "es": "¿Cuál es el nombre médico del omóplato?" }, "choices": [
+      { "text": { "tr": "Skapula", "en": "Scapula", "nl": "Scapula", "es": "Escápula" }, "correct": true },
+      { "text": { "tr": "Klavikula", "en": "Clavicle", "nl": "Clavicula", "es": "Clavícula" } },
+      { "text": { "tr": "Sternum", "en": "Sternum", "nl": "Sternum", "es": "Esternón" } },
+      { "text": { "tr": "Patella", "en": "Patella", "nl": "Patella", "es": "Patela" } } ] },
+    { "text": { "tr": "Göğüs kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the breastbone?", "nl": "Wat is de medische naam van het borstbeen?", "es": "¿Cómo se llama el hueso del centro del pecho?" }, "choices": [
+      { "text": { "tr": "Sternum", "en": "Sternum", "nl": "Sternum", "es": "Esternón" }, "correct": true },
+      { "text": { "tr": "Skapula", "en": "Scapula", "nl": "Scapula", "es": "Escápula" } },
+      { "text": { "tr": "Klavikula", "en": "Clavicle", "nl": "Clavicula", "es": "Clavícula" } },
+      { "text": { "tr": "Humerus", "en": "Humerus", "nl": "Humerus", "es": "Húmero" } } ] },
+    { "text": { "tr": "Akciğerlere havayı taşıyan boruya ne ad verilir?", "en": "What is the tube that carries air to the lungs called?", "nl": "Hoe heet de buis die lucht naar de longen voert?", "es": "¿Cómo se llama el tubo que lleva el aire a los pulmones?" }, "choices": [
+      { "text": { "tr": "Soluk borusu", "en": "Windpipe (trachea)", "nl": "Luchtpijp", "es": "Tráquea" }, "correct": true },
+      { "text": { "tr": "Yemek borusu", "en": "Esophagus", "nl": "Slokdarm", "es": "Esófago" } },
+      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta", "es": "Aorta" } },
+      { "text": { "tr": "Üreter", "en": "Ureter", "nl": "Urineleider", "es": "Uréter" } } ] },
+    { "text": { "tr": "İdrarı böbrekten mesaneye taşıyan kanal hangisidir?", "en": "Which tube carries urine from the kidney to the bladder?", "nl": "Welke buis voert urine van de nier naar de blaas?", "es": "¿Qué conducto lleva la orina del riñón a la vejiga?" }, "choices": [
+      { "text": { "tr": "Üreter", "en": "Ureter", "nl": "Urineleider", "es": "Uréter" }, "correct": true },
+      { "text": { "tr": "Üretra", "en": "Urethra", "nl": "Urinebuis", "es": "Uretra" } },
+      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta", "es": "Aorta" } },
+      { "text": { "tr": "Safra kanalı", "en": "Bile duct", "nl": "Galgang", "es": "Conducto biliar" } } ] },
+    { "text": { "tr": "Vücudun en büyük lenf organı hangisidir?", "en": "What is the largest lymphatic organ in the body?", "nl": "Wat is het grootste lymfeorgaan van het lichaam?", "es": "¿Cuál es el órgano linfático más grande del cuerpo?" }, "choices": [
+      { "text": { "tr": "Dalak", "en": "Spleen", "nl": "Milt", "es": "Bazo" }, "correct": true },
+      { "text": { "tr": "Timüs", "en": "Thymus", "nl": "Zwezerik", "es": "Timo" } },
+      { "text": { "tr": "Bademcik", "en": "Tonsil", "nl": "Amandel", "es": "Amígdala" } },
+      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever", "es": "Hígado" } } ] },
+    { "text": { "tr": "Kalbin sağ ve sol tarafını ayıran duvara ne denir?", "en": "What is the wall between the heart's left and right sides?", "nl": "Hoe heet de wand tussen de linker- en rechterhelft van het hart?", "es": "¿Cómo se llama la pared entre los lados izquierdo y derecho del corazón?" }, "choices": [
+      { "text": { "tr": "Septum", "en": "Septum", "nl": "Septum", "es": "Tabique (septo)" }, "correct": true },
+      { "text": { "tr": "Kapakçık", "en": "Valve", "nl": "Hartklep", "es": "Válvula" } },
+      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta", "es": "Aorta" } },
+      { "text": { "tr": "Perikard", "en": "Pericardium", "nl": "Pericard", "es": "Pericardio" } } ] },
+    { "text": { "tr": "Kanı kalbe geri getiren damarlara ne denir?", "en": "What are the vessels that bring blood back to the heart?", "nl": "Hoe heten de bloedvaten die bloed terug naar het hart brengen?", "es": "¿Cómo se llaman los vasos que devuelven la sangre al corazón?" }, "choices": [
+      { "text": { "tr": "Toplardamar", "en": "Veins", "nl": "Aders", "es": "Venas" }, "correct": true },
+      { "text": { "tr": "Atardamar", "en": "Arteries", "nl": "Slagaders", "es": "Arterias" } },
+      { "text": { "tr": "Kılcal damar", "en": "Capillaries", "nl": "Haarvaten", "es": "Capilares" } },
+      { "text": { "tr": "Lenf damarı", "en": "Lymph vessels", "nl": "Lymfevaten", "es": "Vasos linfáticos" } } ] },
+    { "text": { "tr": "En ince kan damarlarına ne ad verilir?", "en": "What are the smallest blood vessels called?", "nl": "Hoe heten de kleinste bloedvaten?", "es": "¿Cómo se llaman los vasos sanguíneos más pequeños?" }, "choices": [
+      { "text": { "tr": "Kılcal damar", "en": "Capillaries", "nl": "Haarvaten", "es": "Capilares" }, "correct": true },
+      { "text": { "tr": "Toplardamar", "en": "Veins", "nl": "Aders", "es": "Venas" } },
+      { "text": { "tr": "Atardamar", "en": "Arteries", "nl": "Slagaders", "es": "Arterias" } },
+      { "text": { "tr": "Aort", "en": "Aorta", "nl": "Aorta", "es": "Aorta" } } ] },
+    { "text": { "tr": "Büyüme hormonu hangi bezden salgılanır?", "en": "Which gland releases growth hormone?", "nl": "Welke klier maakt groeihormoon aan?", "es": "¿Qué glándula produce la hormona del crecimiento?" }, "choices": [
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse", "es": "Hipófisis" }, "correct": true },
+      { "text": { "tr": "Tiroit", "en": "Thyroid", "nl": "Schildklier", "es": "Tiroides" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier", "es": "Páncreas" } },
+      { "text": { "tr": "Böbrek üstü bezi", "en": "Adrenal gland", "nl": "Bijnier", "es": "Glándula suprarrenal" } } ] },
+    { "text": { "tr": "Boyunda bulunan ve metabolizmayı düzenleyen bez hangisidir?", "en": "Which gland in the neck regulates metabolism?", "nl": "Welke klier in de hals regelt de stofwisseling?", "es": "¿Qué glándula del cuello regula el metabolismo?" }, "choices": [
+      { "text": { "tr": "Tiroit", "en": "Thyroid", "nl": "Schildklier", "es": "Tiroides" }, "correct": true },
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse", "es": "Hipófisis" } },
+      { "text": { "tr": "Timüs", "en": "Thymus", "nl": "Zwezerik", "es": "Timo" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier", "es": "Páncreas" } } ] },
+    { "text": { "tr": "Adrenalin hangi bezden salgılanır?", "en": "Which gland releases adrenaline?", "nl": "Welke klier maakt adrenaline aan?", "es": "¿Qué glándula produce la adrenalina?" }, "choices": [
+      { "text": { "tr": "Böbrek üstü bezi", "en": "Adrenal gland", "nl": "Bijnier", "es": "Glándula suprarrenal" }, "correct": true },
+      { "text": { "tr": "Tiroit", "en": "Thyroid", "nl": "Schildklier", "es": "Tiroides" } },
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland", "nl": "Hypofyse", "es": "Hipófisis" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier", "es": "Páncreas" } } ] },
+    { "text": { "tr": "Kafatası kemikleri birbirine nasıl bağlanır?", "en": "How are the skull bones joined together?", "nl": "Hoe zijn de schedelbotten met elkaar verbonden?", "es": "¿Cómo se unen entre sí los huesos del cráneo?" }, "choices": [
+      { "text": { "tr": "Dikişlerle", "en": "By sutures", "nl": "Met naden", "es": "Mediante suturas" }, "correct": true },
+      { "text": { "tr": "Menteşe eklemle", "en": "By hinge joints", "nl": "Met scharniergewrichten", "es": "Con bisagras" } },
+      { "text": { "tr": "Küresel eklemle", "en": "By ball-and-socket joints", "nl": "Met kogelgewrichten", "es": "Con articulaciones esféricas" } },
+      { "text": { "tr": "Kaslarla", "en": "By muscles", "nl": "Met spieren", "es": "Con músculos" } } ] },
+    { "text": { "tr": "Omuz eklemi hangi tür eklemdir?", "en": "What type of joint is the shoulder?", "nl": "Wat voor gewricht is de schouder?", "es": "¿Qué tipo de articulación es el hombro?" }, "choices": [
+      { "text": { "tr": "Küresel eklem", "en": "Ball-and-socket joint", "nl": "Kogelgewricht", "es": "Esférica" }, "correct": true },
+      { "text": { "tr": "Menteşe eklem", "en": "Hinge joint", "nl": "Scharniergewricht", "es": "En bisagra" } },
+      { "text": { "tr": "Eyer eklem", "en": "Saddle joint", "nl": "Zadelgewricht", "es": "En silla de montar" } },
+      { "text": { "tr": "Dikiş eklem", "en": "Suture joint", "nl": "Naadverbinding", "es": "Sutura" } } ] },
+    { "text": { "tr": "Dirsek eklemi hangi tür eklemdir?", "en": "What type of joint is the elbow?", "nl": "Wat voor gewricht is de elleboog?", "es": "¿Qué tipo de articulación es el codo?" }, "choices": [
+      { "text": { "tr": "Menteşe eklem", "en": "Hinge joint", "nl": "Scharniergewricht", "es": "En bisagra" }, "correct": true },
+      { "text": { "tr": "Küresel eklem", "en": "Ball-and-socket joint", "nl": "Kogelgewricht", "es": "Esférica" } },
+      { "text": { "tr": "Eyer eklem", "en": "Saddle joint", "nl": "Zadelgewricht", "es": "En silla de montar" } },
+      { "text": { "tr": "Dikiş eklem", "en": "Suture joint", "nl": "Naadverbinding", "es": "Sutura" } } ] },
+    { "text": { "tr": "Baldırın arkasındaki büyük kasın adı nedir?", "en": "What is the large muscle at the back of the calf?", "nl": "Hoe heet de grote spier aan de achterkant van de kuit?", "es": "¿Cómo se llama el gran músculo de la parte posterior de la pantorrilla?" }, "choices": [
+      { "text": { "tr": "Gastroknemius", "en": "Gastrocnemius", "nl": "Gastrocnemius", "es": "Gastrocnemio" }, "correct": true },
+      { "text": { "tr": "Kuadriseps", "en": "Quadriceps", "nl": "Quadriceps", "es": "Cuádriceps" } },
+      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier", "es": "Deltoides" } },
+      { "text": { "tr": "Trapez", "en": "Trapezius", "nl": "Monnikskapspier", "es": "Trapecio" } } ] },
+    { "text": { "tr": "Uyluğun önündeki dört başlı kas hangisidir?", "en": "Which four-headed muscle is at the front of the thigh?", "nl": "Welke vierhoofdige spier zit aan de voorkant van de dij?", "es": "¿Qué músculo de cuatro cabezas está en la parte delantera del muslo?" }, "choices": [
+      { "text": { "tr": "Kuadriseps", "en": "Quadriceps", "nl": "Quadriceps", "es": "Cuádriceps" }, "correct": true },
+      { "text": { "tr": "Biseps", "en": "Biceps", "nl": "Biceps", "es": "Bíceps" } },
+      { "text": { "tr": "Triseps", "en": "Triceps", "nl": "Triceps", "es": "Tríceps" } },
+      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier", "es": "Deltoides" } } ] },
+    { "text": { "tr": "Omzu saran üçgen biçimli kas hangisidir?", "en": "Which triangular muscle covers the shoulder?", "nl": "Welke driehoekige spier bedekt de schouder?", "es": "¿Qué músculo triangular cubre el hombro?" }, "choices": [
+      { "text": { "tr": "Deltoid", "en": "Deltoid", "nl": "Deltaspier", "es": "Deltoides" }, "correct": true },
+      { "text": { "tr": "Trapez", "en": "Trapezius", "nl": "Monnikskapspier", "es": "Trapecio" } },
+      { "text": { "tr": "Biseps", "en": "Biceps", "nl": "Biceps", "es": "Bíceps" } },
+      { "text": { "tr": "Pektoral", "en": "Pectoral", "nl": "Borstspier", "es": "Pectoral" } } ] }
   ]
 }

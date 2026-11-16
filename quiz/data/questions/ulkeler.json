@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "ulkeler", "color": "orange", "order": 3, "name": { "tr": "Ülkeler", "en": "Countries", "nl": "Landen" }, "description": { "tr": "Başkentler, diller, yerler", "en": "Capitals, languages, places", "nl": "Hoofdsteden, talen, plaatsen" } },
+  "category": { "slug": "ulkeler", "color": "orange", "order": 3, "name": { "tr": "Ülkeler", "en": "Countries", "nl": "Landen", "es": "Países" }, "description": { "tr": "Başkentler, diller, yerler", "en": "Capitals, languages, places", "nl": "Hoofdsteden, talen, plaatsen", "es": "Capitales, idiomas, lugares" } },
   "questions": [
-    { "text": { "tr": "Avustralya'nın başkenti neresidir?", "en": "What is the capital of Australia?", "nl": "Wat is de hoofdstad van Australië?" }, "choices": [
-      { "text": { "tr": "Kanberra", "en": "Canberra", "nl": "Canberra" }, "correct": true },
-      { "text": { "tr": "Sidney", "en": "Sydney", "nl": "Sydney" } },
-      { "text": { "tr": "Melbourne", "en": "Melbourne", "nl": "Melbourne" } },
-      { "text": { "tr": "Perth", "en": "Perth", "nl": "Perth" } } ] },
-    { "text": { "tr": "Kanada'nın başkenti neresidir?", "en": "What is the capital of Canada?", "nl": "Wat is de hoofdstad van Canada?" }, "choices": [
-      { "text": { "tr": "Ottava", "en": "Ottawa", "nl": "Ottawa" }, "correct": true },
-      { "text": { "tr": "Toronto", "en": "Toronto", "nl": "Toronto" } },
-      { "text": { "tr": "Montreal", "en": "Montreal", "nl": "Montreal" } },
-      { "text": { "tr": "Vancouver", "en": "Vancouver", "nl": "Vancouver" } } ] },
-    { "text": { "tr": "İsviçre'nin başkenti neresidir?", "en": "What is the capital of Switzerland?", "nl": "Wat is de hoofdstad van Zwitserland?" }, "choices": [
-      { "text": { "tr": "Bern", "en": "Bern", "nl": "Bern" }, "correct": true },
-      { "text": { "tr": "Zürih", "en": "Zurich", "nl": "Zürich" } },
-      { "text": { "tr": "Cenevre", "en": "Geneva", "nl": "Genève" } },
-      { "text": { "tr": "Basel", "en": "Basel", "nl": "Bazel" } } ] },
-    { "text": { "tr": "Arjantin'in başkenti neresidir?", "en": "What is the capital of Argentina?", "nl": "Wat is de hoofdstad van Argentinië?" }, "choices": [
-      { "text": { "tr": "Buenos Aires", "en": "Buenos Aires", "nl": "Buenos Aires" }, "correct": true },
-      { "text": { "tr": "Santiago", "en": "Santiago", "nl": "Santiago" } },
-      { "text": { "tr": "Lima", "en": "Lima", "nl": "Lima" } },
-      { "text": { "tr": "Montevideo", "en": "Montevideo", "nl": "Montevideo" } } ] },
-    { "text": { "tr": "Kenya'nın başkenti neresidir?", "en": "What is the capital of Kenya?", "nl": "Wat is de hoofdstad van Kenia?" }, "choices": [
-      { "text": { "tr": "Nairobi", "en": "Nairobi", "nl": "Nairobi" }, "correct": true },
-      { "text": { "tr": "Mombasa", "en": "Mombasa", "nl": "Mombasa" } },
-      { "text": { "tr": "Lagos", "en": "Lagos", "nl": "Lagos" } },
-      { "text": { "tr": "Addis Ababa", "en": "Addis Ababa", "nl": "Addis Abeba" } } ] },
-    { "text": { "tr": "Portekiz'in başkenti neresidir?", "en": "What is the capital of Portugal?", "nl": "Wat is de hoofdstad van Portugal?" }, "choices": [
-      { "text": { "tr": "Lizbon", "en": "Lisbon", "nl": "Lissabon" }, "correct": true },
-      { "text": { "tr": "Porto", "en": "Porto", "nl": "Porto" } },
-      { "text": { "tr": "Madrid", "en": "Madrid", "nl": "Madrid" } },
-      { "text": { "tr": "Sevilla", "en": "Seville", "nl": "Sevilla" } } ] },
-    { "text": { "tr": "Kuzey Kore'nin başkenti neresidir?", "en": "What is the capital of North Korea?", "nl": "Wat is de hoofdstad van Noord-Korea?" }, "choices": [
-      { "text": { "tr": "Pyongyang", "en": "Pyongyang", "nl": "Pyongyang" }, "correct": true },
-      { "text": { "tr": "Seul", "en": "Seoul", "nl": "Seoul" } },
-      { "text": { "tr": "Pekin", "en": "Beijing", "nl": "Peking" } },
-      { "text": { "tr": "Hanoi", "en": "Hanoi", "nl": "Hanoi" } } ] },
-    { "text": { "tr": "Kahire hangi ülkenin başkentidir?", "en": "Cairo is the capital of which country?", "nl": "Cairo is de hoofdstad van welk land?" }, "choices": [
-      { "text": { "tr": "Mısır", "en": "Egypt", "nl": "Egypte" }, "correct": true },
-      { "text": { "tr": "Fas", "en": "Morocco", "nl": "Marokko" } },
-      { "text": { "tr": "Tunus", "en": "Tunisia", "nl": "Tunesië" } },
-      { "text": { "tr": "Ürdün", "en": "Jordan", "nl": "Jordanië" } } ] },
-    { "text": { "tr": "Brezilya'nın resmî dili hangisidir?", "en": "What is the official language of Brazil?", "nl": "Wat is de officiële taal van Brazilië?" }, "choices": [
-      { "text": { "tr": "Portekizce", "en": "Portuguese", "nl": "Portugees" }, "correct": true },
-      { "text": { "tr": "İspanyolca", "en": "Spanish", "nl": "Spaans" } },
-      { "text": { "tr": "İngilizce", "en": "English", "nl": "Engels" } },
-      { "text": { "tr": "Fransızca", "en": "French", "nl": "Frans" } } ] },
-    { "text": { "tr": "Japonya'nın para birimi nedir?", "en": "What is the currency of Japan?", "nl": "Wat is de munteenheid van Japan?" }, "choices": [
-      { "text": { "tr": "Yen", "en": "Yen", "nl": "Yen" }, "correct": true },
-      { "text": { "tr": "Won", "en": "Won", "nl": "Won" } },
-      { "text": { "tr": "Yuan", "en": "Yuan", "nl": "Yuan" } },
-      { "text": { "tr": "Ringgit", "en": "Ringgit", "nl": "Ringgit" } } ] },
-    { "text": { "tr": "Yüzölçümü en büyük ülke hangisidir?", "en": "Which is the largest country by area?", "nl": "Wat is het grootste land qua oppervlakte?" }, "choices": [
-      { "text": { "tr": "Rusya", "en": "Russia", "nl": "Rusland" }, "correct": true },
-      { "text": { "tr": "Kanada", "en": "Canada", "nl": "Canada" } },
-      { "text": { "tr": "Çin", "en": "China", "nl": "China" } },
-      { "text": { "tr": "ABD", "en": "USA", "nl": "Verenigde Staten" } } ] },
-    { "text": { "tr": "Dünyanın en küçük ülkesi hangisidir?", "en": "Which is the smallest country in the world?", "nl": "Wat is het kleinste land ter wereld?" }, "choices": [
-      { "text": { "tr": "Vatikan", "en": "Vatican City", "nl": "Vaticaanstad" }, "correct": true },
-      { "text": { "tr": "Monako", "en": "Monaco", "nl": "Monaco" } },
-      { "text": { "tr": "Malta", "en": "Malta", "nl": "Malta" } },
-      { "text": { "tr": "San Marino", "en": "San Marino", "nl": "San Marino" } } ] },
-    { "text": { "tr": "Hangisi Türkiye ile kara sınırı olmayan bir ülkedir?", "en": "Which of these does not share a land border with Türkiye?", "nl": "Welk van deze landen grenst niet over land aan Turkije?" }, "choices": [
-      { "text": { "tr": "Romanya", "en": "Romania", "nl": "Roemenië" }, "correct": true },
-      { "text": { "tr": "Gürcistan", "en": "Georgia", "nl": "Georgië" } },
-      { "text": { "tr": "İran", "en": "Iran", "nl": "Iran" } },
-      { "text": { "tr": "Bulgaristan", "en": "Bulgaria", "nl": "Bulgarije" } } ] },
-    { "text": { "tr": "Eyfel Kulesi hangi şehirdedir?", "en": "In which city is the Eiffel Tower?", "nl": "In welke stad staat de Eiffeltoren?" }, "choices": [
-      { "text": { "tr": "Paris", "en": "Paris", "nl": "Parijs" }, "correct": true },
-      { "text": { "tr": "Roma", "en": "Rome", "nl": "Rome" } },
-      { "text": { "tr": "Londra", "en": "London", "nl": "Londen" } },
-      { "text": { "tr": "Berlin", "en": "Berlin", "nl": "Berlijn" } } ] },
-    { "text": { "tr": "Bayrağında akçaağaç yaprağı olan ülke hangisidir?", "en": "Which country has a maple leaf on its flag?", "nl": "Welk land heeft een esdoornblad op de vlag?" }, "choices": [
-      { "text": { "tr": "Kanada", "en": "Canada", "nl": "Canada" }, "correct": true },
-      { "text": { "tr": "İsveç", "en": "Sweden", "nl": "Zweden" } },
-      { "text": { "tr": "Norveç", "en": "Norway", "nl": "Noorwegen" } },
-      { "text": { "tr": "Avusturya", "en": "Austria", "nl": "Oostenrijk" } } ] },
-    { "text": { "tr": "Machu Picchu hangi ülkededir?", "en": "In which country is Machu Picchu?", "nl": "In welk land ligt Machu Picchu?" }, "choices": [
-      { "text": { "tr": "Peru", "en": "Peru", "nl": "Peru" }, "correct": true },
-      { "text": { "tr": "Meksika", "en": "Mexico", "nl": "Mexico" } },
-      { "text": { "tr": "Şili", "en": "Chile", "nl": "Chili" } },
-      { "text": { "tr": "Bolivya", "en": "Bolivia", "nl": "Bolivia" } } ] },
-    { "text": { "tr": "Tac Mahal hangi ülkededir?", "en": "In which country is the Taj Mahal?", "nl": "In welk land staat de Taj Mahal?" }, "choices": [
-      { "text": { "tr": "Hindistan", "en": "India", "nl": "India" }, "correct": true },
-      { "text": { "tr": "Pakistan", "en": "Pakistan", "nl": "Pakistan" } },
-      { "text": { "tr": "İran", "en": "Iran", "nl": "Iran" } },
-      { "text": { "tr": "Nepal", "en": "Nepal", "nl": "Nepal" } } ] },
-    { "text": { "tr": "Hangisi bir ada ülkesidir?", "en": "Which one is an island country?", "nl": "Welk land is een eilandstaat?" }, "choices": [
-      { "text": { "tr": "İzlanda", "en": "Iceland", "nl": "IJsland" }, "correct": true },
-      { "text": { "tr": "Avusturya", "en": "Austria", "nl": "Oostenrijk" } },
-      { "text": { "tr": "Macaristan", "en": "Hungary", "nl": "Hongarije" } },
-      { "text": { "tr": "İsviçre", "en": "Switzerland", "nl": "Zwitserland" } } ] },
-    { "text": { "tr": "Hollanda'nın anayasal başkenti neresidir?", "en": "What is the constitutional capital of the Netherlands?", "nl": "Wat is de grondwettelijke hoofdstad van Nederland?" }, "choices": [
-      { "text": { "tr": "Amsterdam", "en": "Amsterdam", "nl": "Amsterdam" }, "correct": true },
-      { "text": { "tr": "Lahey", "en": "The Hague", "nl": "Den Haag" } },
-      { "text": { "tr": "Rotterdam", "en": "Rotterdam", "nl": "Rotterdam" } },
-      { "text": { "tr": "Utrecht", "en": "Utrecht", "nl": "Utrecht" } } ] },
-    { "text": { "tr": "Hangi ülkenin bayrağında ortada kırmızı bir daire vardır?", "en": "Which country's flag has a red circle in the middle?", "nl": "Welk land heeft een rode cirkel midden op de vlag?" }, "choices": [
-      { "text": { "tr": "Japonya", "en": "Japan", "nl": "Japan" }, "correct": true },
-      { "text": { "tr": "Çin", "en": "China", "nl": "China" } },
-      { "text": { "tr": "Güney Kore", "en": "South Korea", "nl": "Zuid-Korea" } },
-      { "text": { "tr": "Vietnam", "en": "Vietnam", "nl": "Vietnam" } } ] },
-    { "text": { "tr": "Norveç'in başkenti neresidir?", "en": "What is the capital of Norway?", "nl": "Wat is de hoofdstad van Noorwegen?" }, "choices": [
-      { "text": { "tr": "Oslo", "en": "Oslo", "nl": "Oslo" }, "correct": true },
-      { "text": { "tr": "Stockholm", "en": "Stockholm", "nl": "Stockholm" } },
-      { "text": { "tr": "Helsinki", "en": "Helsinki", "nl": "Helsinki" } },
-      { "text": { "tr": "Kopenhag", "en": "Copenhagen", "nl": "Kopenhagen" } } ] },
-    { "text": { "tr": "Yeni Zelanda'nın başkenti neresidir?", "en": "What is the capital of New Zealand?", "nl": "Wat is de hoofdstad van Nieuw-Zeeland?" }, "choices": [
-      { "text": { "tr": "Wellington", "en": "Wellington", "nl": "Wellington" }, "correct": true },
-      { "text": { "tr": "Auckland", "en": "Auckland", "nl": "Auckland" } },
-      { "text": { "tr": "Christchurch", "en": "Christchurch", "nl": "Christchurch" } },
-      { "text": { "tr": "Kanberra", "en": "Canberra", "nl": "Canberra" } } ] },
-    { "text": { "tr": "Fas'ın başkenti neresidir?", "en": "What is the capital of Morocco?", "nl": "Wat is de hoofdstad van Marokko?" }, "choices": [
-      { "text": { "tr": "Rabat", "en": "Rabat", "nl": "Rabat" }, "correct": true },
-      { "text": { "tr": "Kazablanka", "en": "Casablanca", "nl": "Casablanca" } },
-      { "text": { "tr": "Marakeş", "en": "Marrakesh", "nl": "Marrakesh" } },
-      { "text": { "tr": "Fes", "en": "Fez", "nl": "Fez" } } ] },
-    { "text": { "tr": "Vietnam'ın başkenti neresidir?", "en": "What is the capital of Vietnam?", "nl": "Wat is de hoofdstad van Vietnam?" }, "choices": [
-      { "text": { "tr": "Hanoi", "en": "Hanoi", "nl": "Hanoi" }, "correct": true },
-      { "text": { "tr": "Ho Chi Minh", "en": "Ho Chi Minh City", "nl": "Ho Chi Minhstad" } },
-      { "text": { "tr": "Bangkok", "en": "Bangkok", "nl": "Bangkok" } },
-      { "text": { "tr": "Phnom Penh", "en": "Phnom Penh", "nl": "Phnom Penh" } } ] },
-    { "text": { "tr": "İzlanda'nın başkenti neresidir?", "en": "What is the capital of Iceland?", "nl": "Wat is de hoofdstad van IJsland?" }, "choices": [
-      { "text": { "tr": "Reykjavik", "en": "Reykjavik", "nl": "Reykjavik" }, "correct": true },
-      { "text": { "tr": "Oslo", "en": "Oslo", "nl": "Oslo" } },
-      { "text": { "tr": "Helsinki", "en": "Helsinki", "nl": "Helsinki" } },
-      { "text": { "tr": "Dublin", "en": "Dublin", "nl": "Dublin" } } ] },
-    { "text": { "tr": "Hindistan'ın başkenti neresidir?", "en": "What is the capital of India?", "nl": "Wat is de hoofdstad van India?" }, "choices": [
-      { "text": { "tr": "Yeni Delhi", "en": "New Delhi", "nl": "New Delhi" }, "correct": true },
-      { "text": { "tr": "Mumbai", "en": "Mumbai", "nl": "Mumbai" } },
-      { "text": { "tr": "Kalküta", "en": "Kolkata", "nl": "Kolkata" } },
-      { "text": { "tr": "Bangalore", "en": "Bangalore", "nl": "Bangalore" } } ] },
-    { "text": { "tr": "Güney Kore'nin para birimi nedir?", "en": "What is the currency of South Korea?", "nl": "Wat is de munteenheid van Zuid-Korea?" }, "choices": [
-      { "text": { "tr": "Won", "en": "Won", "nl": "Won" }, "correct": true },
-      { "text": { "tr": "Yen", "en": "Yen", "nl": "Yen" } },
-      { "text": { "tr": "Yuan", "en": "Yuan", "nl": "Yuan" } },
-      { "text": { "tr": "Ringgit", "en": "Ringgit", "nl": "Ringgit" } } ] },
-    { "text": { "tr": "İsviçre'nin para birimi nedir?", "en": "What is the currency of Switzerland?", "nl": "Wat is de munteenheid van Zwitserland?" }, "choices": [
-      { "text": { "tr": "İsviçre frangı", "en": "Swiss franc", "nl": "Zwitserse frank" }, "correct": true },
-      { "text": { "tr": "Euro", "en": "Euro", "nl": "Euro" } },
-      { "text": { "tr": "Sterlin", "en": "Pound sterling", "nl": "Britse pond" } },
-      { "text": { "tr": "Kron", "en": "Krona", "nl": "Kroon" } } ] },
-    { "text": { "tr": "Arjantin'de en çok konuşulan dil hangisidir?", "en": "What is the most spoken language in Argentina?", "nl": "Welke taal wordt het meest gesproken in Argentinië?" }, "choices": [
-      { "text": { "tr": "İspanyolca", "en": "Spanish", "nl": "Spaans" }, "correct": true },
-      { "text": { "tr": "Portekizce", "en": "Portuguese", "nl": "Portugees" } },
-      { "text": { "tr": "İtalyanca", "en": "Italian", "nl": "Italiaans" } },
-      { "text": { "tr": "İngilizce", "en": "English", "nl": "Engels" } } ] },
-    { "text": { "tr": "Sidney Opera Binası hangi ülkededir?", "en": "In which country is the Sydney Opera House?", "nl": "In welk land staat het Sydney Opera House?" }, "choices": [
-      { "text": { "tr": "Avustralya", "en": "Australia", "nl": "Australië" }, "correct": true },
-      { "text": { "tr": "Yeni Zelanda", "en": "New Zealand", "nl": "Nieuw-Zeeland" } },
-      { "text": { "tr": "Kanada", "en": "Canada", "nl": "Canada" } },
-      { "text": { "tr": "İngiltere", "en": "England", "nl": "Engeland" } } ] },
-    { "text": { "tr": "Kremlin hangi şehirdedir?", "en": "In which city is the Kremlin?", "nl": "In welke stad staat het Kremlin?" }, "choices": [
-      { "text": { "tr": "Moskova", "en": "Moscow", "nl": "Moskou" }, "correct": true },
-      { "text": { "tr": "St. Petersburg", "en": "St. Petersburg", "nl": "Sint-Petersburg" } },
-      { "text": { "tr": "Kiev", "en": "Kyiv", "nl": "Kyiv" } },
-      { "text": { "tr": "Minsk", "en": "Minsk", "nl": "Minsk" } } ] },
-    { "text": { "tr": "Kolezyum hangi şehirdedir?", "en": "In which city is the Colosseum?", "nl": "In welke stad staat het Colosseum?" }, "choices": [
-      { "text": { "tr": "Roma", "en": "Rome", "nl": "Rome" }, "correct": true },
-      { "text": { "tr": "Atina", "en": "Athens", "nl": "Athene" } },
-      { "text": { "tr": "Milano", "en": "Milan", "nl": "Milaan" } },
-      { "text": { "tr": "Napoli", "en": "Naples", "nl": "Napels" } } ] },
-    { "text": { "tr": "Petra antik kenti hangi ülkededir?", "en": "In which country is the ancient city of Petra?", "nl": "In welk land ligt de oude stad Petra?" }, "choices": [
-      { "text": { "tr": "Ürdün", "en": "Jordan", "nl": "Jordanië" }, "correct": true },
-      { "text": { "tr": "Mısır", "en": "Egypt", "nl": "Egypte" } },
-      { "text": { "tr": "Lübnan", "en": "Lebanon", "nl": "Libanon" } },
-      { "text": { "tr": "Suriye", "en": "Syria", "nl": "Syrië" } } ] },
-    { "text": { "tr": "Angkor Wat hangi ülkededir?", "en": "In which country is Angkor Wat?", "nl": "In welk land ligt Angkor Wat?" }, "choices": [
-      { "text": { "tr": "Kamboçya", "en": "Cambodia", "nl": "Cambodja" }, "correct": true },
-      { "text": { "tr": "Tayland", "en": "Thailand", "nl": "Thailand" } },
-      { "text": { "tr": "Vietnam", "en": "Vietnam", "nl": "Vietnam" } },
-      { "text": { "tr": "Laos", "en": "Laos", "nl": "Laos" } } ] },
-    { "text": { "tr": "Nüfusu en kalabalık ülke hangisidir?", "en": "Which is the most populous country?", "nl": "Welk land heeft de meeste inwoners?" }, "choices": [
-      { "text": { "tr": "Hindistan", "en": "India", "nl": "India" }, "correct": true },
-      { "text": { "tr": "Çin", "en": "China", "nl": "China" } },
-      { "text": { "tr": "ABD", "en": "USA", "nl": "Verenigde Staten" } },
-      { "text": { "tr": "Endonezya", "en": "Indonesia", "nl": "Indonesië" } } ] },
-    { "text": { "tr": "Bayrağında sedir ağacı olan ülke hangisidir?", "en": "Which country has a cedar tree on its flag?", "nl": "Welk land heeft een ceder op de vlag?" }, "choices": [
-      { "text": { "tr": "Lübnan", "en": "Lebanon", "nl": "Libanon" }, "correct": true },
-      { "text": { "tr": "Kıbrıs", "en": "Cyprus", "nl": "Cyprus" } },
-      { "text": { "tr": "İsrail", "en": "Israel", "nl": "Israël" } },
-      { "text": { "tr": "Ürdün", "en": "Jordan", "nl": "Jordanië" } } ] },
-    { "text": { "tr": "\"Doğan Güneş'in Ülkesi\" olarak bilinen ülke hangisidir?", "en": "Which country is known as the \"Land of the Rising Sun\"?", "nl": "Welk land staat bekend als het \"Land van de rijzende zon\"?" }, "choices": [
-      { "text": { "tr": "Japonya", "en": "Japan", "nl": "Japan" }, "correct": true },
-      { "text": { "tr": "Çin", "en": "China", "nl": "China" } },
-      { "text": { "tr": "Güney Kore", "en": "South Korea", "nl": "Zuid-Korea" } },
-      { "text": { "tr": "Tayland", "en": "Thailand", "nl": "Thailand" } } ] },
-    { "text": { "tr": "Amazon Ormanları'nın büyük kısmı hangi ülkededir?", "en": "Most of the Amazon rainforest is in which country?", "nl": "In welk land ligt het grootste deel van het Amazonewoud?" }, "choices": [
-      { "text": { "tr": "Brezilya", "en": "Brazil", "nl": "Brazilië" }, "correct": true },
-      { "text": { "tr": "Peru", "en": "Peru", "nl": "Peru" } },
-      { "text": { "tr": "Kolombiya", "en": "Colombia", "nl": "Colombia" } },
-      { "text": { "tr": "Venezuela", "en": "Venezuela", "nl": "Venezuela" } } ] },
-    { "text": { "tr": "Avrupa'nın en uzun nehri hangisidir?", "en": "Which is the longest river in Europe?", "nl": "Wat is de langste rivier van Europa?" }, "choices": [
-      { "text": { "tr": "Volga", "en": "Volga", "nl": "Wolga" }, "correct": true },
-      { "text": { "tr": "Tuna", "en": "Danube", "nl": "Donau" } },
-      { "text": { "tr": "Ren", "en": "Rhine", "nl": "Rijn" } },
-      { "text": { "tr": "Dinyeper", "en": "Dnieper", "nl": "Dnjepr" } } ] },
-    { "text": { "tr": "Kilimanjaro Dağı hangi ülkededir?", "en": "In which country is Mount Kilimanjaro?", "nl": "In welk land ligt de Kilimanjaro?" }, "choices": [
-      { "text": { "tr": "Tanzanya", "en": "Tanzania", "nl": "Tanzania" }, "correct": true },
-      { "text": { "tr": "Kenya", "en": "Kenya", "nl": "Kenia" } },
-      { "text": { "tr": "Uganda", "en": "Uganda", "nl": "Oeganda" } },
-      { "text": { "tr": "Etiyopya", "en": "Ethiopia", "nl": "Ethiopië" } } ] }
+    { "text": { "tr": "Avustralya'nın başkenti neresidir?", "en": "What is the capital of Australia?", "nl": "Wat is de hoofdstad van Australië?", "es": "¿Cuál es la capital de Australia?" }, "choices": [
+      { "text": { "tr": "Kanberra", "en": "Canberra", "nl": "Canberra", "es": "Canberra" }, "correct": true },
+      { "text": { "tr": "Sidney", "en": "Sydney", "nl": "Sydney", "es": "Sídney" } },
+      { "text": { "tr": "Melbourne", "en": "Melbourne", "nl": "Melbourne", "es": "Melbourne" } },
+      { "text": { "tr": "Perth", "en": "Perth", "nl": "Perth", "es": "Perth" } } ] },
+    { "text": { "tr": "Kanada'nın başkenti neresidir?", "en": "What is the capital of Canada?", "nl": "Wat is de hoofdstad van Canada?", "es": "¿Cuál es la capital de Canadá?" }, "choices": [
+      { "text": { "tr": "Ottava", "en": "Ottawa", "nl": "Ottawa", "es": "Ottawa" }, "correct": true },
+      { "text": { "tr": "Toronto", "en": "Toronto", "nl": "Toronto", "es": "Toronto" } },
+      { "text": { "tr": "Montreal", "en": "Montreal", "nl": "Montreal", "es": "Montreal" } },
+      { "text": { "tr": "Vancouver", "en": "Vancouver", "nl": "Vancouver", "es": "Vancouver" } } ] },
+    { "text": { "tr": "İsviçre'nin başkenti neresidir?", "en": "What is the capital of Switzerland?", "nl": "Wat is de hoofdstad van Zwitserland?", "es": "¿Cuál es la capital de Suiza?" }, "choices": [
+      { "text": { "tr": "Bern", "en": "Bern", "nl": "Bern", "es": "Berna" }, "correct": true },
+      { "text": { "tr": "Zürih", "en": "Zurich", "nl": "Zürich", "es": "Zúrich" } },
+      { "text": { "tr": "Cenevre", "en": "Geneva", "nl": "Genève", "es": "Ginebra" } },
+      { "text": { "tr": "Basel", "en": "Basel", "nl": "Bazel", "es": "Basilea" } } ] },
+    { "text": { "tr": "Arjantin'in başkenti neresidir?", "en": "What is the capital of Argentina?", "nl": "Wat is de hoofdstad van Argentinië?", "es": "¿Cuál es la capital de Argentina?" }, "choices": [
+      { "text": { "tr": "Buenos Aires", "en": "Buenos Aires", "nl": "Buenos Aires", "es": "Buenos Aires" }, "correct": true },
+      { "text": { "tr": "Santiago", "en": "Santiago", "nl": "Santiago", "es": "Santiago" } },
+      { "text": { "tr": "Lima", "en": "Lima", "nl": "Lima", "es": "Lima" } },
+      { "text": { "tr": "Montevideo", "en": "Montevideo", "nl": "Montevideo", "es": "Montevideo" } } ] },
+    { "text": { "tr": "Kenya'nın başkenti neresidir?", "en": "What is the capital of Kenya?", "nl": "Wat is de hoofdstad van Kenia?", "es": "¿Cuál es la capital de Kenia?" }, "choices": [
+      { "text": { "tr": "Nairobi", "en": "Nairobi", "nl": "Nairobi", "es": "Nairobi" }, "correct": true },
+      { "text": { "tr": "Mombasa", "en": "Mombasa", "nl": "Mombasa", "es": "Mombasa" } },
+      { "text": { "tr": "Lagos", "en": "Lagos", "nl": "Lagos", "es": "Lagos" } },
+      { "text": { "tr": "Addis Ababa", "en": "Addis Ababa", "nl": "Addis Abeba", "es": "Adís Abeba" } } ] },
+    { "text": { "tr": "Portekiz'in başkenti neresidir?", "en": "What is the capital of Portugal?", "nl": "Wat is de hoofdstad van Portugal?", "es": "¿Cuál es la capital de Portugal?" }, "choices": [
+      { "text": { "tr": "Lizbon", "en": "Lisbon", "nl": "Lissabon", "es": "Lisboa" }, "correct": true },
+      { "text": { "tr": "Porto", "en": "Porto", "nl": "Porto", "es": "Oporto" } },
+      { "text": { "tr": "Madrid", "en": "Madrid", "nl": "Madrid", "es": "Madrid" } },
+      { "text": { "tr": "Sevilla", "en": "Seville", "nl": "Sevilla", "es": "Sevilla" } } ] },
+    { "text": { "tr": "Kuzey Kore'nin başkenti neresidir?", "en": "What is the capital of North Korea?", "nl": "Wat is de hoofdstad van Noord-Korea?", "es": "¿Cuál es la capital de Corea del Norte?" }, "choices": [
+      { "text": { "tr": "Pyongyang", "en": "Pyongyang", "nl": "Pyongyang", "es": "Pionyang" }, "correct": true },
+      { "text": { "tr": "Seul", "en": "Seoul", "nl": "Seoul", "es": "Seúl" } },
+      { "text": { "tr": "Pekin", "en": "Beijing", "nl": "Peking", "es": "Pekín" } },
+      { "text": { "tr": "Hanoi", "en": "Hanoi", "nl": "Hanoi", "es": "Hanói" } } ] },
+    { "text": { "tr": "Kahire hangi ülkenin başkentidir?", "en": "Cairo is the capital of which country?", "nl": "Cairo is de hoofdstad van welk land?", "es": "¿De qué país es capital El Cairo?" }, "choices": [
+      { "text": { "tr": "Mısır", "en": "Egypt", "nl": "Egypte", "es": "Egipto" }, "correct": true },
+      { "text": { "tr": "Fas", "en": "Morocco", "nl": "Marokko", "es": "Marruecos" } },
+      { "text": { "tr": "Tunus", "en": "Tunisia", "nl": "Tunesië", "es": "Túnez" } },
+      { "text": { "tr": "Ürdün", "en": "Jordan", "nl": "Jordanië", "es": "Jordania" } } ] },
+    { "text": { "tr": "Brezilya'nın resmî dili hangisidir?", "en": "What is the official language of Brazil?", "nl": "Wat is de officiële taal van Brazilië?", "es": "¿Cuál es el idioma oficial de Brasil?" }, "choices": [
+      { "text": { "tr": "Portekizce", "en": "Portuguese", "nl": "Portugees", "es": "Portugués" }, "correct": true },
+      { "text": { "tr": "İspanyolca", "en": "Spanish", "nl": "Spaans", "es": "Español" } },
+      { "text": { "tr": "İngilizce", "en": "English", "nl": "Engels", "es": "Inglés" } },
+      { "text": { "tr": "Fransızca", "en": "French", "nl": "Frans", "es": "Francés" } } ] },
+    { "text": { "tr": "Japonya'nın para birimi nedir?", "en": "What is the currency of Japan?", "nl": "Wat is de munteenheid van Japan?", "es": "¿Cuál es la moneda de Japón?" }, "choices": [
+      { "text": { "tr": "Yen", "en": "Yen", "nl": "Yen", "es": "Yen" }, "correct": true },
+      { "text": { "tr": "Won", "en": "Won", "nl": "Won", "es": "Won" } },
+      { "text": { "tr": "Yuan", "en": "Yuan", "nl": "Yuan", "es": "Yuan" } },
+      { "text": { "tr": "Ringgit", "en": "Ringgit", "nl": "Ringgit", "es": "Ringgit" } } ] },
+    { "text": { "tr": "Yüzölçümü en büyük ülke hangisidir?", "en": "Which is the largest country by area?", "nl": "Wat is het grootste land qua oppervlakte?", "es": "¿Cuál es el país más grande por superficie?" }, "choices": [
+      { "text": { "tr": "Rusya", "en": "Russia", "nl": "Rusland", "es": "Rusia" }, "correct": true },
+      { "text": { "tr": "Kanada", "en": "Canada", "nl": "Canada", "es": "Canadá" } },
+      { "text": { "tr": "Çin", "en": "China", "nl": "China", "es": "China" } },
+      { "text": { "tr": "ABD", "en": "USA", "nl": "Verenigde Staten", "es": "EE. UU." } } ] },
+    { "text": { "tr": "Dünyanın en küçük ülkesi hangisidir?", "en": "Which is the smallest country in the world?", "nl": "Wat is het kleinste land ter wereld?", "es": "¿Cuál es el país más pequeño del mundo?" }, "choices": [
+      { "text": { "tr": "Vatikan", "en": "Vatican City", "nl": "Vaticaanstad", "es": "Ciudad del Vaticano" }, "correct": true },
+      { "text": { "tr": "Monako", "en": "Monaco", "nl": "Monaco", "es": "Mónaco" } },
+      { "text": { "tr": "Malta", "en": "Malta", "nl": "Malta", "es": "Malta" } },
+      { "text": { "tr": "San Marino", "en": "San Marino", "nl": "San Marino", "es": "San Marino" } } ] },
+    { "text": { "tr": "Hangisi Türkiye ile kara sınırı olmayan bir ülkedir?", "en": "Which of these does not share a land border with Türkiye?", "nl": "Welk van deze landen grenst niet over land aan Turkije?", "es": "¿Cuál de estos países no tiene frontera terrestre con Turquía?" }, "choices": [
+      { "text": { "tr": "Romanya", "en": "Romania", "nl": "Roemenië", "es": "Rumania" }, "correct": true },
+      { "text": { "tr": "Gürcistan", "en": "Georgia", "nl": "Georgië", "es": "Georgia" } },
+      { "text": { "tr": "İran", "en": "Iran", "nl": "Iran", "es": "Irán" } },
+      { "text": { "tr": "Bulgaristan", "en": "Bulgaria", "nl": "Bulgarije", "es": "Bulgaria" } } ] },
+    { "text": { "tr": "Eyfel Kulesi hangi şehirdedir?", "en": "In which city is the Eiffel Tower?", "nl": "In welke stad staat de Eiffeltoren?", "es": "¿En qué ciudad está la Torre Eiffel?" }, "choices": [
+      { "text": { "tr": "Paris", "en": "Paris", "nl": "Parijs", "es": "París" }, "correct": true },
+      { "text": { "tr": "Roma", "en": "Rome", "nl": "Rome", "es": "Roma" } },
+      { "text": { "tr": "Londra", "en": "London", "nl": "Londen", "es": "Londres" } },
+      { "text": { "tr": "Berlin", "en": "Berlin", "nl": "Berlijn", "es": "Berlín" } } ] },
+    { "text": { "tr": "Bayrağında akçaağaç yaprağı olan ülke hangisidir?", "en": "Which country has a maple leaf on its flag?", "nl": "Welk land heeft een esdoornblad op de vlag?", "es": "¿Qué país tiene una hoja de arce en su bandera?" }, "choices": [
+      { "text": { "tr": "Kanada", "en": "Canada", "nl": "Canada", "es": "Canadá" }, "correct": true },
+      { "text": { "tr": "İsveç", "en": "Sweden", "nl": "Zweden", "es": "Suecia" } },
+      { "text": { "tr": "Norveç", "en": "Norway", "nl": "Noorwegen", "es": "Noruega" } },
+      { "text": { "tr": "Avusturya", "en": "Austria", "nl": "Oostenrijk", "es": "Austria" } } ] },
+    { "text": { "tr": "Machu Picchu hangi ülkededir?", "en": "In which country is Machu Picchu?", "nl": "In welk land ligt Machu Picchu?", "es": "¿En qué país está Machu Picchu?" }, "choices": [
+      { "text": { "tr": "Peru", "en": "Peru", "nl": "Peru", "es": "Perú" }, "correct": true },
+      { "text": { "tr": "Meksika", "en": "Mexico", "nl": "Mexico", "es": "México" } },
+      { "text": { "tr": "Şili", "en": "Chile", "nl": "Chili", "es": "Chile" } },
+      { "text": { "tr": "Bolivya", "en": "Bolivia", "nl": "Bolivia", "es": "Bolivia" } } ] },
+    { "text": { "tr": "Tac Mahal hangi ülkededir?", "en": "In which country is the Taj Mahal?", "nl": "In welk land staat de Taj Mahal?", "es": "¿En qué país está el Taj Mahal?" }, "choices": [
+      { "text": { "tr": "Hindistan", "en": "India", "nl": "India", "es": "India" }, "correct": true },
+      { "text": { "tr": "Pakistan", "en": "Pakistan", "nl": "Pakistan", "es": "Pakistán" } },
+      { "text": { "tr": "İran", "en": "Iran", "nl": "Iran", "es": "Irán" } },
+      { "text": { "tr": "Nepal", "en": "Nepal", "nl": "Nepal", "es": "Nepal" } } ] },
+    { "text": { "tr": "Hangisi bir ada ülkesidir?", "en": "Which one is an island country?", "nl": "Welk land is een eilandstaat?", "es": "¿Cuál es un país insular?" }, "choices": [
+      { "text": { "tr": "İzlanda", "en": "Iceland", "nl": "IJsland", "es": "Islandia" }, "correct": true },
+      { "text": { "tr": "Avusturya", "en": "Austria", "nl": "Oostenrijk", "es": "Austria" } },
+      { "text": { "tr": "Macaristan", "en": "Hungary", "nl": "Hongarije", "es": "Hungría" } },
+      { "text": { "tr": "İsviçre", "en": "Switzerland", "nl": "Zwitserland", "es": "Suiza" } } ] },
+    { "text": { "tr": "Hollanda'nın anayasal başkenti neresidir?", "en": "What is the constitutional capital of the Netherlands?", "nl": "Wat is de grondwettelijke hoofdstad van Nederland?", "es": "¿Cuál es la capital constitucional de los Países Bajos?" }, "choices": [
+      { "text": { "tr": "Amsterdam", "en": "Amsterdam", "nl": "Amsterdam", "es": "Ámsterdam" }, "correct": true },
+      { "text": { "tr": "Lahey", "en": "The Hague", "nl": "Den Haag", "es": "La Haya" } },
+      { "text": { "tr": "Rotterdam", "en": "Rotterdam", "nl": "Rotterdam", "es": "Róterdam" } },
+      { "text": { "tr": "Utrecht", "en": "Utrecht", "nl": "Utrecht", "es": "Utrecht" } } ] },
+    { "text": { "tr": "Hangi ülkenin bayrağında ortada kırmızı bir daire vardır?", "en": "Which country's flag has a red circle in the middle?", "nl": "Welk land heeft een rode cirkel midden op de vlag?", "es": "¿Qué país tiene un círculo rojo en el centro de su bandera?" }, "choices": [
+      { "text": { "tr": "Japonya", "en": "Japan", "nl": "Japan", "es": "Japón" }, "correct": true },
+      { "text": { "tr": "Çin", "en": "China", "nl": "China", "es": "China" } },
+      { "text": { "tr": "Güney Kore", "en": "South Korea", "nl": "Zuid-Korea", "es": "Corea del Sur" } },
+      { "text": { "tr": "Vietnam", "en": "Vietnam", "nl": "Vietnam", "es": "Vietnam" } } ] },
+    { "text": { "tr": "Norveç'in başkenti neresidir?", "en": "What is the capital of Norway?", "nl": "Wat is de hoofdstad van Noorwegen?", "es": "¿Cuál es la capital de Noruega?" }, "choices": [
+      { "text": { "tr": "Oslo", "en": "Oslo", "nl": "Oslo", "es": "Oslo" }, "correct": true },
+      { "text": { "tr": "Stockholm", "en": "Stockholm", "nl": "Stockholm", "es": "Estocolmo" } },
+      { "text": { "tr": "Helsinki", "en": "Helsinki", "nl": "Helsinki", "es": "Helsinki" } },
+      { "text": { "tr": "Kopenhag", "en": "Copenhagen", "nl": "Kopenhagen", "es": "Copenhague" } } ] },
+    { "text": { "tr": "Yeni Zelanda'nın başkenti neresidir?", "en": "What is the capital of New Zealand?", "nl": "Wat is de hoofdstad van Nieuw-Zeeland?", "es": "¿Cuál es la capital de Nueva Zelanda?" }, "choices": [
+      { "text": { "tr": "Wellington", "en": "Wellington", "nl": "Wellington", "es": "Wellington" }, "correct": true },
+      { "text": { "tr": "Auckland", "en": "Auckland", "nl": "Auckland", "es": "Auckland" } },
+      { "text": { "tr": "Christchurch", "en": "Christchurch", "nl": "Christchurch", "es": "Christchurch" } },
+      { "text": { "tr": "Kanberra", "en": "Canberra", "nl": "Canberra", "es": "Canberra" } } ] },
+    { "text": { "tr": "Fas'ın başkenti neresidir?", "en": "What is the capital of Morocco?", "nl": "Wat is de hoofdstad van Marokko?", "es": "¿Cuál es la capital de Marruecos?" }, "choices": [
+      { "text": { "tr": "Rabat", "en": "Rabat", "nl": "Rabat", "es": "Rabat" }, "correct": true },
+      { "text": { "tr": "Kazablanka", "en": "Casablanca", "nl": "Casablanca", "es": "Casablanca" } },
+      { "text": { "tr": "Marakeş", "en": "Marrakesh", "nl": "Marrakesh", "es": "Marrakech" } },
+      { "text": { "tr": "Fes", "en": "Fez", "nl": "Fez", "es": "Fez" } } ] },
+    { "text": { "tr": "Vietnam'ın başkenti neresidir?", "en": "What is the capital of Vietnam?", "nl": "Wat is de hoofdstad van Vietnam?", "es": "¿Cuál es la capital de Vietnam?" }, "choices": [
+      { "text": { "tr": "Hanoi", "en": "Hanoi", "nl": "Hanoi", "es": "Hanói" }, "correct": true },
+      { "text": { "tr": "Ho Chi Minh", "en": "Ho Chi Minh City", "nl": "Ho Chi Minhstad", "es": "Ciudad Ho Chi Minh" } },
+      { "text": { "tr": "Bangkok", "en": "Bangkok", "nl": "Bangkok", "es": "Bangkok" } },
+      { "text": { "tr": "Phnom Penh", "en": "Phnom Penh", "nl": "Phnom Penh", "es": "Nom Pen" } } ] },
+    { "text": { "tr": "İzlanda'nın başkenti neresidir?", "en": "What is the capital of Iceland?", "nl": "Wat is de hoofdstad van IJsland?", "es": "¿Cuál es la capital de Islandia?" }, "choices": [
+      { "text": { "tr": "Reykjavik", "en": "Reykjavik", "nl": "Reykjavik", "es": "Reikiavik" }, "correct": true },
+      { "text": { "tr": "Oslo", "en": "Oslo", "nl": "Oslo", "es": "Oslo" } },
+      { "text": { "tr": "Helsinki", "en": "Helsinki", "nl": "Helsinki", "es": "Helsinki" } },
+      { "text": { "tr": "Dublin", "en": "Dublin", "nl": "Dublin", "es": "Dublín" } } ] },
+    { "text": { "tr": "Hindistan'ın başkenti neresidir?", "en": "What is the capital of India?", "nl": "Wat is de hoofdstad van India?", "es": "¿Cuál es la capital de la India?" }, "choices": [
+      { "text": { "tr": "Yeni Delhi", "en": "New Delhi", "nl": "New Delhi", "es": "Nueva Delhi" }, "correct": true },
+      { "text": { "tr": "Mumbai", "en": "Mumbai", "nl": "Mumbai", "es": "Bombay" } },
+      { "text": { "tr": "Kalküta", "en": "Kolkata", "nl": "Kolkata", "es": "Calcuta" } },
+      { "text": { "tr": "Bangalore", "en": "Bangalore", "nl": "Bangalore", "es": "Bangalore" } } ] },
+    { "text": { "tr": "Güney Kore'nin para birimi nedir?", "en": "What is the currency of South Korea?", "nl": "Wat is de munteenheid van Zuid-Korea?", "es": "¿Cuál es la moneda de Corea del Sur?" }, "choices": [
+      { "text": { "tr": "Won", "en": "Won", "nl": "Won", "es": "Won" }, "correct": true },
+      { "text": { "tr": "Yen", "en": "Yen", "nl": "Yen", "es": "Yen" } },
+      { "text": { "tr": "Yuan", "en": "Yuan", "nl": "Yuan", "es": "Yuan" } },
+      { "text": { "tr": "Ringgit", "en": "Ringgit", "nl": "Ringgit", "es": "Ringgit" } } ] },
+    { "text": { "tr": "İsviçre'nin para birimi nedir?", "en": "What is the currency of Switzerland?", "nl": "Wat is de munteenheid van Zwitserland?", "es": "¿Cuál es la moneda de Suiza?" }, "choices": [
+      { "text": { "tr": "İsviçre frangı", "en": "Swiss franc", "nl": "Zwitserse frank", "es": "Franco suizo" }, "correct": true },
+      { "text": { "tr": "Euro", "en": "Euro", "nl": "Euro", "es": "Euro" } },
+      { "text": { "tr": "Sterlin", "en": "Pound sterling", "nl": "Britse pond", "es": "Libra esterlina" } },
+      { "text": { "tr": "Kron", "en": "Krona", "nl": "Kroon", "es": "Corona" } } ] },
+    { "text": { "tr": "Arjantin'de en çok konuşulan dil hangisidir?", "en": "What is the most spoken language in Argentina?", "nl": "Welke taal wordt het meest gesproken in Argentinië?", "es": "¿Qué idioma se habla más en Argentina?" }, "choices": [
+      { "text": { "tr": "İspanyolca", "en": "Spanish", "nl": "Spaans", "es": "Español" }, "correct": true },
+      { "text": { "tr": "Portekizce", "en": "Portuguese", "nl": "Portugees", "es": "Portugués" } },
+      { "text": { "tr": "İtalyanca", "en": "Italian", "nl": "Italiaans", "es": "Italiano" } },
+      { "text": { "tr": "İngilizce", "en": "English", "nl": "Engels", "es": "Inglés" } } ] },
+    { "text": { "tr": "Sidney Opera Binası hangi ülkededir?", "en": "In which country is the Sydney Opera House?", "nl": "In welk land staat het Sydney Opera House?", "es": "¿En qué país está la Ópera de Sídney?" }, "choices": [
+      { "text": { "tr": "Avustralya", "en": "Australia", "nl": "Australië", "es": "Australia" }, "correct": true },
+      { "text": { "tr": "Yeni Zelanda", "en": "New Zealand", "nl": "Nieuw-Zeeland", "es": "Nueva Zelanda" } },
+      { "text": { "tr": "Kanada", "en": "Canada", "nl": "Canada", "es": "Canadá" } },
+      { "text": { "tr": "İngiltere", "en": "England", "nl": "Engeland", "es": "Inglaterra" } } ] },
+    { "text": { "tr": "Kremlin hangi şehirdedir?", "en": "In which city is the Kremlin?", "nl": "In welke stad staat het Kremlin?", "es": "¿En qué ciudad está el Kremlin?" }, "choices": [
+      { "text": { "tr": "Moskova", "en": "Moscow", "nl": "Moskou", "es": "Moscú" }, "correct": true },
+      { "text": { "tr": "St. Petersburg", "en": "St. Petersburg", "nl": "Sint-Petersburg", "es": "San Petersburgo" } },
+      { "text": { "tr": "Kiev", "en": "Kyiv", "nl": "Kyiv", "es": "Kiev" } },
+      { "text": { "tr": "Minsk", "en": "Minsk", "nl": "Minsk", "es": "Minsk" } } ] },
+    { "text": { "tr": "Kolezyum hangi şehirdedir?", "en": "In which city is the Colosseum?", "nl": "In welke stad staat het Colosseum?", "es": "¿En qué ciudad está el Coliseo?" }, "choices": [
+      { "text": { "tr": "Roma", "en": "Rome", "nl": "Rome", "es": "Roma" }, "correct": true },
+      { "text": { "tr": "Atina", "en": "Athens", "nl": "Athene", "es": "Atenas" } },
+      { "text": { "tr": "Milano", "en": "Milan", "nl": "Milaan", "es": "Milán" } },
+      { "text": { "tr": "Napoli", "en": "Naples", "nl": "Napels", "es": "Nápoles" } } ] },
+    { "text": { "tr": "Petra antik kenti hangi ülkededir?", "en": "In which country is the ancient city of Petra?", "nl": "In welk land ligt de oude stad Petra?", "es": "¿En qué país está la antigua ciudad de Petra?" }, "choices": [
+      { "text": { "tr": "Ürdün", "en": "Jordan", "nl": "Jordanië", "es": "Jordania" }, "correct": true },
+      { "text": { "tr": "Mısır", "en": "Egypt", "nl": "Egypte", "es": "Egipto" } },
+      { "text": { "tr": "Lübnan", "en": "Lebanon", "nl": "Libanon", "es": "Líbano" } },
+      { "text": { "tr": "Suriye", "en": "Syria", "nl": "Syrië", "es": "Siria" } } ] },
+    { "text": { "tr": "Angkor Wat hangi ülkededir?", "en": "In which country is Angkor Wat?", "nl": "In welk land ligt Angkor Wat?", "es": "¿En qué país está Angkor Wat?" }, "choices": [
+      { "text": { "tr": "Kamboçya", "en": "Cambodia", "nl": "Cambodja", "es": "Camboya" }, "correct": true },
+      { "text": { "tr": "Tayland", "en": "Thailand", "nl": "Thailand", "es": "Tailandia" } },
+      { "text": { "tr": "Vietnam", "en": "Vietnam", "nl": "Vietnam", "es": "Vietnam" } },
+      { "text": { "tr": "Laos", "en": "Laos", "nl": "Laos", "es": "Laos" } } ] },
+    { "text": { "tr": "Nüfusu en kalabalık ülke hangisidir?", "en": "Which is the most populous country?", "nl": "Welk land heeft de meeste inwoners?", "es": "¿Cuál es el país más poblado?" }, "choices": [
+      { "text": { "tr": "Hindistan", "en": "India", "nl": "India", "es": "India" }, "correct": true },
+      { "text": { "tr": "Çin", "en": "China", "nl": "China", "es": "China" } },
+      { "text": { "tr": "ABD", "en": "USA", "nl": "Verenigde Staten", "es": "EE. UU." } },
+      { "text": { "tr": "Endonezya", "en": "Indonesia", "nl": "Indonesië", "es": "Indonesia" } } ] },
+    { "text": { "tr": "Bayrağında sedir ağacı olan ülke hangisidir?", "en": "Which country has a cedar tree on its flag?", "nl": "Welk land heeft een ceder op de vlag?", "es": "¿Qué país tiene un cedro en su bandera?" }, "choices": [
+      { "text": { "tr": "Lübnan", "en": "Lebanon", "nl": "Libanon", "es": "Líbano" }, "correct": true },
+      { "text": { "tr": "Kıbrıs", "en": "Cyprus", "nl": "Cyprus", "es": "Chipre" } },
+      { "text": { "tr": "İsrail", "en": "Israel", "nl": "Israël", "es": "Israel" } },
+      { "text": { "tr": "Ürdün", "en": "Jordan", "nl": "Jordanië", "es": "Jordania" } } ] },
+    { "text": { "tr": "\"Doğan Güneş'in Ülkesi\" olarak bilinen ülke hangisidir?", "en": "Which country is known as the \"Land of the Rising Sun\"?", "nl": "Welk land staat bekend als het \"Land van de rijzende zon\"?", "es": "¿Qué país es conocido como \"la tierra del sol naciente\"?" }, "choices": [
+      { "text": { "tr": "Japonya", "en": "Japan", "nl": "Japan", "es": "Japón" }, "correct": true },
+      { "text": { "tr": "Çin", "en": "China", "nl": "China", "es": "China" } },
+      { "text": { "tr": "Güney Kore", "en": "South Korea", "nl": "Zuid-Korea", "es": "Corea del Sur" } },
+      { "text": { "tr": "Tayland", "en": "Thailand", "nl": "Thailand", "es": "Tailandia" } } ] },
+    { "text": { "tr": "Amazon Ormanları'nın büyük kısmı hangi ülkededir?", "en": "Most of the Amazon rainforest is in which country?", "nl": "In welk land ligt het grootste deel van het Amazonewoud?", "es": "¿En qué país está la mayor parte de la selva amazónica?" }, "choices": [
+      { "text": { "tr": "Brezilya", "en": "Brazil", "nl": "Brazilië", "es": "Brasil" }, "correct": true },
+      { "text": { "tr": "Peru", "en": "Peru", "nl": "Peru", "es": "Perú" } },
+      { "text": { "tr": "Kolombiya", "en": "Colombia", "nl": "Colombia", "es": "Colombia" } },
+      { "text": { "tr": "Venezuela", "en": "Venezuela", "nl": "Venezuela", "es": "Venezuela" } } ] },
+    { "text": { "tr": "Avrupa'nın en uzun nehri hangisidir?", "en": "Which is the longest river in Europe?", "nl": "Wat is de langste rivier van Europa?", "es": "¿Cuál es el río más largo de Europa?" }, "choices": [
+      { "text": { "tr": "Volga", "en": "Volga", "nl": "Wolga", "es": "Volga" }, "correct": true },
+      { "text": { "tr": "Tuna", "en": "Danube", "nl": "Donau", "es": "Danubio" } },
+      { "text": { "tr": "Ren", "en": "Rhine", "nl": "Rijn", "es": "Rin" } },
+      { "text": { "tr": "Dinyeper", "en": "Dnieper", "nl": "Dnjepr", "es": "Dniéper" } } ] },
+    { "text": { "tr": "Kilimanjaro Dağı hangi ülkededir?", "en": "In which country is Mount Kilimanjaro?", "nl": "In welk land ligt de Kilimanjaro?", "es": "¿En qué país está el monte Kilimanjaro?" }, "choices": [
+      { "text": { "tr": "Tanzanya", "en": "Tanzania", "nl": "Tanzania", "es": "Tanzania" }, "correct": true },
+      { "text": { "tr": "Kenya", "en": "Kenya", "nl": "Kenia", "es": "Kenia" } },
+      { "text": { "tr": "Uganda", "en": "Uganda", "nl": "Oeganda", "es": "Uganda" } },
+      { "text": { "tr": "Etiyopya", "en": "Ethiopia", "nl": "Ethiopië", "es": "Etiopía" } } ] }
   ]
 }

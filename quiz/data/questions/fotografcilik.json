@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "fotografcilik", "color": "pink", "order": 5, "name": { "tr": "Fotoğrafçılık", "en": "Photography", "nl": "Fotografie" }, "description": { "tr": "Işık, lens, pozlama", "en": "Light, lenses, exposure", "nl": "Licht, lenzen, belichting" } },
+  "category": { "slug": "fotografcilik", "color": "pink", "order": 5, "name": { "tr": "Fotoğrafçılık", "en": "Photography", "nl": "Fotografie", "es": "Fotografía" }, "description": { "tr": "Işık, lens, pozlama", "en": "Light, lenses, exposure", "nl": "Licht, lenzen, belichting", "es": "Luz, objetivos, exposición" } },
   "questions": [
-    { "text": { "tr": "Pozlama üçgeni ISO, diyafram ve neden oluşur?", "en": "The exposure triangle is ISO, aperture and what else?", "nl": "De belichtingsdriehoek bestaat uit ISO, diafragma en wat nog meer?" }, "choices": [
-      { "text": { "tr": "Enstantane", "en": "Shutter speed", "nl": "Sluitertijd" }, "correct": true },
-      { "text": { "tr": "Beyaz dengesi", "en": "White balance", "nl": "Witbalans" } },
-      { "text": { "tr": "Odak noktası", "en": "Focus point", "nl": "Scherpstelpunt" } },
-      { "text": { "tr": "Zum", "en": "Zoom", "nl": "Zoom" } } ] },
-    { "text": { "tr": "ISO değeri neyi belirler?", "en": "What does the ISO value control?", "nl": "Wat bepaalt de ISO-waarde?" }, "choices": [
-      { "text": { "tr": "Işığa duyarlılığı", "en": "Sensitivity to light", "nl": "Lichtgevoeligheid" }, "correct": true },
-      { "text": { "tr": "Odak uzaklığını", "en": "Focal length", "nl": "Brandpuntsafstand" } },
-      { "text": { "tr": "Beyaz dengesini", "en": "White balance", "nl": "Witbalans" } },
-      { "text": { "tr": "Lens çapını", "en": "Lens diameter", "nl": "Lensdiameter" } } ] },
-    { "text": { "tr": "Enstantane hızı neyi belirler?", "en": "What does shutter speed control?", "nl": "Wat bepaalt de sluitertijd?" }, "choices": [
-      { "text": { "tr": "Pozlama süresini", "en": "Exposure time", "nl": "Belichtingsduur" }, "correct": true },
-      { "text": { "tr": "Işığa duyarlılığı", "en": "Sensitivity to light", "nl": "Lichtgevoeligheid" } },
-      { "text": { "tr": "Renk sıcaklığını", "en": "Color temperature", "nl": "Kleurtemperatuur" } },
-      { "text": { "tr": "Odak uzaklığını", "en": "Focal length", "nl": "Brandpuntsafstand" } } ] },
-    { "text": { "tr": "Diyafram açıklığı hangi harfle gösterilir?", "en": "Which letter is used for the aperture?", "nl": "Met welke letter wordt het diafragma aangegeven?" }, "choices": [
-      { "text": { "tr": "f", "en": "f", "nl": "f" }, "correct": true },
-      { "text": { "tr": "s", "en": "s", "nl": "s" } },
-      { "text": { "tr": "K", "en": "K", "nl": "K" } },
-      { "text": { "tr": "ISO", "en": "ISO", "nl": "ISO" } } ] },
-    { "text": { "tr": "Hangisi en geniş diyafram açıklığıdır?", "en": "Which is the widest aperture?", "nl": "Welke is de grootste diafragmaopening?" }, "choices": [
-      { "text": { "tr": "f/1.8", "en": "f/1.8", "nl": "f/1.8" }, "correct": true },
-      { "text": { "tr": "f/8", "en": "f/8", "nl": "f/8" } },
-      { "text": { "tr": "f/16", "en": "f/16", "nl": "f/16" } },
-      { "text": { "tr": "f/22", "en": "f/22", "nl": "f/22" } } ] },
-    { "text": { "tr": "Diyaframı genişletmek alan derinliğini nasıl etkiler?", "en": "How does a wider aperture affect depth of field?", "nl": "Wat doet een grotere diafragmaopening met de scherptediepte?" }, "choices": [
-      { "text": { "tr": "Azaltır", "en": "It reduces it", "nl": "Die neemt af" }, "correct": true },
-      { "text": { "tr": "Artırır", "en": "It increases it", "nl": "Die neemt toe" } },
-      { "text": { "tr": "Değiştirmez", "en": "No change", "nl": "Geen verschil" } },
-      { "text": { "tr": "İkiye katlar", "en": "It doubles it", "nl": "Die verdubbelt" } } ] },
-    { "text": { "tr": "Yüksek ISO'nun en bilinen yan etkisi nedir?", "en": "What is the best-known side effect of a high ISO?", "nl": "Wat is het bekendste nadeel van een hoge ISO?" }, "choices": [
-      { "text": { "tr": "Kumlanma", "en": "Noise", "nl": "Ruis" }, "correct": true },
-      { "text": { "tr": "Renk kaybı", "en": "Color loss", "nl": "Kleurverlies" } },
-      { "text": { "tr": "Odak kayması", "en": "Focus shift", "nl": "Focusverschuiving" } },
-      { "text": { "tr": "Lens parlaması", "en": "Lens flare", "nl": "Lensflare" } } ] },
-    { "text": { "tr": "Hareketi dondurmak için hangi enstantane daha uygundur?", "en": "Which shutter speed is best for freezing motion?", "nl": "Welke sluitertijd is het best om beweging te bevriezen?" }, "choices": [
-      { "text": { "tr": "1/1000 sn", "en": "1/1000 s", "nl": "1/1000 s" }, "correct": true },
-      { "text": { "tr": "1/15 sn", "en": "1/15 s", "nl": "1/15 s" } },
-      { "text": { "tr": "1 sn", "en": "1 s", "nl": "1 s" } },
-      { "text": { "tr": "2 sn", "en": "2 s", "nl": "2 s" } } ] },
-    { "text": { "tr": "Üçte bir kuralı fotoğrafın hangi yönüyle ilgilidir?", "en": "The rule of thirds is about which part of a photo?", "nl": "Waar gaat de regel van derden over?" }, "choices": [
-      { "text": { "tr": "Kompozisyon", "en": "Composition", "nl": "Compositie" }, "correct": true },
-      { "text": { "tr": "Pozlama", "en": "Exposure", "nl": "Belichting" } },
-      { "text": { "tr": "Beyaz dengesi", "en": "White balance", "nl": "Witbalans" } },
-      { "text": { "tr": "Dosya biçimi", "en": "File format", "nl": "Bestandsformaat" } } ] },
-    { "text": { "tr": "Gün doğumu ve batımına yakın sıcak ışıklı zamana ne denir?", "en": "What is the warm light near sunrise and sunset called?", "nl": "Hoe heet het warme licht rond zonsopgang en zonsondergang?" }, "choices": [
-      { "text": { "tr": "Altın saat", "en": "Golden hour", "nl": "Gouden uur" }, "correct": true },
-      { "text": { "tr": "Mavi saat", "en": "Blue hour", "nl": "Blauw uur" } },
-      { "text": { "tr": "Öğle ışığı", "en": "Midday light", "nl": "Middaglicht" } },
-      { "text": { "tr": "Gece modu", "en": "Night mode", "nl": "Nachtmodus" } } ] },
-    { "text": { "tr": "Hangi odak uzaklığı geniş açı sayılır?", "en": "Which focal length counts as wide-angle?", "nl": "Welke brandpuntsafstand geldt als groothoek?" }, "choices": [
-      { "text": { "tr": "16 mm", "en": "16 mm", "nl": "16 mm" }, "correct": true },
-      { "text": { "tr": "85 mm", "en": "85 mm", "nl": "85 mm" } },
-      { "text": { "tr": "200 mm", "en": "200 mm", "nl": "200 mm" } },
-      { "text": { "tr": "400 mm", "en": "400 mm", "nl": "400 mm" } } ] },
-    { "text": { "tr": "RAW dosyanın JPEG'e göre temel avantajı nedir?", "en": "What is the main advantage of RAW over JPEG?", "nl": "Wat is het grootste voordeel van RAW ten opzichte van JPEG?" }, "choices": [
-      { "text": { "tr": "Daha fazla görüntü verisi", "en": "More image data", "nl": "Meer beeldinformatie" }, "correct": true },
-      { "text": { "tr": "Daha küçük dosya", "en": "Smaller files", "nl": "Kleinere bestanden" } },
-      { "text": { "tr": "Her yerde açılması", "en": "Opens everywhere", "nl": "Opent overal" } },
-      { "text": { "tr": "Daha hızlı paylaşım", "en": "Faster sharing", "nl": "Sneller delen" } } ] },
-    { "text": { "tr": "Beyaz dengesi ayarı neyi düzeltir?", "en": "What does the white balance setting correct?", "nl": "Wat corrigeert de witbalans?" }, "choices": [
-      { "text": { "tr": "Renk sıcaklığını", "en": "Color temperature", "nl": "Kleurtemperatuur" }, "correct": true },
-      { "text": { "tr": "Pozlamayı", "en": "Exposure", "nl": "Belichting" } },
-      { "text": { "tr": "Netliği", "en": "Sharpness", "nl": "Scherpte" } },
-      { "text": { "tr": "Kumlanmayı", "en": "Noise", "nl": "Ruis" } } ] },
-    { "text": { "tr": "Uzun pozlamada titremeyi önlemek için ne kullanılır?", "en": "What prevents camera shake in long exposures?", "nl": "Wat voorkomt bewegingsonscherpte bij lange sluitertijden?" }, "choices": [
-      { "text": { "tr": "Tripod", "en": "Tripod", "nl": "Statief" }, "correct": true },
-      { "text": { "tr": "Flaş", "en": "Flash", "nl": "Flitser" } },
-      { "text": { "tr": "Reflektör", "en": "Reflector", "nl": "Reflectiescherm" } },
-      { "text": { "tr": "Lens kapağı", "en": "Lens cap", "nl": "Lensdop" } } ] },
-    { "text": { "tr": "Makro fotoğrafçılık neyi konu alır?", "en": "What is macro photography about?", "nl": "Waar draait macrofotografie om?" }, "choices": [
-      { "text": { "tr": "Çok yakın çekimleri", "en": "Very close-up shots", "nl": "Opnames van heel dichtbij" }, "correct": true },
-      { "text": { "tr": "Geniş manzaraları", "en": "Wide landscapes", "nl": "Weidse landschappen" } },
-      { "text": { "tr": "Gece gökyüzünü", "en": "The night sky", "nl": "De nachtelijke hemel" } },
-      { "text": { "tr": "Hızlı sporları", "en": "Fast sports", "nl": "Snelle sporten" } } ] },
-    { "text": { "tr": "Bilinen ilk kalıcı fotoğrafı kim çekti?", "en": "Who took the earliest surviving photograph?", "nl": "Wie maakte de oudst bewaarde foto?" }, "choices": [
-      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce", "nl": "Nicéphore Niépce" }, "correct": true },
-      { "text": { "tr": "George Eastman", "en": "George Eastman", "nl": "George Eastman" } },
-      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams" } },
-      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison", "nl": "Thomas Edison" } } ] },
-    { "text": { "tr": "Fotoğrafta \"bokeh\" neyi ifade eder?", "en": "What does \"bokeh\" refer to in photography?", "nl": "Wat betekent \"bokeh\" in de fotografie?" }, "choices": [
-      { "text": { "tr": "Arka plan bulanıklığı", "en": "Background blur", "nl": "Onscherpe achtergrond" }, "correct": true },
-      { "text": { "tr": "Lens parlaması", "en": "Lens flare", "nl": "Lensflare" } },
-      { "text": { "tr": "Aşırı pozlama", "en": "Overexposure", "nl": "Overbelichting" } },
-      { "text": { "tr": "Renk doygunluğu", "en": "Color saturation", "nl": "Kleurverzadiging" } } ] },
-    { "text": { "tr": "Kameradaki histogram neyi gösterir?", "en": "What does a camera histogram show?", "nl": "Wat laat een histogram op de camera zien?" }, "choices": [
-      { "text": { "tr": "Ton dağılımını", "en": "Tonal distribution", "nl": "Toonverdeling" }, "correct": true },
-      { "text": { "tr": "Odak noktalarını", "en": "Focus points", "nl": "Scherpstelpunten" } },
-      { "text": { "tr": "Pil durumunu", "en": "Battery level", "nl": "Batterijstatus" } },
-      { "text": { "tr": "Lens modelini", "en": "Lens model", "nl": "Lensmodel" } } ] },
-    { "text": { "tr": "Aynasız makinede DSLR'den farklı olarak ne yoktur?", "en": "What does a mirrorless camera lack compared to a DSLR?", "nl": "Wat ontbreekt er aan een spiegelloze camera vergeleken met een DSLR?" }, "choices": [
-      { "text": { "tr": "Ayna", "en": "A mirror", "nl": "Een spiegel" }, "correct": true },
-      { "text": { "tr": "Sensör", "en": "A sensor", "nl": "Een sensor" } },
-      { "text": { "tr": "Deklanşör tuşu", "en": "A shutter button", "nl": "Een ontspanknop" } },
-      { "text": { "tr": "Lens yuvası", "en": "A lens mount", "nl": "Een lensvatting" } } ] },
-    { "text": { "tr": "Polarize filtre en çok ne işe yarar?", "en": "What is a polarizing filter mainly used for?", "nl": "Waarvoor dient een polarisatiefilter vooral?" }, "choices": [
-      { "text": { "tr": "Yansımaları azaltır", "en": "Reducing reflections", "nl": "Reflecties verminderen" }, "correct": true },
-      { "text": { "tr": "Görüntüyü büyütür", "en": "Magnifying the image", "nl": "Het beeld vergroten" } },
-      { "text": { "tr": "Kumlanmayı artırır", "en": "Adding noise", "nl": "Ruis toevoegen" } },
-      { "text": { "tr": "Odağı hızlandırır", "en": "Faster focusing", "nl": "Sneller scherpstellen" } } ] },
-    { "text": { "tr": "50 mm odak uzaklığındaki objektife genelde ne denir?", "en": "What is a 50 mm lens usually called?", "nl": "Hoe noem je een 50 mm-lens meestal?" }, "choices": [
-      { "text": { "tr": "Normal objektif", "en": "Normal lens", "nl": "Standaardlens" }, "correct": true },
-      { "text": { "tr": "Geniş açı", "en": "Wide-angle", "nl": "Groothoek" } },
-      { "text": { "tr": "Telefoto", "en": "Telephoto", "nl": "Telelens" } },
-      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye" } } ] },
-    { "text": { "tr": "Çok geniş ve bombeli görüntü veren objektif hangisidir?", "en": "Which lens gives a very wide, curved image?", "nl": "Welke lens geeft een heel breed, bol beeld?" }, "choices": [
-      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye" }, "correct": true },
-      { "text": { "tr": "Telefoto", "en": "Telephoto", "nl": "Telelens" } },
-      { "text": { "tr": "Makro", "en": "Macro", "nl": "Macrolens" } },
-      { "text": { "tr": "Normal", "en": "Normal", "nl": "Standaardlens" } } ] },
-    { "text": { "tr": "Uzaktaki konuları büyüten objektif türü hangisidir?", "en": "Which lens type magnifies distant subjects?", "nl": "Welk type lens vergroot onderwerpen in de verte?" }, "choices": [
-      { "text": { "tr": "Telefoto", "en": "Telephoto", "nl": "Telelens" }, "correct": true },
-      { "text": { "tr": "Geniş açı", "en": "Wide-angle", "nl": "Groothoek" } },
-      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye" } },
-      { "text": { "tr": "Normal", "en": "Normal", "nl": "Standaardlens" } } ] },
-    { "text": { "tr": "Odak uzaklığı değiştirilebilen objektife ne denir?", "en": "What is a lens with a variable focal length called?", "nl": "Hoe heet een lens met een variabele brandpuntsafstand?" }, "choices": [
-      { "text": { "tr": "Zum objektif", "en": "Zoom lens", "nl": "Zoomlens" }, "correct": true },
-      { "text": { "tr": "Sabit objektif", "en": "Prime lens", "nl": "Vaste lens" } },
-      { "text": { "tr": "Makro objektif", "en": "Macro lens", "nl": "Macrolens" } },
-      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye" } } ] },
-    { "text": { "tr": "Arkadan aydınlatılan konunun koyu çıkmasına ne denir?", "en": "What is a backlit subject that appears dark called?", "nl": "Hoe heet een onderwerp in tegenlicht dat donker afsteekt?" }, "choices": [
-      { "text": { "tr": "Siluet", "en": "Silhouette", "nl": "Silhouet" }, "correct": true },
-      { "text": { "tr": "Bokeh", "en": "Bokeh", "nl": "Bokeh" } },
-      { "text": { "tr": "Vinyet", "en": "Vignette", "nl": "Vignet" } },
-      { "text": { "tr": "Kumlanma", "en": "Noise", "nl": "Ruis" } } ] },
-    { "text": { "tr": "Fotoğrafın kenarlarının kararmasına ne denir?", "en": "What is the darkening of a photo's corners called?", "nl": "Hoe heet het donkerder worden van de hoeken van een foto?" }, "choices": [
-      { "text": { "tr": "Vinyet", "en": "Vignetting", "nl": "Vignettering" }, "correct": true },
-      { "text": { "tr": "Bokeh", "en": "Bokeh", "nl": "Bokeh" } },
-      { "text": { "tr": "Kumlanma", "en": "Noise", "nl": "Ruis" } },
-      { "text": { "tr": "Hale", "en": "Halo", "nl": "Halo" } } ] },
-    { "text": { "tr": "Farklı pozlamaların birleştirildiği görüntüye ne denir?", "en": "What is an image combining several exposures called?", "nl": "Hoe heet een beeld dat meerdere belichtingen combineert?" }, "choices": [
-      { "text": { "tr": "HDR", "en": "HDR", "nl": "HDR" }, "correct": true },
-      { "text": { "tr": "RAW", "en": "RAW", "nl": "RAW" } },
-      { "text": { "tr": "JPEG", "en": "JPEG", "nl": "JPEG" } },
-      { "text": { "tr": "ISO", "en": "ISO", "nl": "ISO" } } ] },
-    { "text": { "tr": "Tam kare (full frame) sensör hangi film boyutuna eşittir?", "en": "A full-frame sensor matches which film size?", "nl": "Met welk filmformaat komt een fullframesensor overeen?" }, "choices": [
-      { "text": { "tr": "35 mm film", "en": "35 mm film", "nl": "35mm-film" }, "correct": true },
-      { "text": { "tr": "Orta format film", "en": "Medium format film", "nl": "Middenformaatfilm" } },
-      { "text": { "tr": "16 mm film", "en": "16 mm film", "nl": "16mm-film" } },
-      { "text": { "tr": "8 mm film", "en": "8 mm film", "nl": "8mm-film" } } ] },
-    { "text": { "tr": "\"Fotoğraf\" kelimesindeki \"photos\" ne demektir?", "en": "In \"photography\", what does the Greek \"photos\" mean?", "nl": "Wat betekent het Griekse \"photos\" in \"fotografie\"?" }, "choices": [
-      { "text": { "tr": "Işık", "en": "Light", "nl": "Licht" }, "correct": true },
-      { "text": { "tr": "Resim", "en": "Picture", "nl": "Beeld" } },
-      { "text": { "tr": "Göz", "en": "Eye", "nl": "Oog" } },
-      { "text": { "tr": "Çizgi", "en": "Line", "nl": "Lijn" } } ] },
-    { "text": { "tr": "Gün batımından hemen sonraki mavi tonlu zamana ne denir?", "en": "What is the blue-toned time right after sunset called?", "nl": "Hoe heet de blauwe periode vlak na zonsondergang?" }, "choices": [
-      { "text": { "tr": "Mavi saat", "en": "Blue hour", "nl": "Blauw uur" }, "correct": true },
-      { "text": { "tr": "Altın saat", "en": "Golden hour", "nl": "Gouden uur" } },
-      { "text": { "tr": "Öğle ışığı", "en": "Midday light", "nl": "Middaglicht" } },
-      { "text": { "tr": "Gece yarısı", "en": "Midnight", "nl": "Middernacht" } } ] },
-    { "text": { "tr": "Polaroid kameralar en çok ne ile bilinir?", "en": "What are Polaroid cameras best known for?", "nl": "Waar staan polaroidcamera's vooral om bekend?" }, "choices": [
-      { "text": { "tr": "Anında baskı", "en": "Instant prints", "nl": "Directe afdrukken" }, "correct": true },
-      { "text": { "tr": "Su altı çekimi", "en": "Underwater shots", "nl": "Onderwaterfoto's" } },
-      { "text": { "tr": "Uzay fotoğrafı", "en": "Space photos", "nl": "Ruimtefoto's" } },
-      { "text": { "tr": "Video kaydı", "en": "Video recording", "nl": "Video-opnames" } } ] },
-    { "text": { "tr": "Kodak şirketinin kurucusu kimdir?", "en": "Who founded the Kodak company?", "nl": "Wie richtte het bedrijf Kodak op?" }, "choices": [
-      { "text": { "tr": "George Eastman", "en": "George Eastman", "nl": "George Eastman" }, "correct": true },
-      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison", "nl": "Thomas Edison" } },
-      { "text": { "tr": "Louis Daguerre", "en": "Louis Daguerre", "nl": "Louis Daguerre" } },
-      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce", "nl": "Nicéphore Niépce" } } ] },
-    { "text": { "tr": "Dagerotip yöntemini kim geliştirdi?", "en": "Who developed the daguerreotype process?", "nl": "Wie ontwikkelde de daguerreotypie?" }, "choices": [
-      { "text": { "tr": "Louis Daguerre", "en": "Louis Daguerre", "nl": "Louis Daguerre" }, "correct": true },
-      { "text": { "tr": "George Eastman", "en": "George Eastman", "nl": "George Eastman" } },
-      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce", "nl": "Nicéphore Niépce" } },
-      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler" } } ] },
-    { "text": { "tr": "\"Belirleyici an\" kavramıyla tanınan fotoğrafçı kimdir?", "en": "Which photographer is known for \"the decisive moment\"?", "nl": "Welke fotograaf is bekend van \"het beslissende moment\"?" }, "choices": [
-      { "text": { "tr": "Henri Cartier-Bresson", "en": "Henri Cartier-Bresson", "nl": "Henri Cartier-Bresson" }, "correct": true },
-      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams" } },
-      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler" } },
-      { "text": { "tr": "Robert Capa", "en": "Robert Capa", "nl": "Robert Capa" } } ] },
+    { "text": { "tr": "Pozlama üçgeni ISO, diyafram ve neden oluşur?", "en": "The exposure triangle is ISO, aperture and what else?", "nl": "De belichtingsdriehoek bestaat uit ISO, diafragma en wat nog meer?", "es": "El triángulo de exposición es ISO, apertura y ¿qué más?" }, "choices": [
+      { "text": { "tr": "Enstantane", "en": "Shutter speed", "nl": "Sluitertijd", "es": "Velocidad de obturación" }, "correct": true },
+      { "text": { "tr": "Beyaz dengesi", "en": "White balance", "nl": "Witbalans", "es": "Balance de blancos" } },
+      { "text": { "tr": "Odak noktası", "en": "Focus point", "nl": "Scherpstelpunt", "es": "Punto de enfoque" } },
+      { "text": { "tr": "Zum", "en": "Zoom", "nl": "Zoom", "es": "Zoom" } } ] },
+    { "text": { "tr": "ISO değeri neyi belirler?", "en": "What does the ISO value control?", "nl": "Wat bepaalt de ISO-waarde?", "es": "¿Qué controla el valor ISO?" }, "choices": [
+      { "text": { "tr": "Işığa duyarlılığı", "en": "Sensitivity to light", "nl": "Lichtgevoeligheid", "es": "Sensibilidad a la luz" }, "correct": true },
+      { "text": { "tr": "Odak uzaklığını", "en": "Focal length", "nl": "Brandpuntsafstand", "es": "Distancia focal" } },
+      { "text": { "tr": "Beyaz dengesini", "en": "White balance", "nl": "Witbalans", "es": "Balance de blancos" } },
+      { "text": { "tr": "Lens çapını", "en": "Lens diameter", "nl": "Lensdiameter", "es": "Diámetro del objetivo" } } ] },
+    { "text": { "tr": "Enstantane hızı neyi belirler?", "en": "What does shutter speed control?", "nl": "Wat bepaalt de sluitertijd?", "es": "¿Qué controla la velocidad de obturación?" }, "choices": [
+      { "text": { "tr": "Pozlama süresini", "en": "Exposure time", "nl": "Belichtingsduur", "es": "Tiempo de exposición" }, "correct": true },
+      { "text": { "tr": "Işığa duyarlılığı", "en": "Sensitivity to light", "nl": "Lichtgevoeligheid", "es": "Sensibilidad a la luz" } },
+      { "text": { "tr": "Renk sıcaklığını", "en": "Color temperature", "nl": "Kleurtemperatuur", "es": "Temperatura de color" } },
+      { "text": { "tr": "Odak uzaklığını", "en": "Focal length", "nl": "Brandpuntsafstand", "es": "Distancia focal" } } ] },
+    { "text": { "tr": "Diyafram açıklığı hangi harfle gösterilir?", "en": "Which letter is used for the aperture?", "nl": "Met welke letter wordt het diafragma aangegeven?", "es": "¿Con qué letra se indica la apertura?" }, "choices": [
+      { "text": { "tr": "f", "en": "f", "nl": "f", "es": "f" }, "correct": true },
+      { "text": { "tr": "s", "en": "s", "nl": "s", "es": "s" } },
+      { "text": { "tr": "K", "en": "K", "nl": "K", "es": "K" } },
+      { "text": { "tr": "ISO", "en": "ISO", "nl": "ISO", "es": "ISO" } } ] },
+    { "text": { "tr": "Hangisi en geniş diyafram açıklığıdır?", "en": "Which is the widest aperture?", "nl": "Welke is de grootste diafragmaopening?", "es": "¿Cuál es la apertura más amplia?" }, "choices": [
+      { "text": { "tr": "f/1.8", "en": "f/1.8", "nl": "f/1.8", "es": "f/1.8" }, "correct": true },
+      { "text": { "tr": "f/8", "en": "f/8", "nl": "f/8", "es": "f/8" } },
+      { "text": { "tr": "f/16", "en": "f/16", "nl": "f/16", "es": "f/16" } },
+      { "text": { "tr": "f/22", "en": "f/22", "nl": "f/22", "es": "f/22" } } ] },
+    { "text": { "tr": "Diyaframı genişletmek alan derinliğini nasıl etkiler?", "en": "How does a wider aperture affect depth of field?", "nl": "Wat doet een grotere diafragmaopening met de scherptediepte?", "es": "¿Qué le pasa a la profundidad de campo al abrir el diafragma?" }, "choices": [
+      { "text": { "tr": "Azaltır", "en": "It reduces it", "nl": "Die neemt af", "es": "Disminuye" }, "correct": true },
+      { "text": { "tr": "Artırır", "en": "It increases it", "nl": "Die neemt toe", "es": "Aumenta" } },
+      { "text": { "tr": "Değiştirmez", "en": "No change", "nl": "Geen verschil", "es": "No cambia" } },
+      { "text": { "tr": "İkiye katlar", "en": "It doubles it", "nl": "Die verdubbelt", "es": "Se duplica" } } ] },
+    { "text": { "tr": "Yüksek ISO'nun en bilinen yan etkisi nedir?", "en": "What is the best-known side effect of a high ISO?", "nl": "Wat is het bekendste nadeel van een hoge ISO?", "es": "¿Cuál es el efecto secundario más conocido de un ISO alto?" }, "choices": [
+      { "text": { "tr": "Kumlanma", "en": "Noise", "nl": "Ruis", "es": "Ruido" }, "correct": true },
+      { "text": { "tr": "Renk kaybı", "en": "Color loss", "nl": "Kleurverlies", "es": "Pérdida de color" } },
+      { "text": { "tr": "Odak kayması", "en": "Focus shift", "nl": "Focusverschuiving", "es": "Desenfoque" } },
+      { "text": { "tr": "Lens parlaması", "en": "Lens flare", "nl": "Lensflare", "es": "Destello" } } ] },
+    { "text": { "tr": "Hareketi dondurmak için hangi enstantane daha uygundur?", "en": "Which shutter speed is best for freezing motion?", "nl": "Welke sluitertijd is het best om beweging te bevriezen?", "es": "¿Qué velocidad de obturación es mejor para congelar el movimiento?" }, "choices": [
+      { "text": { "tr": "1/1000 sn", "en": "1/1000 s", "nl": "1/1000 s", "es": "1/1000 s" }, "correct": true },
+      { "text": { "tr": "1/15 sn", "en": "1/15 s", "nl": "1/15 s", "es": "1/15 s" } },
+      { "text": { "tr": "1 sn", "en": "1 s", "nl": "1 s", "es": "1 s" } },
+      { "text": { "tr": "2 sn", "en": "2 s", "nl": "2 s", "es": "2 s" } } ] },
+    { "text": { "tr": "Üçte bir kuralı fotoğrafın hangi yönüyle ilgilidir?", "en": "The rule of thirds is about which part of a photo?", "nl": "Waar gaat de regel van derden over?", "es": "¿De qué trata la regla de los tercios?" }, "choices": [
+      { "text": { "tr": "Kompozisyon", "en": "Composition", "nl": "Compositie", "es": "Composición" }, "correct": true },
+      { "text": { "tr": "Pozlama", "en": "Exposure", "nl": "Belichting", "es": "Exposición" } },
+      { "text": { "tr": "Beyaz dengesi", "en": "White balance", "nl": "Witbalans", "es": "Balance de blancos" } },
+      { "text": { "tr": "Dosya biçimi", "en": "File format", "nl": "Bestandsformaat", "es": "Formato de archivo" } } ] },
+    { "text": { "tr": "Gün doğumu ve batımına yakın sıcak ışıklı zamana ne denir?", "en": "What is the warm light near sunrise and sunset called?", "nl": "Hoe heet het warme licht rond zonsopgang en zonsondergang?", "es": "¿Cómo se llama la luz cálida cerca del amanecer y el atardecer?" }, "choices": [
+      { "text": { "tr": "Altın saat", "en": "Golden hour", "nl": "Gouden uur", "es": "Hora dorada" }, "correct": true },
+      { "text": { "tr": "Mavi saat", "en": "Blue hour", "nl": "Blauw uur", "es": "Hora azul" } },
+      { "text": { "tr": "Öğle ışığı", "en": "Midday light", "nl": "Middaglicht", "es": "Luz de mediodía" } },
+      { "text": { "tr": "Gece modu", "en": "Night mode", "nl": "Nachtmodus", "es": "Modo nocturno" } } ] },
+    { "text": { "tr": "Hangi odak uzaklığı geniş açı sayılır?", "en": "Which focal length counts as wide-angle?", "nl": "Welke brandpuntsafstand geldt als groothoek?", "es": "¿Qué distancia focal se considera gran angular?" }, "choices": [
+      { "text": { "tr": "16 mm", "en": "16 mm", "nl": "16 mm", "es": "16 mm" }, "correct": true },
+      { "text": { "tr": "85 mm", "en": "85 mm", "nl": "85 mm", "es": "85 mm" } },
+      { "text": { "tr": "200 mm", "en": "200 mm", "nl": "200 mm", "es": "200 mm" } },
+      { "text": { "tr": "400 mm", "en": "400 mm", "nl": "400 mm", "es": "400 mm" } } ] },
+    { "text": { "tr": "RAW dosyanın JPEG'e göre temel avantajı nedir?", "en": "What is the main advantage of RAW over JPEG?", "nl": "Wat is het grootste voordeel van RAW ten opzichte van JPEG?", "es": "¿Cuál es la principal ventaja de RAW frente a JPEG?" }, "choices": [
+      { "text": { "tr": "Daha fazla görüntü verisi", "en": "More image data", "nl": "Meer beeldinformatie", "es": "Más datos de imagen" }, "correct": true },
+      { "text": { "tr": "Daha küçük dosya", "en": "Smaller files", "nl": "Kleinere bestanden", "es": "Archivos más pequeños" } },
+      { "text": { "tr": "Her yerde açılması", "en": "Opens everywhere", "nl": "Opent overal", "es": "Se abre en todas partes" } },
+      { "text": { "tr": "Daha hızlı paylaşım", "en": "Faster sharing", "nl": "Sneller delen", "es": "Se comparte más rápido" } } ] },
+    { "text": { "tr": "Beyaz dengesi ayarı neyi düzeltir?", "en": "What does the white balance setting correct?", "nl": "Wat corrigeert de witbalans?", "es": "¿Qué corrige el balance de blancos?" }, "choices": [
+      { "text": { "tr": "Renk sıcaklığını", "en": "Color temperature", "nl": "Kleurtemperatuur", "es": "Temperatura de color" }, "correct": true },
+      { "text": { "tr": "Pozlamayı", "en": "Exposure", "nl": "Belichting", "es": "Exposición" } },
+      { "text": { "tr": "Netliği", "en": "Sharpness", "nl": "Scherpte", "es": "Nitidez" } },
+      { "text": { "tr": "Kumlanmayı", "en": "Noise", "nl": "Ruis", "es": "Ruido" } } ] },
+    { "text": { "tr": "Uzun pozlamada titremeyi önlemek için ne kullanılır?", "en": "What prevents camera shake in long exposures?", "nl": "Wat voorkomt bewegingsonscherpte bij lange sluitertijden?", "es": "¿Qué evita que la cámara tiemble en exposiciones largas?" }, "choices": [
+      { "text": { "tr": "Tripod", "en": "Tripod", "nl": "Statief", "es": "Trípode" }, "correct": true },
+      { "text": { "tr": "Flaş", "en": "Flash", "nl": "Flitser", "es": "Flash" } },
+      { "text": { "tr": "Reflektör", "en": "Reflector", "nl": "Reflectiescherm", "es": "Reflector" } },
+      { "text": { "tr": "Lens kapağı", "en": "Lens cap", "nl": "Lensdop", "es": "Tapa del objetivo" } } ] },
+    { "text": { "tr": "Makro fotoğrafçılık neyi konu alır?", "en": "What is macro photography about?", "nl": "Waar draait macrofotografie om?", "es": "¿De qué trata la fotografía macro?" }, "choices": [
+      { "text": { "tr": "Çok yakın çekimleri", "en": "Very close-up shots", "nl": "Opnames van heel dichtbij", "es": "Tomas muy de cerca" }, "correct": true },
+      { "text": { "tr": "Geniş manzaraları", "en": "Wide landscapes", "nl": "Weidse landschappen", "es": "Paisajes amplios" } },
+      { "text": { "tr": "Gece gökyüzünü", "en": "The night sky", "nl": "De nachtelijke hemel", "es": "El cielo nocturno" } },
+      { "text": { "tr": "Hızlı sporları", "en": "Fast sports", "nl": "Snelle sporten", "es": "Deportes rápidos" } } ] },
+    { "text": { "tr": "Bilinen ilk kalıcı fotoğrafı kim çekti?", "en": "Who took the earliest surviving photograph?", "nl": "Wie maakte de oudst bewaarde foto?", "es": "¿Quién tomó la fotografía más antigua que se conserva?" }, "choices": [
+      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce", "nl": "Nicéphore Niépce", "es": "Nicéphore Niépce" }, "correct": true },
+      { "text": { "tr": "George Eastman", "en": "George Eastman", "nl": "George Eastman", "es": "George Eastman" } },
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams", "es": "Ansel Adams" } },
+      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison", "nl": "Thomas Edison", "es": "Thomas Edison" } } ] },
+    { "text": { "tr": "Fotoğrafta \"bokeh\" neyi ifade eder?", "en": "What does \"bokeh\" refer to in photography?", "nl": "Wat betekent \"bokeh\" in de fotografie?", "es": "¿A qué se refiere el \"bokeh\" en fotografía?" }, "choices": [
+      { "text": { "tr": "Arka plan bulanıklığı", "en": "Background blur", "nl": "Onscherpe achtergrond", "es": "Fondo desenfocado" }, "correct": true },
+      { "text": { "tr": "Lens parlaması", "en": "Lens flare", "nl": "Lensflare", "es": "Destello del objetivo" } },
+      { "text": { "tr": "Aşırı pozlama", "en": "Overexposure", "nl": "Overbelichting", "es": "Sobreexposición" } },
+      { "text": { "tr": "Renk doygunluğu", "en": "Color saturation", "nl": "Kleurverzadiging", "es": "Saturación del color" } } ] },
+    { "text": { "tr": "Kameradaki histogram neyi gösterir?", "en": "What does a camera histogram show?", "nl": "Wat laat een histogram op de camera zien?", "es": "¿Qué muestra el histograma de una cámara?" }, "choices": [
+      { "text": { "tr": "Ton dağılımını", "en": "Tonal distribution", "nl": "Toonverdeling", "es": "Distribución de tonos" }, "correct": true },
+      { "text": { "tr": "Odak noktalarını", "en": "Focus points", "nl": "Scherpstelpunten", "es": "Puntos de enfoque" } },
+      { "text": { "tr": "Pil durumunu", "en": "Battery level", "nl": "Batterijstatus", "es": "Nivel de batería" } },
+      { "text": { "tr": "Lens modelini", "en": "Lens model", "nl": "Lensmodel", "es": "Modelo de objetivo" } } ] },
+    { "text": { "tr": "Aynasız makinede DSLR'den farklı olarak ne yoktur?", "en": "What does a mirrorless camera lack compared to a DSLR?", "nl": "Wat ontbreekt er aan een spiegelloze camera vergeleken met een DSLR?", "es": "¿Qué no tiene una cámara sin espejo, a diferencia de una réflex?" }, "choices": [
+      { "text": { "tr": "Ayna", "en": "A mirror", "nl": "Een spiegel", "es": "Un espejo" }, "correct": true },
+      { "text": { "tr": "Sensör", "en": "A sensor", "nl": "Een sensor", "es": "Un sensor" } },
+      { "text": { "tr": "Deklanşör tuşu", "en": "A shutter button", "nl": "Een ontspanknop", "es": "Un disparador" } },
+      { "text": { "tr": "Lens yuvası", "en": "A lens mount", "nl": "Een lensvatting", "es": "Una montura" } } ] },
+    { "text": { "tr": "Polarize filtre en çok ne işe yarar?", "en": "What is a polarizing filter mainly used for?", "nl": "Waarvoor dient een polarisatiefilter vooral?", "es": "¿Para qué sirve sobre todo un filtro polarizador?" }, "choices": [
+      { "text": { "tr": "Yansımaları azaltır", "en": "Reducing reflections", "nl": "Reflecties verminderen", "es": "Reducir reflejos" }, "correct": true },
+      { "text": { "tr": "Görüntüyü büyütür", "en": "Magnifying the image", "nl": "Het beeld vergroten", "es": "Ampliar la imagen" } },
+      { "text": { "tr": "Kumlanmayı artırır", "en": "Adding noise", "nl": "Ruis toevoegen", "es": "Añadir ruido" } },
+      { "text": { "tr": "Odağı hızlandırır", "en": "Faster focusing", "nl": "Sneller scherpstellen", "es": "Enfocar más rápido" } } ] },
+    { "text": { "tr": "50 mm odak uzaklığındaki objektife genelde ne denir?", "en": "What is a 50 mm lens usually called?", "nl": "Hoe noem je een 50 mm-lens meestal?", "es": "¿Cómo se suele llamar a un objetivo de 50 mm?" }, "choices": [
+      { "text": { "tr": "Normal objektif", "en": "Normal lens", "nl": "Standaardlens", "es": "Objetivo normal" }, "correct": true },
+      { "text": { "tr": "Geniş açı", "en": "Wide-angle", "nl": "Groothoek", "es": "Gran angular" } },
+      { "text": { "tr": "Telefoto", "en": "Telephoto", "nl": "Telelens", "es": "Teleobjetivo" } },
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye", "es": "Ojo de pez" } } ] },
+    { "text": { "tr": "Çok geniş ve bombeli görüntü veren objektif hangisidir?", "en": "Which lens gives a very wide, curved image?", "nl": "Welke lens geeft een heel breed, bol beeld?", "es": "¿Qué objetivo da una imagen muy amplia y curvada?" }, "choices": [
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye", "es": "Ojo de pez" }, "correct": true },
+      { "text": { "tr": "Telefoto", "en": "Telephoto", "nl": "Telelens", "es": "Teleobjetivo" } },
+      { "text": { "tr": "Makro", "en": "Macro", "nl": "Macrolens", "es": "Macro" } },
+      { "text": { "tr": "Normal", "en": "Normal", "nl": "Standaardlens", "es": "Normal" } } ] },
+    { "text": { "tr": "Uzaktaki konuları büyüten objektif türü hangisidir?", "en": "Which lens type magnifies distant subjects?", "nl": "Welk type lens vergroot onderwerpen in de verte?", "es": "¿Qué tipo de objetivo acerca los objetos lejanos?" }, "choices": [
+      { "text": { "tr": "Telefoto", "en": "Telephoto", "nl": "Telelens", "es": "Teleobjetivo" }, "correct": true },
+      { "text": { "tr": "Geniş açı", "en": "Wide-angle", "nl": "Groothoek", "es": "Gran angular" } },
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye", "es": "Ojo de pez" } },
+      { "text": { "tr": "Normal", "en": "Normal", "nl": "Standaardlens", "es": "Normal" } } ] },
+    { "text": { "tr": "Odak uzaklığı değiştirilebilen objektife ne denir?", "en": "What is a lens with a variable focal length called?", "nl": "Hoe heet een lens met een variabele brandpuntsafstand?", "es": "¿Cómo se llama un objetivo con distancia focal variable?" }, "choices": [
+      { "text": { "tr": "Zum objektif", "en": "Zoom lens", "nl": "Zoomlens", "es": "Objetivo zoom" }, "correct": true },
+      { "text": { "tr": "Sabit objektif", "en": "Prime lens", "nl": "Vaste lens", "es": "Objetivo fijo" } },
+      { "text": { "tr": "Makro objektif", "en": "Macro lens", "nl": "Macrolens", "es": "Objetivo macro" } },
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye", "nl": "Fisheye", "es": "Ojo de pez" } } ] },
+    { "text": { "tr": "Arkadan aydınlatılan konunun koyu çıkmasına ne denir?", "en": "What is a backlit subject that appears dark called?", "nl": "Hoe heet een onderwerp in tegenlicht dat donker afsteekt?", "es": "¿Cómo se llama un sujeto a contraluz que aparece oscuro?" }, "choices": [
+      { "text": { "tr": "Siluet", "en": "Silhouette", "nl": "Silhouet", "es": "Silueta" }, "correct": true },
+      { "text": { "tr": "Bokeh", "en": "Bokeh", "nl": "Bokeh", "es": "Bokeh" } },
+      { "text": { "tr": "Vinyet", "en": "Vignette", "nl": "Vignet", "es": "Viñeta" } },
+      { "text": { "tr": "Kumlanma", "en": "Noise", "nl": "Ruis", "es": "Ruido" } } ] },
+    { "text": { "tr": "Fotoğrafın kenarlarının kararmasına ne denir?", "en": "What is the darkening of a photo's corners called?", "nl": "Hoe heet het donkerder worden van de hoeken van een foto?", "es": "¿Cómo se llama el oscurecimiento de las esquinas de una foto?" }, "choices": [
+      { "text": { "tr": "Vinyet", "en": "Vignetting", "nl": "Vignettering", "es": "Viñeteado" }, "correct": true },
+      { "text": { "tr": "Bokeh", "en": "Bokeh", "nl": "Bokeh", "es": "Bokeh" } },
+      { "text": { "tr": "Kumlanma", "en": "Noise", "nl": "Ruis", "es": "Ruido" } },
+      { "text": { "tr": "Hale", "en": "Halo", "nl": "Halo", "es": "Halo" } } ] },
+    { "text": { "tr": "Farklı pozlamaların birleştirildiği görüntüye ne denir?", "en": "What is an image combining several exposures called?", "nl": "Hoe heet een beeld dat meerdere belichtingen combineert?", "es": "¿Cómo se llama una imagen que combina varias exposiciones?" }, "choices": [
+      { "text": { "tr": "HDR", "en": "HDR", "nl": "HDR", "es": "HDR" }, "correct": true },
+      { "text": { "tr": "RAW", "en": "RAW", "nl": "RAW", "es": "RAW" } },
+      { "text": { "tr": "JPEG", "en": "JPEG", "nl": "JPEG", "es": "JPEG" } },
+      { "text": { "tr": "ISO", "en": "ISO", "nl": "ISO", "es": "ISO" } } ] },
+    { "text": { "tr": "Tam kare (full frame) sensör hangi film boyutuna eşittir?", "en": "A full-frame sensor matches which film size?", "nl": "Met welk filmformaat komt een fullframesensor overeen?", "es": "¿A qué tamaño de película equivale un sensor de formato completo?" }, "choices": [
+      { "text": { "tr": "35 mm film", "en": "35 mm film", "nl": "35mm-film", "es": "Película de 35 mm" }, "correct": true },
+      { "text": { "tr": "Orta format film", "en": "Medium format film", "nl": "Middenformaatfilm", "es": "Formato medio" } },
+      { "text": { "tr": "16 mm film", "en": "16 mm film", "nl": "16mm-film", "es": "Película de 16 mm" } },
+      { "text": { "tr": "8 mm film", "en": "8 mm film", "nl": "8mm-film", "es": "Película de 8 mm" } } ] },
+    { "text": { "tr": "\"Fotoğraf\" kelimesindeki \"photos\" ne demektir?", "en": "In \"photography\", what does the Greek \"photos\" mean?", "nl": "Wat betekent het Griekse \"photos\" in \"fotografie\"?", "es": "En \"fotografía\", ¿qué significa el griego \"photos\"?" }, "choices": [
+      { "text": { "tr": "Işık", "en": "Light", "nl": "Licht", "es": "Luz" }, "correct": true },
+      { "text": { "tr": "Resim", "en": "Picture", "nl": "Beeld", "es": "Imagen" } },
+      { "text": { "tr": "Göz", "en": "Eye", "nl": "Oog", "es": "Ojo" } },
+      { "text": { "tr": "Çizgi", "en": "Line", "nl": "Lijn", "es": "Línea" } } ] },
+    { "text": { "tr": "Gün batımından hemen sonraki mavi tonlu zamana ne denir?", "en": "What is the blue-toned time right after sunset called?", "nl": "Hoe heet de blauwe periode vlak na zonsondergang?", "es": "¿Cómo se llama el momento azulado justo después del atardecer?" }, "choices": [
+      { "text": { "tr": "Mavi saat", "en": "Blue hour", "nl": "Blauw uur", "es": "Hora azul" }, "correct": true },
+      { "text": { "tr": "Altın saat", "en": "Golden hour", "nl": "Gouden uur", "es": "Hora dorada" } },
+      { "text": { "tr": "Öğle ışığı", "en": "Midday light", "nl": "Middaglicht", "es": "Luz de mediodía" } },
+      { "text": { "tr": "Gece yarısı", "en": "Midnight", "nl": "Middernacht", "es": "Medianoche" } } ] },
+    { "text": { "tr": "Polaroid kameralar en çok ne ile bilinir?", "en": "What are Polaroid cameras best known for?", "nl": "Waar staan polaroidcamera's vooral om bekend?", "es": "¿Por qué son famosas las cámaras Polaroid?" }, "choices": [
+      { "text": { "tr": "Anında baskı", "en": "Instant prints", "nl": "Directe afdrukken", "es": "Fotos instantáneas" }, "correct": true },
+      { "text": { "tr": "Su altı çekimi", "en": "Underwater shots", "nl": "Onderwaterfoto's", "es": "Fotos submarinas" } },
+      { "text": { "tr": "Uzay fotoğrafı", "en": "Space photos", "nl": "Ruimtefoto's", "es": "Fotos del espacio" } },
+      { "text": { "tr": "Video kaydı", "en": "Video recording", "nl": "Video-opnames", "es": "Grabar vídeo" } } ] },
+    { "text": { "tr": "Kodak şirketinin kurucusu kimdir?", "en": "Who founded the Kodak company?", "nl": "Wie richtte het bedrijf Kodak op?", "es": "¿Quién fundó la empresa Kodak?" }, "choices": [
+      { "text": { "tr": "George Eastman", "en": "George Eastman", "nl": "George Eastman", "es": "George Eastman" }, "correct": true },
+      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison", "nl": "Thomas Edison", "es": "Thomas Edison" } },
+      { "text": { "tr": "Louis Daguerre", "en": "Louis Daguerre", "nl": "Louis Daguerre", "es": "Louis Daguerre" } },
+      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce", "nl": "Nicéphore Niépce", "es": "Nicéphore Niépce" } } ] },
+    { "text": { "tr": "Dagerotip yöntemini kim geliştirdi?", "en": "Who developed the daguerreotype process?", "nl": "Wie ontwikkelde de daguerreotypie?", "es": "¿Quién desarrolló el daguerrotipo?" }, "choices": [
+      { "text": { "tr": "Louis Daguerre", "en": "Louis Daguerre", "nl": "Louis Daguerre", "es": "Louis Daguerre" }, "correct": true },
+      { "text": { "tr": "George Eastman", "en": "George Eastman", "nl": "George Eastman", "es": "George Eastman" } },
+      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce", "nl": "Nicéphore Niépce", "es": "Nicéphore Niépce" } },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler", "es": "Ara Güler" } } ] },
+    { "text": { "tr": "\"Belirleyici an\" kavramıyla tanınan fotoğrafçı kimdir?", "en": "Which photographer is known for \"the decisive moment\"?", "nl": "Welke fotograaf is bekend van \"het beslissende moment\"?", "es": "¿Qué fotógrafo es conocido por \"el instante decisivo\"?" }, "choices": [
+      { "text": { "tr": "Henri Cartier-Bresson", "en": "Henri Cartier-Bresson", "nl": "Henri Cartier-Bresson", "es": "Henri Cartier-Bresson" }, "correct": true },
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams", "es": "Ansel Adams" } },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler", "es": "Ara Güler" } },
+      { "text": { "tr": "Robert Capa", "en": "Robert Capa", "nl": "Robert Capa", "es": "Robert Capa" } } ] },
     { "text": { "tr": "\"İstanbul'un gözü\" olarak anılan fotoğrafçı kimdir?" }, "choices": [
       { "text": { "tr": "Ara Güler" }, "correct": true },
       { "text": { "tr": "Robert Capa" } },
       { "text": { "tr": "Ansel Adams" } },
       { "text": { "tr": "Steve McCurry" } } ] },
-    { "text": { "tr": "Yosemite manzaralarıyla ünlü fotoğrafçı kimdir?", "en": "Which photographer is famous for Yosemite landscapes?", "nl": "Welke fotograaf is beroemd om zijn landschappen van Yosemite?" }, "choices": [
-      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams" }, "correct": true },
-      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler" } },
-      { "text": { "tr": "Robert Capa", "en": "Robert Capa", "nl": "Robert Capa" } },
-      { "text": { "tr": "Henri Cartier-Bresson", "en": "Henri Cartier-Bresson", "nl": "Henri Cartier-Bresson" } } ] },
-    { "text": { "tr": "\"Afgan Kız\" fotoğrafını kim çekti?", "en": "Who took the \"Afghan Girl\" photograph?", "nl": "Wie maakte de foto \"Afghaans meisje\"?" }, "choices": [
-      { "text": { "tr": "Steve McCurry", "en": "Steve McCurry", "nl": "Steve McCurry" }, "correct": true },
-      { "text": { "tr": "Robert Capa", "en": "Robert Capa", "nl": "Robert Capa" } },
-      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams" } },
-      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler" } } ] },
-    { "text": { "tr": "Gündüz uzun pozlama için ışığı azaltan filtre hangisidir?", "en": "Which filter cuts light for daytime long exposures?", "nl": "Welk filter dempt het licht voor lange sluitertijden overdag?" }, "choices": [
-      { "text": { "tr": "ND filtre", "en": "ND filter", "nl": "ND-filter" }, "correct": true },
-      { "text": { "tr": "UV filtre", "en": "UV filter", "nl": "UV-filter" } },
-      { "text": { "tr": "Yıldız filtre", "en": "Star filter", "nl": "Sterfilter" } },
-      { "text": { "tr": "Renk filtresi", "en": "Color filter", "nl": "Kleurfilter" } } ] },
-    { "text": { "tr": "Otomatik netleme hangi kısaltmayla gösterilir?", "en": "Which abbreviation stands for autofocus?", "nl": "Welke afkorting staat voor autofocus?" }, "choices": [
-      { "text": { "tr": "AF", "en": "AF", "nl": "AF" }, "correct": true },
-      { "text": { "tr": "AE", "en": "AE", "nl": "AE" } },
-      { "text": { "tr": "WB", "en": "WB", "nl": "WB" } },
-      { "text": { "tr": "ND", "en": "ND", "nl": "ND" } } ] },
-    { "text": { "tr": "Hareketli konuyu kamerayla takip ederek çekmeye ne denir?", "en": "What is following a moving subject with the camera called?", "nl": "Hoe heet het meebewegen met een bewegend onderwerp?" }, "choices": [
-      { "text": { "tr": "Panning", "en": "Panning", "nl": "Panning" }, "correct": true },
-      { "text": { "tr": "Bracketing", "en": "Bracketing", "nl": "Bracketing" } },
-      { "text": { "tr": "Bokeh", "en": "Bokeh", "nl": "Bokeh" } },
-      { "text": { "tr": "Vinyet", "en": "Vignetting", "nl": "Vignettering" } } ] }
+    { "text": { "tr": "Yosemite manzaralarıyla ünlü fotoğrafçı kimdir?", "en": "Which photographer is famous for Yosemite landscapes?", "nl": "Welke fotograaf is beroemd om zijn landschappen van Yosemite?", "es": "¿Qué fotógrafo es famoso por sus paisajes de Yosemite?" }, "choices": [
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams", "es": "Ansel Adams" }, "correct": true },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler", "es": "Ara Güler" } },
+      { "text": { "tr": "Robert Capa", "en": "Robert Capa", "nl": "Robert Capa", "es": "Robert Capa" } },
+      { "text": { "tr": "Henri Cartier-Bresson", "en": "Henri Cartier-Bresson", "nl": "Henri Cartier-Bresson", "es": "Henri Cartier-Bresson" } } ] },
+    { "text": { "tr": "\"Afgan Kız\" fotoğrafını kim çekti?", "en": "Who took the \"Afghan Girl\" photograph?", "nl": "Wie maakte de foto \"Afghaans meisje\"?", "es": "¿Quién tomó la foto de \"La niña afgana\"?" }, "choices": [
+      { "text": { "tr": "Steve McCurry", "en": "Steve McCurry", "nl": "Steve McCurry", "es": "Steve McCurry" }, "correct": true },
+      { "text": { "tr": "Robert Capa", "en": "Robert Capa", "nl": "Robert Capa", "es": "Robert Capa" } },
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams", "nl": "Ansel Adams", "es": "Ansel Adams" } },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler", "nl": "Ara Güler", "es": "Ara Güler" } } ] },
+    { "text": { "tr": "Gündüz uzun pozlama için ışığı azaltan filtre hangisidir?", "en": "Which filter cuts light for daytime long exposures?", "nl": "Welk filter dempt het licht voor lange sluitertijden overdag?", "es": "¿Qué filtro reduce la luz para exposiciones largas de día?" }, "choices": [
+      { "text": { "tr": "ND filtre", "en": "ND filter", "nl": "ND-filter", "es": "Filtro ND" }, "correct": true },
+      { "text": { "tr": "UV filtre", "en": "UV filter", "nl": "UV-filter", "es": "Filtro UV" } },
+      { "text": { "tr": "Yıldız filtre", "en": "Star filter", "nl": "Sterfilter", "es": "Filtro de estrella" } },
+      { "text": { "tr": "Renk filtresi", "en": "Color filter", "nl": "Kleurfilter", "es": "Filtro de color" } } ] },
+    { "text": { "tr": "Otomatik netleme hangi kısaltmayla gösterilir?", "en": "Which abbreviation stands for autofocus?", "nl": "Welke afkorting staat voor autofocus?", "es": "¿Qué abreviatura indica el enfoque automático?" }, "choices": [
+      { "text": { "tr": "AF", "en": "AF", "nl": "AF", "es": "AF" }, "correct": true },
+      { "text": { "tr": "AE", "en": "AE", "nl": "AE", "es": "AE" } },
+      { "text": { "tr": "WB", "en": "WB", "nl": "WB", "es": "WB" } },
+      { "text": { "tr": "ND", "en": "ND", "nl": "ND", "es": "ND" } } ] },
+    { "text": { "tr": "Hareketli konuyu kamerayla takip ederek çekmeye ne denir?", "en": "What is following a moving subject with the camera called?", "nl": "Hoe heet het meebewegen met een bewegend onderwerp?", "es": "¿Cómo se llama seguir con la cámara a un sujeto en movimiento?" }, "choices": [
+      { "text": { "tr": "Panning", "en": "Panning", "nl": "Panning", "es": "Barrido" }, "correct": true },
+      { "text": { "tr": "Bracketing", "en": "Bracketing", "nl": "Bracketing", "es": "Horquillado" } },
+      { "text": { "tr": "Bokeh", "en": "Bokeh", "nl": "Bokeh", "es": "Bokeh" } },
+      { "text": { "tr": "Vinyet", "en": "Vignetting", "nl": "Vignettering", "es": "Viñeteado" } } ] }
   ]
 }

@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "biyoloji", "color": "lime", "order": 4, "name": { "tr": "Biyoloji", "en": "Biology", "nl": "Biologie" }, "description": { "tr": "Hücreler, vücut, canlılar", "en": "Cells, body, living things", "nl": "Cellen, lichaam, levende wezens" } },
+  "category": { "slug": "biyoloji", "color": "lime", "order": 4, "name": { "tr": "Biyoloji", "en": "Biology", "nl": "Biologie", "es": "Biología" }, "description": { "tr": "Hücreler, vücut, canlılar", "en": "Cells, body, living things", "nl": "Cellen, lichaam, levende wezens", "es": "Células, cuerpo, seres vivos" } },
   "questions": [
-    { "text": { "tr": "Hücrenin enerji santrali olarak bilinen organel hangisidir?", "en": "Which organelle is known as the powerhouse of the cell?", "nl": "Welk organel staat bekend als de energiecentrale van de cel?" }, "choices": [
-      { "text": { "tr": "Mitokondri", "en": "Mitochondria", "nl": "Mitochondriën" }, "correct": true },
-      { "text": { "tr": "Ribozom", "en": "Ribosome", "nl": "Ribosoom" } },
-      { "text": { "tr": "Golgi cisimciği", "en": "Golgi apparatus", "nl": "Golgi-apparaat" } },
-      { "text": { "tr": "Lizozom", "en": "Lysosome", "nl": "Lysosoom" } } ] },
-    { "text": { "tr": "Bitkilerde fotosentez hangi organelde gerçekleşir?", "en": "In which organelle does photosynthesis take place?", "nl": "In welk organel vindt fotosynthese plaats?" }, "choices": [
-      { "text": { "tr": "Kloroplast", "en": "Chloroplast", "nl": "Bladgroenkorrel" }, "correct": true },
-      { "text": { "tr": "Mitokondri", "en": "Mitochondria", "nl": "Mitochondriën" } },
-      { "text": { "tr": "Çekirdek", "en": "Nucleus", "nl": "Celkern" } },
-      { "text": { "tr": "Koful", "en": "Vacuole", "nl": "Vacuole" } } ] },
-    { "text": { "tr": "İnsan hücresinde kaç çift kromozom bulunur?", "en": "How many pairs of chromosomes are in a human cell?", "nl": "Hoeveel paar chromosomen zitten er in een menselijke cel?" }, "choices": [
-      { "text": { "tr": "23", "en": "23", "nl": "23" }, "correct": true },
-      { "text": { "tr": "22", "en": "22", "nl": "22" } },
-      { "text": { "tr": "46", "en": "46", "nl": "46" } },
-      { "text": { "tr": "24", "en": "24", "nl": "24" } } ] },
-    { "text": { "tr": "Hangi baz DNA'da bulunmaz?", "en": "Which base is not found in DNA?", "nl": "Welke base komt niet voor in DNA?" }, "choices": [
-      { "text": { "tr": "Urasil", "en": "Uracil", "nl": "Uracil" }, "correct": true },
-      { "text": { "tr": "Adenin", "en": "Adenine", "nl": "Adenine" } },
-      { "text": { "tr": "Timin", "en": "Thymine", "nl": "Thymine" } },
-      { "text": { "tr": "Guanin", "en": "Guanine", "nl": "Guanine" } } ] },
-    { "text": { "tr": "Kanı vücuda pompalayan organ hangisidir?", "en": "Which organ pumps blood around the body?", "nl": "Welk orgaan pompt het bloed door het lichaam?" }, "choices": [
-      { "text": { "tr": "Kalp", "en": "Heart", "nl": "Hart" }, "correct": true },
-      { "text": { "tr": "Akciğer", "en": "Lungs", "nl": "Longen" } },
-      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever" } },
-      { "text": { "tr": "Böbrek", "en": "Kidney", "nl": "Nier" } } ] },
-    { "text": { "tr": "Alyuvarlarda oksijen taşıyan protein hangisidir?", "en": "Which protein carries oxygen in red blood cells?", "nl": "Welk eiwit vervoert zuurstof in rode bloedcellen?" }, "choices": [
-      { "text": { "tr": "Hemoglobin", "en": "Hemoglobin", "nl": "Hemoglobine" }, "correct": true },
-      { "text": { "tr": "İnsülin", "en": "Insulin", "nl": "Insuline" } },
-      { "text": { "tr": "Keratin", "en": "Keratin", "nl": "Keratine" } },
-      { "text": { "tr": "Kolajen", "en": "Collagen", "nl": "Collageen" } } ] },
-    { "text": { "tr": "İnsan vücudunun en büyük organı hangisidir?", "en": "What is the largest organ of the human body?", "nl": "Wat is het grootste orgaan van het menselijk lichaam?" }, "choices": [
-      { "text": { "tr": "Deri", "en": "Skin", "nl": "Huid" }, "correct": true },
-      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever" } },
-      { "text": { "tr": "Beyin", "en": "Brain", "nl": "Hersenen" } },
-      { "text": { "tr": "Akciğer", "en": "Lungs", "nl": "Longen" } } ] },
-    { "text": { "tr": "Kan şekerini düşüren hormon hangisidir?", "en": "Which hormone lowers blood sugar?", "nl": "Welk hormoon verlaagt de bloedsuikerspiegel?" }, "choices": [
-      { "text": { "tr": "İnsülin", "en": "Insulin", "nl": "Insuline" }, "correct": true },
-      { "text": { "tr": "Glukagon", "en": "Glucagon", "nl": "Glucagon" } },
-      { "text": { "tr": "Adrenalin", "en": "Adrenaline", "nl": "Adrenaline" } },
-      { "text": { "tr": "Tiroksin", "en": "Thyroxine", "nl": "Thyroxine" } } ] },
-    { "text": { "tr": "Yetişkin bir insanda kaç kemik bulunur?", "en": "How many bones does an adult human have?", "nl": "Hoeveel botten heeft een volwassen mens?" }, "choices": [
-      { "text": { "tr": "206", "en": "206", "nl": "206" }, "correct": true },
-      { "text": { "tr": "186", "en": "186", "nl": "186" } },
-      { "text": { "tr": "226", "en": "226", "nl": "226" } },
-      { "text": { "tr": "306", "en": "306", "nl": "306" } } ] },
-    { "text": { "tr": "Bitkiler fotosentezde havadan hangi gazı alır?", "en": "Which gas do plants take from the air in photosynthesis?", "nl": "Welk gas nemen planten bij fotosynthese uit de lucht op?" }, "choices": [
-      { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide", "nl": "Koolstofdioxide" }, "correct": true },
-      { "text": { "tr": "Oksijen", "en": "Oxygen", "nl": "Zuurstof" } },
-      { "text": { "tr": "Azot", "en": "Nitrogen", "nl": "Stikstof" } },
-      { "text": { "tr": "Hidrojen", "en": "Hydrogen", "nl": "Waterstof" } } ] },
-    { "text": { "tr": "\"Türlerin Kökeni\" kitabını kim yazdı?", "en": "Who wrote \"On the Origin of Species\"?", "nl": "Wie schreef \"Over het ontstaan van soorten\"?" }, "choices": [
-      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin" }, "correct": true },
-      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel" } },
-      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur" } },
-      { "text": { "tr": "Isaac Newton", "en": "Isaac Newton", "nl": "Isaac Newton" } } ] },
-    { "text": { "tr": "Kalıtımın babası olarak bilinen bilim insanı kimdir?", "en": "Which scientist is known as the father of genetics?", "nl": "Welke wetenschapper staat bekend als de vader van de genetica?" }, "choices": [
-      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel" }, "correct": true },
-      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin" } },
-      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Koch", "en": "Robert Koch", "nl": "Robert Koch" } } ] },
-    { "text": { "tr": "Penisilini kim keşfetti?", "en": "Who discovered penicillin?", "nl": "Wie ontdekte penicilline?" }, "choices": [
-      { "text": { "tr": "Alexander Fleming", "en": "Alexander Fleming", "nl": "Alexander Fleming" }, "correct": true },
-      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Koch", "en": "Robert Koch", "nl": "Robert Koch" } },
-      { "text": { "tr": "Marie Curie", "en": "Marie Curie", "nl": "Marie Curie" } } ] },
-    { "text": { "tr": "Balinalar hangi canlı grubundadır?", "en": "Which group of animals do whales belong to?", "nl": "Tot welke diergroep behoren walvissen?" }, "choices": [
-      { "text": { "tr": "Memeliler", "en": "Mammals", "nl": "Zoogdieren" }, "correct": true },
-      { "text": { "tr": "Balıklar", "en": "Fish", "nl": "Vissen" } },
-      { "text": { "tr": "Sürüngenler", "en": "Reptiles", "nl": "Reptielen" } },
-      { "text": { "tr": "Amfibiler", "en": "Amphibians", "nl": "Amfibieën" } } ] },
-    { "text": { "tr": "Ağızdaki amilaz enzimi neyi sindirmeye başlar?", "en": "What does amylase in the mouth start to digest?", "nl": "Wat begint het enzym amylase in de mond te verteren?" }, "choices": [
-      { "text": { "tr": "Nişasta", "en": "Starch", "nl": "Zetmeel" }, "correct": true },
-      { "text": { "tr": "Protein", "en": "Protein", "nl": "Eiwit" } },
-      { "text": { "tr": "Yağ", "en": "Fat", "nl": "Vet" } },
-      { "text": { "tr": "Vitamin", "en": "Vitamins", "nl": "Vitaminen" } } ] },
-    { "text": { "tr": "Kurbağanın yavrusuna ne ad verilir?", "en": "What is a baby frog called?", "nl": "Hoe heet een jonge kikker?" }, "choices": [
-      { "text": { "tr": "İribaş", "en": "Tadpole", "nl": "Kikkervisje" }, "correct": true },
-      { "text": { "tr": "Tırtıl", "en": "Caterpillar", "nl": "Rups" } },
-      { "text": { "tr": "Kurtçuk", "en": "Maggot", "nl": "Made" } },
-      { "text": { "tr": "Pupa", "en": "Pupa", "nl": "Pop" } } ] },
-    { "text": { "tr": "Sinir sisteminin temel hücresine ne denir?", "en": "What is the basic cell of the nervous system called?", "nl": "Hoe heet de basiscel van het zenuwstelsel?" }, "choices": [
-      { "text": { "tr": "Nöron", "en": "Neuron", "nl": "Neuron" }, "correct": true },
-      { "text": { "tr": "Alyuvar", "en": "Red blood cell", "nl": "Rode bloedcel" } },
-      { "text": { "tr": "Trombosit", "en": "Platelet", "nl": "Bloedplaatje" } },
-      { "text": { "tr": "Akyuvar", "en": "White blood cell", "nl": "Witte bloedcel" } } ] },
-    { "text": { "tr": "Kanın pıhtılaşmasını sağlayan hücreler hangileridir?", "en": "Which cells help blood to clot?", "nl": "Welke cellen helpen het bloed te stollen?" }, "choices": [
-      { "text": { "tr": "Trombositler", "en": "Platelets", "nl": "Bloedplaatjes" }, "correct": true },
-      { "text": { "tr": "Alyuvarlar", "en": "Red blood cells", "nl": "Rode bloedcellen" } },
-      { "text": { "tr": "Akyuvarlar", "en": "White blood cells", "nl": "Witte bloedcellen" } },
-      { "text": { "tr": "Nöronlar", "en": "Neurons", "nl": "Neuronen" } } ] },
-    { "text": { "tr": "Akciğerde gaz alışverişinin yapıldığı keseciklere ne denir?", "en": "What are the tiny air sacs in the lungs called?", "nl": "Hoe heten de kleine luchtblaasjes in de longen?" }, "choices": [
-      { "text": { "tr": "Alveol", "en": "Alveoli", "nl": "Longblaasjes" }, "correct": true },
-      { "text": { "tr": "Bronş", "en": "Bronchi", "nl": "Bronchiën" } },
-      { "text": { "tr": "Nefron", "en": "Nephrons", "nl": "Nefronen" } },
-      { "text": { "tr": "Villus", "en": "Villi", "nl": "Darmvlokken" } } ] },
-    { "text": { "tr": "Kanı süzüp idrar oluşturan organ hangisidir?", "en": "Which organ filters blood and makes urine?", "nl": "Welk orgaan filtert het bloed en maakt urine?" }, "choices": [
-      { "text": { "tr": "Böbrek", "en": "Kidney", "nl": "Nier" }, "correct": true },
-      { "text": { "tr": "Dalak", "en": "Spleen", "nl": "Milt" } },
-      { "text": { "tr": "Mide", "en": "Stomach", "nl": "Maag" } },
-      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier" } } ] },
-    { "text": { "tr": "DNA'nın çift sarmal yapısını hangi ikili açıkladı?", "en": "Which pair described the double helix of DNA?", "nl": "Welk duo beschreef de dubbele helix van DNA?" }, "choices": [
-      { "text": { "tr": "Watson ve Crick", "en": "Watson and Crick", "nl": "Watson en Crick" }, "correct": true },
-      { "text": { "tr": "Darwin ve Wallace", "en": "Darwin and Wallace", "nl": "Darwin en Wallace" } },
-      { "text": { "tr": "Mendel ve Morgan", "en": "Mendel and Morgan", "nl": "Mendel en Morgan" } },
-      { "text": { "tr": "Pasteur ve Koch", "en": "Pasteur and Koch", "nl": "Pasteur en Koch" } } ] },
-    { "text": { "tr": "Doğal seçilim kuramıyla tanınan bilim insanı kimdir?", "en": "Which scientist is known for the theory of natural selection?", "nl": "Welke wetenschapper is bekend van de theorie van natuurlijke selectie?" }, "choices": [
-      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin" }, "correct": true },
-      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel" } },
-      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Hooke", "en": "Robert Hooke", "nl": "Robert Hooke" } } ] },
-    { "text": { "tr": "Hücreyi ilk kez tanımlayan bilim insanı kimdir?", "en": "Which scientist first described the cell?", "nl": "Welke wetenschapper beschreef als eerste de cel?" }, "choices": [
-      { "text": { "tr": "Robert Hooke", "en": "Robert Hooke", "nl": "Robert Hooke" }, "correct": true },
-      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin" } },
-      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur" } },
-      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel" } } ] },
-    { "text": { "tr": "Hücrede protein sentezi hangi yapıda gerçekleşir?", "en": "Where in the cell are proteins made?", "nl": "Waar in de cel worden eiwitten gemaakt?" }, "choices": [
-      { "text": { "tr": "Ribozom", "en": "Ribosome", "nl": "Ribosoom" }, "correct": true },
-      { "text": { "tr": "Lizozom", "en": "Lysosome", "nl": "Lysosoom" } },
-      { "text": { "tr": "Koful", "en": "Vacuole", "nl": "Vacuole" } },
-      { "text": { "tr": "Sentrozom", "en": "Centrosome", "nl": "Centrosoom" } } ] },
-    { "text": { "tr": "Bitkilere yeşil rengini veren pigment hangisidir?", "en": "Which pigment makes plants green?", "nl": "Welk pigment maakt planten groen?" }, "choices": [
-      { "text": { "tr": "Klorofil", "en": "Chlorophyll", "nl": "Chlorofyl" }, "correct": true },
-      { "text": { "tr": "Karoten", "en": "Carotene", "nl": "Caroteen" } },
-      { "text": { "tr": "Melanin", "en": "Melanin", "nl": "Melanine" } },
-      { "text": { "tr": "Hemoglobin", "en": "Hemoglobin", "nl": "Hemoglobine" } } ] },
-    { "text": { "tr": "Bitkilerde suyu kökten yapraklara taşıyan doku hangisidir?", "en": "Which plant tissue carries water from roots to leaves?", "nl": "Welk plantenweefsel vervoert water van wortels naar bladeren?" }, "choices": [
-      { "text": { "tr": "Ksilem", "en": "Xylem", "nl": "Xyleem" }, "correct": true },
-      { "text": { "tr": "Floem", "en": "Phloem", "nl": "Floëem" } },
-      { "text": { "tr": "Epidermis", "en": "Epidermis", "nl": "Epidermis" } },
-      { "text": { "tr": "Kambiyum", "en": "Cambium", "nl": "Cambium" } } ] },
-    { "text": { "tr": "Mantarlar hangi canlı âlemindedir?", "en": "Which kingdom do mushrooms belong to?", "nl": "Tot welk rijk behoren paddenstoelen?" }, "choices": [
-      { "text": { "tr": "Mantarlar", "en": "Fungi", "nl": "Schimmels" }, "correct": true },
-      { "text": { "tr": "Bitkiler", "en": "Plants", "nl": "Planten" } },
-      { "text": { "tr": "Protistler", "en": "Protists", "nl": "Protisten" } },
-      { "text": { "tr": "Bakteriler", "en": "Bacteria", "nl": "Bacteriën" } } ] },
-    { "text": { "tr": "Çekirdeği olmayan tek hücreli canlılara ne denir?", "en": "What are single-celled organisms without a nucleus called?", "nl": "Hoe heten eencellige organismen zonder celkern?" }, "choices": [
-      { "text": { "tr": "Prokaryot", "en": "Prokaryotes", "nl": "Prokaryoten" }, "correct": true },
-      { "text": { "tr": "Ökaryot", "en": "Eukaryotes", "nl": "Eukaryoten" } },
-      { "text": { "tr": "Virüs", "en": "Viruses", "nl": "Virussen" } },
-      { "text": { "tr": "Mantar", "en": "Fungi", "nl": "Schimmels" } } ] },
-    { "text": { "tr": "Kalıtım bilgisini taşıyan molekül hangisidir?", "en": "Which molecule carries hereditary information?", "nl": "Welk molecuul draagt erfelijke informatie?" }, "choices": [
-      { "text": { "tr": "DNA", "en": "DNA", "nl": "DNA" }, "correct": true },
-      { "text": { "tr": "ATP", "en": "ATP", "nl": "ATP" } },
-      { "text": { "tr": "Glikoz", "en": "Glucose", "nl": "Glucose" } },
-      { "text": { "tr": "Kolesterol", "en": "Cholesterol", "nl": "Cholesterol" } } ] },
-    { "text": { "tr": "Tırtılın kelebeğe dönüşmesine ne denir?", "en": "What is a caterpillar turning into a butterfly called?", "nl": "Hoe heet het als een rups een vlinder wordt?" }, "choices": [
-      { "text": { "tr": "Başkalaşım", "en": "Metamorphosis", "nl": "Metamorfose" }, "correct": true },
-      { "text": { "tr": "Mitoz", "en": "Mitosis", "nl": "Mitose" } },
-      { "text": { "tr": "Fotosentez", "en": "Photosynthesis", "nl": "Fotosynthese" } },
-      { "text": { "tr": "Kış uykusu", "en": "Hibernation", "nl": "Winterslaap" } } ] },
-    { "text": { "tr": "Hangisi memeli değildir?", "en": "Which of these is not a mammal?", "nl": "Welk van deze dieren is geen zoogdier?" }, "choices": [
-      { "text": { "tr": "Penguen", "en": "Penguin", "nl": "Pinguïn" }, "correct": true },
-      { "text": { "tr": "Yunus", "en": "Dolphin", "nl": "Dolfijn" } },
-      { "text": { "tr": "Yarasa", "en": "Bat", "nl": "Vleermuis" } },
-      { "text": { "tr": "Fil", "en": "Elephant", "nl": "Olifant" } } ] },
-    { "text": { "tr": "Besin zincirinde üretici olan canlılar hangileridir?", "en": "Which organisms are the producers in a food chain?", "nl": "Welke organismen zijn de producenten in een voedselketen?" }, "choices": [
-      { "text": { "tr": "Bitkiler", "en": "Plants", "nl": "Planten" }, "correct": true },
-      { "text": { "tr": "Otçullar", "en": "Herbivores", "nl": "Planteneters" } },
-      { "text": { "tr": "Etçiller", "en": "Carnivores", "nl": "Vleeseters" } },
-      { "text": { "tr": "Ayrıştırıcılar", "en": "Decomposers", "nl": "Afbrekers" } } ] },
-    { "text": { "tr": "Birbirinin aynısı iki hücre oluşturan bölünme hangisidir?", "en": "Which cell division makes two identical cells?", "nl": "Bij welke celdeling ontstaan twee identieke cellen?" }, "choices": [
-      { "text": { "tr": "Mitoz", "en": "Mitosis", "nl": "Mitose" }, "correct": true },
-      { "text": { "tr": "Mayoz", "en": "Meiosis", "nl": "Meiose" } },
-      { "text": { "tr": "Döllenme", "en": "Fertilization", "nl": "Bevruchting" } },
-      { "text": { "tr": "Tomurcuklanma", "en": "Budding", "nl": "Knopvorming" } } ] },
-    { "text": { "tr": "Üreme hücreleri hangi bölünmeyle oluşur?", "en": "Which cell division produces sex cells?", "nl": "Bij welke celdeling ontstaan geslachtscellen?" }, "choices": [
-      { "text": { "tr": "Mayoz", "en": "Meiosis", "nl": "Meiose" }, "correct": true },
-      { "text": { "tr": "Mitoz", "en": "Mitosis", "nl": "Mitose" } },
-      { "text": { "tr": "Tomurcuklanma", "en": "Budding", "nl": "Knopvorming" } },
-      { "text": { "tr": "Rejenerasyon", "en": "Regeneration", "nl": "Regeneratie" } } ] },
-    { "text": { "tr": "Dünyadaki en büyük hayvan hangisidir?", "en": "What is the largest animal on Earth?", "nl": "Wat is het grootste dier op aarde?" }, "choices": [
-      { "text": { "tr": "Mavi balina", "en": "Blue whale", "nl": "Blauwe vinvis" }, "correct": true },
-      { "text": { "tr": "Afrika fili", "en": "African elephant", "nl": "Afrikaanse olifant" } },
-      { "text": { "tr": "Balina köpekbalığı", "en": "Whale shark", "nl": "Walvishaai" } },
-      { "text": { "tr": "Zürafa", "en": "Giraffe", "nl": "Giraf" } } ] },
-    { "text": { "tr": "Çiçek aşısını geliştiren bilim insanı kimdir?", "en": "Who developed the smallpox vaccine?", "nl": "Wie ontwikkelde het vaccin tegen pokken?" }, "choices": [
-      { "text": { "tr": "Edward Jenner", "en": "Edward Jenner", "nl": "Edward Jenner" }, "correct": true },
-      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Koch", "en": "Robert Koch", "nl": "Robert Koch" } },
-      { "text": { "tr": "Alexander Fleming", "en": "Alexander Fleming", "nl": "Alexander Fleming" } } ] },
-    { "text": { "tr": "Ahtapotun kaç kolu vardır?", "en": "How many arms does an octopus have?", "nl": "Hoeveel armen heeft een octopus?" }, "choices": [
-      { "text": { "tr": "8", "en": "8", "nl": "8" }, "correct": true },
-      { "text": { "tr": "6", "en": "6", "nl": "6" } },
-      { "text": { "tr": "10", "en": "10", "nl": "10" } },
-      { "text": { "tr": "12", "en": "12", "nl": "12" } } ] },
-    { "text": { "tr": "Arılar topladıkları nektarı neye dönüştürür?", "en": "What do bees turn the nectar they collect into?", "nl": "Waarin zetten bijen de verzamelde nectar om?" }, "choices": [
-      { "text": { "tr": "Bal", "en": "Honey", "nl": "Honing" }, "correct": true },
-      { "text": { "tr": "Polen", "en": "Pollen", "nl": "Stuifmeel" } },
-      { "text": { "tr": "Balmumu", "en": "Beeswax", "nl": "Bijenwas" } },
-      { "text": { "tr": "Propolis", "en": "Propolis", "nl": "Propolis" } } ] },
-    { "text": { "tr": "Hangisi soğukkanlı bir hayvandır?", "en": "Which one is a cold-blooded animal?", "nl": "Welk dier is koudbloedig?" }, "choices": [
-      { "text": { "tr": "Kertenkele", "en": "Lizard", "nl": "Hagedis" }, "correct": true },
-      { "text": { "tr": "Kedi", "en": "Cat", "nl": "Kat" } },
-      { "text": { "tr": "Kartal", "en": "Eagle", "nl": "Arend" } },
-      { "text": { "tr": "Yunus", "en": "Dolphin", "nl": "Dolfijn" } } ] },
-    { "text": { "tr": "Bitkiler fotosentezde dışarıya hangi gazı verir?", "en": "Which gas do plants release in photosynthesis?", "nl": "Welk gas geven planten af bij fotosynthese?" }, "choices": [
-      { "text": { "tr": "Oksijen", "en": "Oxygen", "nl": "Zuurstof" }, "correct": true },
-      { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide", "nl": "Koolstofdioxide" } },
-      { "text": { "tr": "Azot", "en": "Nitrogen", "nl": "Stikstof" } },
-      { "text": { "tr": "Metan", "en": "Methane", "nl": "Methaan" } } ] }
+    { "text": { "tr": "Hücrenin enerji santrali olarak bilinen organel hangisidir?", "en": "Which organelle is known as the powerhouse of the cell?", "nl": "Welk organel staat bekend als de energiecentrale van de cel?", "es": "¿Qué orgánulo se conoce como la central energética de la célula?" }, "choices": [
+      { "text": { "tr": "Mitokondri", "en": "Mitochondria", "nl": "Mitochondriën", "es": "Mitocondria" }, "correct": true },
+      { "text": { "tr": "Ribozom", "en": "Ribosome", "nl": "Ribosoom", "es": "Ribosoma" } },
+      { "text": { "tr": "Golgi cisimciği", "en": "Golgi apparatus", "nl": "Golgi-apparaat", "es": "Aparato de Golgi" } },
+      { "text": { "tr": "Lizozom", "en": "Lysosome", "nl": "Lysosoom", "es": "Lisosoma" } } ] },
+    { "text": { "tr": "Bitkilerde fotosentez hangi organelde gerçekleşir?", "en": "In which organelle does photosynthesis take place?", "nl": "In welk organel vindt fotosynthese plaats?", "es": "¿En qué orgánulo se realiza la fotosíntesis?" }, "choices": [
+      { "text": { "tr": "Kloroplast", "en": "Chloroplast", "nl": "Bladgroenkorrel", "es": "Cloroplasto" }, "correct": true },
+      { "text": { "tr": "Mitokondri", "en": "Mitochondria", "nl": "Mitochondriën", "es": "Mitocondria" } },
+      { "text": { "tr": "Çekirdek", "en": "Nucleus", "nl": "Celkern", "es": "Núcleo" } },
+      { "text": { "tr": "Koful", "en": "Vacuole", "nl": "Vacuole", "es": "Vacuola" } } ] },
+    { "text": { "tr": "İnsan hücresinde kaç çift kromozom bulunur?", "en": "How many pairs of chromosomes are in a human cell?", "nl": "Hoeveel paar chromosomen zitten er in een menselijke cel?", "es": "¿Cuántos pares de cromosomas tiene una célula humana?" }, "choices": [
+      { "text": { "tr": "23", "en": "23", "nl": "23", "es": "23" }, "correct": true },
+      { "text": { "tr": "22", "en": "22", "nl": "22", "es": "22" } },
+      { "text": { "tr": "46", "en": "46", "nl": "46", "es": "46" } },
+      { "text": { "tr": "24", "en": "24", "nl": "24", "es": "24" } } ] },
+    { "text": { "tr": "Hangi baz DNA'da bulunmaz?", "en": "Which base is not found in DNA?", "nl": "Welke base komt niet voor in DNA?", "es": "¿Qué base no se encuentra en el ADN?" }, "choices": [
+      { "text": { "tr": "Urasil", "en": "Uracil", "nl": "Uracil", "es": "Uracilo" }, "correct": true },
+      { "text": { "tr": "Adenin", "en": "Adenine", "nl": "Adenine", "es": "Adenina" } },
+      { "text": { "tr": "Timin", "en": "Thymine", "nl": "Thymine", "es": "Timina" } },
+      { "text": { "tr": "Guanin", "en": "Guanine", "nl": "Guanine", "es": "Guanina" } } ] },
+    { "text": { "tr": "Kanı vücuda pompalayan organ hangisidir?", "en": "Which organ pumps blood around the body?", "nl": "Welk orgaan pompt het bloed door het lichaam?", "es": "¿Qué órgano bombea la sangre por el cuerpo?" }, "choices": [
+      { "text": { "tr": "Kalp", "en": "Heart", "nl": "Hart", "es": "Corazón" }, "correct": true },
+      { "text": { "tr": "Akciğer", "en": "Lungs", "nl": "Longen", "es": "Pulmones" } },
+      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever", "es": "Hígado" } },
+      { "text": { "tr": "Böbrek", "en": "Kidney", "nl": "Nier", "es": "Riñón" } } ] },
+    { "text": { "tr": "Alyuvarlarda oksijen taşıyan protein hangisidir?", "en": "Which protein carries oxygen in red blood cells?", "nl": "Welk eiwit vervoert zuurstof in rode bloedcellen?", "es": "¿Qué proteína transporta el oxígeno en los glóbulos rojos?" }, "choices": [
+      { "text": { "tr": "Hemoglobin", "en": "Hemoglobin", "nl": "Hemoglobine", "es": "Hemoglobina" }, "correct": true },
+      { "text": { "tr": "İnsülin", "en": "Insulin", "nl": "Insuline", "es": "Insulina" } },
+      { "text": { "tr": "Keratin", "en": "Keratin", "nl": "Keratine", "es": "Queratina" } },
+      { "text": { "tr": "Kolajen", "en": "Collagen", "nl": "Collageen", "es": "Colágeno" } } ] },
+    { "text": { "tr": "İnsan vücudunun en büyük organı hangisidir?", "en": "What is the largest organ of the human body?", "nl": "Wat is het grootste orgaan van het menselijk lichaam?", "es": "¿Cuál es el órgano más grande del cuerpo humano?" }, "choices": [
+      { "text": { "tr": "Deri", "en": "Skin", "nl": "Huid", "es": "Piel" }, "correct": true },
+      { "text": { "tr": "Karaciğer", "en": "Liver", "nl": "Lever", "es": "Hígado" } },
+      { "text": { "tr": "Beyin", "en": "Brain", "nl": "Hersenen", "es": "Cerebro" } },
+      { "text": { "tr": "Akciğer", "en": "Lungs", "nl": "Longen", "es": "Pulmones" } } ] },
+    { "text": { "tr": "Kan şekerini düşüren hormon hangisidir?", "en": "Which hormone lowers blood sugar?", "nl": "Welk hormoon verlaagt de bloedsuikerspiegel?", "es": "¿Qué hormona baja el azúcar en sangre?" }, "choices": [
+      { "text": { "tr": "İnsülin", "en": "Insulin", "nl": "Insuline", "es": "Insulina" }, "correct": true },
+      { "text": { "tr": "Glukagon", "en": "Glucagon", "nl": "Glucagon", "es": "Glucagón" } },
+      { "text": { "tr": "Adrenalin", "en": "Adrenaline", "nl": "Adrenaline", "es": "Adrenalina" } },
+      { "text": { "tr": "Tiroksin", "en": "Thyroxine", "nl": "Thyroxine", "es": "Tiroxina" } } ] },
+    { "text": { "tr": "Yetişkin bir insanda kaç kemik bulunur?", "en": "How many bones does an adult human have?", "nl": "Hoeveel botten heeft een volwassen mens?", "es": "¿Cuántos huesos tiene un ser humano adulto?" }, "choices": [
+      { "text": { "tr": "206", "en": "206", "nl": "206", "es": "206" }, "correct": true },
+      { "text": { "tr": "186", "en": "186", "nl": "186", "es": "186" } },
+      { "text": { "tr": "226", "en": "226", "nl": "226", "es": "226" } },
+      { "text": { "tr": "306", "en": "306", "nl": "306", "es": "306" } } ] },
+    { "text": { "tr": "Bitkiler fotosentezde havadan hangi gazı alır?", "en": "Which gas do plants take from the air in photosynthesis?", "nl": "Welk gas nemen planten bij fotosynthese uit de lucht op?", "es": "¿Qué gas toman las plantas del aire en la fotosíntesis?" }, "choices": [
+      { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide", "nl": "Koolstofdioxide", "es": "Dióxido de carbono" }, "correct": true },
+      { "text": { "tr": "Oksijen", "en": "Oxygen", "nl": "Zuurstof", "es": "Oxígeno" } },
+      { "text": { "tr": "Azot", "en": "Nitrogen", "nl": "Stikstof", "es": "Nitrógeno" } },
+      { "text": { "tr": "Hidrojen", "en": "Hydrogen", "nl": "Waterstof", "es": "Hidrógeno" } } ] },
+    { "text": { "tr": "\"Türlerin Kökeni\" kitabını kim yazdı?", "en": "Who wrote \"On the Origin of Species\"?", "nl": "Wie schreef \"Over het ontstaan van soorten\"?", "es": "¿Quién escribió \"El origen de las especies\"?" }, "choices": [
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin", "es": "Charles Darwin" }, "correct": true },
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel", "es": "Gregor Mendel" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur", "es": "Louis Pasteur" } },
+      { "text": { "tr": "Isaac Newton", "en": "Isaac Newton", "nl": "Isaac Newton", "es": "Isaac Newton" } } ] },
+    { "text": { "tr": "Kalıtımın babası olarak bilinen bilim insanı kimdir?", "en": "Which scientist is known as the father of genetics?", "nl": "Welke wetenschapper staat bekend als de vader van de genetica?", "es": "¿Qué científico es conocido como el padre de la genética?" }, "choices": [
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel", "es": "Gregor Mendel" }, "correct": true },
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin", "es": "Charles Darwin" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur", "es": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Koch", "en": "Robert Koch", "nl": "Robert Koch", "es": "Robert Koch" } } ] },
+    { "text": { "tr": "Penisilini kim keşfetti?", "en": "Who discovered penicillin?", "nl": "Wie ontdekte penicilline?", "es": "¿Quién descubrió la penicilina?" }, "choices": [
+      { "text": { "tr": "Alexander Fleming", "en": "Alexander Fleming", "nl": "Alexander Fleming", "es": "Alexander Fleming" }, "correct": true },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur", "es": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Koch", "en": "Robert Koch", "nl": "Robert Koch", "es": "Robert Koch" } },
+      { "text": { "tr": "Marie Curie", "en": "Marie Curie", "nl": "Marie Curie", "es": "Marie Curie" } } ] },
+    { "text": { "tr": "Balinalar hangi canlı grubundadır?", "en": "Which group of animals do whales belong to?", "nl": "Tot welke diergroep behoren walvissen?", "es": "¿A qué grupo de animales pertenecen las ballenas?" }, "choices": [
+      { "text": { "tr": "Memeliler", "en": "Mammals", "nl": "Zoogdieren", "es": "Mamíferos" }, "correct": true },
+      { "text": { "tr": "Balıklar", "en": "Fish", "nl": "Vissen", "es": "Peces" } },
+      { "text": { "tr": "Sürüngenler", "en": "Reptiles", "nl": "Reptielen", "es": "Reptiles" } },
+      { "text": { "tr": "Amfibiler", "en": "Amphibians", "nl": "Amfibieën", "es": "Anfibios" } } ] },
+    { "text": { "tr": "Ağızdaki amilaz enzimi neyi sindirmeye başlar?", "en": "What does amylase in the mouth start to digest?", "nl": "Wat begint het enzym amylase in de mond te verteren?", "es": "¿Qué empieza a digerir la amilasa de la boca?" }, "choices": [
+      { "text": { "tr": "Nişasta", "en": "Starch", "nl": "Zetmeel", "es": "Almidón" }, "correct": true },
+      { "text": { "tr": "Protein", "en": "Protein", "nl": "Eiwit", "es": "Proteínas" } },
+      { "text": { "tr": "Yağ", "en": "Fat", "nl": "Vet", "es": "Grasas" } },
+      { "text": { "tr": "Vitamin", "en": "Vitamins", "nl": "Vitaminen", "es": "Vitaminas" } } ] },
+    { "text": { "tr": "Kurbağanın yavrusuna ne ad verilir?", "en": "What is a baby frog called?", "nl": "Hoe heet een jonge kikker?", "es": "¿Cómo se llama la cría de la rana?" }, "choices": [
+      { "text": { "tr": "İribaş", "en": "Tadpole", "nl": "Kikkervisje", "es": "Renacuajo" }, "correct": true },
+      { "text": { "tr": "Tırtıl", "en": "Caterpillar", "nl": "Rups", "es": "Oruga" } },
+      { "text": { "tr": "Kurtçuk", "en": "Maggot", "nl": "Made", "es": "Larva de mosca" } },
+      { "text": { "tr": "Pupa", "en": "Pupa", "nl": "Pop", "es": "Pupa" } } ] },
+    { "text": { "tr": "Sinir sisteminin temel hücresine ne denir?", "en": "What is the basic cell of the nervous system called?", "nl": "Hoe heet de basiscel van het zenuwstelsel?", "es": "¿Cómo se llama la célula básica del sistema nervioso?" }, "choices": [
+      { "text": { "tr": "Nöron", "en": "Neuron", "nl": "Neuron", "es": "Neurona" }, "correct": true },
+      { "text": { "tr": "Alyuvar", "en": "Red blood cell", "nl": "Rode bloedcel", "es": "Glóbulo rojo" } },
+      { "text": { "tr": "Trombosit", "en": "Platelet", "nl": "Bloedplaatje", "es": "Plaqueta" } },
+      { "text": { "tr": "Akyuvar", "en": "White blood cell", "nl": "Witte bloedcel", "es": "Glóbulo blanco" } } ] },
+    { "text": { "tr": "Kanın pıhtılaşmasını sağlayan hücreler hangileridir?", "en": "Which cells help blood to clot?", "nl": "Welke cellen helpen het bloed te stollen?", "es": "¿Qué células ayudan a coagular la sangre?" }, "choices": [
+      { "text": { "tr": "Trombositler", "en": "Platelets", "nl": "Bloedplaatjes", "es": "Plaquetas" }, "correct": true },
+      { "text": { "tr": "Alyuvarlar", "en": "Red blood cells", "nl": "Rode bloedcellen", "es": "Glóbulos rojos" } },
+      { "text": { "tr": "Akyuvarlar", "en": "White blood cells", "nl": "Witte bloedcellen", "es": "Glóbulos blancos" } },
+      { "text": { "tr": "Nöronlar", "en": "Neurons", "nl": "Neuronen", "es": "Neuronas" } } ] },
+    { "text": { "tr": "Akciğerde gaz alışverişinin yapıldığı keseciklere ne denir?", "en": "What are the tiny air sacs in the lungs called?", "nl": "Hoe heten de kleine luchtblaasjes in de longen?", "es": "¿Cómo se llaman los pequeños sacos de aire de los pulmones?" }, "choices": [
+      { "text": { "tr": "Alveol", "en": "Alveoli", "nl": "Longblaasjes", "es": "Alvéolos" }, "correct": true },
+      { "text": { "tr": "Bronş", "en": "Bronchi", "nl": "Bronchiën", "es": "Bronquios" } },
+      { "text": { "tr": "Nefron", "en": "Nephrons", "nl": "Nefronen", "es": "Nefronas" } },
+      { "text": { "tr": "Villus", "en": "Villi", "nl": "Darmvlokken", "es": "Vellosidades" } } ] },
+    { "text": { "tr": "Kanı süzüp idrar oluşturan organ hangisidir?", "en": "Which organ filters blood and makes urine?", "nl": "Welk orgaan filtert het bloed en maakt urine?", "es": "¿Qué órgano filtra la sangre y produce la orina?" }, "choices": [
+      { "text": { "tr": "Böbrek", "en": "Kidney", "nl": "Nier", "es": "Riñón" }, "correct": true },
+      { "text": { "tr": "Dalak", "en": "Spleen", "nl": "Milt", "es": "Bazo" } },
+      { "text": { "tr": "Mide", "en": "Stomach", "nl": "Maag", "es": "Estómago" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas", "nl": "Alvleesklier", "es": "Páncreas" } } ] },
+    { "text": { "tr": "DNA'nın çift sarmal yapısını hangi ikili açıkladı?", "en": "Which pair described the double helix of DNA?", "nl": "Welk duo beschreef de dubbele helix van DNA?", "es": "¿Qué pareja describió la doble hélice del ADN?" }, "choices": [
+      { "text": { "tr": "Watson ve Crick", "en": "Watson and Crick", "nl": "Watson en Crick", "es": "Watson y Crick" }, "correct": true },
+      { "text": { "tr": "Darwin ve Wallace", "en": "Darwin and Wallace", "nl": "Darwin en Wallace", "es": "Darwin y Wallace" } },
+      { "text": { "tr": "Mendel ve Morgan", "en": "Mendel and Morgan", "nl": "Mendel en Morgan", "es": "Mendel y Morgan" } },
+      { "text": { "tr": "Pasteur ve Koch", "en": "Pasteur and Koch", "nl": "Pasteur en Koch", "es": "Pasteur y Koch" } } ] },
+    { "text": { "tr": "Doğal seçilim kuramıyla tanınan bilim insanı kimdir?", "en": "Which scientist is known for the theory of natural selection?", "nl": "Welke wetenschapper is bekend van de theorie van natuurlijke selectie?", "es": "¿Qué científico es conocido por la teoría de la selección natural?" }, "choices": [
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin", "es": "Charles Darwin" }, "correct": true },
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel", "es": "Gregor Mendel" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur", "es": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Hooke", "en": "Robert Hooke", "nl": "Robert Hooke", "es": "Robert Hooke" } } ] },
+    { "text": { "tr": "Hücreyi ilk kez tanımlayan bilim insanı kimdir?", "en": "Which scientist first described the cell?", "nl": "Welke wetenschapper beschreef als eerste de cel?", "es": "¿Qué científico describió la célula por primera vez?" }, "choices": [
+      { "text": { "tr": "Robert Hooke", "en": "Robert Hooke", "nl": "Robert Hooke", "es": "Robert Hooke" }, "correct": true },
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin", "nl": "Charles Darwin", "es": "Charles Darwin" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur", "es": "Louis Pasteur" } },
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel", "nl": "Gregor Mendel", "es": "Gregor Mendel" } } ] },
+    { "text": { "tr": "Hücrede protein sentezi hangi yapıda gerçekleşir?", "en": "Where in the cell are proteins made?", "nl": "Waar in de cel worden eiwitten gemaakt?", "es": "¿Dónde se fabrican las proteínas en la célula?" }, "choices": [
+      { "text": { "tr": "Ribozom", "en": "Ribosome", "nl": "Ribosoom", "es": "Ribosoma" }, "correct": true },
+      { "text": { "tr": "Lizozom", "en": "Lysosome", "nl": "Lysosoom", "es": "Lisosoma" } },
+      { "text": { "tr": "Koful", "en": "Vacuole", "nl": "Vacuole", "es": "Vacuola" } },
+      { "text": { "tr": "Sentrozom", "en": "Centrosome", "nl": "Centrosoom", "es": "Centrosoma" } } ] },
+    { "text": { "tr": "Bitkilere yeşil rengini veren pigment hangisidir?", "en": "Which pigment makes plants green?", "nl": "Welk pigment maakt planten groen?", "es": "¿Qué pigmento da a las plantas su color verde?" }, "choices": [
+      { "text": { "tr": "Klorofil", "en": "Chlorophyll", "nl": "Chlorofyl", "es": "Clorofila" }, "correct": true },
+      { "text": { "tr": "Karoten", "en": "Carotene", "nl": "Caroteen", "es": "Caroteno" } },
+      { "text": { "tr": "Melanin", "en": "Melanin", "nl": "Melanine", "es": "Melanina" } },
+      { "text": { "tr": "Hemoglobin", "en": "Hemoglobin", "nl": "Hemoglobine", "es": "Hemoglobina" } } ] },
+    { "text": { "tr": "Bitkilerde suyu kökten yapraklara taşıyan doku hangisidir?", "en": "Which plant tissue carries water from roots to leaves?", "nl": "Welk plantenweefsel vervoert water van wortels naar bladeren?", "es": "¿Qué tejido vegetal lleva el agua de las raíces a las hojas?" }, "choices": [
+      { "text": { "tr": "Ksilem", "en": "Xylem", "nl": "Xyleem", "es": "Xilema" }, "correct": true },
+      { "text": { "tr": "Floem", "en": "Phloem", "nl": "Floëem", "es": "Floema" } },
+      { "text": { "tr": "Epidermis", "en": "Epidermis", "nl": "Epidermis", "es": "Epidermis" } },
+      { "text": { "tr": "Kambiyum", "en": "Cambium", "nl": "Cambium", "es": "Cámbium" } } ] },
+    { "text": { "tr": "Mantarlar hangi canlı âlemindedir?", "en": "Which kingdom do mushrooms belong to?", "nl": "Tot welk rijk behoren paddenstoelen?", "es": "¿A qué reino pertenecen las setas?" }, "choices": [
+      { "text": { "tr": "Mantarlar", "en": "Fungi", "nl": "Schimmels", "es": "Hongos" }, "correct": true },
+      { "text": { "tr": "Bitkiler", "en": "Plants", "nl": "Planten", "es": "Plantas" } },
+      { "text": { "tr": "Protistler", "en": "Protists", "nl": "Protisten", "es": "Protistas" } },
+      { "text": { "tr": "Bakteriler", "en": "Bacteria", "nl": "Bacteriën", "es": "Bacterias" } } ] },
+    { "text": { "tr": "Çekirdeği olmayan tek hücreli canlılara ne denir?", "en": "What are single-celled organisms without a nucleus called?", "nl": "Hoe heten eencellige organismen zonder celkern?", "es": "¿Cómo se llaman los organismos unicelulares sin núcleo?" }, "choices": [
+      { "text": { "tr": "Prokaryot", "en": "Prokaryotes", "nl": "Prokaryoten", "es": "Procariotas" }, "correct": true },
+      { "text": { "tr": "Ökaryot", "en": "Eukaryotes", "nl": "Eukaryoten", "es": "Eucariotas" } },
+      { "text": { "tr": "Virüs", "en": "Viruses", "nl": "Virussen", "es": "Virus" } },
+      { "text": { "tr": "Mantar", "en": "Fungi", "nl": "Schimmels", "es": "Hongos" } } ] },
+    { "text": { "tr": "Kalıtım bilgisini taşıyan molekül hangisidir?", "en": "Which molecule carries hereditary information?", "nl": "Welk molecuul draagt erfelijke informatie?", "es": "¿Qué molécula lleva la información hereditaria?" }, "choices": [
+      { "text": { "tr": "DNA", "en": "DNA", "nl": "DNA", "es": "ADN" }, "correct": true },
+      { "text": { "tr": "ATP", "en": "ATP", "nl": "ATP", "es": "ATP" } },
+      { "text": { "tr": "Glikoz", "en": "Glucose", "nl": "Glucose", "es": "Glucosa" } },
+      { "text": { "tr": "Kolesterol", "en": "Cholesterol", "nl": "Cholesterol", "es": "Colesterol" } } ] },
+    { "text": { "tr": "Tırtılın kelebeğe dönüşmesine ne denir?", "en": "What is a caterpillar turning into a butterfly called?", "nl": "Hoe heet het als een rups een vlinder wordt?", "es": "¿Cómo se llama el paso de oruga a mariposa?" }, "choices": [
+      { "text": { "tr": "Başkalaşım", "en": "Metamorphosis", "nl": "Metamorfose", "es": "Metamorfosis" }, "correct": true },
+      { "text": { "tr": "Mitoz", "en": "Mitosis", "nl": "Mitose", "es": "Mitosis" } },
+      { "text": { "tr": "Fotosentez", "en": "Photosynthesis", "nl": "Fotosynthese", "es": "Fotosíntesis" } },
+      { "text": { "tr": "Kış uykusu", "en": "Hibernation", "nl": "Winterslaap", "es": "Hibernación" } } ] },
+    { "text": { "tr": "Hangisi memeli değildir?", "en": "Which of these is not a mammal?", "nl": "Welk van deze dieren is geen zoogdier?", "es": "¿Cuál de estos animales no es un mamífero?" }, "choices": [
+      { "text": { "tr": "Penguen", "en": "Penguin", "nl": "Pinguïn", "es": "Pingüino" }, "correct": true },
+      { "text": { "tr": "Yunus", "en": "Dolphin", "nl": "Dolfijn", "es": "Delfín" } },
+      { "text": { "tr": "Yarasa", "en": "Bat", "nl": "Vleermuis", "es": "Murciélago" } },
+      { "text": { "tr": "Fil", "en": "Elephant", "nl": "Olifant", "es": "Elefante" } } ] },
+    { "text": { "tr": "Besin zincirinde üretici olan canlılar hangileridir?", "en": "Which organisms are the producers in a food chain?", "nl": "Welke organismen zijn de producenten in een voedselketen?", "es": "¿Qué organismos son los productores en una cadena alimentaria?" }, "choices": [
+      { "text": { "tr": "Bitkiler", "en": "Plants", "nl": "Planten", "es": "Plantas" }, "correct": true },
+      { "text": { "tr": "Otçullar", "en": "Herbivores", "nl": "Planteneters", "es": "Herbívoros" } },
+      { "text": { "tr": "Etçiller", "en": "Carnivores", "nl": "Vleeseters", "es": "Carnívoros" } },
+      { "text": { "tr": "Ayrıştırıcılar", "en": "Decomposers", "nl": "Afbrekers", "es": "Descomponedores" } } ] },
+    { "text": { "tr": "Birbirinin aynısı iki hücre oluşturan bölünme hangisidir?", "en": "Which cell division makes two identical cells?", "nl": "Bij welke celdeling ontstaan twee identieke cellen?", "es": "¿Qué división celular produce dos células idénticas?" }, "choices": [
+      { "text": { "tr": "Mitoz", "en": "Mitosis", "nl": "Mitose", "es": "Mitosis" }, "correct": true },
+      { "text": { "tr": "Mayoz", "en": "Meiosis", "nl": "Meiose", "es": "Meiosis" } },
+      { "text": { "tr": "Döllenme", "en": "Fertilization", "nl": "Bevruchting", "es": "Fecundación" } },
+      { "text": { "tr": "Tomurcuklanma", "en": "Budding", "nl": "Knopvorming", "es": "Gemación" } } ] },
+    { "text": { "tr": "Üreme hücreleri hangi bölünmeyle oluşur?", "en": "Which cell division produces sex cells?", "nl": "Bij welke celdeling ontstaan geslachtscellen?", "es": "¿Qué división celular produce las células sexuales?" }, "choices": [
+      { "text": { "tr": "Mayoz", "en": "Meiosis", "nl": "Meiose", "es": "Meiosis" }, "correct": true },
+      { "text": { "tr": "Mitoz", "en": "Mitosis", "nl": "Mitose", "es": "Mitosis" } },
+      { "text": { "tr": "Tomurcuklanma", "en": "Budding", "nl": "Knopvorming", "es": "Gemación" } },
+      { "text": { "tr": "Rejenerasyon", "en": "Regeneration", "nl": "Regeneratie", "es": "Regeneración" } } ] },
+    { "text": { "tr": "Dünyadaki en büyük hayvan hangisidir?", "en": "What is the largest animal on Earth?", "nl": "Wat is het grootste dier op aarde?", "es": "¿Cuál es el animal más grande de la Tierra?" }, "choices": [
+      { "text": { "tr": "Mavi balina", "en": "Blue whale", "nl": "Blauwe vinvis", "es": "Ballena azul" }, "correct": true },
+      { "text": { "tr": "Afrika fili", "en": "African elephant", "nl": "Afrikaanse olifant", "es": "Elefante africano" } },
+      { "text": { "tr": "Balina köpekbalığı", "en": "Whale shark", "nl": "Walvishaai", "es": "Tiburón ballena" } },
+      { "text": { "tr": "Zürafa", "en": "Giraffe", "nl": "Giraf", "es": "Jirafa" } } ] },
+    { "text": { "tr": "Çiçek aşısını geliştiren bilim insanı kimdir?", "en": "Who developed the smallpox vaccine?", "nl": "Wie ontwikkelde het vaccin tegen pokken?", "es": "¿Quién desarrolló la vacuna contra la viruela?" }, "choices": [
+      { "text": { "tr": "Edward Jenner", "en": "Edward Jenner", "nl": "Edward Jenner", "es": "Edward Jenner" }, "correct": true },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur", "nl": "Louis Pasteur", "es": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Koch", "en": "Robert Koch", "nl": "Robert Koch", "es": "Robert Koch" } },
+      { "text": { "tr": "Alexander Fleming", "en": "Alexander Fleming", "nl": "Alexander Fleming", "es": "Alexander Fleming" } } ] },
+    { "text": { "tr": "Ahtapotun kaç kolu vardır?", "en": "How many arms does an octopus have?", "nl": "Hoeveel armen heeft een octopus?", "es": "¿Cuántos brazos tiene un pulpo?" }, "choices": [
+      { "text": { "tr": "8", "en": "8", "nl": "8", "es": "8" }, "correct": true },
+      { "text": { "tr": "6", "en": "6", "nl": "6", "es": "6" } },
+      { "text": { "tr": "10", "en": "10", "nl": "10", "es": "10" } },
+      { "text": { "tr": "12", "en": "12", "nl": "12", "es": "12" } } ] },
+    { "text": { "tr": "Arılar topladıkları nektarı neye dönüştürür?", "en": "What do bees turn the nectar they collect into?", "nl": "Waarin zetten bijen de verzamelde nectar om?", "es": "¿En qué convierten las abejas el néctar que recogen?" }, "choices": [
+      { "text": { "tr": "Bal", "en": "Honey", "nl": "Honing", "es": "Miel" }, "correct": true },
+      { "text": { "tr": "Polen", "en": "Pollen", "nl": "Stuifmeel", "es": "Polen" } },
+      { "text": { "tr": "Balmumu", "en": "Beeswax", "nl": "Bijenwas", "es": "Cera" } },
+      { "text": { "tr": "Propolis", "en": "Propolis", "nl": "Propolis", "es": "Propóleo" } } ] },
+    { "text": { "tr": "Hangisi soğukkanlı bir hayvandır?", "en": "Which one is a cold-blooded animal?", "nl": "Welk dier is koudbloedig?", "es": "¿Cuál es un animal de sangre fría?" }, "choices": [
+      { "text": { "tr": "Kertenkele", "en": "Lizard", "nl": "Hagedis", "es": "Lagarto" }, "correct": true },
+      { "text": { "tr": "Kedi", "en": "Cat", "nl": "Kat", "es": "Gato" } },
+      { "text": { "tr": "Kartal", "en": "Eagle", "nl": "Arend", "es": "Águila" } },
+      { "text": { "tr": "Yunus", "en": "Dolphin", "nl": "Dolfijn", "es": "Delfín" } } ] },
+    { "text": { "tr": "Bitkiler fotosentezde dışarıya hangi gazı verir?", "en": "Which gas do plants release in photosynthesis?", "nl": "Welk gas geven planten af bij fotosynthese?", "es": "¿Qué gas liberan las plantas en la fotosíntesis?" }, "choices": [
+      { "text": { "tr": "Oksijen", "en": "Oxygen", "nl": "Zuurstof", "es": "Oxígeno" }, "correct": true },
+      { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide", "nl": "Koolstofdioxide", "es": "Dióxido de carbono" } },
+      { "text": { "tr": "Azot", "en": "Nitrogen", "nl": "Stikstof", "es": "Nitrógeno" } },
+      { "text": { "tr": "Metan", "en": "Methane", "nl": "Methaan", "es": "Metano" } } ] }
   ]
 }
