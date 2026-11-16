@@ -1,106 +1,106 @@
 {
-  "category": { "slug": "genel-kultur", "color": "yellow", "order": 9, "name": { "tr": "Genel Kültür" }, "description": { "tr": "Tarih, sanat, bilim" } },
+  "category": { "slug": "genel-kultur", "color": "yellow", "order": 9, "name": { "tr": "Genel Kültür", "en": "General Knowledge" }, "description": { "tr": "Tarih, sanat, bilim", "en": "History, art, science" } },
   "questions": [
-    { "text": { "tr": "Mona Lisa tablosunun ressamı kimdir?" }, "choices": [
-      { "text": { "tr": "Leonardo da Vinci" }, "correct": true },
-      { "text": { "tr": "Michelangelo" } },
-      { "text": { "tr": "Rafael" } },
-      { "text": { "tr": "Rembrandt" } } ] },
-    { "text": { "tr": "İstanbul hangi yılda fethedildi?" }, "choices": [
-      { "text": { "tr": "1453" }, "correct": true },
-      { "text": { "tr": "1071" } },
-      { "text": { "tr": "1299" } },
-      { "text": { "tr": "1517" } } ] },
+    { "text": { "tr": "Mona Lisa tablosunun ressamı kimdir?", "en": "Who painted the Mona Lisa?" }, "choices": [
+      { "text": { "tr": "Leonardo da Vinci", "en": "Leonardo da Vinci" }, "correct": true },
+      { "text": { "tr": "Michelangelo", "en": "Michelangelo" } },
+      { "text": { "tr": "Rafael", "en": "Raphael" } },
+      { "text": { "tr": "Rembrandt", "en": "Rembrandt" } } ] },
+    { "text": { "tr": "İstanbul hangi yılda fethedildi?", "en": "In which year did the Ottomans conquer Constantinople?" }, "choices": [
+      { "text": { "tr": "1453", "en": "1453" }, "correct": true },
+      { "text": { "tr": "1071", "en": "1071" } },
+      { "text": { "tr": "1299", "en": "1299" } },
+      { "text": { "tr": "1517", "en": "1517" } } ] },
     { "text": { "tr": "Türkiye Cumhuriyeti hangi yıl ilan edildi?" }, "choices": [
       { "text": { "tr": "1923" }, "correct": true },
       { "text": { "tr": "1920" } },
       { "text": { "tr": "1919" } },
       { "text": { "tr": "1938" } } ] },
-    { "text": { "tr": "Güneş Sistemi'nin en büyük gezegeni hangisidir?" }, "choices": [
-      { "text": { "tr": "Jüpiter" }, "correct": true },
-      { "text": { "tr": "Satürn" } },
-      { "text": { "tr": "Neptün" } },
-      { "text": { "tr": "Uranüs" } } ] },
-    { "text": { "tr": "Suyun kimyasal formülü nedir?" }, "choices": [
-      { "text": { "tr": "H2O" }, "correct": true },
-      { "text": { "tr": "CO2" } },
-      { "text": { "tr": "O2" } },
-      { "text": { "tr": "NaCl" } } ] },
-    { "text": { "tr": "Romeo ve Juliet'in yazarı kimdir?" }, "choices": [
-      { "text": { "tr": "William Shakespeare" }, "correct": true },
-      { "text": { "tr": "Goethe" } },
-      { "text": { "tr": "Cervantes" } },
-      { "text": { "tr": "Dante" } } ] },
-    { "text": { "tr": "Işığın boşluktaki hızı yaklaşık kaçtır?" }, "choices": [
-      { "text": { "tr": "300.000 km/sn" }, "correct": true },
-      { "text": { "tr": "30.000 km/sn" } },
-      { "text": { "tr": "3.000 km/sn" } },
-      { "text": { "tr": "3.000.000 km/sn" } } ] },
-    { "text": { "tr": "İlk modern Olimpiyat Oyunları hangi şehirde yapıldı?" }, "choices": [
-      { "text": { "tr": "Atina" }, "correct": true },
-      { "text": { "tr": "Paris" } },
-      { "text": { "tr": "Londra" } },
-      { "text": { "tr": "Roma" } } ] },
-    { "text": { "tr": "Kızıl Gezegen olarak bilinen gezegen hangisidir?" }, "choices": [
-      { "text": { "tr": "Mars" }, "correct": true },
-      { "text": { "tr": "Venüs" } },
-      { "text": { "tr": "Merkür" } },
-      { "text": { "tr": "Jüpiter" } } ] },
+    { "text": { "tr": "Güneş Sistemi'nin en büyük gezegeni hangisidir?", "en": "Which is the largest planet in the Solar System?" }, "choices": [
+      { "text": { "tr": "Jüpiter", "en": "Jupiter" }, "correct": true },
+      { "text": { "tr": "Satürn", "en": "Saturn" } },
+      { "text": { "tr": "Neptün", "en": "Neptune" } },
+      { "text": { "tr": "Uranüs", "en": "Uranus" } } ] },
+    { "text": { "tr": "Suyun kimyasal formülü nedir?", "en": "What is the chemical formula of water?" }, "choices": [
+      { "text": { "tr": "H2O", "en": "H2O" }, "correct": true },
+      { "text": { "tr": "CO2", "en": "CO2" } },
+      { "text": { "tr": "O2", "en": "O2" } },
+      { "text": { "tr": "NaCl", "en": "NaCl" } } ] },
+    { "text": { "tr": "Romeo ve Juliet'in yazarı kimdir?", "en": "Who wrote \"Romeo and Juliet\"?" }, "choices": [
+      { "text": { "tr": "William Shakespeare", "en": "William Shakespeare" }, "correct": true },
+      { "text": { "tr": "Goethe", "en": "Goethe" } },
+      { "text": { "tr": "Cervantes", "en": "Cervantes" } },
+      { "text": { "tr": "Dante", "en": "Dante" } } ] },
+    { "text": { "tr": "Işığın boşluktaki hızı yaklaşık kaçtır?", "en": "Roughly how fast does light travel in a vacuum?" }, "choices": [
+      { "text": { "tr": "300.000 km/sn", "en": "300,000 km/s" }, "correct": true },
+      { "text": { "tr": "30.000 km/sn", "en": "30,000 km/s" } },
+      { "text": { "tr": "3.000 km/sn", "en": "3,000 km/s" } },
+      { "text": { "tr": "3.000.000 km/sn", "en": "3,000,000 km/s" } } ] },
+    { "text": { "tr": "İlk modern Olimpiyat Oyunları hangi şehirde yapıldı?", "en": "In which city were the first modern Olympic Games held?" }, "choices": [
+      { "text": { "tr": "Atina", "en": "Athens" }, "correct": true },
+      { "text": { "tr": "Paris", "en": "Paris" } },
+      { "text": { "tr": "Londra", "en": "London" } },
+      { "text": { "tr": "Roma", "en": "Rome" } } ] },
+    { "text": { "tr": "Kızıl Gezegen olarak bilinen gezegen hangisidir?", "en": "Which planet is known as the \"Red Planet\"?" }, "choices": [
+      { "text": { "tr": "Mars", "en": "Mars" }, "correct": true },
+      { "text": { "tr": "Venüs", "en": "Venus" } },
+      { "text": { "tr": "Merkür", "en": "Mercury" } },
+      { "text": { "tr": "Jüpiter", "en": "Jupiter" } } ] },
     { "text": { "tr": "Nutuk'u kim yazmıştır?" }, "choices": [
       { "text": { "tr": "Mustafa Kemal Atatürk" }, "correct": true },
       { "text": { "tr": "İsmet İnönü" } },
       { "text": { "tr": "Ziya Gökalp" } },
       { "text": { "tr": "Namık Kemal" } } ] },
-    { "text": { "tr": "Dünyanın en yüksek dağı hangisidir?" }, "choices": [
-      { "text": { "tr": "Everest" }, "correct": true },
-      { "text": { "tr": "K2" } },
-      { "text": { "tr": "Kilimanjaro" } },
-      { "text": { "tr": "Ağrı Dağı" } } ] },
-    { "text": { "tr": "Ay'a ilk ayak basan insan kimdir?" }, "choices": [
-      { "text": { "tr": "Neil Armstrong" }, "correct": true },
-      { "text": { "tr": "Buzz Aldrin" } },
-      { "text": { "tr": "Yuri Gagarin" } },
-      { "text": { "tr": "Michael Collins" } } ] },
+    { "text": { "tr": "Dünyanın en yüksek dağı hangisidir?", "en": "What is the highest mountain in the world?" }, "choices": [
+      { "text": { "tr": "Everest", "en": "Everest" }, "correct": true },
+      { "text": { "tr": "K2", "en": "K2" } },
+      { "text": { "tr": "Kilimanjaro", "en": "Kilimanjaro" } },
+      { "text": { "tr": "Ağrı Dağı", "en": "Mount Ararat" } } ] },
+    { "text": { "tr": "Ay'a ilk ayak basan insan kimdir?", "en": "Who was the first person to walk on the Moon?" }, "choices": [
+      { "text": { "tr": "Neil Armstrong", "en": "Neil Armstrong" }, "correct": true },
+      { "text": { "tr": "Buzz Aldrin", "en": "Buzz Aldrin" } },
+      { "text": { "tr": "Yuri Gagarin", "en": "Yuri Gagarin" } },
+      { "text": { "tr": "Michael Collins", "en": "Michael Collins" } } ] },
     { "text": { "tr": "İstiklal Marşı'nın şairi kimdir?" }, "choices": [
       { "text": { "tr": "Mehmet Akif Ersoy" }, "correct": true },
       { "text": { "tr": "Nazım Hikmet" } },
       { "text": { "tr": "Yahya Kemal" } },
       { "text": { "tr": "Tevfik Fikret" } } ] },
-    { "text": { "tr": "Periyodik tabloda \"Fe\" hangi elementtir?" }, "choices": [
-      { "text": { "tr": "Demir" }, "correct": true },
-      { "text": { "tr": "Flor" } },
-      { "text": { "tr": "Fosfor" } },
-      { "text": { "tr": "Kurşun" } } ] },
-    { "text": { "tr": "Bir futbol takımı sahada kaç oyuncuyla başlar?" }, "choices": [
-      { "text": { "tr": "11" }, "correct": true },
-      { "text": { "tr": "10" } },
-      { "text": { "tr": "9" } },
-      { "text": { "tr": "12" } } ] },
-    { "text": { "tr": "Evrensel çekim yasasını kim ortaya koydu?" }, "choices": [
-      { "text": { "tr": "Isaac Newton" }, "correct": true },
-      { "text": { "tr": "Galileo Galilei" } },
-      { "text": { "tr": "Albert Einstein" } },
-      { "text": { "tr": "Johannes Kepler" } } ] },
-    { "text": { "tr": "Dünyanın en büyük okyanusu hangisidir?" }, "choices": [
-      { "text": { "tr": "Büyük Okyanus" }, "correct": true },
-      { "text": { "tr": "Atlas Okyanusu" } },
-      { "text": { "tr": "Hint Okyanusu" } },
-      { "text": { "tr": "Arktik Okyanusu" } } ] },
-    { "text": { "tr": "Standart bir piyanoda kaç tuş bulunur?" }, "choices": [
-      { "text": { "tr": "88" }, "correct": true },
-      { "text": { "tr": "76" } },
-      { "text": { "tr": "64" } },
-      { "text": { "tr": "96" } } ] },
+    { "text": { "tr": "Periyodik tabloda \"Fe\" hangi elementtir?", "en": "Which element is \"Fe\" on the periodic table?" }, "choices": [
+      { "text": { "tr": "Demir", "en": "Iron" }, "correct": true },
+      { "text": { "tr": "Flor", "en": "Fluorine" } },
+      { "text": { "tr": "Fosfor", "en": "Phosphorus" } },
+      { "text": { "tr": "Kurşun", "en": "Lead" } } ] },
+    { "text": { "tr": "Bir futbol takımı sahada kaç oyuncuyla başlar?", "en": "How many players does a soccer team start with on the field?" }, "choices": [
+      { "text": { "tr": "11", "en": "11" }, "correct": true },
+      { "text": { "tr": "10", "en": "10" } },
+      { "text": { "tr": "9", "en": "9" } },
+      { "text": { "tr": "12", "en": "12" } } ] },
+    { "text": { "tr": "Evrensel çekim yasasını kim ortaya koydu?", "en": "Who formulated the law of universal gravitation?" }, "choices": [
+      { "text": { "tr": "Isaac Newton", "en": "Isaac Newton" }, "correct": true },
+      { "text": { "tr": "Galileo Galilei", "en": "Galileo Galilei" } },
+      { "text": { "tr": "Albert Einstein", "en": "Albert Einstein" } },
+      { "text": { "tr": "Johannes Kepler", "en": "Johannes Kepler" } } ] },
+    { "text": { "tr": "Dünyanın en büyük okyanusu hangisidir?", "en": "Which is the largest ocean in the world?" }, "choices": [
+      { "text": { "tr": "Büyük Okyanus", "en": "Pacific Ocean" }, "correct": true },
+      { "text": { "tr": "Atlas Okyanusu", "en": "Atlantic Ocean" } },
+      { "text": { "tr": "Hint Okyanusu", "en": "Indian Ocean" } },
+      { "text": { "tr": "Arktik Okyanusu", "en": "Arctic Ocean" } } ] },
+    { "text": { "tr": "Standart bir piyanoda kaç tuş bulunur?", "en": "How many keys does a standard piano have?" }, "choices": [
+      { "text": { "tr": "88", "en": "88" }, "correct": true },
+      { "text": { "tr": "76", "en": "76" } },
+      { "text": { "tr": "64", "en": "64" } },
+      { "text": { "tr": "96", "en": "96" } } ] },
     { "text": { "tr": "Orhun Yazıtları bugün hangi ülkededir?" }, "choices": [
       { "text": { "tr": "Moğolistan" }, "correct": true },
       { "text": { "tr": "Kazakistan" } },
       { "text": { "tr": "Çin" } },
       { "text": { "tr": "Kırgızistan" } } ] },
-    { "text": { "tr": "Bir yıl yaklaşık kaç haftadır?" }, "choices": [
-      { "text": { "tr": "52" }, "correct": true },
-      { "text": { "tr": "48" } },
-      { "text": { "tr": "50" } },
-      { "text": { "tr": "56" } } ] },
+    { "text": { "tr": "Bir yıl yaklaşık kaç haftadır?", "en": "Roughly how many weeks are in a year?" }, "choices": [
+      { "text": { "tr": "52", "en": "52" }, "correct": true },
+      { "text": { "tr": "48", "en": "48" } },
+      { "text": { "tr": "50", "en": "50" } },
+      { "text": { "tr": "56", "en": "56" } } ] },
     { "text": { "tr": "Erzurum'un simgesi olan medrese hangisidir?" }, "choices": [
       { "text": { "tr": "Çifte Minareli Medrese" }, "correct": true },
       { "text": { "tr": "Karatay Medresesi" } },
@@ -126,26 +126,26 @@
       { "text": { "tr": "Horon" } },
       { "text": { "tr": "Zeybek" } },
       { "text": { "tr": "Teke zortlatması" } } ] },
-    { "text": { "tr": "Güneş'e en yakın gezegen hangisidir?" }, "choices": [
-      { "text": { "tr": "Merkür" }, "correct": true },
-      { "text": { "tr": "Venüs" } },
-      { "text": { "tr": "Mars" } },
-      { "text": { "tr": "Dünya" } } ] },
-    { "text": { "tr": "\"Suç ve Ceza\" romanının yazarı kimdir?" }, "choices": [
-      { "text": { "tr": "Dostoyevski" }, "correct": true },
-      { "text": { "tr": "Tolstoy" } },
-      { "text": { "tr": "Çehov" } },
-      { "text": { "tr": "Gogol" } } ] },
-    { "text": { "tr": "\"Sefiller\" romanının yazarı kimdir?" }, "choices": [
-      { "text": { "tr": "Victor Hugo" }, "correct": true },
-      { "text": { "tr": "Balzac" } },
-      { "text": { "tr": "Émile Zola" } },
-      { "text": { "tr": "Alexandre Dumas" } } ] },
-    { "text": { "tr": "Altının kimyasal sembolü nedir?" }, "choices": [
-      { "text": { "tr": "Au" }, "correct": true },
-      { "text": { "tr": "Ag" } },
-      { "text": { "tr": "Al" } },
-      { "text": { "tr": "Pt" } } ] },
+    { "text": { "tr": "Güneş'e en yakın gezegen hangisidir?", "en": "Which planet is closest to the Sun?" }, "choices": [
+      { "text": { "tr": "Merkür", "en": "Mercury" }, "correct": true },
+      { "text": { "tr": "Venüs", "en": "Venus" } },
+      { "text": { "tr": "Mars", "en": "Mars" } },
+      { "text": { "tr": "Dünya", "en": "Earth" } } ] },
+    { "text": { "tr": "\"Suç ve Ceza\" romanının yazarı kimdir?", "en": "Who wrote \"Crime and Punishment\"?" }, "choices": [
+      { "text": { "tr": "Dostoyevski", "en": "Dostoevsky" }, "correct": true },
+      { "text": { "tr": "Tolstoy", "en": "Tolstoy" } },
+      { "text": { "tr": "Çehov", "en": "Chekhov" } },
+      { "text": { "tr": "Gogol", "en": "Gogol" } } ] },
+    { "text": { "tr": "\"Sefiller\" romanının yazarı kimdir?", "en": "Who wrote \"Les Misérables\"?" }, "choices": [
+      { "text": { "tr": "Victor Hugo", "en": "Victor Hugo" }, "correct": true },
+      { "text": { "tr": "Balzac", "en": "Balzac" } },
+      { "text": { "tr": "Émile Zola", "en": "Émile Zola" } },
+      { "text": { "tr": "Alexandre Dumas", "en": "Alexandre Dumas" } } ] },
+    { "text": { "tr": "Altının kimyasal sembolü nedir?", "en": "What is the chemical symbol for gold?" }, "choices": [
+      { "text": { "tr": "Au", "en": "Au" }, "correct": true },
+      { "text": { "tr": "Ag", "en": "Ag" } },
+      { "text": { "tr": "Al", "en": "Al" } },
+      { "text": { "tr": "Pt", "en": "Pt" } } ] },
     { "text": { "tr": "Malazgirt Savaşı hangi yıl yapıldı?" }, "choices": [
       { "text": { "tr": "1071" }, "correct": true },
       { "text": { "tr": "1453" } },
@@ -166,36 +166,36 @@
       { "text": { "tr": "1921" } },
       { "text": { "tr": "1920" } },
       { "text": { "tr": "1923" } } ] },
-    { "text": { "tr": "\"Yıldızlı Gece\" tablosunun ressamı kimdir?" }, "choices": [
-      { "text": { "tr": "Van Gogh" }, "correct": true },
-      { "text": { "tr": "Monet" } },
-      { "text": { "tr": "Picasso" } },
-      { "text": { "tr": "Dalí" } } ] },
-    { "text": { "tr": "\"Guernica\" tablosunu kim yaptı?" }, "choices": [
-      { "text": { "tr": "Picasso" }, "correct": true },
-      { "text": { "tr": "Dalí" } },
-      { "text": { "tr": "Van Gogh" } },
-      { "text": { "tr": "Matisse" } } ] },
-    { "text": { "tr": "Telefonun mucidi olarak bilinen kişi kimdir?" }, "choices": [
-      { "text": { "tr": "Graham Bell" }, "correct": true },
-      { "text": { "tr": "Thomas Edison" } },
-      { "text": { "tr": "Nikola Tesla" } },
-      { "text": { "tr": "Guglielmo Marconi" } } ] },
-    { "text": { "tr": "Ampulü yaygınlaştırmasıyla tanınan mucit kimdir?" }, "choices": [
-      { "text": { "tr": "Thomas Edison" }, "correct": true },
-      { "text": { "tr": "Nikola Tesla" } },
-      { "text": { "tr": "Graham Bell" } },
-      { "text": { "tr": "James Watt" } } ] },
-    { "text": { "tr": "Belirgin halkalarıyla en ünlü gezegen hangisidir?" }, "choices": [
-      { "text": { "tr": "Satürn" }, "correct": true },
-      { "text": { "tr": "Jüpiter" } },
-      { "text": { "tr": "Mars" } },
-      { "text": { "tr": "Neptün" } } ] },
-    { "text": { "tr": "Nobel ödüllerine adını veren Alfred Nobel hangi ülkeliydi?" }, "choices": [
-      { "text": { "tr": "İsveç" }, "correct": true },
-      { "text": { "tr": "Norveç" } },
-      { "text": { "tr": "Danimarka" } },
-      { "text": { "tr": "Finlandiya" } } ] },
+    { "text": { "tr": "\"Yıldızlı Gece\" tablosunun ressamı kimdir?", "en": "Who painted \"The Starry Night\"?" }, "choices": [
+      { "text": { "tr": "Van Gogh", "en": "Van Gogh" }, "correct": true },
+      { "text": { "tr": "Monet", "en": "Monet" } },
+      { "text": { "tr": "Picasso", "en": "Picasso" } },
+      { "text": { "tr": "Dalí", "en": "Dalí" } } ] },
+    { "text": { "tr": "\"Guernica\" tablosunu kim yaptı?", "en": "Who painted \"Guernica\"?" }, "choices": [
+      { "text": { "tr": "Picasso", "en": "Picasso" }, "correct": true },
+      { "text": { "tr": "Dalí", "en": "Dalí" } },
+      { "text": { "tr": "Van Gogh", "en": "Van Gogh" } },
+      { "text": { "tr": "Matisse", "en": "Matisse" } } ] },
+    { "text": { "tr": "Telefonun mucidi olarak bilinen kişi kimdir?", "en": "Who is known as the inventor of the telephone?" }, "choices": [
+      { "text": { "tr": "Graham Bell", "en": "Graham Bell" }, "correct": true },
+      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison" } },
+      { "text": { "tr": "Nikola Tesla", "en": "Nikola Tesla" } },
+      { "text": { "tr": "Guglielmo Marconi", "en": "Guglielmo Marconi" } } ] },
+    { "text": { "tr": "Ampulü yaygınlaştırmasıyla tanınan mucit kimdir?", "en": "Which inventor is known for popularizing the light bulb?" }, "choices": [
+      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison" }, "correct": true },
+      { "text": { "tr": "Nikola Tesla", "en": "Nikola Tesla" } },
+      { "text": { "tr": "Graham Bell", "en": "Graham Bell" } },
+      { "text": { "tr": "James Watt", "en": "James Watt" } } ] },
+    { "text": { "tr": "Belirgin halkalarıyla en ünlü gezegen hangisidir?", "en": "Which planet is most famous for its rings?" }, "choices": [
+      { "text": { "tr": "Satürn", "en": "Saturn" }, "correct": true },
+      { "text": { "tr": "Jüpiter", "en": "Jupiter" } },
+      { "text": { "tr": "Mars", "en": "Mars" } },
+      { "text": { "tr": "Neptün", "en": "Neptune" } } ] },
+    { "text": { "tr": "Nobel ödüllerine adını veren Alfred Nobel hangi ülkeliydi?", "en": "Which country was Alfred Nobel, of the Nobel Prizes, from?" }, "choices": [
+      { "text": { "tr": "İsveç", "en": "Sweden" }, "correct": true },
+      { "text": { "tr": "Norveç", "en": "Norway" } },
+      { "text": { "tr": "Danimarka", "en": "Denmark" } },
+      { "text": { "tr": "Finlandiya", "en": "Finland" } } ] },
     { "text": { "tr": "Mimar Sinan'ın \"ustalık eserim\" dediği yapı hangisidir?" }, "choices": [
       { "text": { "tr": "Selimiye Camii" }, "correct": true },
       { "text": { "tr": "Süleymaniye Camii" } },

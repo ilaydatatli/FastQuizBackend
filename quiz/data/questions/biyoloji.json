@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "biyoloji", "color": "lime", "order": 4, "name": { "tr": "Biyoloji" }, "description": { "tr": "Hücreler, vücut, canlılar" } },
+  "category": { "slug": "biyoloji", "color": "lime", "order": 4, "name": { "tr": "Biyoloji", "en": "Biology" }, "description": { "tr": "Hücreler, vücut, canlılar", "en": "Cells, body, living things" } },
   "questions": [
-    { "text": { "tr": "Hücrenin enerji santrali olarak bilinen organel hangisidir?" }, "choices": [
-      { "text": { "tr": "Mitokondri" }, "correct": true },
-      { "text": { "tr": "Ribozom" } },
-      { "text": { "tr": "Golgi cisimciği" } },
-      { "text": { "tr": "Lizozom" } } ] },
-    { "text": { "tr": "Bitkilerde fotosentez hangi organelde gerçekleşir?" }, "choices": [
-      { "text": { "tr": "Kloroplast" }, "correct": true },
-      { "text": { "tr": "Mitokondri" } },
-      { "text": { "tr": "Çekirdek" } },
-      { "text": { "tr": "Koful" } } ] },
-    { "text": { "tr": "İnsan hücresinde kaç çift kromozom bulunur?" }, "choices": [
-      { "text": { "tr": "23" }, "correct": true },
-      { "text": { "tr": "22" } },
-      { "text": { "tr": "46" } },
-      { "text": { "tr": "24" } } ] },
-    { "text": { "tr": "Hangi baz DNA'da bulunmaz?" }, "choices": [
-      { "text": { "tr": "Urasil" }, "correct": true },
-      { "text": { "tr": "Adenin" } },
-      { "text": { "tr": "Timin" } },
-      { "text": { "tr": "Guanin" } } ] },
-    { "text": { "tr": "Kanı vücuda pompalayan organ hangisidir?" }, "choices": [
-      { "text": { "tr": "Kalp" }, "correct": true },
-      { "text": { "tr": "Akciğer" } },
-      { "text": { "tr": "Karaciğer" } },
-      { "text": { "tr": "Böbrek" } } ] },
-    { "text": { "tr": "Alyuvarlarda oksijen taşıyan protein hangisidir?" }, "choices": [
-      { "text": { "tr": "Hemoglobin" }, "correct": true },
-      { "text": { "tr": "İnsülin" } },
-      { "text": { "tr": "Keratin" } },
-      { "text": { "tr": "Kolajen" } } ] },
-    { "text": { "tr": "İnsan vücudunun en büyük organı hangisidir?" }, "choices": [
-      { "text": { "tr": "Deri" }, "correct": true },
-      { "text": { "tr": "Karaciğer" } },
-      { "text": { "tr": "Beyin" } },
-      { "text": { "tr": "Akciğer" } } ] },
-    { "text": { "tr": "Kan şekerini düşüren hormon hangisidir?" }, "choices": [
-      { "text": { "tr": "İnsülin" }, "correct": true },
-      { "text": { "tr": "Glukagon" } },
-      { "text": { "tr": "Adrenalin" } },
-      { "text": { "tr": "Tiroksin" } } ] },
-    { "text": { "tr": "Yetişkin bir insanda kaç kemik bulunur?" }, "choices": [
-      { "text": { "tr": "206" }, "correct": true },
-      { "text": { "tr": "186" } },
-      { "text": { "tr": "226" } },
-      { "text": { "tr": "306" } } ] },
-    { "text": { "tr": "Bitkiler fotosentezde havadan hangi gazı alır?" }, "choices": [
-      { "text": { "tr": "Karbondioksit" }, "correct": true },
-      { "text": { "tr": "Oksijen" } },
-      { "text": { "tr": "Azot" } },
-      { "text": { "tr": "Hidrojen" } } ] },
-    { "text": { "tr": "\"Türlerin Kökeni\" kitabını kim yazdı?" }, "choices": [
-      { "text": { "tr": "Charles Darwin" }, "correct": true },
-      { "text": { "tr": "Gregor Mendel" } },
-      { "text": { "tr": "Louis Pasteur" } },
-      { "text": { "tr": "Isaac Newton" } } ] },
-    { "text": { "tr": "Kalıtımın babası olarak bilinen bilim insanı kimdir?" }, "choices": [
-      { "text": { "tr": "Gregor Mendel" }, "correct": true },
-      { "text": { "tr": "Charles Darwin" } },
-      { "text": { "tr": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Koch" } } ] },
-    { "text": { "tr": "Penisilini kim keşfetti?" }, "choices": [
-      { "text": { "tr": "Alexander Fleming" }, "correct": true },
-      { "text": { "tr": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Koch" } },
-      { "text": { "tr": "Marie Curie" } } ] },
-    { "text": { "tr": "Balinalar hangi canlı grubundadır?" }, "choices": [
-      { "text": { "tr": "Memeliler" }, "correct": true },
-      { "text": { "tr": "Balıklar" } },
-      { "text": { "tr": "Sürüngenler" } },
-      { "text": { "tr": "Amfibiler" } } ] },
-    { "text": { "tr": "Ağızdaki amilaz enzimi neyi sindirmeye başlar?" }, "choices": [
-      { "text": { "tr": "Nişasta" }, "correct": true },
-      { "text": { "tr": "Protein" } },
-      { "text": { "tr": "Yağ" } },
-      { "text": { "tr": "Vitamin" } } ] },
-    { "text": { "tr": "Kurbağanın yavrusuna ne ad verilir?" }, "choices": [
-      { "text": { "tr": "İribaş" }, "correct": true },
-      { "text": { "tr": "Tırtıl" } },
-      { "text": { "tr": "Kurtçuk" } },
-      { "text": { "tr": "Pupa" } } ] },
-    { "text": { "tr": "Sinir sisteminin temel hücresine ne denir?" }, "choices": [
-      { "text": { "tr": "Nöron" }, "correct": true },
-      { "text": { "tr": "Alyuvar" } },
-      { "text": { "tr": "Trombosit" } },
-      { "text": { "tr": "Akyuvar" } } ] },
-    { "text": { "tr": "Kanın pıhtılaşmasını sağlayan hücreler hangileridir?" }, "choices": [
-      { "text": { "tr": "Trombositler" }, "correct": true },
-      { "text": { "tr": "Alyuvarlar" } },
-      { "text": { "tr": "Akyuvarlar" } },
-      { "text": { "tr": "Nöronlar" } } ] },
-    { "text": { "tr": "Akciğerde gaz alışverişinin yapıldığı keseciklere ne denir?" }, "choices": [
-      { "text": { "tr": "Alveol" }, "correct": true },
-      { "text": { "tr": "Bronş" } },
-      { "text": { "tr": "Nefron" } },
-      { "text": { "tr": "Villus" } } ] },
-    { "text": { "tr": "Kanı süzüp idrar oluşturan organ hangisidir?" }, "choices": [
-      { "text": { "tr": "Böbrek" }, "correct": true },
-      { "text": { "tr": "Dalak" } },
-      { "text": { "tr": "Mide" } },
-      { "text": { "tr": "Pankreas" } } ] },
-    { "text": { "tr": "DNA'nın çift sarmal yapısını hangi ikili açıkladı?" }, "choices": [
-      { "text": { "tr": "Watson ve Crick" }, "correct": true },
-      { "text": { "tr": "Darwin ve Wallace" } },
-      { "text": { "tr": "Mendel ve Morgan" } },
-      { "text": { "tr": "Pasteur ve Koch" } } ] },
-    { "text": { "tr": "Doğal seçilim kuramıyla tanınan bilim insanı kimdir?" }, "choices": [
-      { "text": { "tr": "Charles Darwin" }, "correct": true },
-      { "text": { "tr": "Gregor Mendel" } },
-      { "text": { "tr": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Hooke" } } ] },
-    { "text": { "tr": "Hücreyi ilk kez tanımlayan bilim insanı kimdir?" }, "choices": [
-      { "text": { "tr": "Robert Hooke" }, "correct": true },
-      { "text": { "tr": "Charles Darwin" } },
-      { "text": { "tr": "Louis Pasteur" } },
-      { "text": { "tr": "Gregor Mendel" } } ] },
-    { "text": { "tr": "Hücrede protein sentezi hangi yapıda gerçekleşir?" }, "choices": [
-      { "text": { "tr": "Ribozom" }, "correct": true },
-      { "text": { "tr": "Lizozom" } },
-      { "text": { "tr": "Koful" } },
-      { "text": { "tr": "Sentrozom" } } ] },
-    { "text": { "tr": "Bitkilere yeşil rengini veren pigment hangisidir?" }, "choices": [
-      { "text": { "tr": "Klorofil" }, "correct": true },
-      { "text": { "tr": "Karoten" } },
-      { "text": { "tr": "Melanin" } },
-      { "text": { "tr": "Hemoglobin" } } ] },
-    { "text": { "tr": "Bitkilerde suyu kökten yapraklara taşıyan doku hangisidir?" }, "choices": [
-      { "text": { "tr": "Ksilem" }, "correct": true },
-      { "text": { "tr": "Floem" } },
-      { "text": { "tr": "Epidermis" } },
-      { "text": { "tr": "Kambiyum" } } ] },
-    { "text": { "tr": "Mantarlar hangi canlı âlemindedir?" }, "choices": [
-      { "text": { "tr": "Mantarlar" }, "correct": true },
-      { "text": { "tr": "Bitkiler" } },
-      { "text": { "tr": "Protistler" } },
-      { "text": { "tr": "Bakteriler" } } ] },
-    { "text": { "tr": "Çekirdeği olmayan tek hücreli canlılara ne denir?" }, "choices": [
-      { "text": { "tr": "Prokaryot" }, "correct": true },
-      { "text": { "tr": "Ökaryot" } },
-      { "text": { "tr": "Virüs" } },
-      { "text": { "tr": "Mantar" } } ] },
-    { "text": { "tr": "Kalıtım bilgisini taşıyan molekül hangisidir?" }, "choices": [
-      { "text": { "tr": "DNA" }, "correct": true },
-      { "text": { "tr": "ATP" } },
-      { "text": { "tr": "Glikoz" } },
-      { "text": { "tr": "Kolesterol" } } ] },
-    { "text": { "tr": "Tırtılın kelebeğe dönüşmesine ne denir?" }, "choices": [
-      { "text": { "tr": "Başkalaşım" }, "correct": true },
-      { "text": { "tr": "Mitoz" } },
-      { "text": { "tr": "Fotosentez" } },
-      { "text": { "tr": "Kış uykusu" } } ] },
-    { "text": { "tr": "Hangisi memeli değildir?" }, "choices": [
-      { "text": { "tr": "Penguen" }, "correct": true },
-      { "text": { "tr": "Yunus" } },
-      { "text": { "tr": "Yarasa" } },
-      { "text": { "tr": "Fil" } } ] },
-    { "text": { "tr": "Besin zincirinde üretici olan canlılar hangileridir?" }, "choices": [
-      { "text": { "tr": "Bitkiler" }, "correct": true },
-      { "text": { "tr": "Otçullar" } },
-      { "text": { "tr": "Etçiller" } },
-      { "text": { "tr": "Ayrıştırıcılar" } } ] },
-    { "text": { "tr": "Birbirinin aynısı iki hücre oluşturan bölünme hangisidir?" }, "choices": [
-      { "text": { "tr": "Mitoz" }, "correct": true },
-      { "text": { "tr": "Mayoz" } },
-      { "text": { "tr": "Döllenme" } },
-      { "text": { "tr": "Tomurcuklanma" } } ] },
-    { "text": { "tr": "Üreme hücreleri hangi bölünmeyle oluşur?" }, "choices": [
-      { "text": { "tr": "Mayoz" }, "correct": true },
-      { "text": { "tr": "Mitoz" } },
-      { "text": { "tr": "Tomurcuklanma" } },
-      { "text": { "tr": "Rejenerasyon" } } ] },
-    { "text": { "tr": "Dünyadaki en büyük hayvan hangisidir?" }, "choices": [
-      { "text": { "tr": "Mavi balina" }, "correct": true },
-      { "text": { "tr": "Afrika fili" } },
-      { "text": { "tr": "Balina köpekbalığı" } },
-      { "text": { "tr": "Zürafa" } } ] },
-    { "text": { "tr": "Çiçek aşısını geliştiren bilim insanı kimdir?" }, "choices": [
-      { "text": { "tr": "Edward Jenner" }, "correct": true },
-      { "text": { "tr": "Louis Pasteur" } },
-      { "text": { "tr": "Robert Koch" } },
-      { "text": { "tr": "Alexander Fleming" } } ] },
-    { "text": { "tr": "Ahtapotun kaç kolu vardır?" }, "choices": [
-      { "text": { "tr": "8" }, "correct": true },
-      { "text": { "tr": "6" } },
-      { "text": { "tr": "10" } },
-      { "text": { "tr": "12" } } ] },
-    { "text": { "tr": "Arılar topladıkları nektarı neye dönüştürür?" }, "choices": [
-      { "text": { "tr": "Bal" }, "correct": true },
-      { "text": { "tr": "Polen" } },
-      { "text": { "tr": "Balmumu" } },
-      { "text": { "tr": "Propolis" } } ] },
-    { "text": { "tr": "Hangisi soğukkanlı bir hayvandır?" }, "choices": [
-      { "text": { "tr": "Kertenkele" }, "correct": true },
-      { "text": { "tr": "Kedi" } },
-      { "text": { "tr": "Kartal" } },
-      { "text": { "tr": "Yunus" } } ] },
-    { "text": { "tr": "Bitkiler fotosentezde dışarıya hangi gazı verir?" }, "choices": [
-      { "text": { "tr": "Oksijen" }, "correct": true },
-      { "text": { "tr": "Karbondioksit" } },
-      { "text": { "tr": "Azot" } },
-      { "text": { "tr": "Metan" } } ] }
+    { "text": { "tr": "Hücrenin enerji santrali olarak bilinen organel hangisidir?", "en": "Which organelle is known as the powerhouse of the cell?" }, "choices": [
+      { "text": { "tr": "Mitokondri", "en": "Mitochondria" }, "correct": true },
+      { "text": { "tr": "Ribozom", "en": "Ribosome" } },
+      { "text": { "tr": "Golgi cisimciği", "en": "Golgi apparatus" } },
+      { "text": { "tr": "Lizozom", "en": "Lysosome" } } ] },
+    { "text": { "tr": "Bitkilerde fotosentez hangi organelde gerçekleşir?", "en": "In which organelle does photosynthesis take place?" }, "choices": [
+      { "text": { "tr": "Kloroplast", "en": "Chloroplast" }, "correct": true },
+      { "text": { "tr": "Mitokondri", "en": "Mitochondria" } },
+      { "text": { "tr": "Çekirdek", "en": "Nucleus" } },
+      { "text": { "tr": "Koful", "en": "Vacuole" } } ] },
+    { "text": { "tr": "İnsan hücresinde kaç çift kromozom bulunur?", "en": "How many pairs of chromosomes are in a human cell?" }, "choices": [
+      { "text": { "tr": "23", "en": "23" }, "correct": true },
+      { "text": { "tr": "22", "en": "22" } },
+      { "text": { "tr": "46", "en": "46" } },
+      { "text": { "tr": "24", "en": "24" } } ] },
+    { "text": { "tr": "Hangi baz DNA'da bulunmaz?", "en": "Which base is not found in DNA?" }, "choices": [
+      { "text": { "tr": "Urasil", "en": "Uracil" }, "correct": true },
+      { "text": { "tr": "Adenin", "en": "Adenine" } },
+      { "text": { "tr": "Timin", "en": "Thymine" } },
+      { "text": { "tr": "Guanin", "en": "Guanine" } } ] },
+    { "text": { "tr": "Kanı vücuda pompalayan organ hangisidir?", "en": "Which organ pumps blood around the body?" }, "choices": [
+      { "text": { "tr": "Kalp", "en": "Heart" }, "correct": true },
+      { "text": { "tr": "Akciğer", "en": "Lungs" } },
+      { "text": { "tr": "Karaciğer", "en": "Liver" } },
+      { "text": { "tr": "Böbrek", "en": "Kidney" } } ] },
+    { "text": { "tr": "Alyuvarlarda oksijen taşıyan protein hangisidir?", "en": "Which protein carries oxygen in red blood cells?" }, "choices": [
+      { "text": { "tr": "Hemoglobin", "en": "Hemoglobin" }, "correct": true },
+      { "text": { "tr": "İnsülin", "en": "Insulin" } },
+      { "text": { "tr": "Keratin", "en": "Keratin" } },
+      { "text": { "tr": "Kolajen", "en": "Collagen" } } ] },
+    { "text": { "tr": "İnsan vücudunun en büyük organı hangisidir?", "en": "What is the largest organ of the human body?" }, "choices": [
+      { "text": { "tr": "Deri", "en": "Skin" }, "correct": true },
+      { "text": { "tr": "Karaciğer", "en": "Liver" } },
+      { "text": { "tr": "Beyin", "en": "Brain" } },
+      { "text": { "tr": "Akciğer", "en": "Lungs" } } ] },
+    { "text": { "tr": "Kan şekerini düşüren hormon hangisidir?", "en": "Which hormone lowers blood sugar?" }, "choices": [
+      { "text": { "tr": "İnsülin", "en": "Insulin" }, "correct": true },
+      { "text": { "tr": "Glukagon", "en": "Glucagon" } },
+      { "text": { "tr": "Adrenalin", "en": "Adrenaline" } },
+      { "text": { "tr": "Tiroksin", "en": "Thyroxine" } } ] },
+    { "text": { "tr": "Yetişkin bir insanda kaç kemik bulunur?", "en": "How many bones does an adult human have?" }, "choices": [
+      { "text": { "tr": "206", "en": "206" }, "correct": true },
+      { "text": { "tr": "186", "en": "186" } },
+      { "text": { "tr": "226", "en": "226" } },
+      { "text": { "tr": "306", "en": "306" } } ] },
+    { "text": { "tr": "Bitkiler fotosentezde havadan hangi gazı alır?", "en": "Which gas do plants take from the air in photosynthesis?" }, "choices": [
+      { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide" }, "correct": true },
+      { "text": { "tr": "Oksijen", "en": "Oxygen" } },
+      { "text": { "tr": "Azot", "en": "Nitrogen" } },
+      { "text": { "tr": "Hidrojen", "en": "Hydrogen" } } ] },
+    { "text": { "tr": "\"Türlerin Kökeni\" kitabını kim yazdı?", "en": "Who wrote \"On the Origin of Species\"?" }, "choices": [
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin" }, "correct": true },
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur" } },
+      { "text": { "tr": "Isaac Newton", "en": "Isaac Newton" } } ] },
+    { "text": { "tr": "Kalıtımın babası olarak bilinen bilim insanı kimdir?", "en": "Which scientist is known as the father of genetics?" }, "choices": [
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel" }, "correct": true },
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Koch", "en": "Robert Koch" } } ] },
+    { "text": { "tr": "Penisilini kim keşfetti?", "en": "Who discovered penicillin?" }, "choices": [
+      { "text": { "tr": "Alexander Fleming", "en": "Alexander Fleming" }, "correct": true },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Koch", "en": "Robert Koch" } },
+      { "text": { "tr": "Marie Curie", "en": "Marie Curie" } } ] },
+    { "text": { "tr": "Balinalar hangi canlı grubundadır?", "en": "Which group of animals do whales belong to?" }, "choices": [
+      { "text": { "tr": "Memeliler", "en": "Mammals" }, "correct": true },
+      { "text": { "tr": "Balıklar", "en": "Fish" } },
+      { "text": { "tr": "Sürüngenler", "en": "Reptiles" } },
+      { "text": { "tr": "Amfibiler", "en": "Amphibians" } } ] },
+    { "text": { "tr": "Ağızdaki amilaz enzimi neyi sindirmeye başlar?", "en": "What does amylase in the mouth start to digest?" }, "choices": [
+      { "text": { "tr": "Nişasta", "en": "Starch" }, "correct": true },
+      { "text": { "tr": "Protein", "en": "Protein" } },
+      { "text": { "tr": "Yağ", "en": "Fat" } },
+      { "text": { "tr": "Vitamin", "en": "Vitamins" } } ] },
+    { "text": { "tr": "Kurbağanın yavrusuna ne ad verilir?", "en": "What is a baby frog called?" }, "choices": [
+      { "text": { "tr": "İribaş", "en": "Tadpole" }, "correct": true },
+      { "text": { "tr": "Tırtıl", "en": "Caterpillar" } },
+      { "text": { "tr": "Kurtçuk", "en": "Maggot" } },
+      { "text": { "tr": "Pupa", "en": "Pupa" } } ] },
+    { "text": { "tr": "Sinir sisteminin temel hücresine ne denir?", "en": "What is the basic cell of the nervous system called?" }, "choices": [
+      { "text": { "tr": "Nöron", "en": "Neuron" }, "correct": true },
+      { "text": { "tr": "Alyuvar", "en": "Red blood cell" } },
+      { "text": { "tr": "Trombosit", "en": "Platelet" } },
+      { "text": { "tr": "Akyuvar", "en": "White blood cell" } } ] },
+    { "text": { "tr": "Kanın pıhtılaşmasını sağlayan hücreler hangileridir?", "en": "Which cells help blood to clot?" }, "choices": [
+      { "text": { "tr": "Trombositler", "en": "Platelets" }, "correct": true },
+      { "text": { "tr": "Alyuvarlar", "en": "Red blood cells" } },
+      { "text": { "tr": "Akyuvarlar", "en": "White blood cells" } },
+      { "text": { "tr": "Nöronlar", "en": "Neurons" } } ] },
+    { "text": { "tr": "Akciğerde gaz alışverişinin yapıldığı keseciklere ne denir?", "en": "What are the tiny air sacs in the lungs called?" }, "choices": [
+      { "text": { "tr": "Alveol", "en": "Alveoli" }, "correct": true },
+      { "text": { "tr": "Bronş", "en": "Bronchi" } },
+      { "text": { "tr": "Nefron", "en": "Nephrons" } },
+      { "text": { "tr": "Villus", "en": "Villi" } } ] },
+    { "text": { "tr": "Kanı süzüp idrar oluşturan organ hangisidir?", "en": "Which organ filters blood and makes urine?" }, "choices": [
+      { "text": { "tr": "Böbrek", "en": "Kidney" }, "correct": true },
+      { "text": { "tr": "Dalak", "en": "Spleen" } },
+      { "text": { "tr": "Mide", "en": "Stomach" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas" } } ] },
+    { "text": { "tr": "DNA'nın çift sarmal yapısını hangi ikili açıkladı?", "en": "Which pair described the double helix of DNA?" }, "choices": [
+      { "text": { "tr": "Watson ve Crick", "en": "Watson and Crick" }, "correct": true },
+      { "text": { "tr": "Darwin ve Wallace", "en": "Darwin and Wallace" } },
+      { "text": { "tr": "Mendel ve Morgan", "en": "Mendel and Morgan" } },
+      { "text": { "tr": "Pasteur ve Koch", "en": "Pasteur and Koch" } } ] },
+    { "text": { "tr": "Doğal seçilim kuramıyla tanınan bilim insanı kimdir?", "en": "Which scientist is known for the theory of natural selection?" }, "choices": [
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin" }, "correct": true },
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Hooke", "en": "Robert Hooke" } } ] },
+    { "text": { "tr": "Hücreyi ilk kez tanımlayan bilim insanı kimdir?", "en": "Which scientist first described the cell?" }, "choices": [
+      { "text": { "tr": "Robert Hooke", "en": "Robert Hooke" }, "correct": true },
+      { "text": { "tr": "Charles Darwin", "en": "Charles Darwin" } },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur" } },
+      { "text": { "tr": "Gregor Mendel", "en": "Gregor Mendel" } } ] },
+    { "text": { "tr": "Hücrede protein sentezi hangi yapıda gerçekleşir?", "en": "Where in the cell are proteins made?" }, "choices": [
+      { "text": { "tr": "Ribozom", "en": "Ribosome" }, "correct": true },
+      { "text": { "tr": "Lizozom", "en": "Lysosome" } },
+      { "text": { "tr": "Koful", "en": "Vacuole" } },
+      { "text": { "tr": "Sentrozom", "en": "Centrosome" } } ] },
+    { "text": { "tr": "Bitkilere yeşil rengini veren pigment hangisidir?", "en": "Which pigment makes plants green?" }, "choices": [
+      { "text": { "tr": "Klorofil", "en": "Chlorophyll" }, "correct": true },
+      { "text": { "tr": "Karoten", "en": "Carotene" } },
+      { "text": { "tr": "Melanin", "en": "Melanin" } },
+      { "text": { "tr": "Hemoglobin", "en": "Hemoglobin" } } ] },
+    { "text": { "tr": "Bitkilerde suyu kökten yapraklara taşıyan doku hangisidir?", "en": "Which plant tissue carries water from roots to leaves?" }, "choices": [
+      { "text": { "tr": "Ksilem", "en": "Xylem" }, "correct": true },
+      { "text": { "tr": "Floem", "en": "Phloem" } },
+      { "text": { "tr": "Epidermis", "en": "Epidermis" } },
+      { "text": { "tr": "Kambiyum", "en": "Cambium" } } ] },
+    { "text": { "tr": "Mantarlar hangi canlı âlemindedir?", "en": "Which kingdom do mushrooms belong to?" }, "choices": [
+      { "text": { "tr": "Mantarlar", "en": "Fungi" }, "correct": true },
+      { "text": { "tr": "Bitkiler", "en": "Plants" } },
+      { "text": { "tr": "Protistler", "en": "Protists" } },
+      { "text": { "tr": "Bakteriler", "en": "Bacteria" } } ] },
+    { "text": { "tr": "Çekirdeği olmayan tek hücreli canlılara ne denir?", "en": "What are single-celled organisms without a nucleus called?" }, "choices": [
+      { "text": { "tr": "Prokaryot", "en": "Prokaryotes" }, "correct": true },
+      { "text": { "tr": "Ökaryot", "en": "Eukaryotes" } },
+      { "text": { "tr": "Virüs", "en": "Viruses" } },
+      { "text": { "tr": "Mantar", "en": "Fungi" } } ] },
+    { "text": { "tr": "Kalıtım bilgisini taşıyan molekül hangisidir?", "en": "Which molecule carries hereditary information?" }, "choices": [
+      { "text": { "tr": "DNA", "en": "DNA" }, "correct": true },
+      { "text": { "tr": "ATP", "en": "ATP" } },
+      { "text": { "tr": "Glikoz", "en": "Glucose" } },
+      { "text": { "tr": "Kolesterol", "en": "Cholesterol" } } ] },
+    { "text": { "tr": "Tırtılın kelebeğe dönüşmesine ne denir?", "en": "What is a caterpillar turning into a butterfly called?" }, "choices": [
+      { "text": { "tr": "Başkalaşım", "en": "Metamorphosis" }, "correct": true },
+      { "text": { "tr": "Mitoz", "en": "Mitosis" } },
+      { "text": { "tr": "Fotosentez", "en": "Photosynthesis" } },
+      { "text": { "tr": "Kış uykusu", "en": "Hibernation" } } ] },
+    { "text": { "tr": "Hangisi memeli değildir?", "en": "Which of these is not a mammal?" }, "choices": [
+      { "text": { "tr": "Penguen", "en": "Penguin" }, "correct": true },
+      { "text": { "tr": "Yunus", "en": "Dolphin" } },
+      { "text": { "tr": "Yarasa", "en": "Bat" } },
+      { "text": { "tr": "Fil", "en": "Elephant" } } ] },
+    { "text": { "tr": "Besin zincirinde üretici olan canlılar hangileridir?", "en": "Which organisms are the producers in a food chain?" }, "choices": [
+      { "text": { "tr": "Bitkiler", "en": "Plants" }, "correct": true },
+      { "text": { "tr": "Otçullar", "en": "Herbivores" } },
+      { "text": { "tr": "Etçiller", "en": "Carnivores" } },
+      { "text": { "tr": "Ayrıştırıcılar", "en": "Decomposers" } } ] },
+    { "text": { "tr": "Birbirinin aynısı iki hücre oluşturan bölünme hangisidir?", "en": "Which cell division makes two identical cells?" }, "choices": [
+      { "text": { "tr": "Mitoz", "en": "Mitosis" }, "correct": true },
+      { "text": { "tr": "Mayoz", "en": "Meiosis" } },
+      { "text": { "tr": "Döllenme", "en": "Fertilization" } },
+      { "text": { "tr": "Tomurcuklanma", "en": "Budding" } } ] },
+    { "text": { "tr": "Üreme hücreleri hangi bölünmeyle oluşur?", "en": "Which cell division produces sex cells?" }, "choices": [
+      { "text": { "tr": "Mayoz", "en": "Meiosis" }, "correct": true },
+      { "text": { "tr": "Mitoz", "en": "Mitosis" } },
+      { "text": { "tr": "Tomurcuklanma", "en": "Budding" } },
+      { "text": { "tr": "Rejenerasyon", "en": "Regeneration" } } ] },
+    { "text": { "tr": "Dünyadaki en büyük hayvan hangisidir?", "en": "What is the largest animal on Earth?" }, "choices": [
+      { "text": { "tr": "Mavi balina", "en": "Blue whale" }, "correct": true },
+      { "text": { "tr": "Afrika fili", "en": "African elephant" } },
+      { "text": { "tr": "Balina köpekbalığı", "en": "Whale shark" } },
+      { "text": { "tr": "Zürafa", "en": "Giraffe" } } ] },
+    { "text": { "tr": "Çiçek aşısını geliştiren bilim insanı kimdir?", "en": "Who developed the smallpox vaccine?" }, "choices": [
+      { "text": { "tr": "Edward Jenner", "en": "Edward Jenner" }, "correct": true },
+      { "text": { "tr": "Louis Pasteur", "en": "Louis Pasteur" } },
+      { "text": { "tr": "Robert Koch", "en": "Robert Koch" } },
+      { "text": { "tr": "Alexander Fleming", "en": "Alexander Fleming" } } ] },
+    { "text": { "tr": "Ahtapotun kaç kolu vardır?", "en": "How many arms does an octopus have?" }, "choices": [
+      { "text": { "tr": "8", "en": "8" }, "correct": true },
+      { "text": { "tr": "6", "en": "6" } },
+      { "text": { "tr": "10", "en": "10" } },
+      { "text": { "tr": "12", "en": "12" } } ] },
+    { "text": { "tr": "Arılar topladıkları nektarı neye dönüştürür?", "en": "What do bees turn the nectar they collect into?" }, "choices": [
+      { "text": { "tr": "Bal", "en": "Honey" }, "correct": true },
+      { "text": { "tr": "Polen", "en": "Pollen" } },
+      { "text": { "tr": "Balmumu", "en": "Beeswax" } },
+      { "text": { "tr": "Propolis", "en": "Propolis" } } ] },
+    { "text": { "tr": "Hangisi soğukkanlı bir hayvandır?", "en": "Which one is a cold-blooded animal?" }, "choices": [
+      { "text": { "tr": "Kertenkele", "en": "Lizard" }, "correct": true },
+      { "text": { "tr": "Kedi", "en": "Cat" } },
+      { "text": { "tr": "Kartal", "en": "Eagle" } },
+      { "text": { "tr": "Yunus", "en": "Dolphin" } } ] },
+    { "text": { "tr": "Bitkiler fotosentezde dışarıya hangi gazı verir?", "en": "Which gas do plants release in photosynthesis?" }, "choices": [
+      { "text": { "tr": "Oksijen", "en": "Oxygen" }, "correct": true },
+      { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide" } },
+      { "text": { "tr": "Azot", "en": "Nitrogen" } },
+      { "text": { "tr": "Metan", "en": "Methane" } } ] }
   ]
 }

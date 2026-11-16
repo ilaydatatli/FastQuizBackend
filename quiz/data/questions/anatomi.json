@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "anatomi", "color": "blue", "order": 6, "name": { "tr": "Anatomi" }, "description": { "tr": "Kemikler, kaslar, organlar" } },
+  "category": { "slug": "anatomi", "color": "blue", "order": 6, "name": { "tr": "Anatomi", "en": "Anatomy" }, "description": { "tr": "Kemikler, kaslar, organlar", "en": "Bones, muscles, organs" } },
   "questions": [
-    { "text": { "tr": "İnsan vücudunun en uzun kemiği hangisidir?" }, "choices": [
-      { "text": { "tr": "Uyluk kemiği" }, "correct": true },
-      { "text": { "tr": "Kaval kemiği" } },
-      { "text": { "tr": "Üst kol kemiği" } },
-      { "text": { "tr": "Köprücük kemiği" } } ] },
-    { "text": { "tr": "Vücudun en küçük kemikleri nerede bulunur?" }, "choices": [
-      { "text": { "tr": "Orta kulak" }, "correct": true },
-      { "text": { "tr": "Burun" } },
-      { "text": { "tr": "El bileği" } },
-      { "text": { "tr": "Ayak parmağı" } } ] },
-    { "text": { "tr": "İnsan kalbinde kaç odacık bulunur?" }, "choices": [
-      { "text": { "tr": "4" }, "correct": true },
-      { "text": { "tr": "2" } },
-      { "text": { "tr": "3" } },
-      { "text": { "tr": "6" } } ] },
-    { "text": { "tr": "Dizkapağı kemiğinin tıbbi adı nedir?" }, "choices": [
-      { "text": { "tr": "Patella" }, "correct": true },
-      { "text": { "tr": "Femur" } },
-      { "text": { "tr": "Tibia" } },
-      { "text": { "tr": "Fibula" } } ] },
-    { "text": { "tr": "Göğüs boşluğunu karın boşluğundan ayıran kas hangisidir?" }, "choices": [
-      { "text": { "tr": "Diyafram" }, "correct": true },
-      { "text": { "tr": "Pazı kası" } },
-      { "text": { "tr": "Trapez kası" } },
-      { "text": { "tr": "Deltoid kas" } } ] },
-    { "text": { "tr": "Safra hangi organda üretilir?" }, "choices": [
-      { "text": { "tr": "Karaciğer" }, "correct": true },
-      { "text": { "tr": "Safra kesesi" } },
-      { "text": { "tr": "Pankreas" } },
-      { "text": { "tr": "Dalak" } } ] },
-    { "text": { "tr": "İnsanda kaç çift kaburga bulunur?" }, "choices": [
-      { "text": { "tr": "12" }, "correct": true },
-      { "text": { "tr": "10" } },
-      { "text": { "tr": "14" } },
-      { "text": { "tr": "8" } } ] },
-    { "text": { "tr": "Boyun bölgesinde kaç omur bulunur?" }, "choices": [
-      { "text": { "tr": "7" }, "correct": true },
-      { "text": { "tr": "5" } },
-      { "text": { "tr": "9" } },
-      { "text": { "tr": "12" } } ] },
-    { "text": { "tr": "Gözün renkli kısmına ne ad verilir?" }, "choices": [
-      { "text": { "tr": "İris" }, "correct": true },
-      { "text": { "tr": "Retina" } },
-      { "text": { "tr": "Kornea" } },
-      { "text": { "tr": "Göz bebeği" } } ] },
-    { "text": { "tr": "Besinlerin en çok emildiği organ hangisidir?" }, "choices": [
-      { "text": { "tr": "İnce bağırsak" }, "correct": true },
-      { "text": { "tr": "Mide" } },
-      { "text": { "tr": "Kalın bağırsak" } },
-      { "text": { "tr": "Yemek borusu" } } ] },
-    { "text": { "tr": "Pazı kasının diğer adı nedir?" }, "choices": [
-      { "text": { "tr": "Biseps" }, "correct": true },
-      { "text": { "tr": "Triseps" } },
-      { "text": { "tr": "Deltoid" } },
-      { "text": { "tr": "Kuadriseps" } } ] },
-    { "text": { "tr": "Denge ve kas koordinasyonunu sağlayan beyin bölümü hangisidir?" }, "choices": [
-      { "text": { "tr": "Beyincik" }, "correct": true },
-      { "text": { "tr": "Hipotalamus" } },
-      { "text": { "tr": "Hipofiz" } },
-      { "text": { "tr": "Talamus" } } ] },
-    { "text": { "tr": "Kası kemiğe bağlayan yapıya ne ad verilir?" }, "choices": [
-      { "text": { "tr": "Tendon" }, "correct": true },
-      { "text": { "tr": "Ligament" } },
-      { "text": { "tr": "Kıkırdak" } },
-      { "text": { "tr": "Menisküs" } } ] },
-    { "text": { "tr": "Midede salgılanan asit hangisidir?" }, "choices": [
-      { "text": { "tr": "Hidroklorik asit" }, "correct": true },
-      { "text": { "tr": "Sülfürik asit" } },
-      { "text": { "tr": "Laktik asit" } },
-      { "text": { "tr": "Sitrik asit" } } ] },
-    { "text": { "tr": "Vücuttaki en büyük atardamar hangisidir?" }, "choices": [
-      { "text": { "tr": "Aort" }, "correct": true },
-      { "text": { "tr": "Şah damarı" } },
-      { "text": { "tr": "Akciğer atardamarı" } },
-      { "text": { "tr": "Uyluk atardamarı" } } ] },
-    { "text": { "tr": "Yirmilik dişler dahil yetişkinde kaç diş bulunur?" }, "choices": [
-      { "text": { "tr": "32" }, "correct": true },
-      { "text": { "tr": "28" } },
-      { "text": { "tr": "30" } },
-      { "text": { "tr": "36" } } ] },
-    { "text": { "tr": "Kalp duvarının kas tabakasına ne ad verilir?" }, "choices": [
-      { "text": { "tr": "Miyokard" }, "correct": true },
-      { "text": { "tr": "Perikard" } },
-      { "text": { "tr": "Endokard" } },
-      { "text": { "tr": "Epikard" } } ] },
-    { "text": { "tr": "Görme sinyallerini beyne ileten sinir hangisidir?" }, "choices": [
-      { "text": { "tr": "Optik sinir" }, "correct": true },
-      { "text": { "tr": "Vagus siniri" } },
-      { "text": { "tr": "Yüz siniri" } },
-      { "text": { "tr": "Koku siniri" } } ] },
-    { "text": { "tr": "Vücudun en uzun siniri hangisidir?" }, "choices": [
-      { "text": { "tr": "Siyatik siniri" }, "correct": true },
-      { "text": { "tr": "Optik sinir" } },
-      { "text": { "tr": "Radyal sinir" } },
-      { "text": { "tr": "Ulnar sinir" } } ] },
-    { "text": { "tr": "Ön kol hangi iki kemikten oluşur?" }, "choices": [
-      { "text": { "tr": "Radius ve ulna" }, "correct": true },
-      { "text": { "tr": "Tibia ve fibula" } },
-      { "text": { "tr": "Femur ve tibia" } },
-      { "text": { "tr": "Humerus ve skapula" } } ] },
-    { "text": { "tr": "Kafatasının hareketli kemiği hangisidir?" }, "choices": [
-      { "text": { "tr": "Alt çene kemiği" }, "correct": true },
-      { "text": { "tr": "Alın kemiği" } },
-      { "text": { "tr": "Şakak kemiği" } },
-      { "text": { "tr": "Elmacık kemiği" } } ] },
-    { "text": { "tr": "Gözde ışığı algılayan tabaka hangisidir?" }, "choices": [
-      { "text": { "tr": "Retina" }, "correct": true },
-      { "text": { "tr": "Kornea" } },
-      { "text": { "tr": "İris" } },
-      { "text": { "tr": "Mercek" } } ] },
-    { "text": { "tr": "Omurganın en alt ucundaki kemiğe ne ad verilir?" }, "choices": [
-      { "text": { "tr": "Kuyruk sokumu" }, "correct": true },
-      { "text": { "tr": "Leğen kemiği" } },
-      { "text": { "tr": "Kürek kemiği" } },
-      { "text": { "tr": "Köprücük kemiği" } } ] },
-    { "text": { "tr": "Kürek kemiğinin tıbbi adı nedir?" }, "choices": [
-      { "text": { "tr": "Skapula" }, "correct": true },
-      { "text": { "tr": "Klavikula" } },
-      { "text": { "tr": "Sternum" } },
-      { "text": { "tr": "Patella" } } ] },
-    { "text": { "tr": "Göğüs kemiğinin tıbbi adı nedir?" }, "choices": [
-      { "text": { "tr": "Sternum" }, "correct": true },
-      { "text": { "tr": "Skapula" } },
-      { "text": { "tr": "Klavikula" } },
-      { "text": { "tr": "Humerus" } } ] },
-    { "text": { "tr": "Akciğerlere havayı taşıyan boruya ne ad verilir?" }, "choices": [
-      { "text": { "tr": "Soluk borusu" }, "correct": true },
-      { "text": { "tr": "Yemek borusu" } },
-      { "text": { "tr": "Aort" } },
-      { "text": { "tr": "Üreter" } } ] },
-    { "text": { "tr": "İdrarı böbrekten mesaneye taşıyan kanal hangisidir?" }, "choices": [
-      { "text": { "tr": "Üreter" }, "correct": true },
-      { "text": { "tr": "Üretra" } },
-      { "text": { "tr": "Aort" } },
-      { "text": { "tr": "Safra kanalı" } } ] },
-    { "text": { "tr": "Vücudun en büyük lenf organı hangisidir?" }, "choices": [
-      { "text": { "tr": "Dalak" }, "correct": true },
-      { "text": { "tr": "Timüs" } },
-      { "text": { "tr": "Bademcik" } },
-      { "text": { "tr": "Karaciğer" } } ] },
-    { "text": { "tr": "Kalbin sağ ve sol tarafını ayıran duvara ne denir?" }, "choices": [
-      { "text": { "tr": "Septum" }, "correct": true },
-      { "text": { "tr": "Kapakçık" } },
-      { "text": { "tr": "Aort" } },
-      { "text": { "tr": "Perikard" } } ] },
-    { "text": { "tr": "Kanı kalbe geri getiren damarlara ne denir?" }, "choices": [
-      { "text": { "tr": "Toplardamar" }, "correct": true },
-      { "text": { "tr": "Atardamar" } },
-      { "text": { "tr": "Kılcal damar" } },
-      { "text": { "tr": "Lenf damarı" } } ] },
-    { "text": { "tr": "En ince kan damarlarına ne ad verilir?" }, "choices": [
-      { "text": { "tr": "Kılcal damar" }, "correct": true },
-      { "text": { "tr": "Toplardamar" } },
-      { "text": { "tr": "Atardamar" } },
-      { "text": { "tr": "Aort" } } ] },
-    { "text": { "tr": "Büyüme hormonu hangi bezden salgılanır?" }, "choices": [
-      { "text": { "tr": "Hipofiz" }, "correct": true },
-      { "text": { "tr": "Tiroit" } },
-      { "text": { "tr": "Pankreas" } },
-      { "text": { "tr": "Böbrek üstü bezi" } } ] },
-    { "text": { "tr": "Boyunda bulunan ve metabolizmayı düzenleyen bez hangisidir?" }, "choices": [
-      { "text": { "tr": "Tiroit" }, "correct": true },
-      { "text": { "tr": "Hipofiz" } },
-      { "text": { "tr": "Timüs" } },
-      { "text": { "tr": "Pankreas" } } ] },
-    { "text": { "tr": "Adrenalin hangi bezden salgılanır?" }, "choices": [
-      { "text": { "tr": "Böbrek üstü bezi" }, "correct": true },
-      { "text": { "tr": "Tiroit" } },
-      { "text": { "tr": "Hipofiz" } },
-      { "text": { "tr": "Pankreas" } } ] },
-    { "text": { "tr": "Kafatası kemikleri birbirine nasıl bağlanır?" }, "choices": [
-      { "text": { "tr": "Dikişlerle" }, "correct": true },
-      { "text": { "tr": "Menteşe eklemle" } },
-      { "text": { "tr": "Küresel eklemle" } },
-      { "text": { "tr": "Kaslarla" } } ] },
-    { "text": { "tr": "Omuz eklemi hangi tür eklemdir?" }, "choices": [
-      { "text": { "tr": "Küresel eklem" }, "correct": true },
-      { "text": { "tr": "Menteşe eklem" } },
-      { "text": { "tr": "Eyer eklem" } },
-      { "text": { "tr": "Dikiş eklem" } } ] },
-    { "text": { "tr": "Dirsek eklemi hangi tür eklemdir?" }, "choices": [
-      { "text": { "tr": "Menteşe eklem" }, "correct": true },
-      { "text": { "tr": "Küresel eklem" } },
-      { "text": { "tr": "Eyer eklem" } },
-      { "text": { "tr": "Dikiş eklem" } } ] },
-    { "text": { "tr": "Baldırın arkasındaki büyük kasın adı nedir?" }, "choices": [
-      { "text": { "tr": "Gastroknemius" }, "correct": true },
-      { "text": { "tr": "Kuadriseps" } },
-      { "text": { "tr": "Deltoid" } },
-      { "text": { "tr": "Trapez" } } ] },
-    { "text": { "tr": "Uyluğun önündeki dört başlı kas hangisidir?" }, "choices": [
-      { "text": { "tr": "Kuadriseps" }, "correct": true },
-      { "text": { "tr": "Biseps" } },
-      { "text": { "tr": "Triseps" } },
-      { "text": { "tr": "Deltoid" } } ] },
-    { "text": { "tr": "Omzu saran üçgen biçimli kas hangisidir?" }, "choices": [
-      { "text": { "tr": "Deltoid" }, "correct": true },
-      { "text": { "tr": "Trapez" } },
-      { "text": { "tr": "Biseps" } },
-      { "text": { "tr": "Pektoral" } } ] }
+    { "text": { "tr": "İnsan vücudunun en uzun kemiği hangisidir?", "en": "What is the longest bone in the human body?" }, "choices": [
+      { "text": { "tr": "Uyluk kemiği", "en": "Femur (thigh bone)" }, "correct": true },
+      { "text": { "tr": "Kaval kemiği", "en": "Tibia (shin bone)" } },
+      { "text": { "tr": "Üst kol kemiği", "en": "Humerus" } },
+      { "text": { "tr": "Köprücük kemiği", "en": "Clavicle" } } ] },
+    { "text": { "tr": "Vücudun en küçük kemikleri nerede bulunur?", "en": "Where are the smallest bones in the body?" }, "choices": [
+      { "text": { "tr": "Orta kulak", "en": "Middle ear" }, "correct": true },
+      { "text": { "tr": "Burun", "en": "Nose" } },
+      { "text": { "tr": "El bileği", "en": "Wrist" } },
+      { "text": { "tr": "Ayak parmağı", "en": "Toes" } } ] },
+    { "text": { "tr": "İnsan kalbinde kaç odacık bulunur?", "en": "How many chambers does the human heart have?" }, "choices": [
+      { "text": { "tr": "4", "en": "4" }, "correct": true },
+      { "text": { "tr": "2", "en": "2" } },
+      { "text": { "tr": "3", "en": "3" } },
+      { "text": { "tr": "6", "en": "6" } } ] },
+    { "text": { "tr": "Dizkapağı kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the kneecap?" }, "choices": [
+      { "text": { "tr": "Patella", "en": "Patella" }, "correct": true },
+      { "text": { "tr": "Femur", "en": "Femur" } },
+      { "text": { "tr": "Tibia", "en": "Tibia" } },
+      { "text": { "tr": "Fibula", "en": "Fibula" } } ] },
+    { "text": { "tr": "Göğüs boşluğunu karın boşluğundan ayıran kas hangisidir?", "en": "Which muscle separates the chest from the abdomen?" }, "choices": [
+      { "text": { "tr": "Diyafram", "en": "Diaphragm" }, "correct": true },
+      { "text": { "tr": "Pazı kası", "en": "Biceps" } },
+      { "text": { "tr": "Trapez kası", "en": "Trapezius" } },
+      { "text": { "tr": "Deltoid kas", "en": "Deltoid" } } ] },
+    { "text": { "tr": "Safra hangi organda üretilir?", "en": "Which organ produces bile?" }, "choices": [
+      { "text": { "tr": "Karaciğer", "en": "Liver" }, "correct": true },
+      { "text": { "tr": "Safra kesesi", "en": "Gallbladder" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas" } },
+      { "text": { "tr": "Dalak", "en": "Spleen" } } ] },
+    { "text": { "tr": "İnsanda kaç çift kaburga bulunur?", "en": "How many pairs of ribs does a human have?" }, "choices": [
+      { "text": { "tr": "12", "en": "12" }, "correct": true },
+      { "text": { "tr": "10", "en": "10" } },
+      { "text": { "tr": "14", "en": "14" } },
+      { "text": { "tr": "8", "en": "8" } } ] },
+    { "text": { "tr": "Boyun bölgesinde kaç omur bulunur?", "en": "How many vertebrae are in the neck?" }, "choices": [
+      { "text": { "tr": "7", "en": "7" }, "correct": true },
+      { "text": { "tr": "5", "en": "5" } },
+      { "text": { "tr": "9", "en": "9" } },
+      { "text": { "tr": "12", "en": "12" } } ] },
+    { "text": { "tr": "Gözün renkli kısmına ne ad verilir?", "en": "What is the colored part of the eye called?" }, "choices": [
+      { "text": { "tr": "İris", "en": "Iris" }, "correct": true },
+      { "text": { "tr": "Retina", "en": "Retina" } },
+      { "text": { "tr": "Kornea", "en": "Cornea" } },
+      { "text": { "tr": "Göz bebeği", "en": "Pupil" } } ] },
+    { "text": { "tr": "Besinlerin en çok emildiği organ hangisidir?", "en": "Where are most nutrients absorbed?" }, "choices": [
+      { "text": { "tr": "İnce bağırsak", "en": "Small intestine" }, "correct": true },
+      { "text": { "tr": "Mide", "en": "Stomach" } },
+      { "text": { "tr": "Kalın bağırsak", "en": "Large intestine" } },
+      { "text": { "tr": "Yemek borusu", "en": "Esophagus" } } ] },
+    { "text": { "tr": "Pazı kasının diğer adı nedir?", "en": "Which muscle bends the elbow at the front of the upper arm?" }, "choices": [
+      { "text": { "tr": "Biseps", "en": "Biceps" }, "correct": true },
+      { "text": { "tr": "Triseps", "en": "Triceps" } },
+      { "text": { "tr": "Deltoid", "en": "Deltoid" } },
+      { "text": { "tr": "Kuadriseps", "en": "Quadriceps" } } ] },
+    { "text": { "tr": "Denge ve kas koordinasyonunu sağlayan beyin bölümü hangisidir?", "en": "Which part of the brain controls balance and coordination?" }, "choices": [
+      { "text": { "tr": "Beyincik", "en": "Cerebellum" }, "correct": true },
+      { "text": { "tr": "Hipotalamus", "en": "Hypothalamus" } },
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland" } },
+      { "text": { "tr": "Talamus", "en": "Thalamus" } } ] },
+    { "text": { "tr": "Kası kemiğe bağlayan yapıya ne ad verilir?", "en": "What connects a muscle to a bone?" }, "choices": [
+      { "text": { "tr": "Tendon", "en": "Tendon" }, "correct": true },
+      { "text": { "tr": "Ligament", "en": "Ligament" } },
+      { "text": { "tr": "Kıkırdak", "en": "Cartilage" } },
+      { "text": { "tr": "Menisküs", "en": "Meniscus" } } ] },
+    { "text": { "tr": "Midede salgılanan asit hangisidir?", "en": "Which acid is produced in the stomach?" }, "choices": [
+      { "text": { "tr": "Hidroklorik asit", "en": "Hydrochloric acid" }, "correct": true },
+      { "text": { "tr": "Sülfürik asit", "en": "Sulfuric acid" } },
+      { "text": { "tr": "Laktik asit", "en": "Lactic acid" } },
+      { "text": { "tr": "Sitrik asit", "en": "Citric acid" } } ] },
+    { "text": { "tr": "Vücuttaki en büyük atardamar hangisidir?", "en": "What is the largest artery in the body?" }, "choices": [
+      { "text": { "tr": "Aort", "en": "Aorta" }, "correct": true },
+      { "text": { "tr": "Şah damarı", "en": "Carotid artery" } },
+      { "text": { "tr": "Akciğer atardamarı", "en": "Pulmonary artery" } },
+      { "text": { "tr": "Uyluk atardamarı", "en": "Femoral artery" } } ] },
+    { "text": { "tr": "Yirmilik dişler dahil yetişkinde kaç diş bulunur?", "en": "How many teeth does an adult have, wisdom teeth included?" }, "choices": [
+      { "text": { "tr": "32", "en": "32" }, "correct": true },
+      { "text": { "tr": "28", "en": "28" } },
+      { "text": { "tr": "30", "en": "30" } },
+      { "text": { "tr": "36", "en": "36" } } ] },
+    { "text": { "tr": "Kalp duvarının kas tabakasına ne ad verilir?", "en": "What is the muscle layer of the heart wall called?" }, "choices": [
+      { "text": { "tr": "Miyokard", "en": "Myocardium" }, "correct": true },
+      { "text": { "tr": "Perikard", "en": "Pericardium" } },
+      { "text": { "tr": "Endokard", "en": "Endocardium" } },
+      { "text": { "tr": "Epikard", "en": "Epicardium" } } ] },
+    { "text": { "tr": "Görme sinyallerini beyne ileten sinir hangisidir?", "en": "Which nerve carries visual signals to the brain?" }, "choices": [
+      { "text": { "tr": "Optik sinir", "en": "Optic nerve" }, "correct": true },
+      { "text": { "tr": "Vagus siniri", "en": "Vagus nerve" } },
+      { "text": { "tr": "Yüz siniri", "en": "Facial nerve" } },
+      { "text": { "tr": "Koku siniri", "en": "Olfactory nerve" } } ] },
+    { "text": { "tr": "Vücudun en uzun siniri hangisidir?", "en": "What is the longest nerve in the body?" }, "choices": [
+      { "text": { "tr": "Siyatik siniri", "en": "Sciatic nerve" }, "correct": true },
+      { "text": { "tr": "Optik sinir", "en": "Optic nerve" } },
+      { "text": { "tr": "Radyal sinir", "en": "Radial nerve" } },
+      { "text": { "tr": "Ulnar sinir", "en": "Ulnar nerve" } } ] },
+    { "text": { "tr": "Ön kol hangi iki kemikten oluşur?", "en": "Which two bones form the forearm?" }, "choices": [
+      { "text": { "tr": "Radius ve ulna", "en": "Radius and ulna" }, "correct": true },
+      { "text": { "tr": "Tibia ve fibula", "en": "Tibia and fibula" } },
+      { "text": { "tr": "Femur ve tibia", "en": "Femur and tibia" } },
+      { "text": { "tr": "Humerus ve skapula", "en": "Humerus and scapula" } } ] },
+    { "text": { "tr": "Kafatasının hareketli kemiği hangisidir?", "en": "Which bone of the skull can move?" }, "choices": [
+      { "text": { "tr": "Alt çene kemiği", "en": "Lower jaw" }, "correct": true },
+      { "text": { "tr": "Alın kemiği", "en": "Frontal bone" } },
+      { "text": { "tr": "Şakak kemiği", "en": "Temporal bone" } },
+      { "text": { "tr": "Elmacık kemiği", "en": "Cheekbone" } } ] },
+    { "text": { "tr": "Gözde ışığı algılayan tabaka hangisidir?", "en": "Which layer of the eye detects light?" }, "choices": [
+      { "text": { "tr": "Retina", "en": "Retina" }, "correct": true },
+      { "text": { "tr": "Kornea", "en": "Cornea" } },
+      { "text": { "tr": "İris", "en": "Iris" } },
+      { "text": { "tr": "Mercek", "en": "Lens" } } ] },
+    { "text": { "tr": "Omurganın en alt ucundaki kemiğe ne ad verilir?", "en": "What is the bone at the bottom of the spine called?" }, "choices": [
+      { "text": { "tr": "Kuyruk sokumu", "en": "Coccyx (tailbone)" }, "correct": true },
+      { "text": { "tr": "Leğen kemiği", "en": "Pelvis" } },
+      { "text": { "tr": "Kürek kemiği", "en": "Shoulder blade" } },
+      { "text": { "tr": "Köprücük kemiği", "en": "Collarbone" } } ] },
+    { "text": { "tr": "Kürek kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the shoulder blade?" }, "choices": [
+      { "text": { "tr": "Skapula", "en": "Scapula" }, "correct": true },
+      { "text": { "tr": "Klavikula", "en": "Clavicle" } },
+      { "text": { "tr": "Sternum", "en": "Sternum" } },
+      { "text": { "tr": "Patella", "en": "Patella" } } ] },
+    { "text": { "tr": "Göğüs kemiğinin tıbbi adı nedir?", "en": "What is the medical name for the breastbone?" }, "choices": [
+      { "text": { "tr": "Sternum", "en": "Sternum" }, "correct": true },
+      { "text": { "tr": "Skapula", "en": "Scapula" } },
+      { "text": { "tr": "Klavikula", "en": "Clavicle" } },
+      { "text": { "tr": "Humerus", "en": "Humerus" } } ] },
+    { "text": { "tr": "Akciğerlere havayı taşıyan boruya ne ad verilir?", "en": "What is the tube that carries air to the lungs called?" }, "choices": [
+      { "text": { "tr": "Soluk borusu", "en": "Windpipe (trachea)" }, "correct": true },
+      { "text": { "tr": "Yemek borusu", "en": "Esophagus" } },
+      { "text": { "tr": "Aort", "en": "Aorta" } },
+      { "text": { "tr": "Üreter", "en": "Ureter" } } ] },
+    { "text": { "tr": "İdrarı böbrekten mesaneye taşıyan kanal hangisidir?", "en": "Which tube carries urine from the kidney to the bladder?" }, "choices": [
+      { "text": { "tr": "Üreter", "en": "Ureter" }, "correct": true },
+      { "text": { "tr": "Üretra", "en": "Urethra" } },
+      { "text": { "tr": "Aort", "en": "Aorta" } },
+      { "text": { "tr": "Safra kanalı", "en": "Bile duct" } } ] },
+    { "text": { "tr": "Vücudun en büyük lenf organı hangisidir?", "en": "What is the largest lymphatic organ in the body?" }, "choices": [
+      { "text": { "tr": "Dalak", "en": "Spleen" }, "correct": true },
+      { "text": { "tr": "Timüs", "en": "Thymus" } },
+      { "text": { "tr": "Bademcik", "en": "Tonsil" } },
+      { "text": { "tr": "Karaciğer", "en": "Liver" } } ] },
+    { "text": { "tr": "Kalbin sağ ve sol tarafını ayıran duvara ne denir?", "en": "What is the wall between the heart's left and right sides?" }, "choices": [
+      { "text": { "tr": "Septum", "en": "Septum" }, "correct": true },
+      { "text": { "tr": "Kapakçık", "en": "Valve" } },
+      { "text": { "tr": "Aort", "en": "Aorta" } },
+      { "text": { "tr": "Perikard", "en": "Pericardium" } } ] },
+    { "text": { "tr": "Kanı kalbe geri getiren damarlara ne denir?", "en": "What are the vessels that bring blood back to the heart?" }, "choices": [
+      { "text": { "tr": "Toplardamar", "en": "Veins" }, "correct": true },
+      { "text": { "tr": "Atardamar", "en": "Arteries" } },
+      { "text": { "tr": "Kılcal damar", "en": "Capillaries" } },
+      { "text": { "tr": "Lenf damarı", "en": "Lymph vessels" } } ] },
+    { "text": { "tr": "En ince kan damarlarına ne ad verilir?", "en": "What are the smallest blood vessels called?" }, "choices": [
+      { "text": { "tr": "Kılcal damar", "en": "Capillaries" }, "correct": true },
+      { "text": { "tr": "Toplardamar", "en": "Veins" } },
+      { "text": { "tr": "Atardamar", "en": "Arteries" } },
+      { "text": { "tr": "Aort", "en": "Aorta" } } ] },
+    { "text": { "tr": "Büyüme hormonu hangi bezden salgılanır?", "en": "Which gland releases growth hormone?" }, "choices": [
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland" }, "correct": true },
+      { "text": { "tr": "Tiroit", "en": "Thyroid" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas" } },
+      { "text": { "tr": "Böbrek üstü bezi", "en": "Adrenal gland" } } ] },
+    { "text": { "tr": "Boyunda bulunan ve metabolizmayı düzenleyen bez hangisidir?", "en": "Which gland in the neck regulates metabolism?" }, "choices": [
+      { "text": { "tr": "Tiroit", "en": "Thyroid" }, "correct": true },
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland" } },
+      { "text": { "tr": "Timüs", "en": "Thymus" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas" } } ] },
+    { "text": { "tr": "Adrenalin hangi bezden salgılanır?", "en": "Which gland releases adrenaline?" }, "choices": [
+      { "text": { "tr": "Böbrek üstü bezi", "en": "Adrenal gland" }, "correct": true },
+      { "text": { "tr": "Tiroit", "en": "Thyroid" } },
+      { "text": { "tr": "Hipofiz", "en": "Pituitary gland" } },
+      { "text": { "tr": "Pankreas", "en": "Pancreas" } } ] },
+    { "text": { "tr": "Kafatası kemikleri birbirine nasıl bağlanır?", "en": "How are the skull bones joined together?" }, "choices": [
+      { "text": { "tr": "Dikişlerle", "en": "By sutures" }, "correct": true },
+      { "text": { "tr": "Menteşe eklemle", "en": "By hinge joints" } },
+      { "text": { "tr": "Küresel eklemle", "en": "By ball-and-socket joints" } },
+      { "text": { "tr": "Kaslarla", "en": "By muscles" } } ] },
+    { "text": { "tr": "Omuz eklemi hangi tür eklemdir?", "en": "What type of joint is the shoulder?" }, "choices": [
+      { "text": { "tr": "Küresel eklem", "en": "Ball-and-socket joint" }, "correct": true },
+      { "text": { "tr": "Menteşe eklem", "en": "Hinge joint" } },
+      { "text": { "tr": "Eyer eklem", "en": "Saddle joint" } },
+      { "text": { "tr": "Dikiş eklem", "en": "Suture joint" } } ] },
+    { "text": { "tr": "Dirsek eklemi hangi tür eklemdir?", "en": "What type of joint is the elbow?" }, "choices": [
+      { "text": { "tr": "Menteşe eklem", "en": "Hinge joint" }, "correct": true },
+      { "text": { "tr": "Küresel eklem", "en": "Ball-and-socket joint" } },
+      { "text": { "tr": "Eyer eklem", "en": "Saddle joint" } },
+      { "text": { "tr": "Dikiş eklem", "en": "Suture joint" } } ] },
+    { "text": { "tr": "Baldırın arkasındaki büyük kasın adı nedir?", "en": "What is the large muscle at the back of the calf?" }, "choices": [
+      { "text": { "tr": "Gastroknemius", "en": "Gastrocnemius" }, "correct": true },
+      { "text": { "tr": "Kuadriseps", "en": "Quadriceps" } },
+      { "text": { "tr": "Deltoid", "en": "Deltoid" } },
+      { "text": { "tr": "Trapez", "en": "Trapezius" } } ] },
+    { "text": { "tr": "Uyluğun önündeki dört başlı kas hangisidir?", "en": "Which four-headed muscle is at the front of the thigh?" }, "choices": [
+      { "text": { "tr": "Kuadriseps", "en": "Quadriceps" }, "correct": true },
+      { "text": { "tr": "Biseps", "en": "Biceps" } },
+      { "text": { "tr": "Triseps", "en": "Triceps" } },
+      { "text": { "tr": "Deltoid", "en": "Deltoid" } } ] },
+    { "text": { "tr": "Omzu saran üçgen biçimli kas hangisidir?", "en": "Which triangular muscle covers the shoulder?" }, "choices": [
+      { "text": { "tr": "Deltoid", "en": "Deltoid" }, "correct": true },
+      { "text": { "tr": "Trapez", "en": "Trapezius" } },
+      { "text": { "tr": "Biseps", "en": "Biceps" } },
+      { "text": { "tr": "Pektoral", "en": "Pectoral" } } ] }
   ]
 }

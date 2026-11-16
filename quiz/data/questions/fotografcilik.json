@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "fotografcilik", "color": "pink", "order": 5, "name": { "tr": "Fotoğrafçılık" }, "description": { "tr": "Işık, lens, pozlama" } },
+  "category": { "slug": "fotografcilik", "color": "pink", "order": 5, "name": { "tr": "Fotoğrafçılık", "en": "Photography" }, "description": { "tr": "Işık, lens, pozlama", "en": "Light, lenses, exposure" } },
   "questions": [
-    { "text": { "tr": "Pozlama üçgeni ISO, diyafram ve neden oluşur?" }, "choices": [
-      { "text": { "tr": "Enstantane" }, "correct": true },
-      { "text": { "tr": "Beyaz dengesi" } },
-      { "text": { "tr": "Odak noktası" } },
-      { "text": { "tr": "Zum" } } ] },
-    { "text": { "tr": "ISO değeri neyi belirler?" }, "choices": [
-      { "text": { "tr": "Işığa duyarlılığı" }, "correct": true },
-      { "text": { "tr": "Odak uzaklığını" } },
-      { "text": { "tr": "Beyaz dengesini" } },
-      { "text": { "tr": "Lens çapını" } } ] },
-    { "text": { "tr": "Enstantane hızı neyi belirler?" }, "choices": [
-      { "text": { "tr": "Pozlama süresini" }, "correct": true },
-      { "text": { "tr": "Işığa duyarlılığı" } },
-      { "text": { "tr": "Renk sıcaklığını" } },
-      { "text": { "tr": "Odak uzaklığını" } } ] },
-    { "text": { "tr": "Diyafram açıklığı hangi harfle gösterilir?" }, "choices": [
-      { "text": { "tr": "f" }, "correct": true },
-      { "text": { "tr": "s" } },
-      { "text": { "tr": "K" } },
-      { "text": { "tr": "ISO" } } ] },
-    { "text": { "tr": "Hangisi en geniş diyafram açıklığıdır?" }, "choices": [
-      { "text": { "tr": "f/1.8" }, "correct": true },
-      { "text": { "tr": "f/8" } },
-      { "text": { "tr": "f/16" } },
-      { "text": { "tr": "f/22" } } ] },
-    { "text": { "tr": "Diyaframı genişletmek alan derinliğini nasıl etkiler?" }, "choices": [
-      { "text": { "tr": "Azaltır" }, "correct": true },
-      { "text": { "tr": "Artırır" } },
-      { "text": { "tr": "Değiştirmez" } },
-      { "text": { "tr": "İkiye katlar" } } ] },
-    { "text": { "tr": "Yüksek ISO'nun en bilinen yan etkisi nedir?" }, "choices": [
-      { "text": { "tr": "Kumlanma" }, "correct": true },
-      { "text": { "tr": "Renk kaybı" } },
-      { "text": { "tr": "Odak kayması" } },
-      { "text": { "tr": "Lens parlaması" } } ] },
-    { "text": { "tr": "Hareketi dondurmak için hangi enstantane daha uygundur?" }, "choices": [
-      { "text": { "tr": "1/1000 sn" }, "correct": true },
-      { "text": { "tr": "1/15 sn" } },
-      { "text": { "tr": "1 sn" } },
-      { "text": { "tr": "2 sn" } } ] },
-    { "text": { "tr": "Üçte bir kuralı fotoğrafın hangi yönüyle ilgilidir?" }, "choices": [
-      { "text": { "tr": "Kompozisyon" }, "correct": true },
-      { "text": { "tr": "Pozlama" } },
-      { "text": { "tr": "Beyaz dengesi" } },
-      { "text": { "tr": "Dosya biçimi" } } ] },
-    { "text": { "tr": "Gün doğumu ve batımına yakın sıcak ışıklı zamana ne denir?" }, "choices": [
-      { "text": { "tr": "Altın saat" }, "correct": true },
-      { "text": { "tr": "Mavi saat" } },
-      { "text": { "tr": "Öğle ışığı" } },
-      { "text": { "tr": "Gece modu" } } ] },
-    { "text": { "tr": "Hangi odak uzaklığı geniş açı sayılır?" }, "choices": [
-      { "text": { "tr": "16 mm" }, "correct": true },
-      { "text": { "tr": "85 mm" } },
-      { "text": { "tr": "200 mm" } },
-      { "text": { "tr": "400 mm" } } ] },
-    { "text": { "tr": "RAW dosyanın JPEG'e göre temel avantajı nedir?" }, "choices": [
-      { "text": { "tr": "Daha fazla görüntü verisi" }, "correct": true },
-      { "text": { "tr": "Daha küçük dosya" } },
-      { "text": { "tr": "Her yerde açılması" } },
-      { "text": { "tr": "Daha hızlı paylaşım" } } ] },
-    { "text": { "tr": "Beyaz dengesi ayarı neyi düzeltir?" }, "choices": [
-      { "text": { "tr": "Renk sıcaklığını" }, "correct": true },
-      { "text": { "tr": "Pozlamayı" } },
-      { "text": { "tr": "Netliği" } },
-      { "text": { "tr": "Kumlanmayı" } } ] },
-    { "text": { "tr": "Uzun pozlamada titremeyi önlemek için ne kullanılır?" }, "choices": [
-      { "text": { "tr": "Tripod" }, "correct": true },
-      { "text": { "tr": "Flaş" } },
-      { "text": { "tr": "Reflektör" } },
-      { "text": { "tr": "Lens kapağı" } } ] },
-    { "text": { "tr": "Makro fotoğrafçılık neyi konu alır?" }, "choices": [
-      { "text": { "tr": "Çok yakın çekimleri" }, "correct": true },
-      { "text": { "tr": "Geniş manzaraları" } },
-      { "text": { "tr": "Gece gökyüzünü" } },
-      { "text": { "tr": "Hızlı sporları" } } ] },
-    { "text": { "tr": "Bilinen ilk kalıcı fotoğrafı kim çekti?" }, "choices": [
-      { "text": { "tr": "Nicéphore Niépce" }, "correct": true },
-      { "text": { "tr": "George Eastman" } },
-      { "text": { "tr": "Ansel Adams" } },
-      { "text": { "tr": "Thomas Edison" } } ] },
-    { "text": { "tr": "Fotoğrafta \"bokeh\" neyi ifade eder?" }, "choices": [
-      { "text": { "tr": "Arka plan bulanıklığı" }, "correct": true },
-      { "text": { "tr": "Lens parlaması" } },
-      { "text": { "tr": "Aşırı pozlama" } },
-      { "text": { "tr": "Renk doygunluğu" } } ] },
-    { "text": { "tr": "Kameradaki histogram neyi gösterir?" }, "choices": [
-      { "text": { "tr": "Ton dağılımını" }, "correct": true },
-      { "text": { "tr": "Odak noktalarını" } },
-      { "text": { "tr": "Pil durumunu" } },
-      { "text": { "tr": "Lens modelini" } } ] },
-    { "text": { "tr": "Aynasız makinede DSLR'den farklı olarak ne yoktur?" }, "choices": [
-      { "text": { "tr": "Ayna" }, "correct": true },
-      { "text": { "tr": "Sensör" } },
-      { "text": { "tr": "Deklanşör tuşu" } },
-      { "text": { "tr": "Lens yuvası" } } ] },
-    { "text": { "tr": "Polarize filtre en çok ne işe yarar?" }, "choices": [
-      { "text": { "tr": "Yansımaları azaltır" }, "correct": true },
-      { "text": { "tr": "Görüntüyü büyütür" } },
-      { "text": { "tr": "Kumlanmayı artırır" } },
-      { "text": { "tr": "Odağı hızlandırır" } } ] },
-    { "text": { "tr": "50 mm odak uzaklığındaki objektife genelde ne denir?" }, "choices": [
-      { "text": { "tr": "Normal objektif" }, "correct": true },
-      { "text": { "tr": "Geniş açı" } },
-      { "text": { "tr": "Telefoto" } },
-      { "text": { "tr": "Balıkgözü" } } ] },
-    { "text": { "tr": "Çok geniş ve bombeli görüntü veren objektif hangisidir?" }, "choices": [
-      { "text": { "tr": "Balıkgözü" }, "correct": true },
-      { "text": { "tr": "Telefoto" } },
-      { "text": { "tr": "Makro" } },
-      { "text": { "tr": "Normal" } } ] },
-    { "text": { "tr": "Uzaktaki konuları büyüten objektif türü hangisidir?" }, "choices": [
-      { "text": { "tr": "Telefoto" }, "correct": true },
-      { "text": { "tr": "Geniş açı" } },
-      { "text": { "tr": "Balıkgözü" } },
-      { "text": { "tr": "Normal" } } ] },
-    { "text": { "tr": "Odak uzaklığı değiştirilebilen objektife ne denir?" }, "choices": [
-      { "text": { "tr": "Zum objektif" }, "correct": true },
-      { "text": { "tr": "Sabit objektif" } },
-      { "text": { "tr": "Makro objektif" } },
-      { "text": { "tr": "Balıkgözü" } } ] },
-    { "text": { "tr": "Arkadan aydınlatılan konunun koyu çıkmasına ne denir?" }, "choices": [
-      { "text": { "tr": "Siluet" }, "correct": true },
-      { "text": { "tr": "Bokeh" } },
-      { "text": { "tr": "Vinyet" } },
-      { "text": { "tr": "Kumlanma" } } ] },
-    { "text": { "tr": "Fotoğrafın kenarlarının kararmasına ne denir?" }, "choices": [
-      { "text": { "tr": "Vinyet" }, "correct": true },
-      { "text": { "tr": "Bokeh" } },
-      { "text": { "tr": "Kumlanma" } },
-      { "text": { "tr": "Hale" } } ] },
-    { "text": { "tr": "Farklı pozlamaların birleştirildiği görüntüye ne denir?" }, "choices": [
-      { "text": { "tr": "HDR" }, "correct": true },
-      { "text": { "tr": "RAW" } },
-      { "text": { "tr": "JPEG" } },
-      { "text": { "tr": "ISO" } } ] },
-    { "text": { "tr": "Tam kare (full frame) sensör hangi film boyutuna eşittir?" }, "choices": [
-      { "text": { "tr": "35 mm film" }, "correct": true },
-      { "text": { "tr": "Orta format film" } },
-      { "text": { "tr": "16 mm film" } },
-      { "text": { "tr": "8 mm film" } } ] },
-    { "text": { "tr": "\"Fotoğraf\" kelimesindeki \"photos\" ne demektir?" }, "choices": [
-      { "text": { "tr": "Işık" }, "correct": true },
-      { "text": { "tr": "Resim" } },
-      { "text": { "tr": "Göz" } },
-      { "text": { "tr": "Çizgi" } } ] },
-    { "text": { "tr": "Gün batımından hemen sonraki mavi tonlu zamana ne denir?" }, "choices": [
-      { "text": { "tr": "Mavi saat" }, "correct": true },
-      { "text": { "tr": "Altın saat" } },
-      { "text": { "tr": "Öğle ışığı" } },
-      { "text": { "tr": "Gece yarısı" } } ] },
-    { "text": { "tr": "Polaroid kameralar en çok ne ile bilinir?" }, "choices": [
-      { "text": { "tr": "Anında baskı" }, "correct": true },
-      { "text": { "tr": "Su altı çekimi" } },
-      { "text": { "tr": "Uzay fotoğrafı" } },
-      { "text": { "tr": "Video kaydı" } } ] },
-    { "text": { "tr": "Kodak şirketinin kurucusu kimdir?" }, "choices": [
-      { "text": { "tr": "George Eastman" }, "correct": true },
-      { "text": { "tr": "Thomas Edison" } },
-      { "text": { "tr": "Louis Daguerre" } },
-      { "text": { "tr": "Nicéphore Niépce" } } ] },
-    { "text": { "tr": "Dagerotip yöntemini kim geliştirdi?" }, "choices": [
-      { "text": { "tr": "Louis Daguerre" }, "correct": true },
-      { "text": { "tr": "George Eastman" } },
-      { "text": { "tr": "Nicéphore Niépce" } },
-      { "text": { "tr": "Ara Güler" } } ] },
-    { "text": { "tr": "\"Belirleyici an\" kavramıyla tanınan fotoğrafçı kimdir?" }, "choices": [
-      { "text": { "tr": "Henri Cartier-Bresson" }, "correct": true },
-      { "text": { "tr": "Ansel Adams" } },
-      { "text": { "tr": "Ara Güler" } },
-      { "text": { "tr": "Robert Capa" } } ] },
+    { "text": { "tr": "Pozlama üçgeni ISO, diyafram ve neden oluşur?", "en": "The exposure triangle is ISO, aperture and what else?" }, "choices": [
+      { "text": { "tr": "Enstantane", "en": "Shutter speed" }, "correct": true },
+      { "text": { "tr": "Beyaz dengesi", "en": "White balance" } },
+      { "text": { "tr": "Odak noktası", "en": "Focus point" } },
+      { "text": { "tr": "Zum", "en": "Zoom" } } ] },
+    { "text": { "tr": "ISO değeri neyi belirler?", "en": "What does the ISO value control?" }, "choices": [
+      { "text": { "tr": "Işığa duyarlılığı", "en": "Sensitivity to light" }, "correct": true },
+      { "text": { "tr": "Odak uzaklığını", "en": "Focal length" } },
+      { "text": { "tr": "Beyaz dengesini", "en": "White balance" } },
+      { "text": { "tr": "Lens çapını", "en": "Lens diameter" } } ] },
+    { "text": { "tr": "Enstantane hızı neyi belirler?", "en": "What does shutter speed control?" }, "choices": [
+      { "text": { "tr": "Pozlama süresini", "en": "Exposure time" }, "correct": true },
+      { "text": { "tr": "Işığa duyarlılığı", "en": "Sensitivity to light" } },
+      { "text": { "tr": "Renk sıcaklığını", "en": "Color temperature" } },
+      { "text": { "tr": "Odak uzaklığını", "en": "Focal length" } } ] },
+    { "text": { "tr": "Diyafram açıklığı hangi harfle gösterilir?", "en": "Which letter is used for the aperture?" }, "choices": [
+      { "text": { "tr": "f", "en": "f" }, "correct": true },
+      { "text": { "tr": "s", "en": "s" } },
+      { "text": { "tr": "K", "en": "K" } },
+      { "text": { "tr": "ISO", "en": "ISO" } } ] },
+    { "text": { "tr": "Hangisi en geniş diyafram açıklığıdır?", "en": "Which is the widest aperture?" }, "choices": [
+      { "text": { "tr": "f/1.8", "en": "f/1.8" }, "correct": true },
+      { "text": { "tr": "f/8", "en": "f/8" } },
+      { "text": { "tr": "f/16", "en": "f/16" } },
+      { "text": { "tr": "f/22", "en": "f/22" } } ] },
+    { "text": { "tr": "Diyaframı genişletmek alan derinliğini nasıl etkiler?", "en": "How does a wider aperture affect depth of field?" }, "choices": [
+      { "text": { "tr": "Azaltır", "en": "It reduces it" }, "correct": true },
+      { "text": { "tr": "Artırır", "en": "It increases it" } },
+      { "text": { "tr": "Değiştirmez", "en": "No change" } },
+      { "text": { "tr": "İkiye katlar", "en": "It doubles it" } } ] },
+    { "text": { "tr": "Yüksek ISO'nun en bilinen yan etkisi nedir?", "en": "What is the best-known side effect of a high ISO?" }, "choices": [
+      { "text": { "tr": "Kumlanma", "en": "Noise" }, "correct": true },
+      { "text": { "tr": "Renk kaybı", "en": "Color loss" } },
+      { "text": { "tr": "Odak kayması", "en": "Focus shift" } },
+      { "text": { "tr": "Lens parlaması", "en": "Lens flare" } } ] },
+    { "text": { "tr": "Hareketi dondurmak için hangi enstantane daha uygundur?", "en": "Which shutter speed is best for freezing motion?" }, "choices": [
+      { "text": { "tr": "1/1000 sn", "en": "1/1000 s" }, "correct": true },
+      { "text": { "tr": "1/15 sn", "en": "1/15 s" } },
+      { "text": { "tr": "1 sn", "en": "1 s" } },
+      { "text": { "tr": "2 sn", "en": "2 s" } } ] },
+    { "text": { "tr": "Üçte bir kuralı fotoğrafın hangi yönüyle ilgilidir?", "en": "The rule of thirds is about which part of a photo?" }, "choices": [
+      { "text": { "tr": "Kompozisyon", "en": "Composition" }, "correct": true },
+      { "text": { "tr": "Pozlama", "en": "Exposure" } },
+      { "text": { "tr": "Beyaz dengesi", "en": "White balance" } },
+      { "text": { "tr": "Dosya biçimi", "en": "File format" } } ] },
+    { "text": { "tr": "Gün doğumu ve batımına yakın sıcak ışıklı zamana ne denir?", "en": "What is the warm light near sunrise and sunset called?" }, "choices": [
+      { "text": { "tr": "Altın saat", "en": "Golden hour" }, "correct": true },
+      { "text": { "tr": "Mavi saat", "en": "Blue hour" } },
+      { "text": { "tr": "Öğle ışığı", "en": "Midday light" } },
+      { "text": { "tr": "Gece modu", "en": "Night mode" } } ] },
+    { "text": { "tr": "Hangi odak uzaklığı geniş açı sayılır?", "en": "Which focal length counts as wide-angle?" }, "choices": [
+      { "text": { "tr": "16 mm", "en": "16 mm" }, "correct": true },
+      { "text": { "tr": "85 mm", "en": "85 mm" } },
+      { "text": { "tr": "200 mm", "en": "200 mm" } },
+      { "text": { "tr": "400 mm", "en": "400 mm" } } ] },
+    { "text": { "tr": "RAW dosyanın JPEG'e göre temel avantajı nedir?", "en": "What is the main advantage of RAW over JPEG?" }, "choices": [
+      { "text": { "tr": "Daha fazla görüntü verisi", "en": "More image data" }, "correct": true },
+      { "text": { "tr": "Daha küçük dosya", "en": "Smaller files" } },
+      { "text": { "tr": "Her yerde açılması", "en": "Opens everywhere" } },
+      { "text": { "tr": "Daha hızlı paylaşım", "en": "Faster sharing" } } ] },
+    { "text": { "tr": "Beyaz dengesi ayarı neyi düzeltir?", "en": "What does the white balance setting correct?" }, "choices": [
+      { "text": { "tr": "Renk sıcaklığını", "en": "Color temperature" }, "correct": true },
+      { "text": { "tr": "Pozlamayı", "en": "Exposure" } },
+      { "text": { "tr": "Netliği", "en": "Sharpness" } },
+      { "text": { "tr": "Kumlanmayı", "en": "Noise" } } ] },
+    { "text": { "tr": "Uzun pozlamada titremeyi önlemek için ne kullanılır?", "en": "What prevents camera shake in long exposures?" }, "choices": [
+      { "text": { "tr": "Tripod", "en": "Tripod" }, "correct": true },
+      { "text": { "tr": "Flaş", "en": "Flash" } },
+      { "text": { "tr": "Reflektör", "en": "Reflector" } },
+      { "text": { "tr": "Lens kapağı", "en": "Lens cap" } } ] },
+    { "text": { "tr": "Makro fotoğrafçılık neyi konu alır?", "en": "What is macro photography about?" }, "choices": [
+      { "text": { "tr": "Çok yakın çekimleri", "en": "Very close-up shots" }, "correct": true },
+      { "text": { "tr": "Geniş manzaraları", "en": "Wide landscapes" } },
+      { "text": { "tr": "Gece gökyüzünü", "en": "The night sky" } },
+      { "text": { "tr": "Hızlı sporları", "en": "Fast sports" } } ] },
+    { "text": { "tr": "Bilinen ilk kalıcı fotoğrafı kim çekti?", "en": "Who took the earliest surviving photograph?" }, "choices": [
+      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce" }, "correct": true },
+      { "text": { "tr": "George Eastman", "en": "George Eastman" } },
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams" } },
+      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison" } } ] },
+    { "text": { "tr": "Fotoğrafta \"bokeh\" neyi ifade eder?", "en": "What does \"bokeh\" refer to in photography?" }, "choices": [
+      { "text": { "tr": "Arka plan bulanıklığı", "en": "Background blur" }, "correct": true },
+      { "text": { "tr": "Lens parlaması", "en": "Lens flare" } },
+      { "text": { "tr": "Aşırı pozlama", "en": "Overexposure" } },
+      { "text": { "tr": "Renk doygunluğu", "en": "Color saturation" } } ] },
+    { "text": { "tr": "Kameradaki histogram neyi gösterir?", "en": "What does a camera histogram show?" }, "choices": [
+      { "text": { "tr": "Ton dağılımını", "en": "Tonal distribution" }, "correct": true },
+      { "text": { "tr": "Odak noktalarını", "en": "Focus points" } },
+      { "text": { "tr": "Pil durumunu", "en": "Battery level" } },
+      { "text": { "tr": "Lens modelini", "en": "Lens model" } } ] },
+    { "text": { "tr": "Aynasız makinede DSLR'den farklı olarak ne yoktur?", "en": "What does a mirrorless camera lack compared to a DSLR?" }, "choices": [
+      { "text": { "tr": "Ayna", "en": "A mirror" }, "correct": true },
+      { "text": { "tr": "Sensör", "en": "A sensor" } },
+      { "text": { "tr": "Deklanşör tuşu", "en": "A shutter button" } },
+      { "text": { "tr": "Lens yuvası", "en": "A lens mount" } } ] },
+    { "text": { "tr": "Polarize filtre en çok ne işe yarar?", "en": "What is a polarizing filter mainly used for?" }, "choices": [
+      { "text": { "tr": "Yansımaları azaltır", "en": "Reducing reflections" }, "correct": true },
+      { "text": { "tr": "Görüntüyü büyütür", "en": "Magnifying the image" } },
+      { "text": { "tr": "Kumlanmayı artırır", "en": "Adding noise" } },
+      { "text": { "tr": "Odağı hızlandırır", "en": "Faster focusing" } } ] },
+    { "text": { "tr": "50 mm odak uzaklığındaki objektife genelde ne denir?", "en": "What is a 50 mm lens usually called?" }, "choices": [
+      { "text": { "tr": "Normal objektif", "en": "Normal lens" }, "correct": true },
+      { "text": { "tr": "Geniş açı", "en": "Wide-angle" } },
+      { "text": { "tr": "Telefoto", "en": "Telephoto" } },
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye" } } ] },
+    { "text": { "tr": "Çok geniş ve bombeli görüntü veren objektif hangisidir?", "en": "Which lens gives a very wide, curved image?" }, "choices": [
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye" }, "correct": true },
+      { "text": { "tr": "Telefoto", "en": "Telephoto" } },
+      { "text": { "tr": "Makro", "en": "Macro" } },
+      { "text": { "tr": "Normal", "en": "Normal" } } ] },
+    { "text": { "tr": "Uzaktaki konuları büyüten objektif türü hangisidir?", "en": "Which lens type magnifies distant subjects?" }, "choices": [
+      { "text": { "tr": "Telefoto", "en": "Telephoto" }, "correct": true },
+      { "text": { "tr": "Geniş açı", "en": "Wide-angle" } },
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye" } },
+      { "text": { "tr": "Normal", "en": "Normal" } } ] },
+    { "text": { "tr": "Odak uzaklığı değiştirilebilen objektife ne denir?", "en": "What is a lens with a variable focal length called?" }, "choices": [
+      { "text": { "tr": "Zum objektif", "en": "Zoom lens" }, "correct": true },
+      { "text": { "tr": "Sabit objektif", "en": "Prime lens" } },
+      { "text": { "tr": "Makro objektif", "en": "Macro lens" } },
+      { "text": { "tr": "Balıkgözü", "en": "Fisheye" } } ] },
+    { "text": { "tr": "Arkadan aydınlatılan konunun koyu çıkmasına ne denir?", "en": "What is a backlit subject that appears dark called?" }, "choices": [
+      { "text": { "tr": "Siluet", "en": "Silhouette" }, "correct": true },
+      { "text": { "tr": "Bokeh", "en": "Bokeh" } },
+      { "text": { "tr": "Vinyet", "en": "Vignette" } },
+      { "text": { "tr": "Kumlanma", "en": "Noise" } } ] },
+    { "text": { "tr": "Fotoğrafın kenarlarının kararmasına ne denir?", "en": "What is the darkening of a photo's corners called?" }, "choices": [
+      { "text": { "tr": "Vinyet", "en": "Vignetting" }, "correct": true },
+      { "text": { "tr": "Bokeh", "en": "Bokeh" } },
+      { "text": { "tr": "Kumlanma", "en": "Noise" } },
+      { "text": { "tr": "Hale", "en": "Halo" } } ] },
+    { "text": { "tr": "Farklı pozlamaların birleştirildiği görüntüye ne denir?", "en": "What is an image combining several exposures called?" }, "choices": [
+      { "text": { "tr": "HDR", "en": "HDR" }, "correct": true },
+      { "text": { "tr": "RAW", "en": "RAW" } },
+      { "text": { "tr": "JPEG", "en": "JPEG" } },
+      { "text": { "tr": "ISO", "en": "ISO" } } ] },
+    { "text": { "tr": "Tam kare (full frame) sensör hangi film boyutuna eşittir?", "en": "A full-frame sensor matches which film size?" }, "choices": [
+      { "text": { "tr": "35 mm film", "en": "35 mm film" }, "correct": true },
+      { "text": { "tr": "Orta format film", "en": "Medium format film" } },
+      { "text": { "tr": "16 mm film", "en": "16 mm film" } },
+      { "text": { "tr": "8 mm film", "en": "8 mm film" } } ] },
+    { "text": { "tr": "\"Fotoğraf\" kelimesindeki \"photos\" ne demektir?", "en": "In \"photography\", what does the Greek \"photos\" mean?" }, "choices": [
+      { "text": { "tr": "Işık", "en": "Light" }, "correct": true },
+      { "text": { "tr": "Resim", "en": "Picture" } },
+      { "text": { "tr": "Göz", "en": "Eye" } },
+      { "text": { "tr": "Çizgi", "en": "Line" } } ] },
+    { "text": { "tr": "Gün batımından hemen sonraki mavi tonlu zamana ne denir?", "en": "What is the blue-toned time right after sunset called?" }, "choices": [
+      { "text": { "tr": "Mavi saat", "en": "Blue hour" }, "correct": true },
+      { "text": { "tr": "Altın saat", "en": "Golden hour" } },
+      { "text": { "tr": "Öğle ışığı", "en": "Midday light" } },
+      { "text": { "tr": "Gece yarısı", "en": "Midnight" } } ] },
+    { "text": { "tr": "Polaroid kameralar en çok ne ile bilinir?", "en": "What are Polaroid cameras best known for?" }, "choices": [
+      { "text": { "tr": "Anında baskı", "en": "Instant prints" }, "correct": true },
+      { "text": { "tr": "Su altı çekimi", "en": "Underwater shots" } },
+      { "text": { "tr": "Uzay fotoğrafı", "en": "Space photos" } },
+      { "text": { "tr": "Video kaydı", "en": "Video recording" } } ] },
+    { "text": { "tr": "Kodak şirketinin kurucusu kimdir?", "en": "Who founded the Kodak company?" }, "choices": [
+      { "text": { "tr": "George Eastman", "en": "George Eastman" }, "correct": true },
+      { "text": { "tr": "Thomas Edison", "en": "Thomas Edison" } },
+      { "text": { "tr": "Louis Daguerre", "en": "Louis Daguerre" } },
+      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce" } } ] },
+    { "text": { "tr": "Dagerotip yöntemini kim geliştirdi?", "en": "Who developed the daguerreotype process?" }, "choices": [
+      { "text": { "tr": "Louis Daguerre", "en": "Louis Daguerre" }, "correct": true },
+      { "text": { "tr": "George Eastman", "en": "George Eastman" } },
+      { "text": { "tr": "Nicéphore Niépce", "en": "Nicéphore Niépce" } },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler" } } ] },
+    { "text": { "tr": "\"Belirleyici an\" kavramıyla tanınan fotoğrafçı kimdir?", "en": "Which photographer is known for \"the decisive moment\"?" }, "choices": [
+      { "text": { "tr": "Henri Cartier-Bresson", "en": "Henri Cartier-Bresson" }, "correct": true },
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams" } },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler" } },
+      { "text": { "tr": "Robert Capa", "en": "Robert Capa" } } ] },
     { "text": { "tr": "\"İstanbul'un gözü\" olarak anılan fotoğrafçı kimdir?" }, "choices": [
       { "text": { "tr": "Ara Güler" }, "correct": true },
       { "text": { "tr": "Robert Capa" } },
       { "text": { "tr": "Ansel Adams" } },
       { "text": { "tr": "Steve McCurry" } } ] },
-    { "text": { "tr": "Yosemite manzaralarıyla ünlü fotoğrafçı kimdir?" }, "choices": [
-      { "text": { "tr": "Ansel Adams" }, "correct": true },
-      { "text": { "tr": "Ara Güler" } },
-      { "text": { "tr": "Robert Capa" } },
-      { "text": { "tr": "Henri Cartier-Bresson" } } ] },
-    { "text": { "tr": "\"Afgan Kız\" fotoğrafını kim çekti?" }, "choices": [
-      { "text": { "tr": "Steve McCurry" }, "correct": true },
-      { "text": { "tr": "Robert Capa" } },
-      { "text": { "tr": "Ansel Adams" } },
-      { "text": { "tr": "Ara Güler" } } ] },
-    { "text": { "tr": "Gündüz uzun pozlama için ışığı azaltan filtre hangisidir?" }, "choices": [
-      { "text": { "tr": "ND filtre" }, "correct": true },
-      { "text": { "tr": "UV filtre" } },
-      { "text": { "tr": "Yıldız filtre" } },
-      { "text": { "tr": "Renk filtresi" } } ] },
-    { "text": { "tr": "Otomatik netleme hangi kısaltmayla gösterilir?" }, "choices": [
-      { "text": { "tr": "AF" }, "correct": true },
-      { "text": { "tr": "AE" } },
-      { "text": { "tr": "WB" } },
-      { "text": { "tr": "ND" } } ] },
-    { "text": { "tr": "Hareketli konuyu kamerayla takip ederek çekmeye ne denir?" }, "choices": [
-      { "text": { "tr": "Panning" }, "correct": true },
-      { "text": { "tr": "Bracketing" } },
-      { "text": { "tr": "Bokeh" } },
-      { "text": { "tr": "Vinyet" } } ] }
+    { "text": { "tr": "Yosemite manzaralarıyla ünlü fotoğrafçı kimdir?", "en": "Which photographer is famous for Yosemite landscapes?" }, "choices": [
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams" }, "correct": true },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler" } },
+      { "text": { "tr": "Robert Capa", "en": "Robert Capa" } },
+      { "text": { "tr": "Henri Cartier-Bresson", "en": "Henri Cartier-Bresson" } } ] },
+    { "text": { "tr": "\"Afgan Kız\" fotoğrafını kim çekti?", "en": "Who took the \"Afghan Girl\" photograph?" }, "choices": [
+      { "text": { "tr": "Steve McCurry", "en": "Steve McCurry" }, "correct": true },
+      { "text": { "tr": "Robert Capa", "en": "Robert Capa" } },
+      { "text": { "tr": "Ansel Adams", "en": "Ansel Adams" } },
+      { "text": { "tr": "Ara Güler", "en": "Ara Güler" } } ] },
+    { "text": { "tr": "Gündüz uzun pozlama için ışığı azaltan filtre hangisidir?", "en": "Which filter cuts light for daytime long exposures?" }, "choices": [
+      { "text": { "tr": "ND filtre", "en": "ND filter" }, "correct": true },
+      { "text": { "tr": "UV filtre", "en": "UV filter" } },
+      { "text": { "tr": "Yıldız filtre", "en": "Star filter" } },
+      { "text": { "tr": "Renk filtresi", "en": "Color filter" } } ] },
+    { "text": { "tr": "Otomatik netleme hangi kısaltmayla gösterilir?", "en": "Which abbreviation stands for autofocus?" }, "choices": [
+      { "text": { "tr": "AF", "en": "AF" }, "correct": true },
+      { "text": { "tr": "AE", "en": "AE" } },
+      { "text": { "tr": "WB", "en": "WB" } },
+      { "text": { "tr": "ND", "en": "ND" } } ] },
+    { "text": { "tr": "Hareketli konuyu kamerayla takip ederek çekmeye ne denir?", "en": "What is following a moving subject with the camera called?" }, "choices": [
+      { "text": { "tr": "Panning", "en": "Panning" }, "correct": true },
+      { "text": { "tr": "Bracketing", "en": "Bracketing" } },
+      { "text": { "tr": "Bokeh", "en": "Bokeh" } },
+      { "text": { "tr": "Vinyet", "en": "Vignetting" } } ] }
   ]
 }
