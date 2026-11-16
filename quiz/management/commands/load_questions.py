@@ -6,7 +6,7 @@ Load questions from quiz/data/questions/*.json into the database.
 - Idempotent: categories are matched by slug, questions by (category, Turkish text).
 - Validates every file first; on any error nothing is written.
 - Questions that disappeared from a file are deactivated, not deleted.
-- Texts are language dictionaries: {"tr": "...", "en": "...", "es": "..."}. Turkish is
+- Texts are language dictionaries: {"tr": "...", "en": "...", "nl": "...", "es": "..."}. Turkish is
   required; a missing language means the question is not offered in that language.
   A plain string is accepted as Turkish only.
 """
@@ -24,7 +24,7 @@ DEFAULT_DIR = Path(__file__).resolve().parents[2] / "data" / "questions"
 
 REQUIRED_CHOICES = 4
 REQUIRED_CORRECT = 1
-TRANSLATIONS = [lang for lang in LANGUAGES if lang != DEFAULT_LANGUAGE]  # en, es
+TRANSLATIONS = [lang for lang in LANGUAGES if lang != DEFAULT_LANGUAGE]  # en, nl, es
 
 # Hard limits come from the model fields; soft limits keep questions quick to read.
 MAX_QUESTION_LEN = Question._meta.get_field("text").max_length

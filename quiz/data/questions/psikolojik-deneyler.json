@@ -1,205 +1,205 @@
 {
-  "category": { "slug": "psikolojik-deneyler", "color": "coral", "order": 7, "name": { "tr": "Psikolojik Deneyler", "en": "Psychology Experiments" }, "description": { "tr": "Tarihin ünlü deneyleri", "en": "Famous experiments in history" } },
+  "category": { "slug": "psikolojik-deneyler", "color": "coral", "order": 7, "name": { "tr": "Psikolojik Deneyler", "en": "Psychology Experiments", "nl": "Psychologische experimenten" }, "description": { "tr": "Tarihin ünlü deneyleri", "en": "Famous experiments in history", "nl": "Beroemde experimenten uit de geschiedenis" } },
   "questions": [
-    { "text": { "tr": "Köpeklerin zil sesiyle salya akıttığı deneyi kim yaptı?", "en": "Who made dogs salivate at the sound of a bell?" }, "choices": [
-      { "text": { "tr": "Ivan Pavlov", "en": "Ivan Pavlov" }, "correct": true },
-      { "text": { "tr": "B. F. Skinner", "en": "B. F. Skinner" } },
-      { "text": { "tr": "John B. Watson", "en": "John B. Watson" } },
-      { "text": { "tr": "Edward Thorndike", "en": "Edward Thorndike" } } ] },
-    { "text": { "tr": "Milgram deneyi neyi inceledi?", "en": "What did the Milgram experiment study?" }, "choices": [
-      { "text": { "tr": "Otoriteye itaati", "en": "Obedience to authority" }, "correct": true },
-      { "text": { "tr": "Bellek sınırlarını", "en": "Memory limits" } },
-      { "text": { "tr": "Uyku düzenini", "en": "Sleep patterns" } },
-      { "text": { "tr": "Renk algısını", "en": "Color perception" } } ] },
-    { "text": { "tr": "Milgram deneyinde katılımcılar ne verdiklerini sandı?", "en": "What did Milgram's participants think they were giving?" }, "choices": [
-      { "text": { "tr": "Elektrik şoku", "en": "Electric shocks" }, "correct": true },
-      { "text": { "tr": "İlaç", "en": "Medicine" } },
-      { "text": { "tr": "Para ödülü", "en": "Cash rewards" } },
-      { "text": { "tr": "Ceza puanı", "en": "Penalty points" } } ] },
-    { "text": { "tr": "Stanford Hapishane Deneyi'ni kim yürüttü?", "en": "Who ran the Stanford Prison Experiment?" }, "choices": [
-      { "text": { "tr": "Philip Zimbardo", "en": "Philip Zimbardo" }, "correct": true },
-      { "text": { "tr": "Stanley Milgram", "en": "Stanley Milgram" } },
-      { "text": { "tr": "Solomon Asch", "en": "Solomon Asch" } },
-      { "text": { "tr": "Albert Bandura", "en": "Albert Bandura" } } ] },
-    { "text": { "tr": "Küçük Albert deneyini kim yaptı?", "en": "Who carried out the Little Albert experiment?" }, "choices": [
-      { "text": { "tr": "John B. Watson", "en": "John B. Watson" }, "correct": true },
-      { "text": { "tr": "Ivan Pavlov", "en": "Ivan Pavlov" } },
-      { "text": { "tr": "B. F. Skinner", "en": "B. F. Skinner" } },
-      { "text": { "tr": "Harry Harlow", "en": "Harry Harlow" } } ] },
-    { "text": { "tr": "Küçük Albert'e neyden korkması öğretildi?", "en": "What was Little Albert taught to fear?" }, "choices": [
-      { "text": { "tr": "Beyaz fare", "en": "A white rat" }, "correct": true },
-      { "text": { "tr": "Köpek", "en": "A dog" } },
-      { "text": { "tr": "Karanlık", "en": "The dark" } },
-      { "text": { "tr": "Su", "en": "Water" } } ] },
-    { "text": { "tr": "Bobo bebek deneyini yapan psikolog kimdir?", "en": "Which psychologist ran the Bobo doll experiment?" }, "choices": [
-      { "text": { "tr": "Albert Bandura", "en": "Albert Bandura" }, "correct": true },
-      { "text": { "tr": "Philip Zimbardo", "en": "Philip Zimbardo" } },
-      { "text": { "tr": "Stanley Milgram", "en": "Stanley Milgram" } },
-      { "text": { "tr": "Leon Festinger", "en": "Leon Festinger" } } ] },
-    { "text": { "tr": "Bobo bebek deneyi neyi gösterdi?", "en": "What did the Bobo doll experiment show?" }, "choices": [
-      { "text": { "tr": "Gözlemle öğrenmeyi", "en": "Learning by observation" }, "correct": true },
-      { "text": { "tr": "Bellek kaybını", "en": "Memory loss" } },
-      { "text": { "tr": "Uyku ihtiyacını", "en": "The need for sleep" } },
-      { "text": { "tr": "Renk körlüğünü", "en": "Color blindness" } } ] },
-    { "text": { "tr": "Asch deneyinde katılımcılar neyin uzunluğunu kıyasladı?", "en": "What did Asch's participants compare the length of?" }, "choices": [
-      { "text": { "tr": "Çizgilerin", "en": "Lines" }, "correct": true },
-      { "text": { "tr": "Seslerin", "en": "Sounds" } },
-      { "text": { "tr": "Gölgelerin", "en": "Shadows" } },
-      { "text": { "tr": "Kelimelerin", "en": "Words" } } ] },
-    { "text": { "tr": "Asch deneyi hangi davranışı inceledi?", "en": "Which behavior did the Asch experiment study?" }, "choices": [
-      { "text": { "tr": "Gruba uyma", "en": "Conformity" }, "correct": true },
-      { "text": { "tr": "Otoriteye itaat", "en": "Obedience to authority" } },
-      { "text": { "tr": "Saldırganlık", "en": "Aggression" } },
-      { "text": { "tr": "Yardım etme", "en": "Helping others" } } ] },
-    { "text": { "tr": "Harlow'un yavru maymunları hangi anneyi tercih etti?", "en": "Which mother did Harlow's baby monkeys prefer?" }, "choices": [
-      { "text": { "tr": "Yumuşak kumaş anne", "en": "Soft cloth mother" }, "correct": true },
-      { "text": { "tr": "Biberonlu tel anne", "en": "Wire mother with a bottle" } },
-      { "text": { "tr": "Tahta anne", "en": "Wooden mother" } },
-      { "text": { "tr": "Plastik anne", "en": "Plastic mother" } } ] },
-    { "text": { "tr": "Skinner kutusu hangi öğrenme türünü inceledi?", "en": "Which type of learning did the Skinner box study?" }, "choices": [
-      { "text": { "tr": "Edimsel koşullanma", "en": "Operant conditioning" }, "correct": true },
-      { "text": { "tr": "Klasik koşullanma", "en": "Classical conditioning" } },
-      { "text": { "tr": "Gözlemsel öğrenme", "en": "Observational learning" } },
-      { "text": { "tr": "Örtük öğrenme", "en": "Latent learning" } } ] },
-    { "text": { "tr": "Seligman köpeklerle hangi kavramı ortaya koydu?", "en": "Which concept did Seligman discover with dogs?" }, "choices": [
-      { "text": { "tr": "Öğrenilmiş çaresizlik", "en": "Learned helplessness" }, "correct": true },
-      { "text": { "tr": "Bilişsel uyumsuzluk", "en": "Cognitive dissonance" } },
-      { "text": { "tr": "Hale etkisi", "en": "Halo effect" } },
-      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect" } } ] },
-    { "text": { "tr": "Kitty Genovese olayı hangi etkiyle ilişkilendirilir?", "en": "The Kitty Genovese case is linked to which effect?" }, "choices": [
-      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect" }, "correct": true },
-      { "text": { "tr": "Plasebo etkisi", "en": "Placebo effect" } },
-      { "text": { "tr": "Hawthorne etkisi", "en": "Hawthorne effect" } },
-      { "text": { "tr": "Pygmalion etkisi", "en": "Pygmalion effect" } } ] },
-    { "text": { "tr": "Seyirci etkisini deneylerle inceleyen ikili kimdir?", "en": "Which pair studied the bystander effect in experiments?" }, "choices": [
-      { "text": { "tr": "Darley ve Latané", "en": "Darley and Latané" }, "correct": true },
-      { "text": { "tr": "Asch ve Milgram", "en": "Asch and Milgram" } },
-      { "text": { "tr": "Watson ve Rayner", "en": "Watson and Rayner" } },
-      { "text": { "tr": "Harlow ve Zimmermann", "en": "Harlow and Zimmermann" } } ] },
-    { "text": { "tr": "Marshmallow testi neyi ölçtü?", "en": "What did the marshmallow test measure?" }, "choices": [
-      { "text": { "tr": "Hazzı erteleme", "en": "Delayed gratification" }, "correct": true },
-      { "text": { "tr": "Kısa süreli bellek", "en": "Short-term memory" } },
-      { "text": { "tr": "Renk tercihi", "en": "Color preference" } },
-      { "text": { "tr": "Uyku süresi", "en": "Sleep duration" } } ] },
-    { "text": { "tr": "Marshmallow testini kim geliştirdi?", "en": "Who developed the marshmallow test?" }, "choices": [
-      { "text": { "tr": "Walter Mischel", "en": "Walter Mischel" }, "correct": true },
-      { "text": { "tr": "Jean Piaget", "en": "Jean Piaget" } },
-      { "text": { "tr": "Albert Bandura", "en": "Albert Bandura" } },
-      { "text": { "tr": "Martin Seligman", "en": "Martin Seligman" } } ] },
-    { "text": { "tr": "Festinger'ın 1 dolar / 20 dolar deneyi neyi destekledi?", "en": "What did Festinger's $1 / $20 experiment support?" }, "choices": [
-      { "text": { "tr": "Bilişsel uyumsuzluk", "en": "Cognitive dissonance" }, "correct": true },
-      { "text": { "tr": "Öğrenilmiş çaresizlik", "en": "Learned helplessness" } },
-      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect" } },
-      { "text": { "tr": "Gruba uyma", "en": "Conformity" } } ] },
-    { "text": { "tr": "Hawthorne deneyleri nerede yapıldı?", "en": "Where were the Hawthorne studies carried out?" }, "choices": [
-      { "text": { "tr": "Bir fabrikada", "en": "In a factory" }, "correct": true },
-      { "text": { "tr": "Bir hapishanede", "en": "In a prison" } },
-      { "text": { "tr": "Bir hastanede", "en": "In a hospital" } },
-      { "text": { "tr": "Bir okulda", "en": "In a school" } } ] },
-    { "text": { "tr": "Rosenthal'ın öğretmen beklentisi deneyi hangi etkiyi gösterdi?", "en": "Which effect did Rosenthal's teacher expectation study show?" }, "choices": [
-      { "text": { "tr": "Pygmalion etkisi", "en": "Pygmalion effect" }, "correct": true },
-      { "text": { "tr": "Hawthorne etkisi", "en": "Hawthorne effect" } },
-      { "text": { "tr": "Plasebo etkisi", "en": "Placebo effect" } },
-      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect" } } ] },
-    { "text": { "tr": "Robbers Cave deneyi neyi inceledi?", "en": "What did the Robbers Cave experiment study?" }, "choices": [
-      { "text": { "tr": "Gruplar arası çatışmayı", "en": "Conflict between groups" }, "correct": true },
-      { "text": { "tr": "Uyku yoksunluğunu", "en": "Sleep deprivation" } },
-      { "text": { "tr": "Bellek bozulmasını", "en": "Memory distortion" } },
-      { "text": { "tr": "Renk algısını", "en": "Color perception" } } ] },
-    { "text": { "tr": "Robbers Cave deneyini kim yürüttü?", "en": "Who ran the Robbers Cave experiment?" }, "choices": [
-      { "text": { "tr": "Muzafer Şerif", "en": "Muzafer Sherif" }, "correct": true },
-      { "text": { "tr": "Solomon Asch", "en": "Solomon Asch" } },
-      { "text": { "tr": "Leon Festinger", "en": "Leon Festinger" } },
-      { "text": { "tr": "Stanley Milgram", "en": "Stanley Milgram" } } ] },
-    { "text": { "tr": "Muzafer Şerif'in otokinetik etki deneyi neyi gösterdi?", "en": "What did Sherif's autokinetic effect study show?" }, "choices": [
-      { "text": { "tr": "Grup normu oluşumunu", "en": "How group norms form" }, "correct": true },
-      { "text": { "tr": "Otoriteye itaati", "en": "Obedience to authority" } },
-      { "text": { "tr": "Gözlemle öğrenmeyi", "en": "Learning by observation" } },
-      { "text": { "tr": "Hazzı ertelemeyi", "en": "Delayed gratification" } } ] },
-    { "text": { "tr": "Hermann Ebbinghaus hangi konuyu inceledi?", "en": "What did Hermann Ebbinghaus study?" }, "choices": [
-      { "text": { "tr": "Bellek ve unutma", "en": "Memory and forgetting" }, "correct": true },
-      { "text": { "tr": "Uyku", "en": "Sleep" } },
-      { "text": { "tr": "Saldırganlık", "en": "Aggression" } },
-      { "text": { "tr": "Kişilik", "en": "Personality" } } ] },
-    { "text": { "tr": "Ebbinghaus'un çizdiği ünlü eğrinin adı nedir?", "en": "What is Ebbinghaus's famous curve called?" }, "choices": [
-      { "text": { "tr": "Unutma eğrisi", "en": "Forgetting curve" }, "correct": true },
-      { "text": { "tr": "Öğrenme platosu", "en": "Learning plateau" } },
-      { "text": { "tr": "Çan eğrisi", "en": "Bell curve" } },
-      { "text": { "tr": "Talep eğrisi", "en": "Demand curve" } } ] },
-    { "text": { "tr": "Thorndike'ın kedileri neyin içinden kaçmayı öğrendi?", "en": "What did Thorndike's cats learn to escape from?" }, "choices": [
-      { "text": { "tr": "Bulmaca kutusu", "en": "A puzzle box" }, "correct": true },
-      { "text": { "tr": "Labirent", "en": "A maze" } },
-      { "text": { "tr": "Skinner kutusu", "en": "A Skinner box" } },
-      { "text": { "tr": "Su tankı", "en": "A water tank" } } ] },
-    { "text": { "tr": "Thorndike'ın ortaya koyduğu öğrenme yasası hangisidir?", "en": "Which law of learning did Thorndike propose?" }, "choices": [
-      { "text": { "tr": "Etki yasası", "en": "Law of effect" }, "correct": true },
-      { "text": { "tr": "Çekim yasası", "en": "Law of gravity" } },
-      { "text": { "tr": "Hız yasası", "en": "Law of speed" } },
-      { "text": { "tr": "Denge yasası", "en": "Law of balance" } } ] },
-    { "text": { "tr": "Loftus'un araba kazası deneyi neyi gösterdi?", "en": "What did Loftus's car crash study show?" }, "choices": [
-      { "text": { "tr": "Soruların anıyı etkilediğini", "en": "Questions can change memories" }, "correct": true },
-      { "text": { "tr": "Hızın doğru tahmin edildiğini", "en": "Speed is judged correctly" } },
-      { "text": { "tr": "Gözlemle öğrenmeyi", "en": "Learning by observation" } },
-      { "text": { "tr": "Gruba uymayı", "en": "Conformity" } } ] },
-    { "text": { "tr": "\"Görünmez goril\" deneyi neyi gösterdi?", "en": "What did the \"invisible gorilla\" study show?" }, "choices": [
-      { "text": { "tr": "Dikkat körlüğünü", "en": "Inattentional blindness" }, "correct": true },
-      { "text": { "tr": "Renk körlüğünü", "en": "Color blindness" } },
-      { "text": { "tr": "Uzun süreli belleği", "en": "Long-term memory" } },
-      { "text": { "tr": "Gruba uymayı", "en": "Conformity" } } ] },
-    { "text": { "tr": "\"Görünmez goril\" deneyinde izleyiciler neyi sayıyordu?", "en": "What were viewers counting in the \"invisible gorilla\" study?" }, "choices": [
-      { "text": { "tr": "Pasları", "en": "Passes" }, "correct": true },
-      { "text": { "tr": "Oyuncuları", "en": "Players" } },
-      { "text": { "tr": "Sayıları", "en": "Numbers" } },
-      { "text": { "tr": "Gorilleri", "en": "Gorillas" } } ] },
-    { "text": { "tr": "Piaget'nin \"üç dağ\" deneyi neyi ölçtü?", "en": "What did Piaget's \"three mountains\" task measure?" }, "choices": [
-      { "text": { "tr": "Benmerkezciliği", "en": "Egocentrism" }, "correct": true },
-      { "text": { "tr": "Bellek kapasitesini", "en": "Memory capacity" } },
-      { "text": { "tr": "Korkuyu", "en": "Fear" } },
-      { "text": { "tr": "Zekâ yaşını", "en": "Mental age" } } ] },
-    { "text": { "tr": "Rosenhan deneyinde ne yapıldı?", "en": "What happened in the Rosenhan experiment?" }, "choices": [
-      { "text": { "tr": "Sağlıklılar hastaneye yattı", "en": "Healthy people were admitted" }, "correct": true },
-      { "text": { "tr": "Hastalar taburcu edildi", "en": "Patients were discharged" } },
-      { "text": { "tr": "İlaçlar karşılaştırıldı", "en": "Drugs were compared" } },
-      { "text": { "tr": "Hemşireler eğitildi", "en": "Nurses were trained" } } ] },
-    { "text": { "tr": "Tolman'ın fareleri labirentte ne oluşturdu?", "en": "What did Tolman's rats form in the maze?" }, "choices": [
-      { "text": { "tr": "Bilişsel harita", "en": "A cognitive map" }, "correct": true },
-      { "text": { "tr": "Koşullu refleks", "en": "A conditioned reflex" } },
-      { "text": { "tr": "Unutma eğrisi", "en": "A forgetting curve" } },
-      { "text": { "tr": "Hale etkisi", "en": "A halo effect" } } ] },
-    { "text": { "tr": "Kahneman ve Tversky hangi alanda çığır açtı?", "en": "In which area did Kahneman and Tversky break new ground?" }, "choices": [
-      { "text": { "tr": "Karar verme yanılgıları", "en": "Decision-making biases" }, "correct": true },
-      { "text": { "tr": "Hayvan öğrenmesi", "en": "Animal learning" } },
-      { "text": { "tr": "Rüya analizi", "en": "Dream analysis" } },
-      { "text": { "tr": "Çocuk gelişimi", "en": "Child development" } } ] },
-    { "text": { "tr": "Stroop testinde katılımcıdan ne istenir?", "en": "What must participants do in the Stroop test?" }, "choices": [
-      { "text": { "tr": "Yazının rengini söylemek", "en": "Name the ink color" }, "correct": true },
-      { "text": { "tr": "Kelimeyi ezberlemek", "en": "Memorize the word" } },
-      { "text": { "tr": "Sayıları toplamak", "en": "Add up numbers" } },
-      { "text": { "tr": "Şekilleri saymak", "en": "Count shapes" } } ] },
-    { "text": { "tr": "Stanford Hapishane Deneyi kaç gün sonra durduruldu?", "en": "After how many days was the Stanford Prison Experiment stopped?" }, "choices": [
-      { "text": { "tr": "6", "en": "6" }, "correct": true },
-      { "text": { "tr": "14", "en": "14" } },
-      { "text": { "tr": "2", "en": "2" } },
-      { "text": { "tr": "30", "en": "30" } } ] },
-    { "text": { "tr": "Milgram deneyleri hangi üniversitede yapıldı?", "en": "At which university were the Milgram experiments held?" }, "choices": [
-      { "text": { "tr": "Yale", "en": "Yale" }, "correct": true },
-      { "text": { "tr": "Harvard", "en": "Harvard" } },
-      { "text": { "tr": "Stanford", "en": "Stanford" } },
-      { "text": { "tr": "Oxford", "en": "Oxford" } } ] },
-    { "text": { "tr": "Asch deneyinde gerçek katılımcı dışındakiler kimdi?", "en": "In Asch's study, who were the other people in the room?" }, "choices": [
-      { "text": { "tr": "Gizli işbirlikçiler", "en": "Hidden confederates" }, "correct": true },
-      { "text": { "tr": "Polis memurları", "en": "Police officers" } },
-      { "text": { "tr": "Çocuklar", "en": "Children" } },
-      { "text": { "tr": "Hastalar", "en": "Patients" } } ] },
-    { "text": { "tr": "Bobo bebek deneyinde çocuklar kimi izledi?", "en": "Whom did the children watch in the Bobo doll experiment?" }, "choices": [
-      { "text": { "tr": "Bir yetişkini", "en": "An adult" }, "correct": true },
-      { "text": { "tr": "Bir hayvanı", "en": "An animal" } },
-      { "text": { "tr": "Bir robotu", "en": "A robot" } },
-      { "text": { "tr": "Bir bebeği", "en": "A baby" } } ] },
-    { "text": { "tr": "Marshmallow testinde beklerse çocuğa ne vaat edildi?", "en": "What was a child promised for waiting in the marshmallow test?" }, "choices": [
-      { "text": { "tr": "İkinci bir şekerleme", "en": "A second treat" }, "correct": true },
-      { "text": { "tr": "Bir oyuncak", "en": "A toy" } },
-      { "text": { "tr": "Para", "en": "Money" } },
-      { "text": { "tr": "Dondurma", "en": "Ice cream" } } ] }
+    { "text": { "tr": "Köpeklerin zil sesiyle salya akıttığı deneyi kim yaptı?", "en": "Who made dogs salivate at the sound of a bell?", "nl": "Wie liet honden kwijlen bij het geluid van een bel?" }, "choices": [
+      { "text": { "tr": "Ivan Pavlov", "en": "Ivan Pavlov", "nl": "Ivan Pavlov" }, "correct": true },
+      { "text": { "tr": "B. F. Skinner", "en": "B. F. Skinner", "nl": "B. F. Skinner" } },
+      { "text": { "tr": "John B. Watson", "en": "John B. Watson", "nl": "John B. Watson" } },
+      { "text": { "tr": "Edward Thorndike", "en": "Edward Thorndike", "nl": "Edward Thorndike" } } ] },
+    { "text": { "tr": "Milgram deneyi neyi inceledi?", "en": "What did the Milgram experiment study?", "nl": "Wat onderzocht het Milgram-experiment?" }, "choices": [
+      { "text": { "tr": "Otoriteye itaati", "en": "Obedience to authority", "nl": "Gehoorzaamheid aan gezag" }, "correct": true },
+      { "text": { "tr": "Bellek sınırlarını", "en": "Memory limits", "nl": "Grenzen van het geheugen" } },
+      { "text": { "tr": "Uyku düzenini", "en": "Sleep patterns", "nl": "Slaappatronen" } },
+      { "text": { "tr": "Renk algısını", "en": "Color perception", "nl": "Kleurwaarneming" } } ] },
+    { "text": { "tr": "Milgram deneyinde katılımcılar ne verdiklerini sandı?", "en": "What did Milgram's participants think they were giving?", "nl": "Wat dachten de deelnemers bij Milgram toe te dienen?" }, "choices": [
+      { "text": { "tr": "Elektrik şoku", "en": "Electric shocks", "nl": "Elektrische schokken" }, "correct": true },
+      { "text": { "tr": "İlaç", "en": "Medicine", "nl": "Medicijnen" } },
+      { "text": { "tr": "Para ödülü", "en": "Cash rewards", "nl": "Geldbeloningen" } },
+      { "text": { "tr": "Ceza puanı", "en": "Penalty points", "nl": "Strafpunten" } } ] },
+    { "text": { "tr": "Stanford Hapishane Deneyi'ni kim yürüttü?", "en": "Who ran the Stanford Prison Experiment?", "nl": "Wie leidde het Stanford-gevangenisexperiment?" }, "choices": [
+      { "text": { "tr": "Philip Zimbardo", "en": "Philip Zimbardo", "nl": "Philip Zimbardo" }, "correct": true },
+      { "text": { "tr": "Stanley Milgram", "en": "Stanley Milgram", "nl": "Stanley Milgram" } },
+      { "text": { "tr": "Solomon Asch", "en": "Solomon Asch", "nl": "Solomon Asch" } },
+      { "text": { "tr": "Albert Bandura", "en": "Albert Bandura", "nl": "Albert Bandura" } } ] },
+    { "text": { "tr": "Küçük Albert deneyini kim yaptı?", "en": "Who carried out the Little Albert experiment?", "nl": "Wie voerde het Little Albert-experiment uit?" }, "choices": [
+      { "text": { "tr": "John B. Watson", "en": "John B. Watson", "nl": "John B. Watson" }, "correct": true },
+      { "text": { "tr": "Ivan Pavlov", "en": "Ivan Pavlov", "nl": "Ivan Pavlov" } },
+      { "text": { "tr": "B. F. Skinner", "en": "B. F. Skinner", "nl": "B. F. Skinner" } },
+      { "text": { "tr": "Harry Harlow", "en": "Harry Harlow", "nl": "Harry Harlow" } } ] },
+    { "text": { "tr": "Küçük Albert'e neyden korkması öğretildi?", "en": "What was Little Albert taught to fear?", "nl": "Waar leerde Little Albert bang voor te zijn?" }, "choices": [
+      { "text": { "tr": "Beyaz fare", "en": "A white rat", "nl": "Een witte rat" }, "correct": true },
+      { "text": { "tr": "Köpek", "en": "A dog", "nl": "Een hond" } },
+      { "text": { "tr": "Karanlık", "en": "The dark", "nl": "Het donker" } },
+      { "text": { "tr": "Su", "en": "Water", "nl": "Water" } } ] },
+    { "text": { "tr": "Bobo bebek deneyini yapan psikolog kimdir?", "en": "Which psychologist ran the Bobo doll experiment?", "nl": "Welke psycholoog deed het Bobo-pop-experiment?" }, "choices": [
+      { "text": { "tr": "Albert Bandura", "en": "Albert Bandura", "nl": "Albert Bandura" }, "correct": true },
+      { "text": { "tr": "Philip Zimbardo", "en": "Philip Zimbardo", "nl": "Philip Zimbardo" } },
+      { "text": { "tr": "Stanley Milgram", "en": "Stanley Milgram", "nl": "Stanley Milgram" } },
+      { "text": { "tr": "Leon Festinger", "en": "Leon Festinger", "nl": "Leon Festinger" } } ] },
+    { "text": { "tr": "Bobo bebek deneyi neyi gösterdi?", "en": "What did the Bobo doll experiment show?", "nl": "Wat liet het Bobo-pop-experiment zien?" }, "choices": [
+      { "text": { "tr": "Gözlemle öğrenmeyi", "en": "Learning by observation", "nl": "Leren door observatie" }, "correct": true },
+      { "text": { "tr": "Bellek kaybını", "en": "Memory loss", "nl": "Geheugenverlies" } },
+      { "text": { "tr": "Uyku ihtiyacını", "en": "The need for sleep", "nl": "De behoefte aan slaap" } },
+      { "text": { "tr": "Renk körlüğünü", "en": "Color blindness", "nl": "Kleurenblindheid" } } ] },
+    { "text": { "tr": "Asch deneyinde katılımcılar neyin uzunluğunu kıyasladı?", "en": "What did Asch's participants compare the length of?", "nl": "Waarvan vergeleken de deelnemers van Asch de lengte?" }, "choices": [
+      { "text": { "tr": "Çizgilerin", "en": "Lines", "nl": "Lijnen" }, "correct": true },
+      { "text": { "tr": "Seslerin", "en": "Sounds", "nl": "Geluiden" } },
+      { "text": { "tr": "Gölgelerin", "en": "Shadows", "nl": "Schaduwen" } },
+      { "text": { "tr": "Kelimelerin", "en": "Words", "nl": "Woorden" } } ] },
+    { "text": { "tr": "Asch deneyi hangi davranışı inceledi?", "en": "Which behavior did the Asch experiment study?", "nl": "Welk gedrag onderzocht het Asch-experiment?" }, "choices": [
+      { "text": { "tr": "Gruba uyma", "en": "Conformity", "nl": "Conformisme" }, "correct": true },
+      { "text": { "tr": "Otoriteye itaat", "en": "Obedience to authority", "nl": "Gehoorzaamheid aan gezag" } },
+      { "text": { "tr": "Saldırganlık", "en": "Aggression", "nl": "Agressie" } },
+      { "text": { "tr": "Yardım etme", "en": "Helping others", "nl": "Anderen helpen" } } ] },
+    { "text": { "tr": "Harlow'un yavru maymunları hangi anneyi tercih etti?", "en": "Which mother did Harlow's baby monkeys prefer?", "nl": "Welke moeder kozen de babyaapjes van Harlow?" }, "choices": [
+      { "text": { "tr": "Yumuşak kumaş anne", "en": "Soft cloth mother", "nl": "Zachte moeder van stof" }, "correct": true },
+      { "text": { "tr": "Biberonlu tel anne", "en": "Wire mother with a bottle", "nl": "Draadmoeder met fles" } },
+      { "text": { "tr": "Tahta anne", "en": "Wooden mother", "nl": "Houten moeder" } },
+      { "text": { "tr": "Plastik anne", "en": "Plastic mother", "nl": "Plastic moeder" } } ] },
+    { "text": { "tr": "Skinner kutusu hangi öğrenme türünü inceledi?", "en": "Which type of learning did the Skinner box study?", "nl": "Welk soort leren onderzocht de Skinnerbox?" }, "choices": [
+      { "text": { "tr": "Edimsel koşullanma", "en": "Operant conditioning", "nl": "Operante conditionering" }, "correct": true },
+      { "text": { "tr": "Klasik koşullanma", "en": "Classical conditioning", "nl": "Klassieke conditionering" } },
+      { "text": { "tr": "Gözlemsel öğrenme", "en": "Observational learning", "nl": "Observationeel leren" } },
+      { "text": { "tr": "Örtük öğrenme", "en": "Latent learning", "nl": "Latent leren" } } ] },
+    { "text": { "tr": "Seligman köpeklerle hangi kavramı ortaya koydu?", "en": "Which concept did Seligman discover with dogs?", "nl": "Welk begrip ontdekte Seligman met honden?" }, "choices": [
+      { "text": { "tr": "Öğrenilmiş çaresizlik", "en": "Learned helplessness", "nl": "Aangeleerde hulpeloosheid" }, "correct": true },
+      { "text": { "tr": "Bilişsel uyumsuzluk", "en": "Cognitive dissonance", "nl": "Cognitieve dissonantie" } },
+      { "text": { "tr": "Hale etkisi", "en": "Halo effect", "nl": "Halo-effect" } },
+      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect", "nl": "Omstandereffect" } } ] },
+    { "text": { "tr": "Kitty Genovese olayı hangi etkiyle ilişkilendirilir?", "en": "The Kitty Genovese case is linked to which effect?", "nl": "Aan welk effect wordt de zaak-Kitty Genovese gekoppeld?" }, "choices": [
+      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect", "nl": "Omstandereffect" }, "correct": true },
+      { "text": { "tr": "Plasebo etkisi", "en": "Placebo effect", "nl": "Placebo-effect" } },
+      { "text": { "tr": "Hawthorne etkisi", "en": "Hawthorne effect", "nl": "Hawthorne-effect" } },
+      { "text": { "tr": "Pygmalion etkisi", "en": "Pygmalion effect", "nl": "Pygmalion-effect" } } ] },
+    { "text": { "tr": "Seyirci etkisini deneylerle inceleyen ikili kimdir?", "en": "Which pair studied the bystander effect in experiments?", "nl": "Welk duo onderzocht het omstandereffect met experimenten?" }, "choices": [
+      { "text": { "tr": "Darley ve Latané", "en": "Darley and Latané", "nl": "Darley en Latané" }, "correct": true },
+      { "text": { "tr": "Asch ve Milgram", "en": "Asch and Milgram", "nl": "Asch en Milgram" } },
+      { "text": { "tr": "Watson ve Rayner", "en": "Watson and Rayner", "nl": "Watson en Rayner" } },
+      { "text": { "tr": "Harlow ve Zimmermann", "en": "Harlow and Zimmermann", "nl": "Harlow en Zimmermann" } } ] },
+    { "text": { "tr": "Marshmallow testi neyi ölçtü?", "en": "What did the marshmallow test measure?", "nl": "Wat mat de marshmallowtest?" }, "choices": [
+      { "text": { "tr": "Hazzı erteleme", "en": "Delayed gratification", "nl": "Uitgestelde beloning" }, "correct": true },
+      { "text": { "tr": "Kısa süreli bellek", "en": "Short-term memory", "nl": "Kortetermijngeheugen" } },
+      { "text": { "tr": "Renk tercihi", "en": "Color preference", "nl": "Kleurvoorkeur" } },
+      { "text": { "tr": "Uyku süresi", "en": "Sleep duration", "nl": "Slaapduur" } } ] },
+    { "text": { "tr": "Marshmallow testini kim geliştirdi?", "en": "Who developed the marshmallow test?", "nl": "Wie ontwikkelde de marshmallowtest?" }, "choices": [
+      { "text": { "tr": "Walter Mischel", "en": "Walter Mischel", "nl": "Walter Mischel" }, "correct": true },
+      { "text": { "tr": "Jean Piaget", "en": "Jean Piaget", "nl": "Jean Piaget" } },
+      { "text": { "tr": "Albert Bandura", "en": "Albert Bandura", "nl": "Albert Bandura" } },
+      { "text": { "tr": "Martin Seligman", "en": "Martin Seligman", "nl": "Martin Seligman" } } ] },
+    { "text": { "tr": "Festinger'ın 1 dolar / 20 dolar deneyi neyi destekledi?", "en": "What did Festinger's $1 / $20 experiment support?", "nl": "Wat ondersteunde het experiment van Festinger met $1 en $20?" }, "choices": [
+      { "text": { "tr": "Bilişsel uyumsuzluk", "en": "Cognitive dissonance", "nl": "Cognitieve dissonantie" }, "correct": true },
+      { "text": { "tr": "Öğrenilmiş çaresizlik", "en": "Learned helplessness", "nl": "Aangeleerde hulpeloosheid" } },
+      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect", "nl": "Omstandereffect" } },
+      { "text": { "tr": "Gruba uyma", "en": "Conformity", "nl": "Conformisme" } } ] },
+    { "text": { "tr": "Hawthorne deneyleri nerede yapıldı?", "en": "Where were the Hawthorne studies carried out?", "nl": "Waar werden de Hawthorne-studies uitgevoerd?" }, "choices": [
+      { "text": { "tr": "Bir fabrikada", "en": "In a factory", "nl": "In een fabriek" }, "correct": true },
+      { "text": { "tr": "Bir hapishanede", "en": "In a prison", "nl": "In een gevangenis" } },
+      { "text": { "tr": "Bir hastanede", "en": "In a hospital", "nl": "In een ziekenhuis" } },
+      { "text": { "tr": "Bir okulda", "en": "In a school", "nl": "Op een school" } } ] },
+    { "text": { "tr": "Rosenthal'ın öğretmen beklentisi deneyi hangi etkiyi gösterdi?", "en": "Which effect did Rosenthal's teacher expectation study show?", "nl": "Welk effect liet het onderzoek van Rosenthal naar leraarsverwachtingen zien?" }, "choices": [
+      { "text": { "tr": "Pygmalion etkisi", "en": "Pygmalion effect", "nl": "Pygmalion-effect" }, "correct": true },
+      { "text": { "tr": "Hawthorne etkisi", "en": "Hawthorne effect", "nl": "Hawthorne-effect" } },
+      { "text": { "tr": "Plasebo etkisi", "en": "Placebo effect", "nl": "Placebo-effect" } },
+      { "text": { "tr": "Seyirci etkisi", "en": "Bystander effect", "nl": "Omstandereffect" } } ] },
+    { "text": { "tr": "Robbers Cave deneyi neyi inceledi?", "en": "What did the Robbers Cave experiment study?", "nl": "Wat onderzocht het Robbers Cave-experiment?" }, "choices": [
+      { "text": { "tr": "Gruplar arası çatışmayı", "en": "Conflict between groups", "nl": "Conflict tussen groepen" }, "correct": true },
+      { "text": { "tr": "Uyku yoksunluğunu", "en": "Sleep deprivation", "nl": "Slaaptekort" } },
+      { "text": { "tr": "Bellek bozulmasını", "en": "Memory distortion", "nl": "Geheugenvervorming" } },
+      { "text": { "tr": "Renk algısını", "en": "Color perception", "nl": "Kleurwaarneming" } } ] },
+    { "text": { "tr": "Robbers Cave deneyini kim yürüttü?", "en": "Who ran the Robbers Cave experiment?", "nl": "Wie leidde het Robbers Cave-experiment?" }, "choices": [
+      { "text": { "tr": "Muzafer Şerif", "en": "Muzafer Sherif", "nl": "Muzafer Sherif" }, "correct": true },
+      { "text": { "tr": "Solomon Asch", "en": "Solomon Asch", "nl": "Solomon Asch" } },
+      { "text": { "tr": "Leon Festinger", "en": "Leon Festinger", "nl": "Leon Festinger" } },
+      { "text": { "tr": "Stanley Milgram", "en": "Stanley Milgram", "nl": "Stanley Milgram" } } ] },
+    { "text": { "tr": "Muzafer Şerif'in otokinetik etki deneyi neyi gösterdi?", "en": "What did Sherif's autokinetic effect study show?", "nl": "Wat liet het onderzoek van Sherif naar het autokinetisch effect zien?" }, "choices": [
+      { "text": { "tr": "Grup normu oluşumunu", "en": "How group norms form", "nl": "Hoe groepsnormen ontstaan" }, "correct": true },
+      { "text": { "tr": "Otoriteye itaati", "en": "Obedience to authority", "nl": "Gehoorzaamheid aan gezag" } },
+      { "text": { "tr": "Gözlemle öğrenmeyi", "en": "Learning by observation", "nl": "Leren door observatie" } },
+      { "text": { "tr": "Hazzı ertelemeyi", "en": "Delayed gratification", "nl": "Uitgestelde beloning" } } ] },
+    { "text": { "tr": "Hermann Ebbinghaus hangi konuyu inceledi?", "en": "What did Hermann Ebbinghaus study?", "nl": "Wat onderzocht Hermann Ebbinghaus?" }, "choices": [
+      { "text": { "tr": "Bellek ve unutma", "en": "Memory and forgetting", "nl": "Geheugen en vergeten" }, "correct": true },
+      { "text": { "tr": "Uyku", "en": "Sleep", "nl": "Slaap" } },
+      { "text": { "tr": "Saldırganlık", "en": "Aggression", "nl": "Agressie" } },
+      { "text": { "tr": "Kişilik", "en": "Personality", "nl": "Persoonlijkheid" } } ] },
+    { "text": { "tr": "Ebbinghaus'un çizdiği ünlü eğrinin adı nedir?", "en": "What is Ebbinghaus's famous curve called?", "nl": "Hoe heet de bekende curve van Ebbinghaus?" }, "choices": [
+      { "text": { "tr": "Unutma eğrisi", "en": "Forgetting curve", "nl": "Vergeetcurve" }, "correct": true },
+      { "text": { "tr": "Öğrenme platosu", "en": "Learning plateau", "nl": "Leerplateau" } },
+      { "text": { "tr": "Çan eğrisi", "en": "Bell curve", "nl": "Klokcurve" } },
+      { "text": { "tr": "Talep eğrisi", "en": "Demand curve", "nl": "Vraagcurve" } } ] },
+    { "text": { "tr": "Thorndike'ın kedileri neyin içinden kaçmayı öğrendi?", "en": "What did Thorndike's cats learn to escape from?", "nl": "Waaruit leerden de katten van Thorndike te ontsnappen?" }, "choices": [
+      { "text": { "tr": "Bulmaca kutusu", "en": "A puzzle box", "nl": "Een puzzelbox" }, "correct": true },
+      { "text": { "tr": "Labirent", "en": "A maze", "nl": "Een doolhof" } },
+      { "text": { "tr": "Skinner kutusu", "en": "A Skinner box", "nl": "Een Skinnerbox" } },
+      { "text": { "tr": "Su tankı", "en": "A water tank", "nl": "Een watertank" } } ] },
+    { "text": { "tr": "Thorndike'ın ortaya koyduğu öğrenme yasası hangisidir?", "en": "Which law of learning did Thorndike propose?", "nl": "Welke leerwet stelde Thorndike op?" }, "choices": [
+      { "text": { "tr": "Etki yasası", "en": "Law of effect", "nl": "Wet van het effect" }, "correct": true },
+      { "text": { "tr": "Çekim yasası", "en": "Law of gravity", "nl": "Wet van de zwaartekracht" } },
+      { "text": { "tr": "Hız yasası", "en": "Law of speed", "nl": "Wet van de snelheid" } },
+      { "text": { "tr": "Denge yasası", "en": "Law of balance", "nl": "Wet van het evenwicht" } } ] },
+    { "text": { "tr": "Loftus'un araba kazası deneyi neyi gösterdi?", "en": "What did Loftus's car crash study show?", "nl": "Wat liet het onderzoek van Loftus naar auto-ongelukken zien?" }, "choices": [
+      { "text": { "tr": "Soruların anıyı etkilediğini", "en": "Questions can change memories", "nl": "Vragen vervormen herinneringen" }, "correct": true },
+      { "text": { "tr": "Hızın doğru tahmin edildiğini", "en": "Speed is judged correctly", "nl": "Snelheid wordt goed geschat" } },
+      { "text": { "tr": "Gözlemle öğrenmeyi", "en": "Learning by observation", "nl": "Leren door observatie" } },
+      { "text": { "tr": "Gruba uymayı", "en": "Conformity", "nl": "Conformisme" } } ] },
+    { "text": { "tr": "\"Görünmez goril\" deneyi neyi gösterdi?", "en": "What did the \"invisible gorilla\" study show?", "nl": "Wat liet het \"onzichtbare gorilla\"-experiment zien?" }, "choices": [
+      { "text": { "tr": "Dikkat körlüğünü", "en": "Inattentional blindness", "nl": "Onoplettendheidsblindheid" }, "correct": true },
+      { "text": { "tr": "Renk körlüğünü", "en": "Color blindness", "nl": "Kleurenblindheid" } },
+      { "text": { "tr": "Uzun süreli belleği", "en": "Long-term memory", "nl": "Langetermijngeheugen" } },
+      { "text": { "tr": "Gruba uymayı", "en": "Conformity", "nl": "Conformisme" } } ] },
+    { "text": { "tr": "\"Görünmez goril\" deneyinde izleyiciler neyi sayıyordu?", "en": "What were viewers counting in the \"invisible gorilla\" study?", "nl": "Wat telden de kijkers in het \"onzichtbare gorilla\"-experiment?" }, "choices": [
+      { "text": { "tr": "Pasları", "en": "Passes", "nl": "Passes" }, "correct": true },
+      { "text": { "tr": "Oyuncuları", "en": "Players", "nl": "Spelers" } },
+      { "text": { "tr": "Sayıları", "en": "Numbers", "nl": "Getallen" } },
+      { "text": { "tr": "Gorilleri", "en": "Gorillas", "nl": "Gorilla's" } } ] },
+    { "text": { "tr": "Piaget'nin \"üç dağ\" deneyi neyi ölçtü?", "en": "What did Piaget's \"three mountains\" task measure?", "nl": "Wat mat de \"drie bergen\"-taak van Piaget?" }, "choices": [
+      { "text": { "tr": "Benmerkezciliği", "en": "Egocentrism", "nl": "Egocentrisme" }, "correct": true },
+      { "text": { "tr": "Bellek kapasitesini", "en": "Memory capacity", "nl": "Geheugencapaciteit" } },
+      { "text": { "tr": "Korkuyu", "en": "Fear", "nl": "Angst" } },
+      { "text": { "tr": "Zekâ yaşını", "en": "Mental age", "nl": "Mentale leeftijd" } } ] },
+    { "text": { "tr": "Rosenhan deneyinde ne yapıldı?", "en": "What happened in the Rosenhan experiment?", "nl": "Wat gebeurde er in het Rosenhan-experiment?" }, "choices": [
+      { "text": { "tr": "Sağlıklılar hastaneye yattı", "en": "Healthy people were admitted", "nl": "Gezonden lieten zich opnemen" }, "correct": true },
+      { "text": { "tr": "Hastalar taburcu edildi", "en": "Patients were discharged", "nl": "Patiënten werden ontslagen" } },
+      { "text": { "tr": "İlaçlar karşılaştırıldı", "en": "Drugs were compared", "nl": "Medicijnen werden vergeleken" } },
+      { "text": { "tr": "Hemşireler eğitildi", "en": "Nurses were trained", "nl": "Verpleegkundigen kregen les" } } ] },
+    { "text": { "tr": "Tolman'ın fareleri labirentte ne oluşturdu?", "en": "What did Tolman's rats form in the maze?", "nl": "Wat vormden de ratten van Tolman in het doolhof?" }, "choices": [
+      { "text": { "tr": "Bilişsel harita", "en": "A cognitive map", "nl": "Een cognitieve kaart" }, "correct": true },
+      { "text": { "tr": "Koşullu refleks", "en": "A conditioned reflex", "nl": "Een geconditioneerde reflex" } },
+      { "text": { "tr": "Unutma eğrisi", "en": "A forgetting curve", "nl": "Een vergeetcurve" } },
+      { "text": { "tr": "Hale etkisi", "en": "A halo effect", "nl": "Een halo-effect" } } ] },
+    { "text": { "tr": "Kahneman ve Tversky hangi alanda çığır açtı?", "en": "In which area did Kahneman and Tversky break new ground?", "nl": "Op welk gebied deden Kahneman en Tversky baanbrekend werk?" }, "choices": [
+      { "text": { "tr": "Karar verme yanılgıları", "en": "Decision-making biases", "nl": "Denkfouten bij beslissingen" }, "correct": true },
+      { "text": { "tr": "Hayvan öğrenmesi", "en": "Animal learning", "nl": "Dierlijk leren" } },
+      { "text": { "tr": "Rüya analizi", "en": "Dream analysis", "nl": "Droomanalyse" } },
+      { "text": { "tr": "Çocuk gelişimi", "en": "Child development", "nl": "Ontwikkeling van kinderen" } } ] },
+    { "text": { "tr": "Stroop testinde katılımcıdan ne istenir?", "en": "What must participants do in the Stroop test?", "nl": "Wat moeten deelnemers doen bij de Stroop-test?" }, "choices": [
+      { "text": { "tr": "Yazının rengini söylemek", "en": "Name the ink color", "nl": "De inktkleur noemen" }, "correct": true },
+      { "text": { "tr": "Kelimeyi ezberlemek", "en": "Memorize the word", "nl": "Het woord onthouden" } },
+      { "text": { "tr": "Sayıları toplamak", "en": "Add up numbers", "nl": "Getallen optellen" } },
+      { "text": { "tr": "Şekilleri saymak", "en": "Count shapes", "nl": "Vormen tellen" } } ] },
+    { "text": { "tr": "Stanford Hapishane Deneyi kaç gün sonra durduruldu?", "en": "After how many days was the Stanford Prison Experiment stopped?", "nl": "Na hoeveel dagen werd het Stanford-gevangenisexperiment gestopt?" }, "choices": [
+      { "text": { "tr": "6", "en": "6", "nl": "6" }, "correct": true },
+      { "text": { "tr": "14", "en": "14", "nl": "14" } },
+      { "text": { "tr": "2", "en": "2", "nl": "2" } },
+      { "text": { "tr": "30", "en": "30", "nl": "30" } } ] },
+    { "text": { "tr": "Milgram deneyleri hangi üniversitede yapıldı?", "en": "At which university were the Milgram experiments held?", "nl": "Aan welke universiteit vonden de Milgram-experimenten plaats?" }, "choices": [
+      { "text": { "tr": "Yale", "en": "Yale", "nl": "Yale" }, "correct": true },
+      { "text": { "tr": "Harvard", "en": "Harvard", "nl": "Harvard" } },
+      { "text": { "tr": "Stanford", "en": "Stanford", "nl": "Stanford" } },
+      { "text": { "tr": "Oxford", "en": "Oxford", "nl": "Oxford" } } ] },
+    { "text": { "tr": "Asch deneyinde gerçek katılımcı dışındakiler kimdi?", "en": "In Asch's study, who were the other people in the room?", "nl": "Wie waren bij Asch de andere mensen in de ruimte?" }, "choices": [
+      { "text": { "tr": "Gizli işbirlikçiler", "en": "Hidden confederates", "nl": "Ingewijde handlangers" }, "correct": true },
+      { "text": { "tr": "Polis memurları", "en": "Police officers", "nl": "Politieagenten" } },
+      { "text": { "tr": "Çocuklar", "en": "Children", "nl": "Kinderen" } },
+      { "text": { "tr": "Hastalar", "en": "Patients", "nl": "Patiënten" } } ] },
+    { "text": { "tr": "Bobo bebek deneyinde çocuklar kimi izledi?", "en": "Whom did the children watch in the Bobo doll experiment?", "nl": "Naar wie keken de kinderen in het Bobo-pop-experiment?" }, "choices": [
+      { "text": { "tr": "Bir yetişkini", "en": "An adult", "nl": "Een volwassene" }, "correct": true },
+      { "text": { "tr": "Bir hayvanı", "en": "An animal", "nl": "Een dier" } },
+      { "text": { "tr": "Bir robotu", "en": "A robot", "nl": "Een robot" } },
+      { "text": { "tr": "Bir bebeği", "en": "A baby", "nl": "Een baby" } } ] },
+    { "text": { "tr": "Marshmallow testinde beklerse çocuğa ne vaat edildi?", "en": "What was a child promised for waiting in the marshmallow test?", "nl": "Wat werd een kind beloofd als het wachtte bij de marshmallowtest?" }, "choices": [
+      { "text": { "tr": "İkinci bir şekerleme", "en": "A second treat", "nl": "Een tweede snoepje" }, "correct": true },
+      { "text": { "tr": "Bir oyuncak", "en": "A toy", "nl": "Een speeltje" } },
+      { "text": { "tr": "Para", "en": "Money", "nl": "Geld" } },
+      { "text": { "tr": "Dondurma", "en": "Ice cream", "nl": "Een ijsje" } } ] }
   ]
 }

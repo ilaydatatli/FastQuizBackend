@@ -1,56 +1,56 @@
 {
-  "category": { "slug": "muzik", "color": "teal", "order": 8, "name": { "tr": "Müzik", "en": "Music" }, "description": { "tr": "Besteciler, çalgılar, nota", "en": "Composers, instruments, notation" } },
+  "category": { "slug": "muzik", "color": "teal", "order": 8, "name": { "tr": "Müzik", "en": "Music", "nl": "Muziek" }, "description": { "tr": "Besteciler, çalgılar, nota", "en": "Composers, instruments, notation", "nl": "Componisten, instrumenten, notenschrift" } },
   "questions": [
-    { "text": { "tr": "Bir oktavda kaç yarım ses vardır?", "en": "How many semitones are in an octave?" }, "choices": [
-      { "text": { "tr": "12", "en": "12" }, "correct": true },
-      { "text": { "tr": "8", "en": "8" } },
-      { "text": { "tr": "7", "en": "7" } },
-      { "text": { "tr": "10", "en": "10" } } ] },
-    { "text": { "tr": "Klasik gitarda kaç tel bulunur?", "en": "How many strings does a classical guitar have?" }, "choices": [
-      { "text": { "tr": "6", "en": "6" }, "correct": true },
-      { "text": { "tr": "4", "en": "4" } },
-      { "text": { "tr": "5", "en": "5" } },
-      { "text": { "tr": "7", "en": "7" } } ] },
-    { "text": { "tr": "Standart bir kemanda kaç tel bulunur?", "en": "How many strings does a standard violin have?" }, "choices": [
-      { "text": { "tr": "4", "en": "4" }, "correct": true },
-      { "text": { "tr": "5", "en": "5" } },
-      { "text": { "tr": "6", "en": "6" } },
-      { "text": { "tr": "3", "en": "3" } } ] },
-    { "text": { "tr": "Ay Işığı Sonatı'nın bestecisi kimdir?", "en": "Who composed the Moonlight Sonata?" }, "choices": [
-      { "text": { "tr": "Beethoven", "en": "Beethoven" }, "correct": true },
-      { "text": { "tr": "Mozart", "en": "Mozart" } },
-      { "text": { "tr": "Chopin", "en": "Chopin" } },
-      { "text": { "tr": "Bach", "en": "Bach" } } ] },
-    { "text": { "tr": "Kuğu Gölü balesinin bestecisi kimdir?", "en": "Who composed the ballet Swan Lake?" }, "choices": [
-      { "text": { "tr": "Çaykovski", "en": "Tchaikovsky" }, "correct": true },
-      { "text": { "tr": "Stravinski", "en": "Stravinsky" } },
-      { "text": { "tr": "Prokofyev", "en": "Prokofiev" } },
-      { "text": { "tr": "Rahmaninov", "en": "Rachmaninoff" } } ] },
-    { "text": { "tr": "Dört Mevsim'in bestecisi kimdir?", "en": "Who composed The Four Seasons?" }, "choices": [
-      { "text": { "tr": "Vivaldi", "en": "Vivaldi" }, "correct": true },
-      { "text": { "tr": "Bach", "en": "Bach" } },
-      { "text": { "tr": "Händel", "en": "Handel" } },
-      { "text": { "tr": "Haydn", "en": "Haydn" } } ] },
-    { "text": { "tr": "Rondo alla Turca (Türk Marşı) kimin eseridir?", "en": "Who composed Rondo alla Turca (Turkish March)?" }, "choices": [
-      { "text": { "tr": "Mozart", "en": "Mozart" }, "correct": true },
-      { "text": { "tr": "Beethoven", "en": "Beethoven" } },
-      { "text": { "tr": "Schubert", "en": "Schubert" } },
-      { "text": { "tr": "Liszt", "en": "Liszt" } } ] },
-    { "text": { "tr": "Notaların yazıldığı beş çizgiye ne ad verilir?", "en": "What are the five lines music is written on called?" }, "choices": [
-      { "text": { "tr": "Porte", "en": "Staff" }, "correct": true },
-      { "text": { "tr": "Ölçü", "en": "Measure" } },
-      { "text": { "tr": "Akor", "en": "Chord" } },
-      { "text": { "tr": "Gam", "en": "Scale" } } ] },
-    { "text": { "tr": "Müzikte \"piano\" terimi ne anlama gelir?", "en": "What does the music term \"piano\" mean?" }, "choices": [
-      { "text": { "tr": "Hafif (yumuşak)", "en": "Soft" }, "correct": true },
-      { "text": { "tr": "Güçlü", "en": "Loud" } },
-      { "text": { "tr": "Hızlı", "en": "Fast" } },
-      { "text": { "tr": "Yavaş", "en": "Slow" } } ] },
-    { "text": { "tr": "Tempo terimi \"allegro\" ne anlama gelir?", "en": "What does the tempo term \"allegro\" mean?" }, "choices": [
-      { "text": { "tr": "Hızlı", "en": "Fast" }, "correct": true },
-      { "text": { "tr": "Yavaş", "en": "Slow" } },
-      { "text": { "tr": "Orta", "en": "Moderate" } },
-      { "text": { "tr": "Çok yavaş", "en": "Very slow" } } ] },
+    { "text": { "tr": "Bir oktavda kaç yarım ses vardır?", "en": "How many semitones are in an octave?", "nl": "Hoeveel halve tonen zitten er in een octaaf?" }, "choices": [
+      { "text": { "tr": "12", "en": "12", "nl": "12" }, "correct": true },
+      { "text": { "tr": "8", "en": "8", "nl": "8" } },
+      { "text": { "tr": "7", "en": "7", "nl": "7" } },
+      { "text": { "tr": "10", "en": "10", "nl": "10" } } ] },
+    { "text": { "tr": "Klasik gitarda kaç tel bulunur?", "en": "How many strings does a classical guitar have?", "nl": "Hoeveel snaren heeft een klassieke gitaar?" }, "choices": [
+      { "text": { "tr": "6", "en": "6", "nl": "6" }, "correct": true },
+      { "text": { "tr": "4", "en": "4", "nl": "4" } },
+      { "text": { "tr": "5", "en": "5", "nl": "5" } },
+      { "text": { "tr": "7", "en": "7", "nl": "7" } } ] },
+    { "text": { "tr": "Standart bir kemanda kaç tel bulunur?", "en": "How many strings does a standard violin have?", "nl": "Hoeveel snaren heeft een standaard viool?" }, "choices": [
+      { "text": { "tr": "4", "en": "4", "nl": "4" }, "correct": true },
+      { "text": { "tr": "5", "en": "5", "nl": "5" } },
+      { "text": { "tr": "6", "en": "6", "nl": "6" } },
+      { "text": { "tr": "3", "en": "3", "nl": "3" } } ] },
+    { "text": { "tr": "Ay Işığı Sonatı'nın bestecisi kimdir?", "en": "Who composed the Moonlight Sonata?", "nl": "Wie componeerde de Maanlichtsonate?" }, "choices": [
+      { "text": { "tr": "Beethoven", "en": "Beethoven", "nl": "Beethoven" }, "correct": true },
+      { "text": { "tr": "Mozart", "en": "Mozart", "nl": "Mozart" } },
+      { "text": { "tr": "Chopin", "en": "Chopin", "nl": "Chopin" } },
+      { "text": { "tr": "Bach", "en": "Bach", "nl": "Bach" } } ] },
+    { "text": { "tr": "Kuğu Gölü balesinin bestecisi kimdir?", "en": "Who composed the ballet Swan Lake?", "nl": "Wie componeerde het ballet Het Zwanenmeer?" }, "choices": [
+      { "text": { "tr": "Çaykovski", "en": "Tchaikovsky", "nl": "Tsjaikovski" }, "correct": true },
+      { "text": { "tr": "Stravinski", "en": "Stravinsky", "nl": "Stravinsky" } },
+      { "text": { "tr": "Prokofyev", "en": "Prokofiev", "nl": "Prokofjev" } },
+      { "text": { "tr": "Rahmaninov", "en": "Rachmaninoff", "nl": "Rachmaninov" } } ] },
+    { "text": { "tr": "Dört Mevsim'in bestecisi kimdir?", "en": "Who composed The Four Seasons?", "nl": "Wie componeerde De vier jaargetijden?" }, "choices": [
+      { "text": { "tr": "Vivaldi", "en": "Vivaldi", "nl": "Vivaldi" }, "correct": true },
+      { "text": { "tr": "Bach", "en": "Bach", "nl": "Bach" } },
+      { "text": { "tr": "Händel", "en": "Handel", "nl": "Händel" } },
+      { "text": { "tr": "Haydn", "en": "Haydn", "nl": "Haydn" } } ] },
+    { "text": { "tr": "Rondo alla Turca (Türk Marşı) kimin eseridir?", "en": "Who composed Rondo alla Turca (Turkish March)?", "nl": "Wie componeerde de Rondo alla Turca (Turkse mars)?" }, "choices": [
+      { "text": { "tr": "Mozart", "en": "Mozart", "nl": "Mozart" }, "correct": true },
+      { "text": { "tr": "Beethoven", "en": "Beethoven", "nl": "Beethoven" } },
+      { "text": { "tr": "Schubert", "en": "Schubert", "nl": "Schubert" } },
+      { "text": { "tr": "Liszt", "en": "Liszt", "nl": "Liszt" } } ] },
+    { "text": { "tr": "Notaların yazıldığı beş çizgiye ne ad verilir?", "en": "What are the five lines music is written on called?", "nl": "Hoe heten de vijf lijnen waarop muziek wordt geschreven?" }, "choices": [
+      { "text": { "tr": "Porte", "en": "Staff", "nl": "Notenbalk" }, "correct": true },
+      { "text": { "tr": "Ölçü", "en": "Measure", "nl": "Maat" } },
+      { "text": { "tr": "Akor", "en": "Chord", "nl": "Akkoord" } },
+      { "text": { "tr": "Gam", "en": "Scale", "nl": "Toonladder" } } ] },
+    { "text": { "tr": "Müzikte \"piano\" terimi ne anlama gelir?", "en": "What does the music term \"piano\" mean?", "nl": "Wat betekent de muziekterm \"piano\"?" }, "choices": [
+      { "text": { "tr": "Hafif (yumuşak)", "en": "Soft", "nl": "Zacht" }, "correct": true },
+      { "text": { "tr": "Güçlü", "en": "Loud", "nl": "Luid" } },
+      { "text": { "tr": "Hızlı", "en": "Fast", "nl": "Snel" } },
+      { "text": { "tr": "Yavaş", "en": "Slow", "nl": "Langzaam" } } ] },
+    { "text": { "tr": "Tempo terimi \"allegro\" ne anlama gelir?", "en": "What does the tempo term \"allegro\" mean?", "nl": "Wat betekent de tempoaanduiding \"allegro\"?" }, "choices": [
+      { "text": { "tr": "Hızlı", "en": "Fast", "nl": "Snel" }, "correct": true },
+      { "text": { "tr": "Yavaş", "en": "Slow", "nl": "Langzaam" } },
+      { "text": { "tr": "Orta", "en": "Moderate", "nl": "Gematigd" } },
+      { "text": { "tr": "Çok yavaş", "en": "Very slow", "nl": "Zeer langzaam" } } ] },
     { "text": { "tr": "Bağlama hangi çalgı grubundadır?" }, "choices": [
       { "text": { "tr": "Telli" }, "correct": true },
       { "text": { "tr": "Üflemeli" } },
@@ -61,16 +61,16 @@
       { "text": { "tr": "Telli" } },
       { "text": { "tr": "Vurmalı" } },
       { "text": { "tr": "Yaylı" } } ] },
-    { "text": { "tr": "Bohemian Rhapsody hangi grubun şarkısıdır?", "en": "Which band sang \"Bohemian Rhapsody\"?" }, "choices": [
-      { "text": { "tr": "Queen", "en": "Queen" }, "correct": true },
-      { "text": { "tr": "The Beatles", "en": "The Beatles" } },
-      { "text": { "tr": "Led Zeppelin", "en": "Led Zeppelin" } },
-      { "text": { "tr": "Pink Floyd", "en": "Pink Floyd" } } ] },
-    { "text": { "tr": "Dünyada \"Pop'un Kralı\" olarak bilinen sanatçı kimdir?", "en": "Who is known worldwide as the \"King of Pop\"?" }, "choices": [
-      { "text": { "tr": "Michael Jackson", "en": "Michael Jackson" }, "correct": true },
-      { "text": { "tr": "Elvis Presley", "en": "Elvis Presley" } },
-      { "text": { "tr": "Prince", "en": "Prince" } },
-      { "text": { "tr": "Freddie Mercury", "en": "Freddie Mercury" } } ] },
+    { "text": { "tr": "Bohemian Rhapsody hangi grubun şarkısıdır?", "en": "Which band sang \"Bohemian Rhapsody\"?", "nl": "Welke band zong \"Bohemian Rhapsody\"?" }, "choices": [
+      { "text": { "tr": "Queen", "en": "Queen", "nl": "Queen" }, "correct": true },
+      { "text": { "tr": "The Beatles", "en": "The Beatles", "nl": "The Beatles" } },
+      { "text": { "tr": "Led Zeppelin", "en": "Led Zeppelin", "nl": "Led Zeppelin" } },
+      { "text": { "tr": "Pink Floyd", "en": "Pink Floyd", "nl": "Pink Floyd" } } ] },
+    { "text": { "tr": "Dünyada \"Pop'un Kralı\" olarak bilinen sanatçı kimdir?", "en": "Who is known worldwide as the \"King of Pop\"?", "nl": "Wie staat wereldwijd bekend als de \"King of Pop\"?" }, "choices": [
+      { "text": { "tr": "Michael Jackson", "en": "Michael Jackson", "nl": "Michael Jackson" }, "correct": true },
+      { "text": { "tr": "Elvis Presley", "en": "Elvis Presley", "nl": "Elvis Presley" } },
+      { "text": { "tr": "Prince", "en": "Prince", "nl": "Prince" } },
+      { "text": { "tr": "Freddie Mercury", "en": "Freddie Mercury", "nl": "Freddie Mercury" } } ] },
     { "text": { "tr": "İstiklal Marşı'nın bestecisi kimdir?" }, "choices": [
       { "text": { "tr": "Osman Zeki Üngör" }, "correct": true },
       { "text": { "tr": "Cemal Reşit Rey" } },
@@ -101,105 +101,105 @@
       { "text": { "tr": "5" } },
       { "text": { "tr": "6" } },
       { "text": { "tr": "9" } } ] },
-    { "text": { "tr": "Birlikte çalınan üç veya daha fazla notaya ne denir?", "en": "What are three or more notes played together called?" }, "choices": [
-      { "text": { "tr": "Akor", "en": "Chord" }, "correct": true },
-      { "text": { "tr": "Melodi", "en": "Melody" } },
-      { "text": { "tr": "Ritim", "en": "Rhythm" } },
-      { "text": { "tr": "Tempo", "en": "Tempo" } } ] },
-    { "text": { "tr": "Do majör gamında kaç diyez vardır?", "en": "How many sharps are in the C major scale?" }, "choices": [
-      { "text": { "tr": "Hiç yok", "en": "None" }, "correct": true },
-      { "text": { "tr": "1", "en": "1" } },
-      { "text": { "tr": "2", "en": "2" } },
-      { "text": { "tr": "7", "en": "7" } } ] },
-    { "text": { "tr": "Orkestrayı yöneten kişiye ne ad verilir?", "en": "Who leads an orchestra?" }, "choices": [
-      { "text": { "tr": "Şef", "en": "Conductor" }, "correct": true },
-      { "text": { "tr": "Solist", "en": "Soloist" } },
-      { "text": { "tr": "Besteci", "en": "Composer" } },
-      { "text": { "tr": "Aranjör", "en": "Arranger" } } ] },
-    { "text": { "tr": "Vals genellikle hangi ölçüyle çalınır?", "en": "Which time signature is a waltz usually played in?" }, "choices": [
-      { "text": { "tr": "3/4", "en": "3/4" }, "correct": true },
-      { "text": { "tr": "4/4", "en": "4/4" } },
-      { "text": { "tr": "2/4", "en": "2/4" } },
-      { "text": { "tr": "6/8", "en": "6/8" } } ] },
-    { "text": { "tr": "Mozart'ın doğduğu Salzburg bugün hangi ülkededir?", "en": "Mozart's birthplace Salzburg is in which country today?" }, "choices": [
-      { "text": { "tr": "Avusturya", "en": "Austria" }, "correct": true },
-      { "text": { "tr": "Almanya", "en": "Germany" } },
-      { "text": { "tr": "İtalya", "en": "Italy" } },
-      { "text": { "tr": "İsviçre", "en": "Switzerland" } } ] },
-    { "text": { "tr": "Do-re-mi dizisinde \"mi\"den sonra hangi nota gelir?", "en": "In do-re-mi, which note comes after \"mi\"?" }, "choices": [
-      { "text": { "tr": "Fa", "en": "Fa" }, "correct": true },
-      { "text": { "tr": "Sol", "en": "Sol" } },
-      { "text": { "tr": "Re", "en": "Re" } },
-      { "text": { "tr": "La", "en": "La" } } ] },
-    { "text": { "tr": "Bir dörtlük nota kaç sekizlik eder?", "en": "How many eighth notes equal one quarter note?" }, "choices": [
-      { "text": { "tr": "2", "en": "2" }, "correct": true },
-      { "text": { "tr": "4", "en": "4" } },
-      { "text": { "tr": "1", "en": "1" } },
-      { "text": { "tr": "8", "en": "8" } } ] },
-    { "text": { "tr": "Bir birlik nota kaç dörtlük eder?", "en": "How many quarter notes equal one whole note?" }, "choices": [
-      { "text": { "tr": "4", "en": "4" }, "correct": true },
-      { "text": { "tr": "2", "en": "2" } },
-      { "text": { "tr": "8", "en": "8" } },
-      { "text": { "tr": "16", "en": "16" } } ] },
-    { "text": { "tr": "Notayı yarım ses yükselten işaret hangisidir?", "en": "Which sign raises a note by a half step?" }, "choices": [
-      { "text": { "tr": "Diyez", "en": "Sharp" }, "correct": true },
-      { "text": { "tr": "Bemol", "en": "Flat" } },
-      { "text": { "tr": "Natürel", "en": "Natural" } },
-      { "text": { "tr": "Nokta", "en": "Dot" } } ] },
-    { "text": { "tr": "Notayı yarım ses alçaltan işaret hangisidir?", "en": "Which sign lowers a note by a half step?" }, "choices": [
-      { "text": { "tr": "Bemol", "en": "Flat" }, "correct": true },
-      { "text": { "tr": "Diyez", "en": "Sharp" } },
-      { "text": { "tr": "Natürel", "en": "Natural" } },
-      { "text": { "tr": "Nokta", "en": "Dot" } } ] },
+    { "text": { "tr": "Birlikte çalınan üç veya daha fazla notaya ne denir?", "en": "What are three or more notes played together called?", "nl": "Hoe heten drie of meer noten die samen klinken?" }, "choices": [
+      { "text": { "tr": "Akor", "en": "Chord", "nl": "Akkoord" }, "correct": true },
+      { "text": { "tr": "Melodi", "en": "Melody", "nl": "Melodie" } },
+      { "text": { "tr": "Ritim", "en": "Rhythm", "nl": "Ritme" } },
+      { "text": { "tr": "Tempo", "en": "Tempo", "nl": "Tempo" } } ] },
+    { "text": { "tr": "Do majör gamında kaç diyez vardır?", "en": "How many sharps are in the C major scale?", "nl": "Hoeveel kruisen heeft de toonladder van C majeur?" }, "choices": [
+      { "text": { "tr": "Hiç yok", "en": "None", "nl": "Geen" }, "correct": true },
+      { "text": { "tr": "1", "en": "1", "nl": "1" } },
+      { "text": { "tr": "2", "en": "2", "nl": "2" } },
+      { "text": { "tr": "7", "en": "7", "nl": "7" } } ] },
+    { "text": { "tr": "Orkestrayı yöneten kişiye ne ad verilir?", "en": "Who leads an orchestra?", "nl": "Wie leidt een orkest?" }, "choices": [
+      { "text": { "tr": "Şef", "en": "Conductor", "nl": "Dirigent" }, "correct": true },
+      { "text": { "tr": "Solist", "en": "Soloist", "nl": "Solist" } },
+      { "text": { "tr": "Besteci", "en": "Composer", "nl": "Componist" } },
+      { "text": { "tr": "Aranjör", "en": "Arranger", "nl": "Arrangeur" } } ] },
+    { "text": { "tr": "Vals genellikle hangi ölçüyle çalınır?", "en": "Which time signature is a waltz usually played in?", "nl": "In welke maatsoort wordt een wals meestal gespeeld?" }, "choices": [
+      { "text": { "tr": "3/4", "en": "3/4", "nl": "3/4" }, "correct": true },
+      { "text": { "tr": "4/4", "en": "4/4", "nl": "4/4" } },
+      { "text": { "tr": "2/4", "en": "2/4", "nl": "2/4" } },
+      { "text": { "tr": "6/8", "en": "6/8", "nl": "6/8" } } ] },
+    { "text": { "tr": "Mozart'ın doğduğu Salzburg bugün hangi ülkededir?", "en": "Mozart's birthplace Salzburg is in which country today?", "nl": "In welk land ligt Mozarts geboortestad Salzburg nu?" }, "choices": [
+      { "text": { "tr": "Avusturya", "en": "Austria", "nl": "Oostenrijk" }, "correct": true },
+      { "text": { "tr": "Almanya", "en": "Germany", "nl": "Duitsland" } },
+      { "text": { "tr": "İtalya", "en": "Italy", "nl": "Italië" } },
+      { "text": { "tr": "İsviçre", "en": "Switzerland", "nl": "Zwitserland" } } ] },
+    { "text": { "tr": "Do-re-mi dizisinde \"mi\"den sonra hangi nota gelir?", "en": "In do-re-mi, which note comes after \"mi\"?", "nl": "Welke noot komt na \"mi\" in do-re-mi?" }, "choices": [
+      { "text": { "tr": "Fa", "en": "Fa", "nl": "Fa" }, "correct": true },
+      { "text": { "tr": "Sol", "en": "Sol", "nl": "Sol" } },
+      { "text": { "tr": "Re", "en": "Re", "nl": "Re" } },
+      { "text": { "tr": "La", "en": "La", "nl": "La" } } ] },
+    { "text": { "tr": "Bir dörtlük nota kaç sekizlik eder?", "en": "How many eighth notes equal one quarter note?", "nl": "Hoeveel achtste noten zijn samen één kwartnoot?" }, "choices": [
+      { "text": { "tr": "2", "en": "2", "nl": "2" }, "correct": true },
+      { "text": { "tr": "4", "en": "4", "nl": "4" } },
+      { "text": { "tr": "1", "en": "1", "nl": "1" } },
+      { "text": { "tr": "8", "en": "8", "nl": "8" } } ] },
+    { "text": { "tr": "Bir birlik nota kaç dörtlük eder?", "en": "How many quarter notes equal one whole note?", "nl": "Hoeveel kwartnoten zijn samen één hele noot?" }, "choices": [
+      { "text": { "tr": "4", "en": "4", "nl": "4" }, "correct": true },
+      { "text": { "tr": "2", "en": "2", "nl": "2" } },
+      { "text": { "tr": "8", "en": "8", "nl": "8" } },
+      { "text": { "tr": "16", "en": "16", "nl": "16" } } ] },
+    { "text": { "tr": "Notayı yarım ses yükselten işaret hangisidir?", "en": "Which sign raises a note by a half step?", "nl": "Welk teken verhoogt een noot een halve toon?" }, "choices": [
+      { "text": { "tr": "Diyez", "en": "Sharp", "nl": "Kruis" }, "correct": true },
+      { "text": { "tr": "Bemol", "en": "Flat", "nl": "Mol" } },
+      { "text": { "tr": "Natürel", "en": "Natural", "nl": "Herstellingsteken" } },
+      { "text": { "tr": "Nokta", "en": "Dot", "nl": "Punt" } } ] },
+    { "text": { "tr": "Notayı yarım ses alçaltan işaret hangisidir?", "en": "Which sign lowers a note by a half step?", "nl": "Welk teken verlaagt een noot een halve toon?" }, "choices": [
+      { "text": { "tr": "Bemol", "en": "Flat", "nl": "Mol" }, "correct": true },
+      { "text": { "tr": "Diyez", "en": "Sharp", "nl": "Kruis" } },
+      { "text": { "tr": "Natürel", "en": "Natural", "nl": "Herstellingsteken" } },
+      { "text": { "tr": "Nokta", "en": "Dot", "nl": "Punt" } } ] },
     { "text": { "tr": "Kanun çalan kişiye ne ad verilir?" }, "choices": [
       { "text": { "tr": "Kanuni" }, "correct": true },
       { "text": { "tr": "Neyzen" } },
       { "text": { "tr": "Udi" } },
       { "text": { "tr": "Tanburi" } } ] },
-    { "text": { "tr": "Yaylı çalgılar ailesinin en kalın sesli üyesi hangisidir?", "en": "Which is the lowest-pitched member of the string family?" }, "choices": [
-      { "text": { "tr": "Kontrbas", "en": "Double bass" }, "correct": true },
-      { "text": { "tr": "Viyola", "en": "Viola" } },
-      { "text": { "tr": "Viyolonsel", "en": "Cello" } },
-      { "text": { "tr": "Keman", "en": "Violin" } } ] },
-    { "text": { "tr": "Piyano hangi ülkede icat edildi?", "en": "In which country was the piano invented?" }, "choices": [
-      { "text": { "tr": "İtalya", "en": "Italy" }, "correct": true },
-      { "text": { "tr": "Almanya", "en": "Germany" } },
-      { "text": { "tr": "Avusturya", "en": "Austria" } },
-      { "text": { "tr": "Fransa", "en": "France" } } ] },
-    { "text": { "tr": "Beethoven'ın kaç senfonisi vardır?", "en": "How many symphonies did Beethoven write?" }, "choices": [
-      { "text": { "tr": "9", "en": "9" }, "correct": true },
-      { "text": { "tr": "5", "en": "5" } },
-      { "text": { "tr": "7", "en": "7" } },
-      { "text": { "tr": "12", "en": "12" } } ] },
-    { "text": { "tr": "\"Für Elise\" kimin eseridir?", "en": "Who composed \"Für Elise\"?" }, "choices": [
-      { "text": { "tr": "Beethoven", "en": "Beethoven" }, "correct": true },
-      { "text": { "tr": "Mozart", "en": "Mozart" } },
-      { "text": { "tr": "Chopin", "en": "Chopin" } },
-      { "text": { "tr": "Schubert", "en": "Schubert" } } ] },
-    { "text": { "tr": "Chopin en çok hangi çalgı için besteledi?", "en": "Which instrument did Chopin mainly compose for?" }, "choices": [
-      { "text": { "tr": "Piyano", "en": "Piano" }, "correct": true },
-      { "text": { "tr": "Keman", "en": "Violin" } },
-      { "text": { "tr": "Org", "en": "Organ" } },
-      { "text": { "tr": "Flüt", "en": "Flute" } } ] },
-    { "text": { "tr": "\"Yesterday\" hangi grubun şarkısıdır?", "en": "Which band sang \"Yesterday\"?" }, "choices": [
-      { "text": { "tr": "The Beatles", "en": "The Beatles" }, "correct": true },
-      { "text": { "tr": "Queen", "en": "Queen" } },
-      { "text": { "tr": "The Rolling Stones", "en": "The Rolling Stones" } },
-      { "text": { "tr": "ABBA", "en": "ABBA" } } ] },
+    { "text": { "tr": "Yaylı çalgılar ailesinin en kalın sesli üyesi hangisidir?", "en": "Which is the lowest-pitched member of the string family?", "nl": "Wat is het laagst klinkende instrument van de strijkersfamilie?" }, "choices": [
+      { "text": { "tr": "Kontrbas", "en": "Double bass", "nl": "Contrabas" }, "correct": true },
+      { "text": { "tr": "Viyola", "en": "Viola", "nl": "Altviool" } },
+      { "text": { "tr": "Viyolonsel", "en": "Cello", "nl": "Cello" } },
+      { "text": { "tr": "Keman", "en": "Violin", "nl": "Viool" } } ] },
+    { "text": { "tr": "Piyano hangi ülkede icat edildi?", "en": "In which country was the piano invented?", "nl": "In welk land is de piano uitgevonden?" }, "choices": [
+      { "text": { "tr": "İtalya", "en": "Italy", "nl": "Italië" }, "correct": true },
+      { "text": { "tr": "Almanya", "en": "Germany", "nl": "Duitsland" } },
+      { "text": { "tr": "Avusturya", "en": "Austria", "nl": "Oostenrijk" } },
+      { "text": { "tr": "Fransa", "en": "France", "nl": "Frankrijk" } } ] },
+    { "text": { "tr": "Beethoven'ın kaç senfonisi vardır?", "en": "How many symphonies did Beethoven write?", "nl": "Hoeveel symfonieën schreef Beethoven?" }, "choices": [
+      { "text": { "tr": "9", "en": "9", "nl": "9" }, "correct": true },
+      { "text": { "tr": "5", "en": "5", "nl": "5" } },
+      { "text": { "tr": "7", "en": "7", "nl": "7" } },
+      { "text": { "tr": "12", "en": "12", "nl": "12" } } ] },
+    { "text": { "tr": "\"Für Elise\" kimin eseridir?", "en": "Who composed \"Für Elise\"?", "nl": "Wie componeerde \"Für Elise\"?" }, "choices": [
+      { "text": { "tr": "Beethoven", "en": "Beethoven", "nl": "Beethoven" }, "correct": true },
+      { "text": { "tr": "Mozart", "en": "Mozart", "nl": "Mozart" } },
+      { "text": { "tr": "Chopin", "en": "Chopin", "nl": "Chopin" } },
+      { "text": { "tr": "Schubert", "en": "Schubert", "nl": "Schubert" } } ] },
+    { "text": { "tr": "Chopin en çok hangi çalgı için besteledi?", "en": "Which instrument did Chopin mainly compose for?", "nl": "Voor welk instrument componeerde Chopin vooral?" }, "choices": [
+      { "text": { "tr": "Piyano", "en": "Piano", "nl": "Piano" }, "correct": true },
+      { "text": { "tr": "Keman", "en": "Violin", "nl": "Viool" } },
+      { "text": { "tr": "Org", "en": "Organ", "nl": "Orgel" } },
+      { "text": { "tr": "Flüt", "en": "Flute", "nl": "Fluit" } } ] },
+    { "text": { "tr": "\"Yesterday\" hangi grubun şarkısıdır?", "en": "Which band sang \"Yesterday\"?", "nl": "Welke band zong \"Yesterday\"?" }, "choices": [
+      { "text": { "tr": "The Beatles", "en": "The Beatles", "nl": "The Beatles" }, "correct": true },
+      { "text": { "tr": "Queen", "en": "Queen", "nl": "Queen" } },
+      { "text": { "tr": "The Rolling Stones", "en": "The Rolling Stones", "nl": "The Rolling Stones" } },
+      { "text": { "tr": "ABBA", "en": "ABBA", "nl": "ABBA" } } ] },
     { "text": { "tr": "\"Gülpembe\" şarkısı kime aittir?" }, "choices": [
       { "text": { "tr": "Barış Manço" }, "correct": true },
       { "text": { "tr": "Cem Karaca" } },
       { "text": { "tr": "Erkin Koray" } },
       { "text": { "tr": "Fikret Kızılok" } } ] },
-    { "text": { "tr": "Tango hangi ülkede doğmuştur?", "en": "In which country was the tango born?" }, "choices": [
-      { "text": { "tr": "Arjantin", "en": "Argentina" }, "correct": true },
-      { "text": { "tr": "İspanya", "en": "Spain" } },
-      { "text": { "tr": "Brezilya", "en": "Brazil" } },
-      { "text": { "tr": "Küba", "en": "Cuba" } } ] },
-    { "text": { "tr": "Şarkıda tekrar eden ana bölüme ne denir?", "en": "What is the repeated main part of a song called?" }, "choices": [
-      { "text": { "tr": "Nakarat", "en": "Chorus" }, "correct": true },
-      { "text": { "tr": "Giriş", "en": "Intro" } },
-      { "text": { "tr": "Köprü", "en": "Bridge" } },
-      { "text": { "tr": "Solo", "en": "Solo" } } ] }
+    { "text": { "tr": "Tango hangi ülkede doğmuştur?", "en": "In which country was the tango born?", "nl": "In welk land is de tango ontstaan?" }, "choices": [
+      { "text": { "tr": "Arjantin", "en": "Argentina", "nl": "Argentinië" }, "correct": true },
+      { "text": { "tr": "İspanya", "en": "Spain", "nl": "Spanje" } },
+      { "text": { "tr": "Brezilya", "en": "Brazil", "nl": "Brazilië" } },
+      { "text": { "tr": "Küba", "en": "Cuba", "nl": "Cuba" } } ] },
+    { "text": { "tr": "Şarkıda tekrar eden ana bölüme ne denir?", "en": "What is the repeated main part of a song called?", "nl": "Hoe heet het terugkerende hoofddeel van een lied?" }, "choices": [
+      { "text": { "tr": "Nakarat", "en": "Chorus", "nl": "Refrein" }, "correct": true },
+      { "text": { "tr": "Giriş", "en": "Intro", "nl": "Intro" } },
+      { "text": { "tr": "Köprü", "en": "Bridge", "nl": "Brug" } },
+      { "text": { "tr": "Solo", "en": "Solo", "nl": "Solo" } } ] }
   ]
 }

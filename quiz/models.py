@@ -3,10 +3,11 @@ import uuid
 from django.db import models
 
 # Supported languages. Turkish is the default and the source language: the plain fields
-# (name, description, text) are Turkish; `*_en` / `*_es` hold translations ("" = missing).
+# (name, description, text) are Turkish; `*_en` / `*_nl` / `*_es` hold translations ("" = missing).
+# Adding a language: a code here + `*_<code>` columns below + a migration + a frontend dictionary.
 DEFAULT_LANGUAGE = "tr"
-LANGUAGES = ["tr", "en", "es"]
-LANGUAGE_CHOICES = [("tr", "Türkçe"), ("en", "English"), ("es", "Español")]
+LANGUAGES = ["tr", "en", "nl", "es"]
+LANGUAGE_CHOICES = [("tr", "Türkçe"), ("en", "English"), ("nl", "Nederlands"), ("es", "Español")]
 
 
 def localized(obj, field, language):
@@ -23,8 +24,10 @@ class Category(models.Model):
     slug = models.SlugField(unique=True)
     description = models.CharField(max_length=150, blank=True)
     name_en = models.CharField(max_length=50, blank=True)
+    name_nl = models.CharField(max_length=50, blank=True)
     name_es = models.CharField(max_length=50, blank=True)
     description_en = models.CharField(max_length=150, blank=True)
+    description_nl = models.CharField(max_length=150, blank=True)
     description_es = models.CharField(max_length=150, blank=True)
     # Design color key used by the client: cyan, violet, orange, lime, pink, blue, yellow, coral, teal
     color = models.CharField(max_length=20)
@@ -45,6 +48,7 @@ class Question(models.Model):
     text = models.CharField(max_length=150)
     # Empty = the question is not offered in that language (e.g. Turkey-specific questions).
     text_en = models.CharField(max_length=150, blank=True)
+    text_nl = models.CharField(max_length=150, blank=True)
     text_es = models.CharField(max_length=150, blank=True)
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -69,6 +73,7 @@ class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name="choices")
     text = models.CharField(max_length=60)
     text_en = models.CharField(max_length=60, blank=True)
+    text_nl = models.CharField(max_length=60, blank=True)
     text_es = models.CharField(max_length=60, blank=True)
     is_correct = models.BooleanField(default=False)
     # Only for ordering in the admin; the client receives choices shuffled.

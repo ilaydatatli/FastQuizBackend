@@ -237,3 +237,26 @@ class LoadTranslationsTests(APITestCase):
         self.load()
 
         self.assertTrue(Choice.objects.filter(text_en="Fixed translation").exists())
+
+
+class DutchTests(APITestCase):
+    """Dutch (nl) was added after en/es; it works through the same code paths."""
+
+    def setUp(self):
+        cache.clear()
+        category = make_category("yazilim", name="Yazılım")
+        category.name_nl = "Software"
+        category.save()
+        make_questions(category, 20, translated_to=["nl"])
+
+    def test_dutch_category_list_and_quiz(self):
+        body = self.client.get("/api/v1/categories/?lang=nl").json()
+        self.assertEqual([(c["name"], c["question_count"]) for c in body], [("Software", 20)])
+
+        started = self.client.post(
+            "/api/v1/quizzes/", {"category": "yazilim", "language": "nl"}, format="json"
+        ).json()
+        auth = {"HTTP_AUTHORIZATION": f"Bearer {started['token']}"}
+        current = self.client.get(f"/api/v1/quizzes/{started['quiz_id']}/current/", **auth).json()
+        self.assertEqual(started["language"], "nl")
+        self.assertTrue(current["question"]["text"].endswith("(nl)"))
