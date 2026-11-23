@@ -83,6 +83,7 @@ class ResultTests(FinishedQuizTestCase):
                 "qualifies_for_top10",
                 "score_saved",
                 "finished_at",
+                "room",
             },
         )
         self.assertEqual(body["quiz_id"], str(self.quiz_id))
@@ -144,6 +145,7 @@ class SaveScoreTests(FinishedQuizTestCase):
                 "best_points": 18 * 180,
                 "is_new_best": True,
                 "points_to_top10": None,
+                "room": None,
             },
         )
         score = Score.objects.get()

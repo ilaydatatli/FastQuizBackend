@@ -18,3 +18,7 @@ class AnswerThrottle(IPRateThrottle):
 
 class ScoreThrottle(IPRateThrottle):
     scope = "score"
+
+
+class RoomCreateThrottle(IPRateThrottle):
+    scope = "room_create"

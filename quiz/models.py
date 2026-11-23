@@ -88,6 +88,28 @@ class Choice(models.Model):
         return self.text
 
 
+class Room(models.Model):
+    """
+    Challenge room (Faz 24): friends play the same questions, each whenever they want,
+    each in their own language. Only questions translated into every language are picked.
+    """
+
+    code = models.CharField(max_length=8, unique=True)  # shared with friends, e.g. "KEDI42"
+    category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name="rooms")
+    # Question ids in play order; every player gets the same questions in the same order.
+    question_ids = models.JSONField(default=list)
+    created_at = models.DateTimeField(auto_now_add=True)
+    expires_at = models.DateTimeField()  # no new players after this; the board stays visible
+
+    class Meta:
+        ordering = ["-created_at"]
+        verbose_name = "oda"
+        verbose_name_plural = "odalar"
+
+    def __str__(self):
+        return f"{self.code} · {self.category}"
+
+
 class QuizSession(models.Model):
     class Status(models.TextChoices):
         ACTIVE = "active", "Devam ediyor"
@@ -106,6 +128,11 @@ class QuizSession(models.Model):
     correct_count = models.PositiveSmallIntegerField(default=0)
     started_at = models.DateTimeField(auto_now_add=True)
     finished_at = models.DateTimeField(null=True, blank=True)
+    # Room quizzes only: the room and the nickname given when joining (the score uses it).
+    room = models.ForeignKey(
+        Room, on_delete=models.CASCADE, null=True, blank=True, related_name="sessions"
+    )
+    room_nickname = models.CharField(max_length=16, blank=True)
 
     class Meta:
         ordering = ["-started_at"]

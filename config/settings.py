@@ -183,6 +183,7 @@ REST_FRAMEWORK = {
         "quiz_start": "30/hour",
         "answer": "120/minute",
         "score": "20/hour",
+        "room_create": "10/hour",
     },
 }
 
@@ -200,4 +201,6 @@ FAST_QUIZ = {
     "SESSION_TTL_MINUTES": 15,
     "FEEDBACK_HINT_MS": 700,  # informational only; used by the client
     "LEADERBOARD_SIZE": 10,
+    "ROOM_TTL_HOURS": 24,  # challenge rooms: new players can join for this long
+    "ROOM_MAX_PLAYERS": 50,
 }

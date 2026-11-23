@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.core.exceptions import ValidationError
 from django.forms.models import BaseInlineFormSet
 
-from .models import Category, Choice, Question, QuizSession, Score, SessionQuestion
+from .models import Category, Choice, Question, QuizSession, Room, Score, SessionQuestion
 from .services import NICKNAME_RE
 
 REQUIRED_CHOICES = 4
@@ -103,6 +103,13 @@ class QuizSessionAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     list_select_related = ["category"]
     exclude = ["token_hash"]  # nothing useful to see; keep it out of sight
     inlines = [SessionQuestionInline]
+
+
+@admin.register(Room)
+class RoomAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
+    list_display = ["code", "category", "created_at", "expires_at"]
+    list_filter = ["category"]
+    search_fields = ["code"]
 
 
 class ScoreAdminForm(forms.ModelForm):

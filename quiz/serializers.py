@@ -57,6 +57,7 @@ class QuizStartedSerializer(serializers.Serializer):
     total_questions = serializers.IntegerField()
     time_limit_ms = serializers.IntegerField()
     expires_at = serializers.DateTimeField()  # rendered in Europe/Istanbul, e.g. +03:00
+    room = serializers.CharField(allow_null=True)  # room code for room quizzes, else null
 
 
 class CurrentSerializer(serializers.Serializer):
@@ -114,6 +115,7 @@ class ResultSerializer(serializers.Serializer):
     qualifies_for_top10 = serializers.BooleanField()
     score_saved = serializers.BooleanField()
     finished_at = serializers.DateTimeField()
+    room = serializers.CharField(allow_null=True)
 
 
 class SaveScoreSerializer(serializers.Serializer):
@@ -130,6 +132,7 @@ class ScoreSavedSerializer(serializers.Serializer):
     best_points = serializers.IntegerField()  # this nickname's best in the category
     is_new_best = serializers.BooleanField()  # this quiz is now that best
     points_to_top10 = serializers.IntegerField(allow_null=True)  # null when already in the top 10
+    room = serializers.CharField(allow_null=True)
 
 
 class LeaderboardEntrySerializer(serializers.Serializer):
@@ -156,3 +159,29 @@ class OverallLeaderboardSerializer(serializers.Serializer):
 class LeaderboardSerializer(serializers.Serializer):
     category = CategoryBriefSerializer()
     entries = LeaderboardEntrySerializer(many=True)
+
+
+class CreateRoomSerializer(serializers.Serializer):
+    category = serializers.CharField(max_length=50)
+
+
+class JoinRoomSerializer(serializers.Serializer):
+    # Format rules (NICKNAME_INVALID) are checked in services.start_room_quiz.
+    nickname = serializers.CharField(allow_blank=True, trim_whitespace=False)
+    language = serializers.ChoiceField(
+        choices=LANGUAGE_CHOICES, required=False, default=DEFAULT_LANGUAGE
+    )
+
+
+class RoomSerializer(serializers.Serializer):
+    code = serializers.CharField()
+    category = CategoryBriefSerializer()
+    created_at = serializers.DateTimeField()
+    expires_at = serializers.DateTimeField()
+
+
+class RoomBoardSerializer(serializers.Serializer):
+    room = RoomSerializer()
+    is_open = serializers.BooleanField()  # false: nobody can join any more, the board stays
+    entries = LeaderboardEntrySerializer(many=True)
+

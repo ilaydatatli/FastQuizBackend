@@ -36,7 +36,7 @@ class QuizStartTests(APITestCase):
         body = response.json()
         self.assertEqual(
             set(body),
-            {"quiz_id", "token", "category", "language", "total_questions", "time_limit_ms", "expires_at"},
+            {"quiz_id", "token", "category", "language", "total_questions", "time_limit_ms", "expires_at", "room"},
         )
         self.assertEqual(body["category"], {"slug": "yazilim", "name": "Yazılım", "color": "cyan"})
         self.assertEqual(body["total_questions"], 20)

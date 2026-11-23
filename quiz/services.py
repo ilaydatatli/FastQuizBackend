@@ -18,7 +18,16 @@ from django.utils import timezone
 from rest_framework import status
 
 from .exceptions import QuizError
-from .models import DEFAULT_LANGUAGE, Category, QuizSession, Score, SessionQuestion
+from .models import (
+    DEFAULT_LANGUAGE,
+    LANGUAGES,
+    Category,
+    Question,
+    QuizSession,
+    Room,
+    Score,
+    SessionQuestion,
+)
 
 # OS-level randomness: question picks and choice order should not be predictable.
 _rng = random.SystemRandom()
@@ -80,12 +89,19 @@ def start_quiz(category_slug, language=DEFAULT_LANGUAGE):
             status.HTTP_409_CONFLICT,
         )
 
-    picked = _rng.sample(questions, needed)
-    raw_token = secrets.token_urlsafe(32)
+    return _create_session(category, language, _rng.sample(questions, needed))
 
+
+def _create_session(category, language, questions, room=None, room_nickname=""):
+    """A new quiz over `questions` (in this order). Returns (session, raw_token)."""
+    raw_token = secrets.token_urlsafe(32)
     with transaction.atomic():
         session = QuizSession.objects.create(
-            category=category, language=language, token_hash=hash_token(raw_token)
+            category=category,
+            language=language,
+            token_hash=hash_token(raw_token),
+            room=room,
+            room_nickname=room_nickname,
         )
         SessionQuestion.objects.bulk_create(
             SessionQuestion(
@@ -94,9 +110,8 @@ def start_quiz(category_slug, language=DEFAULT_LANGUAGE):
                 position=position,
                 choice_order=_shuffled_choice_ids(question),
             )
-            for position, question in enumerate(picked)
+            for position, question in enumerate(questions)
         )
-
     return session, raw_token
 
 
@@ -293,7 +308,7 @@ NICKNAME_RE = re.compile(r"^[\w\- ]{2,16}$")
 
 
 def get_result(session_id):
-    session = QuizSession.objects.select_related("category").get(pk=session_id)
+    session = QuizSession.objects.select_related("category", "room").get(pk=session_id)
     if session.status != QuizSession.Status.FINISHED:
         raise QuizError("QUIZ_NOT_FINISHED", "Quiz henüz bitmedi.", status.HTTP_409_CONFLICT)
 
@@ -310,11 +325,11 @@ def get_result(session_id):
         "qualifies_for_top10": rank <= settings.FAST_QUIZ["LEADERBOARD_SIZE"],
         "score_saved": saved is not None,
         "finished_at": session.finished_at,
+        "room": session.room.code if session.room_id else None,
     }
 
 
-def save_score(session_id, nickname):
-    """Save a finished quiz to the leaderboard once. Points are copied from the session."""
+def _clean_nickname(nickname):
     nickname = (nickname or "").strip()
     if not NICKNAME_RE.match(nickname):
         raise QuizError(
@@ -322,10 +337,23 @@ def save_score(session_id, nickname):
             "Takma ad 2–16 karakter olmalı; harf, rakam, boşluk, _ ve - kullanılabilir.",
             status.HTTP_400_BAD_REQUEST,
         )
+    return nickname
+
+
+def save_score(session_id, nickname):
+    """
+    Save a finished quiz to the leaderboard once. Points are copied from the session.
+    Room quizzes are saved under the nickname given when joining the room (the sent one is ignored),
+    and also count on the normal leaderboards.
+    """
+    nickname = _clean_nickname(nickname)
 
     t = now()
     with transaction.atomic():
         session = _lock(session_id)
+        if session.room_id:
+            nickname = session.room_nickname
+            _check_not_played(session.room_id, nickname)
         expired = _expire_if_needed(session, t)
         if not expired:
             if session.status != QuizSession.Status.FINISHED:
@@ -353,6 +381,7 @@ def save_score(session_id, nickname):
         "correct_count": score.correct_count,
         "rank": rank,
         "category": session.category.slug,
+        "room": session.room.code if session.room_id else None,
         # For the result screen's "beat your record" messages:
         "best_points": best.points,
         "is_new_best": best.id == score.id,
@@ -480,3 +509,99 @@ def rank_if_saved(session):
         .count()
     )
     return players_ahead + 1
+
+
+# ---------------------------------------------------------------------------
+# Challenge rooms (Faz 24): same questions for friends, each plays once
+# ---------------------------------------------------------------------------
+
+# No 0/O, 1/I/L: easy to read out loud and type.
+ROOM_CODE_ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"
+ROOM_CODE_LENGTH = 6
+
+
+def _new_room_code():
+    while True:
+        code = "".join(_rng.choice(ROOM_CODE_ALPHABET) for _ in range(ROOM_CODE_LENGTH))
+        if not Room.objects.filter(code=code).exists():
+            return code
+
+
+def _in_every_language():
+    """Questions translated into every language: friends may play in different languages."""
+    q = Q()
+    for language in LANGUAGES:
+        q &= in_language(language)
+    return q
+
+
+def create_room(category_slug):
+    needed = settings.FAST_QUIZ["QUESTIONS_PER_QUIZ"]
+    category = Category.objects.filter(slug=category_slug, is_active=True).first()
+    if category is None:
+        raise QuizError("CATEGORY_NOT_FOUND", "Böyle bir kategori yok.", status.HTTP_404_NOT_FOUND)
+
+    ids = list(
+        category.questions.filter(_in_every_language(), is_active=True).values_list("id", flat=True)
+    )
+    if len(ids) < needed:
+        raise QuizError(
+            "NOT_ENOUGH_QUESTIONS",
+            "Bu kategoride oda açmak için yeterli soru yok.",
+            status.HTTP_409_CONFLICT,
+        )
+
+    return Room.objects.create(
+        code=_new_room_code(),
+        category=category,
+        question_ids=_rng.sample(ids, needed),
+        expires_at=now() + timedelta(hours=settings.FAST_QUIZ["ROOM_TTL_HOURS"]),
+    )
+
+
+def _get_room(code):
+    room = Room.objects.select_related("category").filter(code=(code or "").upper()).first()
+    if room is None:
+        raise QuizError("ROOM_NOT_FOUND", "Böyle bir oda yok.", status.HTTP_404_NOT_FOUND)
+    return room
+
+
+def _check_not_played(room_id, nickname):
+    if Score.objects.filter(session__room_id=room_id, nickname=nickname).exists():
+        raise QuizError(
+            "ROOM_ALREADY_PLAYED",
+            "Bu odada bu takma adla zaten oynandı.",
+            status.HTTP_409_CONFLICT,
+        )
+
+
+def start_room_quiz(code, nickname, language=DEFAULT_LANGUAGE):
+    """Join a room: a normal quiz over the room's questions, in the player's own language."""
+    nickname = _clean_nickname(nickname)
+    room = _get_room(code)
+    if now() > room.expires_at:
+        raise QuizError("ROOM_CLOSED", "Bu odanın süresi doldu.", status.HTTP_410_GONE)
+    _check_not_played(room.id, nickname)
+
+    players = (
+        QuizSession.objects.filter(room=room)
+        .exclude(room_nickname=nickname)
+        .values("room_nickname")
+        .distinct()
+        .count()
+    )
+    if players >= settings.FAST_QUIZ["ROOM_MAX_PLAYERS"]:
+        raise QuizError("ROOM_FULL", "Bu oda dolu.", status.HTTP_409_CONFLICT)
+
+    by_id = Question.objects.prefetch_related("choices").in_bulk(room.question_ids)
+    questions = [by_id[question_id] for question_id in room.question_ids]
+    return _create_session(room.category, language, questions, room=room, room_nickname=nickname)
+
+
+def room_board(code):
+    """The room and all its saved scores, best first (each nickname plays once)."""
+    room = _get_room(code)
+    scores = Score.objects.filter(session__room=room).order_by(*LEADERBOARD_ORDER)
+    entries = [{"rank": rank, "score": score} for rank, score in enumerate(scores, start=1)]
+    return {"room": room, "is_open": now() <= room.expires_at, "entries": entries}
+
