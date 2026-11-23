@@ -12,6 +12,7 @@ from .serializers import (
     CurrentSerializer,
     LanguageQuerySerializer,
     LeaderboardSerializer,
+    OverallLeaderboardSerializer,
     QuizStartedSerializer,
     ResultSerializer,
     SaveScoreSerializer,
@@ -115,3 +116,9 @@ def leaderboard(request, category_slug):
     language = query_language(request)
     data = services.leaderboard(category_slug, language)
     return Response(LeaderboardSerializer(data, context={"language": language}).data)
+
+
+@api_view(["GET"])
+def overall_leaderboard(request):
+    # Nicknames and points only, so ?lang changes nothing here.
+    return Response(OverallLeaderboardSerializer(services.overall_leaderboard()).data)

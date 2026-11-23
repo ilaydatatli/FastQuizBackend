@@ -141,6 +141,18 @@ class LeaderboardEntrySerializer(serializers.Serializer):
     created_at = serializers.DateTimeField(source="score.created_at")
 
 
+class OverallEntrySerializer(serializers.Serializer):
+    rank = serializers.IntegerField()
+    nickname = serializers.CharField()
+    points = serializers.IntegerField()  # sum of the best score in each category
+    categories_played = serializers.IntegerField()
+
+
+class OverallLeaderboardSerializer(serializers.Serializer):
+    category_count = serializers.IntegerField()  # active categories: "5 / 9"
+    entries = OverallEntrySerializer(many=True)
+
+
 class LeaderboardSerializer(serializers.Serializer):
     category = CategoryBriefSerializer()
     entries = LeaderboardEntrySerializer(many=True)

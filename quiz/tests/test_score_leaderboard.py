@@ -430,3 +430,63 @@ class RecordAndTopTenTests(FinishedQuizTestCase):
             self.add(f"rakip{i}", 4000)
         self.finish_quiz()
         self.assertIsNone(self.save(nickname="ilayda").json()["points_to_top10"])
+
+
+class OverallLeaderboardTests(APITestCase):
+    """"Genel" board: per nickname, the sum of its best score in each active category."""
+
+    def setUp(self):
+        self.yazilim = make_category(slug="yazilim", name="Yazılım", order=1)
+        self.biyoloji = make_category(slug="biyoloji", name="Biyoloji", order=2)
+
+    def add(self, nickname, points, category, correct_count=10):
+        return make_score(finished_session(category, points, correct_count), nickname=nickname)
+
+    def get(self):
+        return self.client.get("/api/v1/leaderboard/").json()
+
+    def board(self):
+        return [(e["rank"], e["nickname"], e["points"], e["categories_played"]) for e in self.get()["entries"]]
+
+    def test_empty_board_and_shape(self):
+        self.assertEqual(self.get(), {"category_count": 2, "entries": []})
+        self.add("ilayda", 1000, self.yazilim)
+        self.assertEqual(set(self.get()["entries"][0]), {"rank", "nickname", "points", "categories_played"})
+
+    def test_total_is_the_sum_of_each_category_best(self):
+        self.add("ilayda", 1000, self.yazilim)
+        self.add("ilayda", 1500, self.yazilim)  # best in Yazılım
+        self.add("ilayda", 900, self.biyoloji)
+        self.add("neonfox", 2000, self.yazilim)
+
+        self.assertEqual(self.board(), [(1, "ilayda", 2400, 2), (2, "neonfox", 2000, 1)])
+
+    def test_tie_goes_to_more_categories_then_earlier_total(self):
+        self.add("tekci", 2000, self.yazilim)
+        self.add("ikici", 1000, self.yazilim)
+        self.add("ikici", 1000, self.biyoloji)
+        self.add("gecikci", 2000, self.yazilim)  # same as "tekci", reached later
+
+        self.assertEqual([row[1] for row in self.board()], ["ikici", "tekci", "gecikci"])
+
+    def test_inactive_categories_do_not_count(self):
+        hidden = make_category(slug="gizli", order=3, is_active=False)
+        self.add("ilayda", 1000, self.yazilim)
+        self.add("ilayda", 3000, hidden)
+
+        self.assertEqual(self.board(), [(1, "ilayda", 1000, 1)])
+        self.assertEqual(self.get()["category_count"], 2)
+
+    def test_only_top_ten_players_are_shown(self):
+        for i in range(12):
+            self.add(f"oyuncu{i}", 1000 + i, self.yazilim)
+        entries = self.get()["entries"]
+        self.assertEqual(len(entries), 10)
+        self.assertEqual(entries[0]["nickname"], "oyuncu11")
+
+    def test_uses_a_fixed_number_of_queries(self):
+        for i in range(10):
+            self.add(f"oyuncu{i}", 1000 + i, self.yazilim)
+            self.add(f"oyuncu{i}", 500, self.biyoloji)
+        with self.assertNumQueries(2):  # rows + category count
+            self.client.get("/api/v1/leaderboard/")

@@ -13,7 +13,7 @@ from datetime import timedelta
 
 from django.conf import settings
 from django.db import transaction
-from django.db.models import Count, Q
+from django.db.models import Count, Max, Q, Sum
 from django.utils import timezone
 from rest_framework import status
 
@@ -371,6 +371,33 @@ def leaderboard(category_slug, language=DEFAULT_LANGUAGE):
     scores = _best_rows(category.id)[:size]  # one query
     entries = [{"rank": rank, "score": score} for rank, score in enumerate(scores, start=1)]
     return {"category": category, "language": language, "entries": entries}
+
+
+def overall_leaderboard():
+    """
+    "Genel" board: per nickname (exact spelling), the sum of its best score in
+    every active category. Playing more categories is the way up.
+    Ties: more categories played first, then whoever reached the total earlier.
+    """
+    size = settings.FAST_QUIZ["LEADERBOARD_SIZE"]
+    best_ids = (
+        Score.objects.filter(category__is_active=True)
+        .order_by("nickname", "category_id", *LEADERBOARD_ORDER)
+        .distinct("nickname", "category_id")
+        .values("id")
+    )
+    rows = (
+        Score.objects.filter(id__in=best_ids)
+        .values("nickname")
+        .annotate(
+            points=Sum("points"),
+            categories_played=Count("category_id"),
+            reached_at=Max("created_at"),
+        )
+        .order_by("-points", "-categories_played", "reached_at", "nickname")[:size]
+    )  # one query
+    entries = [{"rank": rank, **row} for rank, row in enumerate(rows, start=1)]
+    return {"category_count": Category.objects.filter(is_active=True).count(), "entries": entries}
 
 
 # Points (high first) -> correct answers (high first) -> saved earlier first. id breaks exact ties.
