@@ -141,6 +141,9 @@ class SaveScoreTests(FinishedQuizTestCase):
                 "correct_count": 18,
                 "rank": 1,
                 "category": self.category.slug,
+                "best_points": 18 * 180,
+                "is_new_best": True,
+                "points_to_top10": None,
             },
         )
         score = Score.objects.get()
@@ -381,3 +384,49 @@ class RankWithRepeatedNicknamesTests(FinishedQuizTestCase):
         self.finish_quiz()
 
         self.assertTrue(self.result().json()["qualifies_for_top10"])
+
+
+class RecordAndTopTenTests(FinishedQuizTestCase):
+    """Fields for the result screen's motivation messages. This quiz: 3240 points."""
+
+    def add(self, nickname, points, correct_count=10):
+        make_score(finished_session(self.category, points, correct_count), nickname=nickname)
+
+    def test_first_score_is_a_new_best(self):
+        self.finish_quiz()
+        body = self.save(nickname="ilayda").json()
+        self.assertEqual((body["best_points"], body["is_new_best"]), (3240, True))
+
+    def test_beating_the_old_record(self):
+        self.add("ilayda", 3000)
+        self.finish_quiz()
+        body = self.save(nickname="ilayda").json()
+        self.assertEqual((body["best_points"], body["is_new_best"]), (3240, True))
+
+    def test_lower_score_keeps_the_old_record(self):
+        self.add("ilayda", 3500, 19)
+        self.finish_quiz()
+        body = self.save(nickname="ilayda").json()
+        self.assertEqual((body["points"], body["best_points"], body["is_new_best"]), (3240, 3500, False))
+
+    def test_points_needed_to_pass_the_tenth_player(self):
+        for i in range(10):
+            self.add(f"rakip{i}", 4000 - i * 10)  # 10th player: 3910
+        self.finish_quiz()
+        body = self.save(nickname="ilayda").json()
+        self.assertEqual(body["rank"], 11)
+        self.assertEqual(body["points_to_top10"], 3910 - 3240 + 1)
+
+    def test_top10_gap_uses_the_players_best_not_this_quiz(self):
+        for i in range(10):
+            self.add(f"rakip{i}", 4000 - i * 10)
+        self.add("ilayda", 3800)  # older best, still outside the top 10
+        self.finish_quiz()
+        body = self.save(nickname="ilayda").json()
+        self.assertEqual(body["points_to_top10"], 3910 - 3800 + 1)
+
+    def test_no_gap_inside_the_top_10(self):
+        for i in range(5):
+            self.add(f"rakip{i}", 4000)
+        self.finish_quiz()
+        self.assertIsNone(self.save(nickname="ilayda").json()["points_to_top10"])

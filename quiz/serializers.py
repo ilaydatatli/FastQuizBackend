@@ -127,6 +127,9 @@ class ScoreSavedSerializer(serializers.Serializer):
     correct_count = serializers.IntegerField()
     rank = serializers.IntegerField()
     category = serializers.CharField()  # category slug
+    best_points = serializers.IntegerField()  # this nickname's best in the category
+    is_new_best = serializers.BooleanField()  # this quiz is now that best
+    points_to_top10 = serializers.IntegerField(allow_null=True)  # null when already in the top 10
 
 
 class LeaderboardEntrySerializer(serializers.Serializer):

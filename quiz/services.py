@@ -345,12 +345,18 @@ def save_score(session_id, nickname):
     if expired:
         raise _quiz_expired()
 
+    best = _best_score(score)
+    rank = score_rank(score, best)
     return {
         "nickname": score.nickname,
         "points": score.points,
         "correct_count": score.correct_count,
-        "rank": score_rank(score),
+        "rank": rank,
         "category": session.category.slug,
+        # For the result screen's "beat your record" messages:
+        "best_points": best.points,
+        "is_new_best": best.id == score.id,
+        "points_to_top10": _points_to_top10(best, rank),
     }
 
 
@@ -362,10 +368,7 @@ def leaderboard(category_slug, language=DEFAULT_LANGUAGE):
     size = settings.FAST_QUIZ["LEADERBOARD_SIZE"]
     # One row per nickname (exact spelling): that nickname's best score.
     # PostgreSQL DISTINCT ON keeps the first row per nickname in LEADERBOARD_ORDER.
-    best_ids = (
-        category.scores.order_by("nickname", *LEADERBOARD_ORDER).distinct("nickname").values("id")
-    )
-    scores = Score.objects.filter(id__in=best_ids).order_by(*LEADERBOARD_ORDER)[:size]  # one query
+    scores = _best_rows(category.id)[:size]  # one query
     entries = [{"rank": rank, "score": score} for rank, score in enumerate(scores, start=1)]
     return {"category": category, "language": language, "entries": entries}
 
@@ -389,16 +392,42 @@ def _ahead_of(score):
     )
 
 
-def score_rank(score):
-    """
-    1-based row of this score's nickname in the leaderboard (one row per nickname,
-    showing its best score). If the nickname already had a better score, that row counts.
-    """
-    best = (
+def _best_rows(category_id):
+    """Leaderboard rows: one per nickname (exact spelling), its best score, best first.
+    PostgreSQL DISTINCT ON keeps the first row per nickname in LEADERBOARD_ORDER."""
+    best_ids = (
+        Score.objects.filter(category_id=category_id)
+        .order_by("nickname", *LEADERBOARD_ORDER)
+        .distinct("nickname")
+        .values("id")
+    )
+    return Score.objects.filter(id__in=best_ids).order_by(*LEADERBOARD_ORDER)
+
+
+def _best_score(score):
+    """The best saved score of this score's nickname in its category (may be `score`)."""
+    return (
         Score.objects.filter(category_id=score.category_id, nickname=score.nickname)
         .order_by(*LEADERBOARD_ORDER)
         .first()
     )
+
+
+def _points_to_top10(best, rank):
+    """Points the player's best is short of to pass the 10th row; None if already in the top 10."""
+    size = settings.FAST_QUIZ["LEADERBOARD_SIZE"]
+    if rank <= size:
+        return None
+    last = _best_rows(best.category_id).exclude(nickname=best.nickname)[size - 1 : size].first()
+    return last.points - best.points + 1
+
+
+def score_rank(score, best=None):
+    """
+    1-based row of this score's nickname in the leaderboard (one row per nickname,
+    showing its best score). If the nickname already had a better score, that row counts.
+    """
+    best = best or _best_score(score)
     other_players_ahead = (
         Score.objects.filter(category_id=score.category_id)
         .exclude(nickname=best.nickname)
