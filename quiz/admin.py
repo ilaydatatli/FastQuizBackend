@@ -1,8 +1,10 @@
+from django import forms
 from django.contrib import admin
 from django.core.exceptions import ValidationError
 from django.forms.models import BaseInlineFormSet
 
 from .models import Category, Choice, Question, QuizSession, Score, SessionQuestion
+from .services import NICKNAME_RE
 
 REQUIRED_CHOICES = 4
 REQUIRED_CORRECT = 1
@@ -103,9 +105,36 @@ class QuizSessionAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     inlines = [SessionQuestionInline]
 
 
+class ScoreAdminForm(forms.ModelForm):
+    """Only the nickname can be edited, with the same rule as the game."""
+
+    class Meta:
+        model = Score
+        fields = ["nickname"]
+
+    def clean_nickname(self):
+        nickname = self.cleaned_data["nickname"].strip()
+        if not NICKNAME_RE.match(nickname):
+            raise ValidationError(
+                "Takma ad 2–16 karakter olmalı; harf, rakam, boşluk, _ ve - kullanılabilir."
+            )
+        return nickname
+
+
 @admin.register(Score)
-class ScoreAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
-    list_display = ["nickname", "category", "points", "correct_count", "created_at"]
-    list_filter = ["category"]
+class ScoreAdmin(admin.ModelAdmin):
+    """Points come only from the API; the admin may fix a nickname, nothing else."""
+
+    form = ScoreAdminForm
+    list_display = ["nickname", "category", "language", "points", "correct_count", "created_at"]
+    list_filter = ["category", "language"]
     search_fields = ["nickname"]
     list_select_related = ["category"]
+    fields = ["nickname", "category", "language", "points", "correct_count", "created_at"]
+    readonly_fields = ["category", "language", "points", "correct_count", "created_at"]
+
+    def has_add_permission(self, request, obj=None):
+        return False
+
+    def has_delete_permission(self, request, obj=None):
+        return False

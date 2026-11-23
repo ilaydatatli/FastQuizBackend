@@ -217,15 +217,35 @@ class ReadOnlyAdminTests(TestCase):
             with self.subTest(url=url):
                 self.assertEqual(self.client.get(url).status_code, 403)
 
-    def test_score_cannot_be_changed_or_deleted(self):
+    def test_only_the_score_nickname_can_be_changed(self):
         url = f"/admin/quiz/score/{self.score.id}/change/"
-        self.client.post(url, {"nickname": "hileci", "points": 4000, "correct_count": 20})
+        response = self.client.post(url, {"nickname": "  Yeni Ad  ", "points": 4000, "correct_count": 20})
+        self.assertEqual(response.status_code, 302)  # saved, back to the list
         self.score.refresh_from_db()
-        self.assertEqual(self.score.points, 1200)
+        self.assertEqual(self.score.nickname, "Yeni Ad")  # trimmed, like in the game
+        self.assertEqual((self.score.points, self.score.correct_count), (1200, 8))
 
+    def test_invalid_nickname_is_rejected_in_admin(self):
+        old = self.score.nickname
+        url = f"/admin/quiz/score/{self.score.id}/change/"
+        for nickname in ["a", "<script>", "x" * 17]:
+            with self.subTest(nickname=nickname):
+                response = self.client.post(url, {"nickname": nickname})
+                self.assertEqual(response.status_code, 200)  # form shown again, not saved
+                self.assertContains(response, 'class="errorlist"')
+        self.score.refresh_from_db()
+        self.assertEqual(self.score.nickname, old)
+
+    def test_score_cannot_be_deleted(self):
         response = self.client.post(f"/admin/quiz/score/{self.score.id}/delete/", {"post": "yes"})
         self.assertEqual(response.status_code, 403)
         self.assertTrue(Score.objects.filter(id=self.score.id).exists())
+
+    def test_session_cannot_be_changed(self):
+        url = f"/admin/quiz/quizsession/{self.session.id}/change/"
+        self.client.post(url, {"points": 4000})
+        self.session.refresh_from_db()
+        self.assertEqual(self.session.points, 1200)
 
     def test_session_detail_does_not_show_token_hash(self):
         response = self.client.get(f"/admin/quiz/quizsession/{self.session.id}/change/")
