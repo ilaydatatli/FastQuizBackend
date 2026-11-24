@@ -22,7 +22,8 @@ class CurrentQuestionTests(QuizPlayTestCase):
         self.assertEqual(body["total_questions"], 20)
         self.assertEqual(body["points"], 0)
         self.assertEqual(body["time_limit_ms"], 5000)
-        self.assertEqual(set(body["question"]), {"id", "text", "choices"})
+        self.assertEqual(set(body["question"]), {"id", "text", "choices", "audio"})
+        self.assertIsNone(body["question"]["audio"])  # no sound on normal questions
         for choice in body["question"]["choices"]:
             self.assertEqual(set(choice), {"id", "text"})
 

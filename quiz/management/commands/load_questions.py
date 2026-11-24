@@ -97,6 +97,8 @@ class Command(BaseCommand):
                 defaults={
                     "is_active": True,
                     **{f"text_{lang}": text.get(lang, "") for lang in TRANSLATIONS},
+                    "audio": item.get("audio", ""),
+                    "audio_ms": item.get("audio_ms", 0),
                 },
             )
             changed = sync_choices(question, item["choices"])
@@ -203,8 +205,24 @@ def parse_file(path, errors, warnings):
             errors.append(f"{where}: aynı soru metni dosyada iki kez var.")
         seen_texts.add(text[DEFAULT_LANGUAGE])
         validate_choices(where, item.get("choices"), set(text), errors, warnings)
+        validate_audio(where, item, errors)
 
     return data
+
+
+AUDIO_MS_RANGE = (1000, 20000)
+
+
+def validate_audio(where, item, errors):
+    """Optional sound (Faz 26): "audio": "/sounds/x.mp3" and "audio_ms": its length, together."""
+    audio, audio_ms = item.get("audio"), item.get("audio_ms")
+    if audio is None and audio_ms is None:
+        return
+    if not isinstance(audio, str) or not audio.startswith("/sounds/") or len(audio) > 200:
+        errors.append(f"{where}: 'audio' /sounds/ ile başlayan bir yol olmalı (en fazla 200 karakter).")
+    low, high = AUDIO_MS_RANGE
+    if not isinstance(audio_ms, int) or isinstance(audio_ms, bool) or not low <= audio_ms <= high:
+        errors.append(f"{where}: 'audio_ms' {low}–{high} arası bir tam sayı olmalı (sesin süresi).")
 
 
 def validate_category(name, cat, errors):

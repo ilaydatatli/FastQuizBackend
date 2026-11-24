@@ -164,6 +164,14 @@ class LoadQuestionsTests(TestCase):
                 ),
                 "soru 1: aynı şık metni iki kez var",
             ),
+            "audio without length": (
+                lambda d: d["questions"][0].update(audio="/sounds/a.mp3"),
+                "soru 1: 'audio_ms' 1000–20000 arası",
+            ),
+            "audio outside /sounds/": (
+                lambda d: d["questions"][0].update(audio="https://example.com/a.mp3", audio_ms=3000),
+                "soru 1: 'audio' /sounds/ ile başlayan",
+            ),
             "missing slug": (
                 lambda d: d["category"].pop("slug"),
                 "kategori 'slug' alanı boş",
@@ -178,6 +186,20 @@ class LoadQuestionsTests(TestCase):
                     self.load()
                 self.assertIn(expected, str(ctx.exception))
                 self.assertEqual(Question.objects.count(), 0)
+
+    def test_sound_fields_are_loaded_and_cleared(self):
+        data = file_data(n=2)
+        data["questions"][0].update(audio="/sounds/kopek.mp3", audio_ms=2500)
+        self.write("yazilim.json", data)
+        self.load()
+        q = Question.objects.get(text="yazilim sorusu 1?")
+        self.assertEqual((q.audio, q.audio_ms), ("/sounds/kopek.mp3", 2500))
+
+        del data["questions"][0]["audio"], data["questions"][0]["audio_ms"]
+        self.write("yazilim.json", data)
+        self.load()
+        q.refresh_from_db()
+        self.assertEqual((q.audio, q.audio_ms), ("", 0))
 
     def test_broken_json_is_reported(self):
         (self.dir / "yazilim.json").write_text("{ bozuk", encoding="utf-8")

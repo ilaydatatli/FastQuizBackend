@@ -50,6 +50,10 @@ class Question(models.Model):
     text_en = models.CharField(max_length=150, blank=True)
     text_nl = models.CharField(max_length=150, blank=True)
     text_es = models.CharField(max_length=150, blank=True)
+    # Sound questions (Faz 26): a sound plays first, then the 10 seconds start.
+    # `audio` is a path served by the frontend (e.g. "/sounds/beethoven-5.mp3"); "" = no sound.
+    audio = models.CharField(max_length=200, blank=True)
+    audio_ms = models.PositiveIntegerField(default=0)  # sound length; the timer waits this long
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

@@ -200,6 +200,36 @@
       { "text": { "tr": "Nakarat", "en": "Chorus", "nl": "Refrein", "es": "Estribillo" }, "correct": true },
       { "text": { "tr": "Giriş", "en": "Intro", "nl": "Intro", "es": "Introducción" } },
       { "text": { "tr": "Köprü", "en": "Bridge", "nl": "Brug", "es": "Puente" } },
-      { "text": { "tr": "Solo", "en": "Solo", "nl": "Solo", "es": "Solo" } } ] }
+      { "text": { "tr": "Solo", "en": "Solo", "nl": "Solo", "es": "Solo" } } ] },
+    { "text": { "tr": "Bu ünlü senfoninin bestecisi kim?", "en": "Who composed this famous symphony?", "nl": "Wie componeerde deze beroemde symfonie?", "es": "¿Quién compuso esta famosa sinfonía?" }, "audio": "/sounds/beethoven-5.m4a", "audio_ms": 7000, "choices": [
+      { "text": { "tr": "Beethoven", "en": "Beethoven", "nl": "Beethoven", "es": "Beethoven" }, "correct": true },
+      { "text": { "tr": "Mozart", "en": "Mozart", "nl": "Mozart", "es": "Mozart" } },
+      { "text": { "tr": "Bach", "en": "Bach", "nl": "Bach", "es": "Bach" } },
+      { "text": { "tr": "Vivaldi", "en": "Vivaldi", "nl": "Vivaldi", "es": "Vivaldi" } } ] },
+    { "text": { "tr": "Duyduğun piyano parçasının adı ne?", "en": "What is the name of this piano piece?", "nl": "Hoe heet dit pianostuk?", "es": "¿Cómo se llama esta pieza para piano?" }, "audio": "/sounds/fur-elise.m4a", "audio_ms": 6000, "choices": [
+      { "text": { "tr": "Für Elise", "en": "Für Elise", "nl": "Für Elise", "es": "Für Elise" }, "correct": true },
+      { "text": { "tr": "Ay Işığı Sonatı", "en": "Moonlight Sonata", "nl": "Mondscheinsonate", "es": "Sonata Claro de Luna" } },
+      { "text": { "tr": "Türk Marşı", "en": "Turkish March", "nl": "Turkse Mars", "es": "Marcha turca" } },
+      { "text": { "tr": "Pachelbel'in Kanonu", "en": "Pachelbel's Canon", "nl": "Canon van Pachelbel", "es": "Canon de Pachelbel" } } ] },
+    { "text": { "tr": "Bu neşeli serenatın bestecisi kim?", "en": "Who composed this cheerful serenade?", "nl": "Wie componeerde deze vrolijke serenade?", "es": "¿Quién compuso esta alegre serenata?" }, "audio": "/sounds/mozart-nachtmusik.m4a", "audio_ms": 8000, "choices": [
+      { "text": { "tr": "Mozart", "en": "Mozart", "nl": "Mozart", "es": "Mozart" }, "correct": true },
+      { "text": { "tr": "Beethoven", "en": "Beethoven", "nl": "Beethoven", "es": "Beethoven" } },
+      { "text": { "tr": "Chopin", "en": "Chopin", "nl": "Chopin", "es": "Chopin" } },
+      { "text": { "tr": "Çaykovski", "en": "Tchaikovsky", "nl": "Tsjaikovski", "es": "Chaikovski" } } ] },
+    { "text": { "tr": "Duyduğun orkestra eserinin adı ne?", "en": "What is the name of this orchestral piece?", "nl": "Hoe heet dit orkestwerk?", "es": "¿Cómo se llama esta obra orquestal?" }, "audio": "/sounds/grieg-mountain-king.m4a", "audio_ms": 10000, "choices": [
+      { "text": { "tr": "Dağ Kralının Salonunda", "en": "Hall of the Mountain King", "nl": "In de hal van de bergkoning", "es": "La gruta del rey de la montaña" }, "correct": true },
+      { "text": { "tr": "Mavi Tuna", "en": "The Blue Danube", "nl": "An der schönen blauen Donau", "es": "El Danubio azul" } },
+      { "text": { "tr": "Bolero", "en": "Boléro", "nl": "Boléro", "es": "Bolero" } },
+      { "text": { "tr": "Kuğu Gölü", "en": "Swan Lake", "nl": "Het Zwanenmeer", "es": "El lago de los cisnes" } } ] },
+    { "text": { "tr": "Bu sesi çıkaran çalgı hangisi?", "en": "Which instrument makes this sound?", "nl": "Welk instrument maakt dit geluid?", "es": "¿Qué instrumento hace este sonido?" }, "audio": "/sounds/bagpipes.m4a", "audio_ms": 8000, "choices": [
+      { "text": { "tr": "Gayda", "en": "Bagpipes", "nl": "Doedelzak", "es": "Gaita" }, "correct": true },
+      { "text": { "tr": "Akordeon", "en": "Accordion", "nl": "Accordeon", "es": "Acordeón" } },
+      { "text": { "tr": "Mızıka", "en": "Harmonica", "nl": "Mondharmonica", "es": "Armónica" } },
+      { "text": { "tr": "Klarnet", "en": "Clarinet", "nl": "Klarinet", "es": "Clarinete" } } ] },
+    { "text": { "tr": "Duyduğun telli çalgı hangisi?", "en": "Which string instrument do you hear?", "nl": "Welk snaarinstrument hoor je?", "es": "¿Qué instrumento de cuerda escuchas?" }, "audio": "/sounds/cello.m4a", "audio_ms": 8000, "choices": [
+      { "text": { "tr": "Çello", "en": "Cello", "nl": "Cello", "es": "Violonchelo" }, "correct": true },
+      { "text": { "tr": "Keman", "en": "Violin", "nl": "Viool", "es": "Violín" } },
+      { "text": { "tr": "Kontrbas", "en": "Double bass", "nl": "Contrabas", "es": "Contrabajo" } },
+      { "text": { "tr": "Arp", "en": "Harp", "nl": "Harp", "es": "Arpa" } } ] }
   ]
 }

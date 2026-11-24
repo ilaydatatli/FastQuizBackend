@@ -200,6 +200,31 @@
       { "text": { "tr": "Oksijen", "en": "Oxygen", "nl": "Zuurstof", "es": "Oxígeno" }, "correct": true },
       { "text": { "tr": "Karbondioksit", "en": "Carbon dioxide", "nl": "Koolstofdioxide", "es": "Dióxido de carbono" } },
       { "text": { "tr": "Azot", "en": "Nitrogen", "nl": "Stikstof", "es": "Nitrógeno" } },
-      { "text": { "tr": "Metan", "en": "Methane", "nl": "Methaan", "es": "Metano" } } ] }
+      { "text": { "tr": "Metan", "en": "Methane", "nl": "Methaan", "es": "Metano" } } ] },
+    { "text": { "tr": "Bu uluma hangi hayvana ait?", "en": "Which animal is howling?", "nl": "Welk dier huilt hier?", "es": "¿Qué animal está aullando?" }, "audio": "/sounds/wolf.m4a", "audio_ms": 8000, "choices": [
+      { "text": { "tr": "Kurt", "en": "Wolf", "nl": "Wolf", "es": "Lobo" }, "correct": true },
+      { "text": { "tr": "Tilki", "en": "Fox", "nl": "Vos", "es": "Zorro" } },
+      { "text": { "tr": "Çakal", "en": "Jackal", "nl": "Jakhals", "es": "Chacal" } },
+      { "text": { "tr": "Baykuş", "en": "Owl", "nl": "Uil", "es": "Búho" } } ] },
+    { "text": { "tr": "Bu kısa ses hangi hayvana ait?", "en": "Which animal makes this short call?", "nl": "Van welk dier is deze korte roep?", "es": "¿Qué animal hace este breve sonido?" }, "audio": "/sounds/elephant.m4a", "audio_ms": 1476, "choices": [
+      { "text": { "tr": "Fil", "en": "Elephant", "nl": "Olifant", "es": "Elefante" }, "correct": true },
+      { "text": { "tr": "Gergedan", "en": "Rhinoceros", "nl": "Neushoorn", "es": "Rinoceronte" } },
+      { "text": { "tr": "Su aygırı", "en": "Hippopotamus", "nl": "Nijlpaard", "es": "Hipopótamo" } },
+      { "text": { "tr": "Zürafa", "en": "Giraffe", "nl": "Giraf", "es": "Jirafa" } } ] },
+    { "text": { "tr": "Sabahları duyulan bu ses hangi hayvana ait?", "en": "Which animal makes this morning call?", "nl": "Welk dier maakt dit ochtendgeluid?", "es": "¿Qué animal hace este sonido por la mañana?" }, "audio": "/sounds/rooster.m4a", "audio_ms": 8000, "choices": [
+      { "text": { "tr": "Horoz", "en": "Rooster", "nl": "Haan", "es": "Gallo" }, "correct": true },
+      { "text": { "tr": "Ördek", "en": "Duck", "nl": "Eend", "es": "Pato" } },
+      { "text": { "tr": "Kaz", "en": "Goose", "nl": "Gans", "es": "Ganso" } },
+      { "text": { "tr": "Hindi", "en": "Turkey", "nl": "Kalkoen", "es": "Pavo" } } ] },
+    { "text": { "tr": "Bu sesi çıkaran ev hayvanı hangisi?", "en": "Which pet makes this sound?", "nl": "Welk huisdier maakt dit geluid?", "es": "¿Qué mascota hace este sonido?" }, "audio": "/sounds/cat.m4a", "audio_ms": 4712, "choices": [
+      { "text": { "tr": "Kedi", "en": "Cat", "nl": "Kat", "es": "Gato" }, "correct": true },
+      { "text": { "tr": "Köpek", "en": "Dog", "nl": "Hond", "es": "Perro" } },
+      { "text": { "tr": "Tavşan", "en": "Rabbit", "nl": "Konijn", "es": "Conejo" } },
+      { "text": { "tr": "Papağan", "en": "Parrot", "nl": "Papegaai", "es": "Loro" } } ] },
+    { "text": { "tr": "Bu vızıltı hangi canlıya ait?", "en": "Which creature is buzzing?", "nl": "Welk beestje zoemt hier?", "es": "¿Qué animal está zumbando?" }, "audio": "/sounds/bee.m4a", "audio_ms": 6000, "choices": [
+      { "text": { "tr": "Arı", "en": "Bee", "nl": "Bij", "es": "Abeja" }, "correct": true },
+      { "text": { "tr": "Ağustosböceği", "en": "Cicada", "nl": "Cicade", "es": "Cigarra" } },
+      { "text": { "tr": "Kurbağa", "en": "Frog", "nl": "Kikker", "es": "Rana" } },
+      { "text": { "tr": "Serçe", "en": "Sparrow", "nl": "Mus", "es": "Gorrión" } } ] }
   ]
 }

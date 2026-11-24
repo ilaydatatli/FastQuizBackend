@@ -139,6 +139,11 @@ def elapsed_ms(since, until):
     return int((until - since) / timedelta(milliseconds=1))
 
 
+def answer_starts_at(item):
+    """When the answer time starts: right away, or after the question's sound (Faz 26)."""
+    return item.shown_at + timedelta(milliseconds=item.question.audio_ms)
+
+
 def get_current(session_id):
     """
     The question the player should see now. The first call for a question writes `shown_at`
@@ -214,7 +219,7 @@ def _advance_to_current(session, t):
         if item.shown_at is None:
             item.shown_at = t
             item.save(update_fields=["shown_at"])
-        elif elapsed_ms(item.shown_at, t) > _window_ms():
+        elif elapsed_ms(answer_starts_at(item), t) > _window_ms():
             # Nobody answered in time (e.g. tab closed): count it as timed out and move on.
             item.timed_out = True
             item.is_correct = False
@@ -223,15 +228,16 @@ def _advance_to_current(session, t):
             _move_to_next(session, t, total)
             continue
 
-        remaining = max(0, limit - elapsed_ms(item.shown_at, t))
+        took = elapsed_ms(answer_starts_at(item), t)  # negative while the sound still plays
         return {
             "session": session,
             "item": item,
             "choices": _ordered_choices(item),
-            "remaining_ms": remaining,
+            "remaining_ms": min(limit, max(0, limit - took)),
+            "audio_left_ms": max(0, -took),
         }
 
-    return {"session": session, "item": None, "choices": [], "remaining_ms": 0}
+    return {"session": session, "item": None, "choices": [], "remaining_ms": 0, "audio_left_ms": 0}
 
 
 def _ordered_choices(item):
@@ -270,7 +276,8 @@ def _answer(session, question_id, choice_id, t):
     if choice_id is not None and choice_id not in choices:
         raise QuizError("INVALID_CHOICE", "Bu şık bu soruya ait değil.", status.HTTP_400_BAD_REQUEST)
 
-    took = elapsed_ms(item.shown_at, t)
+    # Answering while the sound still plays is allowed and counts as instant (full bonus).
+    took = max(0, elapsed_ms(answer_starts_at(item), t))
     in_time = took <= _window_ms()
     selected = choices.get(choice_id)
 

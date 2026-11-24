@@ -200,6 +200,21 @@
       { "text": { "tr": "Selimiye Camii" }, "correct": true },
       { "text": { "tr": "Süleymaniye Camii" } },
       { "text": { "tr": "Şehzade Camii" } },
-      { "text": { "tr": "Sultanahmet Camii" } } ] }
+      { "text": { "tr": "Sultanahmet Camii" } } ] },
+    { "text": { "tr": "Mors alfabesiyle gönderilen bu mesaj ne?", "en": "What message is sent here in Morse code?", "nl": "Welk bericht wordt hier in morsecode verstuurd?", "es": "¿Qué mensaje se envía aquí en código Morse?" }, "audio": "/sounds/sos.m4a", "audio_ms": 4405, "choices": [
+      { "text": { "tr": "SOS", "en": "SOS", "nl": "SOS", "es": "SOS" }, "correct": true },
+      { "text": { "tr": "OK", "en": "OK", "nl": "OK", "es": "OK" } },
+      { "text": { "tr": "HELLO", "en": "HELLO", "nl": "HELLO", "es": "HELLO" } },
+      { "text": { "tr": "STOP", "en": "STOP", "nl": "STOP", "es": "STOP" } } ] },
+    { "text": { "tr": "Bu ses hangi hava olayına ya da doğa sesine ait?", "en": "Which weather or nature sound is this?", "nl": "Welk weer- of natuurgeluid is dit?", "es": "¿Qué sonido del tiempo o de la naturaleza es este?" }, "audio": "/sounds/rain.m4a", "audio_ms": 8000, "choices": [
+      { "text": { "tr": "Yağmur", "en": "Rain", "nl": "Regen", "es": "Lluvia" }, "correct": true },
+      { "text": { "tr": "Rüzgâr", "en": "Wind", "nl": "Wind", "es": "Viento" } },
+      { "text": { "tr": "Şelale", "en": "Waterfall", "nl": "Waterval", "es": "Cascada" } },
+      { "text": { "tr": "Deniz dalgaları", "en": "Sea waves", "nl": "Zeegolven", "es": "Olas del mar" } } ] },
+    { "text": { "tr": "Bu düdük sesi hangi taşıta ait?", "en": "Which vehicle does this whistle belong to?", "nl": "Bij welk voertuig hoort dit fluitsignaal?", "es": "¿De qué vehículo es este silbato?" }, "audio": "/sounds/steam-train.m4a", "audio_ms": 3419, "choices": [
+      { "text": { "tr": "Buharlı tren", "en": "Steam train", "nl": "Stoomtrein", "es": "Tren de vapor" }, "correct": true },
+      { "text": { "tr": "Gemi", "en": "Ship", "nl": "Schip", "es": "Barco" } },
+      { "text": { "tr": "Kamyon", "en": "Truck", "nl": "Vrachtwagen", "es": "Camión" } },
+      { "text": { "tr": "Polis arabası", "en": "Police car", "nl": "Politieauto", "es": "Coche de policía" } } ] }
   ]
 }

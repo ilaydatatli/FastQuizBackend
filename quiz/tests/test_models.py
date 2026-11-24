@@ -124,6 +124,7 @@ class ChoiceAdminValidationTests(TestCase):
             "category": self.category.id,
             "text": text,
             "is_active": "on",
+            "audio_ms": "0",  # sound length (Faz 26); 0 = no sound
             "choices-TOTAL_FORMS": str(len(choices)),
             "choices-INITIAL_FORMS": "0",
             "choices-MIN_NUM_FORMS": "0",
@@ -172,6 +173,7 @@ class ChoiceAdminValidationTests(TestCase):
             "category": self.category.id,
             "text": question.text,
             "is_active": "on",
+            "audio_ms": "0",  # sound length (Faz 26); 0 = no sound
             "choices-TOTAL_FORMS": "4",
             "choices-INITIAL_FORMS": "4",
             "choices-MIN_NUM_FORMS": "0",

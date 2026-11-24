@@ -82,6 +82,16 @@ class CurrentSerializer(serializers.Serializer):
                     {"id": choice.id, "text": localized(choice, "text", language)}
                     for choice in result["choices"]
                 ],
+                # Sound questions: play `url` first; the timer starts after `left_ms`.
+                "audio": (
+                    {
+                        "url": item.question.audio,
+                        "duration_ms": item.question.audio_ms,
+                        "left_ms": result["audio_left_ms"],
+                    }
+                    if item.question.audio
+                    else None
+                ),
             }
             data["time_limit_ms"] = settings.FAST_QUIZ["TIME_LIMIT_MS"]
             data["remaining_ms"] = result["remaining_ms"]
